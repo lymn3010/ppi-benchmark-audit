@@ -1,0 +1,8 @@
+corpus,key,shape,trigger,case_marker,construction,support,gold_positive,gold_negative,minority,cpr,carrier_words,entity_shifting_carriers,carrier_row_count,strict_no_carrier_rows,included_no_entity_shift
+aimed,structural|AB|interact|with|verbal,AB,interact,with,verbal,96,78,18,18,0.8125,ability+basic-helix-loop-helix+bzip+carboxy+complex+domain+factor+fragment+glucose+homolog+inhibitor+member+molecule+monomer+mutation+phosphatase+phosphoprotein+protein+proteins+receptor+region+response+synergy,complex+domain+factor+fragment+homolog+inhibitor+member+receptor+region,23,0,0
+aimed,structural|AB|associate|with|verbal,AB,associate,with,verbal,37,28,9,9,0.7568,adapter+antigen+cdk+complex+cyclin-dependent+domain+kda+kinase+mutant+phosphatase+protein+proteins+rapamycin+subunit,complex+domain+subunit,14,0,0
+aimed,structural|AA|interact|_|verbal,AA,interact,_,verbal,12,3,9,3,0.25,adapter+enzyme+presence+proteins+receptor+region+residue+subunit,receptor+region+residue+subunit,8,0,0
+bioinfer,structural|AB|bind|to|verbal,AB,bind,to,verbal,61,48,13,13,0.7869,ability+binding+coexpression+complex+domain+end+filament+molar+molecule+monomer+one+protein+proteins+relative+repeat,complex+domain,15,0,0
+bioinfer,structural|AB|bind|_|verbal,AB,bind,_,verbal,20,15,5,5,0.75,antibody+competition+complex+molecule+monomer+mutant+product+third,complex,8,0,0
+bioinfer,structural|AA|interact|_|verbal,AA,interact,_,verbal,10,9,1,1,0.9,co+most+proteins,,3,0,1
+bioinfer,structural|AB|associate|with|verbal,AB,associate,with,verbal,8,6,2,2,0.75,ability+carboxyl-+domain+regulator,domain+regulator,4,0,0

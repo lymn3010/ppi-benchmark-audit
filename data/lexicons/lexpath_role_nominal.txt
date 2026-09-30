@@ -1,0 +1,11 @@
+agonist
+antagonist
+cofactor
+interactor
+inhibitor
+ligand
+partner
+receptor
+regulator
+substrate
+target

@@ -1,0 +1,552 @@
+meta:
+  format: system_rules_v1
+  purpose: >
+    Review-facing registry for universal linguistic rules, parser-normalization
+    conventions, morphology heuristics, and runtime safety limits.
+  guardrail: >
+    Corpus-specific trigger or suppression decisions do not belong here.
+
+surface_contract:
+  masked_protein_pattern: 'PROTEIN\d+'
+
+reference:
+  pronoun_identity_forms:
+    - it
+    - its
+    - itself
+    - they
+    - them
+    - their
+    - theirs
+    - themselves
+    - he
+    - him
+    - his
+    - she
+    - her
+    - hers
+  demonstrative_group_determiners:
+    - these
+    - those
+  plural_coreference_pronouns:
+    - they
+    - them
+    - their
+    - theirs
+    - themselves
+    - these
+    - those
+  cardinal_words:
+    two: 2
+    three: 3
+    four: 4
+    five: 5
+    six: 6
+    seven: 7
+    eight: 8
+    nine: 9
+    ten: 10
+  strict_alias_phrase_pattern: '^(?:also\s+)?(?:(?:known|called)\s+as|called|aka|alias|formerly)$'
+  loose_identity_window_pattern: '^\s*,\s*(?:a|an|the)\s+(?:[A-Za-z0-9_''\-/]+\s+){0,5}$'
+  identity_relation_subtypes:
+    - IDENTITY
+  identity_safe_extraction_details:
+    - DEP-Apposition
+    - DEP-ParentheticalAlias
+    - DEP-AliasPhrase
+    - DEP-Identity
+    - DEP-CopulaIsA
+  identity_designation_predicates:
+    - call
+    - designate
+    - name
+    - term
+  max_identity_expansion_variants: 50
+  pronoun_referential_forms:
+    - which
+    - who
+    - whose
+    - those
+    - these
+    - that
+    - this
+    - their
+    - its
+  pronoun_ignored_forms:
+    - we
+    - our
+    - i
+    - me
+    - us
+    - you
+    - your
+    - what
+    - his
+    - her
+
+coordination:
+  linking_verbs:
+    - be
+  alternative_markers:
+    - or
+    - /
+  negation_markers:
+    - instead of
+    - neither
+    - but not
+    - 'no'
+    - nor
+    - not
+    - without
+  same_side_markers:
+    - and
+    - '&'
+    - ''
+  conjunct_exclusion_markers:
+    - not
+  contrastive_markers:
+    - but
+  correlative_negative_markers:
+    - neither
+
+negation:
+  denial_determiners:
+    - 'no'
+    - neither
+
+morphology:
+  agentive_noun_suffixes:
+    - transferase
+    - kinase
+    - ase
+    - or
+    - er
+    - ist
+    - ee
+    - ant
+  complex_noun_suffixes:
+    - mer
+    - plex
+    - gate
+  non_group_complex_lemmas:
+    - monomer
+  non_agentive_lemmas:
+    - decrease
+    - disease
+    - increase
+    - release
+  capacity_nouns:
+    - ability
+    - capacity
+    - capability
+    - tendency
+    - propensity
+    - potential
+    - power
+    - failure
+    - inability
+semantics:
+  membership_predicates:
+    - contain
+    - comprise
+    - include
+    - consist
+    - compose
+    - constitute
+    - involve
+  exemplar_prepositions:
+    - such
+    - as
+    - like
+    - including
+    - such_as
+    - for_example
+    - e.g.
+    - for example
+    - such as
+
+dependency:
+  labels:
+    acl: acl
+    acl_relcl: acl:relcl
+    advcl: advcl
+    advmod: advmod
+    amod: amod
+    appos: appos
+    attr: attr
+    aux: aux
+    auxpass: auxpass
+    case: case
+    ccomp: ccomp
+    cc: cc
+    cc_preconj: cc:preconj
+    compound: compound
+    conj: conj
+    cop: cop
+    dative: dative
+    dep: dep
+    det: det
+    dobj: dobj
+    fixed: fixed
+    mark: mark
+    mwe: mwe
+    neg: neg
+    nmod: nmod
+    nmod_npmod: nmod:npmod
+    nmod_of: nmod:of
+    nsubj: nsubj
+    nsubjpass: nsubjpass
+    preconj: preconj
+    related_relcl: relcl
+    root: ROOT
+    xcomp: xcomp
+  categories:
+    coordination: [conj]
+    coordination_markers: [cc, cc:preconj, preconj]
+    same_np_protein: [compound, appos]
+    same_np_or_loose: [compound, appos, dep]
+    same_np_traversal: [compound, nmod, conj, appos, dep]
+    nominal_sources: [nsubjpass, nsubj, ROOT, conj, dobj]
+    clausal_inherit: [xcomp, ccomp, advcl, conj]
+    neg_control_inherit: [xcomp, advcl]
+    relative_clause: [acl, acl:relcl, relcl]
+    neg_scope: [advmod, aux, auxpass, mark]
+    neg_nominal_mod: [det, amod]
+    predicate_neg: [neg, advmod, aux, auxpass]
+    descriptors: [amod]
+    case_modifiers: [advmod, fixed, mwe]
+    membership_acl: [acl, acl:relcl]
+  lexical_path_owner_relations:
+    - compound
+    - appos
+
+prepositions:
+  named:
+    by: by
+    of: of
+    as: as
+    to: to
+    with: with
+    between: between
+    among: among
+    in: in
+    within: within
+    together_with: together with
+    like: like
+  binary: [between, with, among]
+  group_relational: [between, among]
+  nominal_relation_complements: [with, to]
+  contextual: [in, within]
+  accompaniment_phrases: [together with]
+
+syntax:
+  subject_inherit_pos: [VERB, ADJ]
+  participle_xpos: [VBN, VBG]
+
+event_composition:
+  nested_subject_controller_predicates: [engage, form, implicate, involve, participate]
+  nested_subject_controller_prepositions: [in]
+  nested_controller_prepositions: [by, through, via]
+  evidential_scope_predicates:
+    - confirm
+    - demonstrate
+    - detect
+    - establish
+    - find
+    - observe
+    - report
+    - reveal
+    - show
+
+event_source_markers:
+  note: >
+    String prefixes used to preserve event-source provenance in trace rows.
+    Registry placement prevents hidden literals while the event trace schema
+    continues to expose human-readable extraction details.
+  compound_adj_prefix: DEP-compound-adj-
+  lexical_path_prefix: DEP-lexpath-
+  hyphen_participle_prefix: DEP-hyphen-participle-
+  agentive_process_projection_prefix: DEP-agentive-process-projection-
+  nested_inner_suffix: -nestedinner
+
+pattern_notation:
+  prepositions:
+    - with
+    - by
+    - of
+    - in
+    - to
+    - for
+    - 'on'
+    - from
+    - between
+    - among
+    - as
+    - through
+    - via
+    - during
+    - after
+    - before
+    - upon
+    - into
+    - against
+
+lexpath_audit:
+  runtime_effect: false
+  note: >
+    Audit-only lexical classes for pattern/carrier diagnostics. These classes
+    support evidence bucketing and sampling; they do not authorize pair
+    projection.
+  carrier_codebook_provenance: >
+    Carrier-head classes are an operational audit codebook, version 2
+    (2026-07-02). Source: linguistic/biomedical head-noun meaning verified
+    against masked corpus sentences (see
+    analysis/carrier_codebook/carrier_codebook_v2.md); heads are classified by
+    their own meaning and, where relevant, typical attachment, never by any
+    corpus gold label, precision, or sentence id. Human-review status:
+    author-reviewed pilot, not an external ontology. Scope: audit stratification,
+    coverage reporting, and expert-sheet diagnostic tags only. v2 adds an
+    assay/reagent layer, a generic-taxonomic-head class (marked protein is that
+    entity, not a shifted one), an expression/variant-form layer, and extends the
+    process and attribute lists, cutting the unclassified residual from ~39% to
+    ~20% of carrier occurrences.
+  metric_nominal_stoplist:
+    - ratio
+    - coexpression
+    - expression
+    - express
+    - level
+    - concentration
+    - amount
+    - abundance
+    - quantity
+    - number
+  carrier_effect_pathway_heads:
+    - pathway
+    - axis
+    - cascade
+    - cell
+    - cells
+    - locus
+    - promoter
+    - tissue
+    - membrane
+    - nucleus
+    - cytoplasm
+    - mitochondria
+  carrier_effect_metric_heads:
+    - level
+    - levels
+    - ratio
+    - rate
+    - value
+    - dose
+    - amount
+    - concentration
+    - abundance
+    - quantity
+    - number
+    - expression
+    - coexpression
+  carrier_effect_attribute_heads:
+    - activity
+    - abundance
+    - amount
+    - concentration
+    - coexpression
+    - expression
+    - level
+    - levels
+    - number
+    - quantity
+    - ratio
+    - transcription
+    - function
+    - ability
+    - affinity
+    - role
+    - capacity
+    - property
+    - specificity
+    - stability
+    - conformation
+    - solubility
+    - potency
+  carrier_effect_process_heads:
+    - signaling
+    - signalling
+    - activation
+    - inhibition
+    - phosphorylation
+    - expression
+    - activity
+    - coexpression
+    - polymerization
+    - secretion
+    - synthesis
+    - transcription
+    - effect
+    - effects
+    - stimulation
+    - induction
+    - response
+    - responses
+    - regulation
+    - formation
+    - assembly
+    - accumulation
+    - release
+    - production
+    - recruitment
+    - translocation
+    - degradation
+    - modification
+    - cleavage
+    - action
+    - internalization
+    - processing
+  carrier_effect_relation_heads:
+    - binding
+    - interaction
+    - complex
+    - association
+    - aggregation
+    - dimerization
+    - dissociation
+    - oligomerization
+    - coupling
+  carrier_effect_entity_shift_heads:
+    - complex
+    - factor
+    - family
+    - gene
+    - homolog
+    - isoform
+    - member
+    - ortholog
+    - receptor
+  carrier_effect_part_entity_heads:
+    - chain
+    - component
+    - domain
+    - epitope
+    - fragment
+    - loop
+    - motif
+    - region
+    - residue
+    - segment
+    - sequence
+    - site
+    - subunit
+    - tail
+    - terminus
+  carrier_effect_role_entity_heads:
+    - activator
+    - agonist
+    - antagonist
+    - cofactor
+    - inhibitor
+    - interactor
+    - ligand
+    - partner
+    - receptor
+    - regulator
+    - repressor
+    - substrate
+    - target
+  carrier_effect_assay_heads:
+    - antibody
+    - antibodies
+    - probe
+    - probes
+    - immunoprecipitation
+    - immunoprecipitate
+    - coimmunoprecipitation
+    - immunoblot
+    - blot
+    - pulldown
+    - autoradiography
+    - immunofluorescence
+  carrier_effect_generic_head:
+    - protein
+    - proteins
+    - molecule
+    - molecules
+    - polypeptide
+    - polypeptides
+    - peptide
+    - peptides
+  carrier_effect_expression_variant_heads:
+    - mrna
+    - cdna
+    - rna
+    - dna
+    - transcript
+    - transcripts
+    - mutant
+    - mutants
+    - variant
+    - variants
+    - derivative
+    - precursor
+
+diagnostic_priors:
+  runtime_effect: false
+  lexical_path_anchor_lemmas:
+    - bind
+    - binding
+    - interact
+    - interaction
+    - associate
+    - association
+    - complex
+    - dimer
+    - dimerization
+    - heterodimer
+    - multimer
+    - oligomer
+    - recognition
+    - recruitment
+    - recruit
+    - phosphorylation
+    - activation
+    - inhibition
+    - regulation
+    - specificity
+    - affinity
+    - site
+    - domain
+    - motif
+    - dependent
+    - independent
+    - specific
+  methodology_lemmas:
+    - isolation
+    - analysis
+    - study
+    - investigation
+    - characterization
+    - purification
+    - identification
+    - detection
+    - mapping
+  existential_lemmas:
+    - have
+    - be
+    - exist
+    - show
+  path_edge_relations:
+    - prep
+    - case
+    - agent
+    - mark
+  max_path_hops: 8
+
+# Process control is retained as evidence, not a direct protein pair.
+runtime_rule_toggles:
+  schema: runtime_rule_toggles_v1
+  default: enabled
+  disabled_rule_ids:
+    - extraction.dep_agentive_process_bridge_projection@1
+  disabled_namespaces: []

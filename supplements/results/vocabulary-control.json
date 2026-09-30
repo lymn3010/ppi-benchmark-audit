@@ -1,0 +1,203 @@
+{
+  "complete_design_2x2x2": {
+    "full_sample|unclustered|cues_only": {
+      "auc_without_corpus": {
+        "mean": 0.7376,
+        "se": 0.0052,
+        "ci_low": 0.7275,
+        "ci_high": 0.7478,
+        "n_folds": 5
+      },
+      "auc_with_corpus": {
+        "mean": 0.8036,
+        "se": 0.0017,
+        "ci_low": 0.8003,
+        "ci_high": 0.8069,
+        "n_folds": 5
+      },
+      "corpus_lift_paired": {
+        "mean": 0.066,
+        "se": 0.0053,
+        "ci_low": 0.0557,
+        "ci_high": 0.0763,
+        "n_folds": 5
+      }
+    },
+    "full_sample|unclustered|cues_plus_bag_of_words": {
+      "auc_without_corpus": {
+        "mean": 0.8168,
+        "se": 0.0031,
+        "ci_low": 0.8107,
+        "ci_high": 0.8229,
+        "n_folds": 5
+      },
+      "auc_with_corpus": {
+        "mean": 0.8386,
+        "se": 0.0046,
+        "ci_low": 0.8296,
+        "ci_high": 0.8477,
+        "n_folds": 5
+      },
+      "corpus_lift_paired": {
+        "mean": 0.0218,
+        "se": 0.0027,
+        "ci_low": 0.0165,
+        "ci_high": 0.0272,
+        "n_folds": 5
+      }
+    },
+    "full_sample|document_clustered|cues_only": {
+      "auc_without_corpus": {
+        "mean": 0.7013,
+        "se": 0.0111,
+        "ci_low": 0.6796,
+        "ci_high": 0.723,
+        "n_folds": 5
+      },
+      "auc_with_corpus": {
+        "mean": 0.7724,
+        "se": 0.005,
+        "ci_low": 0.7626,
+        "ci_high": 0.7822,
+        "n_folds": 5
+      },
+      "corpus_lift_paired": {
+        "mean": 0.0711,
+        "se": 0.0082,
+        "ci_low": 0.0549,
+        "ci_high": 0.0872,
+        "n_folds": 5
+      }
+    },
+    "full_sample|document_clustered|cues_plus_bag_of_words": {
+      "auc_without_corpus": {
+        "mean": 0.6818,
+        "se": 0.0162,
+        "ci_low": 0.65,
+        "ci_high": 0.7136,
+        "n_folds": 5
+      },
+      "auc_with_corpus": {
+        "mean": 0.7478,
+        "se": 0.0124,
+        "ci_low": 0.7236,
+        "ci_high": 0.7721,
+        "n_folds": 5
+      },
+      "corpus_lift_paired": {
+        "mean": 0.066,
+        "se": 0.0078,
+        "ci_low": 0.0508,
+        "ci_high": 0.0812,
+        "n_folds": 5
+      }
+    },
+    "two_largest(aimed+bioinfer)|unclustered|cues_only": {
+      "auc_without_corpus": {
+        "mean": 0.7322,
+        "se": 0.0058,
+        "ci_low": 0.7207,
+        "ci_high": 0.7436,
+        "n_folds": 5
+      },
+      "auc_with_corpus": {
+        "mean": 0.7941,
+        "se": 0.005,
+        "ci_low": 0.7843,
+        "ci_high": 0.804,
+        "n_folds": 5
+      },
+      "corpus_lift_paired": {
+        "mean": 0.0619,
+        "se": 0.0033,
+        "ci_low": 0.0555,
+        "ci_high": 0.0683,
+        "n_folds": 5
+      }
+    },
+    "two_largest(aimed+bioinfer)|unclustered|cues_plus_bag_of_words": {
+      "auc_without_corpus": {
+        "mean": 0.8107,
+        "se": 0.0093,
+        "ci_low": 0.7925,
+        "ci_high": 0.8289,
+        "n_folds": 5
+      },
+      "auc_with_corpus": {
+        "mean": 0.8309,
+        "se": 0.0076,
+        "ci_low": 0.816,
+        "ci_high": 0.8458,
+        "n_folds": 5
+      },
+      "corpus_lift_paired": {
+        "mean": 0.0202,
+        "se": 0.0019,
+        "ci_low": 0.0165,
+        "ci_high": 0.0239,
+        "n_folds": 5
+      }
+    },
+    "two_largest(aimed+bioinfer)|document_clustered|cues_only": {
+      "auc_without_corpus": {
+        "mean": 0.6962,
+        "se": 0.02,
+        "ci_low": 0.6569,
+        "ci_high": 0.7355,
+        "n_folds": 5
+      },
+      "auc_with_corpus": {
+        "mean": 0.7645,
+        "se": 0.0154,
+        "ci_low": 0.7344,
+        "ci_high": 0.7946,
+        "n_folds": 5
+      },
+      "corpus_lift_paired": {
+        "mean": 0.0683,
+        "se": 0.0083,
+        "ci_low": 0.052,
+        "ci_high": 0.0845,
+        "n_folds": 5
+      }
+    },
+    "two_largest(aimed+bioinfer)|document_clustered|cues_plus_bag_of_words": {
+      "auc_without_corpus": {
+        "mean": 0.674,
+        "se": 0.0131,
+        "ci_low": 0.6483,
+        "ci_high": 0.6998,
+        "n_folds": 5
+      },
+      "auc_with_corpus": {
+        "mean": 0.7317,
+        "se": 0.0121,
+        "ci_low": 0.708,
+        "ci_high": 0.7555,
+        "n_folds": 5
+      },
+      "corpus_lift_paired": {
+        "mean": 0.0577,
+        "se": 0.0024,
+        "ci_low": 0.0531,
+        "ci_high": 0.0623,
+        "n_folds": 5
+      }
+    }
+  },
+  "n_observations": 4184,
+  "n_with_sentence_text": 4184,
+  "auc_cues": 0.7376,
+  "auc_cues_plus_corpus": 0.8036,
+  "corpus_lift_over_cues": 0.066,
+  "auc_cues_plus_content": 0.8168,
+  "auc_cues_plus_content_plus_corpus": 0.8386,
+  "corpus_lift_over_cues_plus_content": 0.0218,
+  "content_control_feature_sweep_corpus_lift": {
+    "400": 0.0315,
+    "800": 0.0218,
+    "1500": 0.0216
+  },
+  "content_control_doc_clustered_corpus_lift(aimed+bioinfer)": 0.0577,
+  "interpretation": "If corpus_lift_over_cues_plus_content is still clearly positive, the source corpus predicts the released label beyond both the recorded cues AND the sentence's lexical content (a subdomain/assay-vocabulary proxy), so the residual is not merely observable biological topic."
+}

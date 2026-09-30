@@ -1,0 +1,15 @@
+domain
+fragment
+loop
+locus
+motif
+pathway
+promoter
+region
+residue
+segment
+sequence
+site
+subunit
+tail
+terminus

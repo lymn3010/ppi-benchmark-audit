@@ -1,0 +1,5 @@
+aggregate
+dimerize
+dissociate
+interact
+oligomerize

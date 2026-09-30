@@ -1,0 +1,996 @@
+{
+  "metadata": {
+    "created_at": "2026-06-24T06:37:39.601833+00:00",
+    "source": "IEPA test (rebuilt from canonical XML, 2026-06-24)",
+    "total_sentences": 95,
+    "sentences_with_relation": 53,
+    "total_pairs": 136,
+    "pairs_with_relation": 56
+  },
+  "data": {
+    "IEPA.d5.s8": {
+      "sentence": "PROTEIN0-stimulated PROTEIN1 turnover in endometrium of ewes is influenced by stage of the estrous cycle, pregnancy, and intrauterine infusion of ovine conceptus secretory proteins",
+      "orig_sentence": "Oxytocin-stimulated inositol phosphate turnover in endometrium of ewes is influenced by stage of the estrous cycle, pregnancy, and intrauterine infusion of ovine conceptus secretory proteins",
+      "proteins": [
+        "Oxytocin",
+        "inositol phosphate"
+      ],
+      "relations": {
+        "[0, 1]": "PPI"
+      }
+    },
+    "IEPA.d5.s9": {
+      "sentence": "Three experiments (Exp) assessed the influence of stage of the estrous cycle, pregnancy, and intrauterine infusion of ovine conceptus secretory proteins (oCSP) on turnover of PROTEIN0 (the putative second-messenger for PROTEIN1-stimulated secretion of prostaglandin F2 alpha) in ovine endometrium during luteolysis and maternal recognition of pregnancy",
+      "orig_sentence": "Three experiments (Exp) assessed the influence of stage of the estrous cycle, pregnancy, and intrauterine infusion of ovine conceptus secretory proteins (oCSP) on turnover of inositol trisphosphate (the putative second-messenger for oxytocin-stimulated secretion of prostaglandin F2 alpha) in ovine endometrium during luteolysis and maternal recognition of pregnancy",
+      "proteins": [
+        "inositol trisphosphate",
+        "oxytocin"
+      ],
+      "relations": {
+        "[0, 1]": "PPI"
+      }
+    },
+    "IEPA.d5.s10": {
+      "sentence": "For each Exp, 100 mg endometrium was incubated, in duplicate, for 2 h with 10 microCi [3H] inositol and treated with 0 or 100 nM PROTEIN0 (OT) for 20 min, then [3H]inositol mono-, bis-, and trisphosphates (IP1, IP2, and PROTEIN1, respectively) were quantified",
+      "orig_sentence": "For each Exp, 100 mg endometrium was incubated, in duplicate, for 2 h with 10 microCi [3H] inositol and treated with 0 or 100 nM oxytocin (OT) for 20 min, then [3H]inositol mono-, bis-, and trisphosphates (IP1, IP2, and IP3, respectively) were quantified",
+      "proteins": [
+        "oxytocin",
+        "IP3"
+      ],
+      "relations": {}
+    },
+    "IEPA.d6.s11": {
+      "sentence": "Carbachol and PROTEIN0 stimulate the generation of PROTEIN1 in the guinea pig myometrium",
+      "orig_sentence": "Carbachol and oxytocin stimulate the generation of inositol phosphates in the guinea pig myometrium",
+      "proteins": [
+        "oxytocin",
+        "inositol phosphates"
+      ],
+      "relations": {
+        "[0, 1]": "PPI"
+      }
+    },
+    "IEPA.d6.s12": {
+      "sentence": "In the guinea pig myometrium prelabelled with myo-[2-3H]inositol, carbachol and PROTEIN0 enhanced a concentration-dependent and rapid release of PROTEIN1 which preceded that of IP2 and IP1",
+      "orig_sentence": "In the guinea pig myometrium prelabelled with myo-[2-3H]inositol, carbachol and oxytocin enhanced a concentration-dependent and rapid release of IP3 which preceded that of IP2 and IP1",
+      "proteins": [
+        "oxytocin",
+        "IP3"
+      ],
+      "relations": {
+        "[0, 1]": "PPI"
+      }
+    },
+    "IEPA.d7.s13": {
+      "sentence": "Hesperidin, the most important PROTEIN0 of Citrus sp., significantly increases HDL and lowers PROTEIN1, LDL, total lipid and triglyceride plasma levels in normolipidemic rats and in rats with diet- and triton-induced hyperlipidemia",
+      "orig_sentence": "Hesperidin, the most important flavanone of Citrus sp., significantly increases HDL and lowers cholesterol, LDL, total lipid and triglyceride plasma levels in normolipidemic rats and in rats with diet- and triton-induced hyperlipidemia",
+      "proteins": [
+        "flavanone",
+        "cholesterol"
+      ],
+      "relations": {
+        "[0, 1]": "PPI"
+      }
+    },
+    "IEPA.d29.s61": {
+      "sentence": "This action of PROTEIN0 25-35 is not altered by pretreatment with the calcium channel blockers nifedipine or cobalt, with the depleter of intracellular calcium stores cyclopiazonic acid, or with the PROTEIN1 inhibitor neomycin",
+      "orig_sentence": "This action of beta-amyloid 25-35 is not altered by pretreatment with the calcium channel blockers nifedipine or cobalt, with the depleter of intracellular calcium stores cyclopiazonic acid, or with the phospholipase C inhibitor neomycin",
+      "proteins": [
+        "beta-amyloid",
+        "phospholipase C"
+      ],
+      "relations": {}
+    },
+    "IEPA.d30.s62": {
+      "sentence": "The influence of myrigalone B, a PROTEIN0 from the fruit exudate of Myrica gale L. on Cu(2+)-induced oxidation of low density lipoprotein from PROTEIN1 fed rabbits was investigated",
+      "orig_sentence": "The influence of myrigalone B, a flavonoid from the fruit exudate of Myrica gale L. on Cu(2+)-induced oxidation of low density lipoprotein from cholesterol fed rabbits was investigated",
+      "proteins": [
+        "flavonoid",
+        "cholesterol"
+      ],
+      "relations": {}
+    },
+    "IEPA.d35.s86": {
+      "sentence": "PROTEIN0 (OT) and vasopressin (AVP) stimulate PROTEIN1 and glucagon release from the pancreas, and evoke PROTEIN2 secretion from the rat insulinoma cell line, RINm5F",
+      "orig_sentence": "Oxytocin (OT) and vasopressin (AVP) stimulate insulin and glucagon release from the pancreas, and evoke insulin secretion from the rat insulinoma cell line, RINm5F",
+      "proteins": [
+        "Oxytocin",
+        "insulin",
+        "insulin"
+      ],
+      "relations": {
+        "[0, 1]": "PPI",
+        "[0, 2]": "PPI"
+      }
+    },
+    "IEPA.d42.s103": {
+      "sentence": "Signal transduction in pancreatic beta-cells: Regulation of PROTEIN0 secretion by information flow in the PROTEIN1/Protein kinase C pathway",
+      "orig_sentence": "Signal transduction in pancreatic beta-cells: Regulation of insulin secretion by information flow in the phospholipase C/Protein kinase C pathway",
+      "proteins": [
+        "insulin",
+        "phospholipase C"
+      ],
+      "relations": {
+        "[0, 1]": "PPI"
+      }
+    },
+    "IEPA.d42.s104": {
+      "sentence": "The physiologic regulation of glucose-induced PROTEIN0 secretion is dependent upon the activation of information flow in the PROTEIN1 (PLC)/protein kinase C (PKC) signal transduction system",
+      "orig_sentence": "The physiologic regulation of glucose-induced insulin secretion is dependent upon the activation of information flow in the phospholipase C (PLC)/protein kinase C (PKC) signal transduction system",
+      "proteins": [
+        "insulin",
+        "phospholipase C"
+      ],
+      "relations": {
+        "[0, 1]": "PPI"
+      }
+    },
+    "IEPA.d42.s105": {
+      "sentence": "When rat islet are cultured for short periods, the content and activation of PROTEIN0 in response to glucose decreases and this biochemical defect in signal transduction is paralleled by significant reductions in glucose-induced PROTEIN1 secretion",
+      "orig_sentence": "When rat islet are cultured for short periods, the content and activation of PLC in response to glucose decreases and this biochemical defect in signal transduction is paralleled by significant reductions in glucose-induced insulin secretion",
+      "proteins": [
+        "PLC",
+        "insulin"
+      ],
+      "relations": {}
+    },
+    "IEPA.d42.s106": {
+      "sentence": "Biphasic PROTEIN0 secretion can be evoked and time-dependent potentiation can be induced in mouse islets by carbachol, an agonist that activates an isozyme of PROTEIN1 distinct from that activated by glucose",
+      "orig_sentence": "Biphasic insulin secretion can be evoked and time-dependent potentiation can be induced in mouse islets by carbachol, an agonist that activates an isozyme of PLC distinct from that activated by glucose",
+      "proteins": [
+        "insulin",
+        "PLC"
+      ],
+      "relations": {
+        "[0, 1]": "PPI"
+      }
+    },
+    "IEPA.d42.s107": {
+      "sentence": "When taken in their entirety, the experimental evidence suggests that the activation of PROTEIN0 is an essential component in the physiologic regulation of PROTEIN1 secretion and that disordered activation of the enzyme culminates in disordered PROTEIN2 release",
+      "orig_sentence": "When taken in their entirety, the experimental evidence suggests that the activation of PLC is an essential component in the physiologic regulation of insulin secretion and that disordered activation of the enzyme culminates in disordered insulin release",
+      "proteins": [
+        "PLC",
+        "insulin",
+        "insulin"
+      ],
+      "relations": {
+        "[0, 1]": "PPI"
+      }
+    },
+    "IEPA.d46.s115": {
+      "sentence": "PROTEIN0 beta protein (25-35) stimulation of PROTEIN1 in LA-N-2 cells",
+      "orig_sentence": "Amyloid beta protein (25-35) stimulation of phospholipase C in LA-N-2 cells",
+      "proteins": [
+        "Amyloid",
+        "phospholipase C"
+      ],
+      "relations": {
+        "[0, 1]": "PPI"
+      }
+    },
+    "IEPA.d46.s116": {
+      "sentence": "This PROTEIN0 stimulation by PROTEIN1 beta protein appeared to be pertussis toxin sensitive",
+      "orig_sentence": "This phospholipase C stimulation by amyloid beta protein appeared to be pertussis toxin sensitive",
+      "proteins": [
+        "phospholipase C",
+        "amyloid"
+      ],
+      "relations": {
+        "[0, 1]": "PPI"
+      }
+    },
+    "IEPA.d46.s117": {
+      "sentence": "It is possible that this PROTEIN0 stimulation by PROTEIN1 beta protein is a receptor-mediated process",
+      "orig_sentence": "It is possible that this phospholipase C stimulation by amyloid beta protein is a receptor-mediated process",
+      "proteins": [
+        "phospholipase C",
+        "amyloid"
+      ],
+      "relations": {
+        "[0, 1]": "PPI"
+      }
+    },
+    "IEPA.d46.s118": {
+      "sentence": "PROTEIN0 beta protein stimulation of PROTEIN1 was absent from LA-N-2 cells previously treated with norepinephrine, trans-1-amino-1,3-cyclopentanedicarboxylic acid (t-ACPD), bombesin, or PROTEIN2 beta peptide",
+      "orig_sentence": "Amyloid beta protein stimulation of phospholipase C was absent from LA-N-2 cells previously treated with norepinephrine, trans-1-amino-1,3-cyclopentanedicarboxylic acid (t-ACPD), bombesin, or amyloid beta peptide",
+      "proteins": [
+        "Amyloid",
+        "phospholipase C",
+        "amyloid"
+      ],
+      "relations": {
+        "[0, 1]": "PPI"
+      }
+    },
+    "IEPA.d46.s119": {
+      "sentence": "It is suggested that this observed PROTEIN0 beta protein stimulation of PROTEIN1 may be responsible for the elevated quantity of inositol seen in the brains of Alzheimer's disease patients",
+      "orig_sentence": "It is suggested that this observed amyloid beta protein stimulation of phospholipase C may be responsible for the elevated quantity of inositol seen in the brains of Alzheimer's disease patients",
+      "proteins": [
+        "amyloid",
+        "phospholipase C"
+      ],
+      "relations": {
+        "[0, 1]": "PPI"
+      }
+    },
+    "IEPA.d47.s120": {
+      "sentence": "Effects of PROTEIN0, arginine-vasopressin and lysine-vasopressin on PROTEIN1 and glucagon secretion in sheep",
+      "orig_sentence": "Effects of oxytocin, arginine-vasopressin and lysine-vasopressin on insulin and glucagon secretion in sheep",
+      "proteins": [
+        "oxytocin",
+        "insulin"
+      ],
+      "relations": {
+        "[0, 1]": "PPI"
+      }
+    },
+    "IEPA.d47.s121": {
+      "sentence": "The effects of the posterior-pituitary peptides PROTEIN0 (OT), arginine-vasopressin (AVP) and lysine-vasopressin (LVP) on PROTEIN1 and glucagon secretion were examined in adult sheep",
+      "orig_sentence": "The effects of the posterior-pituitary peptides oxytocin (OT), arginine-vasopressin (AVP) and lysine-vasopressin (LVP) on insulin and glucagon secretion were examined in adult sheep",
+      "proteins": [
+        "oxytocin",
+        "insulin"
+      ],
+      "relations": {
+        "[0, 1]": "PPI"
+      }
+    },
+    "IEPA.d47.s122": {
+      "sentence": "The maximal PROTEIN0 responses induced by PROTEIN1 and AVP were very similar, but the threshold and maximal doses of AVP for increasing plasma PROTEIN2 were higher than those of PROTEIN3",
+      "orig_sentence": "The maximal insulin responses induced by OT and AVP were very similar, but the threshold and maximal doses of AVP for increasing plasma insulin were higher than those of OT",
+      "proteins": [
+        "insulin",
+        "OT",
+        "insulin",
+        "OT"
+      ],
+      "relations": {
+        "[0, 1]": "PPI",
+        "[2, 3]": "PPI"
+      }
+    },
+    "IEPA.d49.s126": {
+      "sentence": "PROTEIN0 upregulates the expression of PROTEIN1 (UCP-2) mRNA in islets of normal rats, but has no effect in islets of obese Zucker Diabetic Fatty (ZDF) rats with mutated leptin receptors",
+      "orig_sentence": "Leptin upregulates the expression of uncoupling protein-2 (UCP-2) mRNA in islets of normal rats, but has no effect in islets of obese Zucker Diabetic Fatty (ZDF) rats with mutated leptin receptors",
+      "proteins": [
+        "Leptin",
+        "uncoupling protein-2"
+      ],
+      "relations": {
+        "[0, 1]": "PPI"
+      }
+    },
+    "IEPA.d50.s127": {
+      "sentence": "PROTEIN0 secretion is regulated by changes in blood glucose, as well as by peptides from the gastrointestinal tract and neurotransmitters that activate the pancreatic islet adenylyl cyclase (e.g., glucagon-like peptide-1) and PROTEIN1 (PLC) (e.g., acetylcholine) signaling pathways to further potentiate glucose-induced PROTEIN2 secretion",
+      "orig_sentence": "Insulin secretion is regulated by changes in blood glucose, as well as by peptides from the gastrointestinal tract and neurotransmitters that activate the pancreatic islet adenylyl cyclase (e.g., glucagon-like peptide-1) and phospholipase C (PLC) (e.g., acetylcholine) signaling pathways to further potentiate glucose-induced insulin secretion",
+      "proteins": [
+        "Insulin",
+        "phospholipase C",
+        "insulin"
+      ],
+      "relations": {
+        "[1, 2]": "PPI"
+      }
+    },
+    "IEPA.d50.s128": {
+      "sentence": "However, leptin did constrain the enhanced PROTEIN0-mediated PROTEIN1 secretion characteristic of islets from ob/ob mice, without influencing release from islets of lean mice",
+      "orig_sentence": "However, leptin did constrain the enhanced PLC-mediated insulin secretion characteristic of islets from ob/ob mice, without influencing release from islets of lean mice",
+      "proteins": [
+        "PLC",
+        "insulin"
+      ],
+      "relations": {
+        "[0, 1]": "PPI"
+      }
+    },
+    "IEPA.d50.s129": {
+      "sentence": "A specific enhancement in PROTEIN0-mediated PROTEIN1 secretion is the earliest reported developmental alteration in PROTEIN2 secretion from islets of ob/ob mice, and thus a logical target for leptin action",
+      "orig_sentence": "A specific enhancement in PLC-mediated insulin secretion is the earliest reported developmental alteration in insulin secretion from islets of ob/ob mice, and thus a logical target for leptin action",
+      "proteins": [
+        "PLC",
+        "insulin",
+        "insulin"
+      ],
+      "relations": {
+        "[0, 1]": "PPI"
+      }
+    },
+    "IEPA.d50.s130": {
+      "sentence": "This action of leptin on PROTEIN0-mediated PROTEIN1 secretion was dose-dependent, rapid-onset (i.e., within 3 min), and reversible",
+      "orig_sentence": "This action of leptin on PLC-mediated insulin secretion was dose-dependent, rapid-onset (i.e., within 3 min), and reversible",
+      "proteins": [
+        "PLC",
+        "insulin"
+      ],
+      "relations": {
+        "[0, 1]": "PPI"
+      }
+    },
+    "IEPA.d50.s131": {
+      "sentence": "Leptin was equally effective in constraining the enhanced PROTEIN0 release from islets of ob/ob mice caused by protein kinase C (PKC) activation, a downstream mediator of the PROTEIN1 signal pathway",
+      "orig_sentence": "Leptin was equally effective in constraining the enhanced insulin release from islets of ob/ob mice caused by protein kinase C (PKC) activation, a downstream mediator of the PLC signal pathway",
+      "proteins": [
+        "insulin",
+        "PLC"
+      ],
+      "relations": {}
+    },
+    "IEPA.d50.s132": {
+      "sentence": "One function of leptin in control of body composition is thus to target a PKC-regulated component of the PROTEIN0-PKC signaling system within islets to prevent hypersecretion of PROTEIN1",
+      "orig_sentence": "One function of leptin in control of body composition is thus to target a PKC-regulated component of the PLC-PKC signaling system within islets to prevent hypersecretion of insulin",
+      "proteins": [
+        "PLC",
+        "insulin"
+      ],
+      "relations": {}
+    },
+    "IEPA.d51.s133": {
+      "sentence": "PROTEIN0 stimulates the release of the glycosyl phosphatidylinositol-anchored membrane dipeptidase from 3T3-L1 adipocytes through the action of a PROTEIN1",
+      "orig_sentence": "Insulin stimulates the release of the glycosyl phosphatidylinositol-anchored membrane dipeptidase from 3T3-L1 adipocytes through the action of a phospholipase C",
+      "proteins": [
+        "Insulin",
+        "phospholipase C"
+      ],
+      "relations": {
+        "[0, 1]": "PPI"
+      }
+    },
+    "IEPA.d51.s134": {
+      "sentence": "The hydrophilic form of MDP released from the cells on stimulation with PROTEIN0 was recognized by antibodies against the inositol 1,2-cyclic monophosphate cross-reacting determinant, indicating that it had been generated by cleavage of its GPI anchor through the action of a PROTEIN1",
+      "orig_sentence": "The hydrophilic form of MDP released from the cells on stimulation with insulin was recognized by antibodies against the inositol 1,2-cyclic monophosphate cross-reacting determinant, indicating that it had been generated by cleavage of its GPI anchor through the action of a phospholipase C",
+      "proteins": [
+        "insulin",
+        "phospholipase C"
+      ],
+      "relations": {
+        "[0, 1]": "PPI"
+      }
+    },
+    "IEPA.d53.s137": {
+      "sentence": "During luteinization of bovine granulosa cells in vitro in the presence of PROTEIN0, or PROTEIN1 plus forskolin, there is a massive upregulation not only of progesterone production, but also of the gene for the peptide hormone PROTEIN2, with secretion of the peptide into the medium",
+      "orig_sentence": "During luteinization of bovine granulosa cells in vitro in the presence of insulin, or insulin plus forskolin, there is a massive upregulation not only of progesterone production, but also of the gene for the peptide hormone oxytocin, with secretion of the peptide into the medium",
+      "proteins": [
+        "insulin",
+        "insulin",
+        "oxytocin"
+      ],
+      "relations": {
+        "[0, 2]": "PPI",
+        "[1, 2]": "PPI"
+      }
+    },
+    "IEPA.d56.s143": {
+      "sentence": "Interleukin-1 beta inhibits PROTEIN0 and PROTEIN1 secretion at sites apart from KATP channel",
+      "orig_sentence": "Interleukin-1 beta inhibits phospholipase C and insulin secretion at sites apart from KATP channel",
+      "proteins": [
+        "phospholipase C",
+        "insulin"
+      ],
+      "relations": {}
+    },
+    "IEPA.d56.s144": {
+      "sentence": "Surprisingly, however, when islets were depolarized directly using either of two agonists, glyburide (which does not act via generation of purine nucleotides) or 40 mM K+ (which acts distal to KATP channel), PROTEIN0 and PROTEIN1 secretion were again obliterated by IL-1 beta",
+      "orig_sentence": "Surprisingly, however, when islets were depolarized directly using either of two agonists, glyburide (which does not act via generation of purine nucleotides) or 40 mM K+ (which acts distal to KATP channel), PLC and insulin secretion were again obliterated by IL-1 beta",
+      "proteins": [
+        "PLC",
+        "insulin"
+      ],
+      "relations": {}
+    },
+    "IEPA.d56.s145": {
+      "sentence": "These data (together with the finding that IL-1 beta inhibited Ca(2+)-induced PROTEIN0 release) suggest that, in addition to its effects on ATP synthesis and thereby on the KATP channel, IL-1 beta has at least two undescribed, distal effects to block both PROTEIN1 as well as Ca(2+)-induced exocytosis",
+      "orig_sentence": "These data (together with the finding that IL-1 beta inhibited Ca(2+)-induced insulin release) suggest that, in addition to its effects on ATP synthesis and thereby on the KATP channel, IL-1 beta has at least two undescribed, distal effects to block both PLC as well as Ca(2+)-induced exocytosis",
+      "proteins": [
+        "insulin",
+        "PLC"
+      ],
+      "relations": {}
+    },
+    "IEPA.d59.s154": {
+      "sentence": "PKB, which is an important early PI 3-kinase-dependent component of PROTEIN0 signalling pathways, is also down-regulated by PROTEIN1-coupled agonists",
+      "orig_sentence": "PKB, which is an important early PI 3-kinase-dependent component of insulin signalling pathways, is also down-regulated by PLC-coupled agonists",
+      "proteins": [
+        "insulin",
+        "PLC"
+      ],
+      "relations": {}
+    },
+    "IEPA.d64.s161": {
+      "sentence": "Similarly, carbachol, but not PROTEIN0 or DDAVP, induced a significant increase in membrane-associated PROTEIN1 (PKC) enzyme activity",
+      "orig_sentence": "Similarly, carbachol, but not AVP or DDAVP, induced a significant increase in membrane-associated protein kinase C (PKC) enzyme activity",
+      "proteins": [
+        "AVP",
+        "protein kinase C"
+      ],
+      "relations": {}
+    },
+    "IEPA.d64.s162": {
+      "sentence": "In contrast, PROTEIN0 had no effect on the distribution of any PROTEIN1 isoform tested",
+      "orig_sentence": "In contrast, AVP had no effect on the distribution of any PKC isoform tested",
+      "proteins": [
+        "AVP",
+        "PKC"
+      ],
+      "relations": {}
+    },
+    "IEPA.d68.s169": {
+      "sentence": "The results demonstrate that potent antioxidants, such as PROTEIN0, protect MM-LDL from lipoperoxidation and preserve their ability to efficiently deliver PROTEIN1 to cells",
+      "orig_sentence": "The results demonstrate that potent antioxidants, such as flavonoids, protect MM-LDL from lipoperoxidation and preserve their ability to efficiently deliver cholesterol to cells",
+      "proteins": [
+        "flavonoids",
+        "cholesterol"
+      ],
+      "relations": {
+        "[0, 1]": "PPI"
+      }
+    },
+    "IEPA.d69.s170": {
+      "sentence": "During wk 6, milk yield and dry matter intake (DMI) were recorded daily, and plasma concentrations of glucose, nonesterified fatty acids, urea, protein, growth hormone, PROTEIN0, insulin-like growth factor I, PROTEIN1, and prolactin were determined",
+      "orig_sentence": "During wk 6, milk yield and dry matter intake (DMI) were recorded daily, and plasma concentrations of glucose, nonesterified fatty acids, urea, protein, growth hormone, insulin, insulin-like growth factor I, oxytocin, and prolactin were determined",
+      "proteins": [
+        "insulin",
+        "oxytocin"
+      ],
+      "relations": {}
+    },
+    "IEPA.d75.s179": {
+      "sentence": "Concurrent decrease of PROTEIN0 and PROTEIN1 immunoreactivity during the light phase in the vole suprachiasmatic nucleus",
+      "orig_sentence": "Concurrent decrease of vasopressin and protein kinase Calpha immunoreactivity during the light phase in the vole suprachiasmatic nucleus",
+      "proteins": [
+        "vasopressin",
+        "protein kinase Calpha"
+      ],
+      "relations": {}
+    },
+    "IEPA.d75.s180": {
+      "sentence": "Mean numbers of PROTEIN0- and PROTEIN1-immunoreactive neurons were determined in the suprachiasmatic nucleus of common voles, entrained to a 12:12 h light-dark (LD) cycle, at the beginning of the light period (zeitgeber time zero) and 6 h later (zeitgeber time six)",
+      "orig_sentence": "Mean numbers of AVP- and protein kinase Calpha-immunoreactive neurons were determined in the suprachiasmatic nucleus of common voles, entrained to a 12:12 h light-dark (LD) cycle, at the beginning of the light period (zeitgeber time zero) and 6 h later (zeitgeber time six)",
+      "proteins": [
+        "AVP",
+        "protein kinase Calpha"
+      ],
+      "relations": {}
+    },
+    "IEPA.d75.s181": {
+      "sentence": "At zeitgeber time zero, mean numbers of PROTEIN0- and PROTEIN1- immunoreactive neurons were 2194 and 9897, respectively",
+      "orig_sentence": "At zeitgeber time zero, mean numbers of AVP- and protein kinase Calpha- immunoreactive neurons were 2194 and 9897, respectively",
+      "proteins": [
+        "AVP",
+        "protein kinase Calpha"
+      ],
+      "relations": {}
+    },
+    "IEPA.d78.s187": {
+      "sentence": "To assess the possible involvement of PROTEIN0 in PROTEIN1 and IL-1 action in Leydig cells, the PROTEIN2 inhibitor Calphostin C was tested",
+      "orig_sentence": "To assess the possible involvement of PKC in AVP and IL-1 action in Leydig cells, the PKC inhibitor Calphostin C was tested",
+      "proteins": [
+        "PKC",
+        "AVP",
+        "PKC"
+      ],
+      "relations": {
+        "[0, 1]": "PPI"
+      }
+    },
+    "IEPA.d78.s188": {
+      "sentence": "These results confirm that PROTEIN0 and PMA activate PROTEIN1 and indicate that IL-1 likely does not activate PROTEIN2 in Leydig cells",
+      "orig_sentence": "These results confirm that AVP and PMA activate PKC and indicate that IL-1 likely does not activate PKC in Leydig cells",
+      "proteins": [
+        "AVP",
+        "PKC",
+        "PKC"
+      ],
+      "relations": {
+        "[0, 1]": "PPI"
+      }
+    },
+    "IEPA.d95.s229": {
+      "sentence": "The distribution of PROTEIN0 (AVP) cells in the SCN overlapped with that of PROTEIN1 in both species",
+      "orig_sentence": "The distribution of arginine-vasopressin (AVP) cells in the SCN overlapped with that of PKC in both species",
+      "proteins": [
+        "arginine-vasopressin",
+        "PKC"
+      ],
+      "relations": {
+        "[0, 1]": "PPI"
+      }
+    },
+    "IEPA.d95.s230": {
+      "sentence": "Species differences in the location of the Ca2+-dependent PROTEIN0 isoforms suggest differences in function such as the relaying of photic or non-photic information to the clock mechanism, or the synchronization of PROTEIN1 neurons and their subsequent output signals",
+      "orig_sentence": "Species differences in the location of the Ca2+-dependent PKC isoforms suggest differences in function such as the relaying of photic or non-photic information to the clock mechanism, or the synchronization of AVP neurons and their subsequent output signals",
+      "proteins": [
+        "PKC",
+        "AVP"
+      ],
+      "relations": {}
+    },
+    "IEPA.d101.s240": {
+      "sentence": "The two groups were similar in their morning thyroxin, triiodothyronine, TSH, estradiol, cortisol, gastrin, cholecystokinin, somatostatin, PROTEIN0, PROTEIN1 and IGF-1 levels",
+      "orig_sentence": "The two groups were similar in their morning thyroxin, triiodothyronine, TSH, estradiol, cortisol, gastrin, cholecystokinin, somatostatin, oxytocin, insulin and IGF-1 levels",
+      "proteins": [
+        "oxytocin",
+        "insulin"
+      ],
+      "relations": {}
+    },
+    "IEPA.d102.s241": {
+      "sentence": "Constitutive expression of PKABA1 drastically suppressed expression of low- and high-pI PROTEIN0 and protease genes induced by PROTEIN1",
+      "orig_sentence": "Constitutive expression of PKABA1 drastically suppressed expression of low- and high-pI alpha-amylase and protease genes induced by GA",
+      "proteins": [
+        "alpha-amylase",
+        "GA"
+      ],
+      "relations": {
+        "[0, 1]": "PPI"
+      }
+    },
+    "IEPA.d103.s242": {
+      "sentence": "The bovine ovarian granulosa cell model is a primary culture system where under stimulation by PROTEIN0 or IGF-I and LH the endogenous PROTEIN1 gene is massively upregulated",
+      "orig_sentence": "The bovine ovarian granulosa cell model is a primary culture system where under stimulation by insulin or IGF-I and LH the endogenous oxytocin gene is massively upregulated",
+      "proteins": [
+        "insulin",
+        "oxytocin"
+      ],
+      "relations": {
+        "[0, 1]": "PPI"
+      }
+    },
+    "IEPA.d105.s244": {
+      "sentence": "The deduced consensus closely resembled PROTEIN0 response elements in PROTEIN1 promoters",
+      "orig_sentence": "The deduced consensus closely resembled gibberellin response elements in alpha-amylase promoters",
+      "proteins": [
+        "gibberellin",
+        "alpha-amylase"
+      ],
+      "relations": {
+        "[0, 1]": "PPI"
+      }
+    },
+    "IEPA.d108.s251": {
+      "sentence": "Long-term changes in gastrin, cholecystokinin and PROTEIN0 in response to PROTEIN1 treatment",
+      "orig_sentence": "Long-term changes in gastrin, cholecystokinin and insulin in response to oxytocin treatment",
+      "proteins": [
+        "insulin",
+        "oxytocin"
+      ],
+      "relations": {
+        "[0, 1]": "PPI"
+      }
+    },
+    "IEPA.d108.s252": {
+      "sentence": "The present study was designed to investigate how repeated injections of PROTEIN0 influence plasma levels of vagally controlled hormones such as gastrin, cholecystokinin (CCK), PROTEIN1 and somatostatin, as well as of endogenous PROTEIN2 and glucose",
+      "orig_sentence": "The present study was designed to investigate how repeated injections of oxytocin influence plasma levels of vagally controlled hormones such as gastrin, cholecystokinin (CCK), insulin and somatostatin, as well as of endogenous oxytocin and glucose",
+      "proteins": [
+        "oxytocin",
+        "insulin",
+        "oxytocin"
+      ],
+      "relations": {
+        "[0, 1]": "PPI"
+      }
+    },
+    "IEPA.d108.s253": {
+      "sentence": "In addition, both PROTEIN0 and CCK levels were decreased in response to the PROTEIN1 treatment when measured 3 and 10 days after the last injection (ANOVA; PROTEIN2 p < 0.01, CCK p < 0.05)",
+      "orig_sentence": "In addition, both insulin and CCK levels were decreased in response to the oxytocin treatment when measured 3 and 10 days after the last injection (ANOVA; insulin p < 0.01, CCK p < 0.05)",
+      "proteins": [
+        "insulin",
+        "oxytocin",
+        "insulin"
+      ],
+      "relations": {
+        "[0, 1]": "PPI"
+      }
+    },
+    "IEPA.d108.s254": {
+      "sentence": "When the alpha2-adrenoreceptor agonist clonidine (2.5 microgram/kg intracerebroventricularly) was administered 3 days after the 5-day treatment period with PROTEIN0 or saline, plasma levels of PROTEIN1 and CCK increased significantly (p < 0.05) in the PROTEIN2-treated rats, when compared to saline-treated controls receiving clonidine only",
+      "orig_sentence": "When the alpha2-adrenoreceptor agonist clonidine (2.5 microgram/kg intracerebroventricularly) was administered 3 days after the 5-day treatment period with oxytocin or saline, plasma levels of insulin and CCK increased significantly (p < 0.05) in the oxytocin-treated rats, when compared to saline-treated controls receiving clonidine only",
+      "proteins": [
+        "oxytocin",
+        "insulin",
+        "oxytocin"
+      ],
+      "relations": {}
+    },
+    "IEPA.d108.s255": {
+      "sentence": "In conclusion, these results show that PROTEIN0 induces long-lasting changes in plasma levels of gastrin, CCK and PROTEIN1, without affecting somatostatin or glucose levels",
+      "orig_sentence": "In conclusion, these results show that oxytocin induces long-lasting changes in plasma levels of gastrin, CCK and insulin, without affecting somatostatin or glucose levels",
+      "proteins": [
+        "oxytocin",
+        "insulin"
+      ],
+      "relations": {
+        "[0, 1]": "PPI"
+      }
+    },
+    "IEPA.d110.s264": {
+      "sentence": "Signal transduction of PROTEIN0-induced arachidonic acid release in H9c2 cardiac myoblasts: role of Ca2+ and the PROTEIN1-dependent activation of p42 mitogen-activated protein kinase",
+      "orig_sentence": "Signal transduction of arginine vasopressin-induced arachidonic acid release in H9c2 cardiac myoblasts: role of Ca2+ and the protein kinase C-dependent activation of p42 mitogen-activated protein kinase",
+      "proteins": [
+        "arginine vasopressin",
+        "protein kinase C"
+      ],
+      "relations": {
+        "[0, 1]": "PPI"
+      }
+    },
+    "IEPA.d110.s265": {
+      "sentence": "The Ca2+ ionophore, A23187 or ionomycin, mimicked the effect of PROTEIN0, whereas the PROTEIN1 (PKC) activator, TPA, only induced a slight increase in AA release",
+      "orig_sentence": "The Ca2+ ionophore, A23187 or ionomycin, mimicked the effect of AVP, whereas the protein kinase C (PKC) activator, TPA, only induced a slight increase in AA release",
+      "proteins": [
+        "AVP",
+        "protein kinase C"
+      ],
+      "relations": {}
+    },
+    "IEPA.d110.s266": {
+      "sentence": "Western blots demonstrated expression of PKCalpha, betaI, epsilon, delta, and zeta in H9c2 cells; PROTEIN0 inhibitors (staurosporine or Ro 31-8220) or down-regulation of PROTEIN1, betaI, epsilon, and delta by long-term (24 h) TPA treatment caused a partial blockade of the PROTEIN2-induced response, whereas the A23187-induced AA release was unaffected by down-regulation of these isoforms",
+      "orig_sentence": "Western blots demonstrated expression of PKCalpha, betaI, epsilon, delta, and zeta in H9c2 cells; PKC inhibitors (staurosporine or Ro 31-8220) or down-regulation of PKCalpha, betaI, epsilon, and delta by long-term (24 h) TPA treatment caused a partial blockade of the AVP-induced response, whereas the A23187-induced AA release was unaffected by down-regulation of these isoforms",
+      "proteins": [
+        "PKC",
+        "PKCalpha",
+        "AVP"
+      ],
+      "relations": {}
+    },
+    "IEPA.d110.s267": {
+      "sentence": "PROTEIN0- or TPA-induced activation and tyrosine phosphorylation of p42 MAPK were completely blocked by down-regulation of PROTEIN1, betaI, epsilon, and delta, but still occurred, together with the cytosolic PLA2 mobility shift, in the absence of external Ca2+",
+      "orig_sentence": "AVP- or TPA-induced activation and tyrosine phosphorylation of p42 MAPK were completely blocked by down-regulation of PKCalpha, betaI, epsilon, and delta, but still occurred, together with the cytosolic PLA2 mobility shift, in the absence of external Ca2+",
+      "proteins": [
+        "AVP",
+        "PKCalpha"
+      ],
+      "relations": {
+        "[0, 1]": "PPI"
+      }
+    },
+    "IEPA.d110.s268": {
+      "sentence": "These results show that PROTEIN0-induced AA release in H9c2 cells is secondary to activation of the V1 receptor/Gq protein/PLCP pathway, leading to an influx of extracellular Ca2+ and activation of PROTEIN1, betaI, epsilon, and delta",
+      "orig_sentence": "These results show that AVP-induced AA release in H9c2 cells is secondary to activation of the V1 receptor/Gq protein/PLCP pathway, leading to an influx of extracellular Ca2+ and activation of PKCalpha, betaI, epsilon, and delta",
+      "proteins": [
+        "AVP",
+        "PKCalpha"
+      ],
+      "relations": {
+        "[0, 1]": "PPI"
+      }
+    },
+    "IEPA.d115.s277": {
+      "sentence": "Overexpression of G11alpha and isoforms of PROTEIN0 in islet  beta-cells reveals a lack of correlation between inositol phosphate  accumulation and PROTEIN1 secretion.",
+      "orig_sentence": "Overexpression of G11alpha and isoforms of phospholipase C in islet  beta-cells reveals a lack of correlation between inositol phosphate  accumulation and insulin secretion.",
+      "proteins": [
+        "phospholipase C",
+        "insulin"
+      ],
+      "relations": {}
+    },
+    "IEPA.d115.s278": {
+      "sentence": "It has been suggested that PROTEIN0 secretion from pancreatic islets may be  mediated in part by activation of PROTEIN1 (PLCs) and  phosphoinositide hydrolysis.",
+      "orig_sentence": "It has been suggested that insulin secretion from pancreatic islets may be  mediated in part by activation of phospholipases C (PLCs) and  phosphoinositide hydrolysis.",
+      "proteins": [
+        "insulin",
+        "phospholipases C"
+      ],
+      "relations": {
+        "[0, 1]": "PPI"
+      }
+    },
+    "IEPA.d115.s279": {
+      "sentence": "The purpose of this study was to determine  whether the relatively modest fuel-stimulated PROTEIN0 secretion responses  of rodent beta-cell lines might be explained by inadequate expression or  activation of PROTEIN1 isoforms.",
+      "orig_sentence": "The purpose of this study was to determine  whether the relatively modest fuel-stimulated insulin secretion responses  of rodent beta-cell lines might be explained by inadequate expression or  activation of PLC isoforms.",
+      "proteins": [
+        "insulin",
+        "PLC"
+      ],
+      "relations": {
+        "[0, 1]": "PPI"
+      }
+    },
+    "IEPA.d115.s280": {
+      "sentence": "Adenovirus-mediated overexpression of PROTEIN0-delta1, -beta1, or  -beta3 in INS-1 or betaG 40/110 cells results in little or no enhancement  in inositol phosphate (IP) accumulation and no improvement in PROTEIN1  secretion when the cells are stimulated with glucose or carbachol, despite  the fact that the overexpressed proteins are fully active in cell  extracts.",
+      "orig_sentence": "Adenovirus-mediated overexpression of PLC-delta1, -beta1, or  -beta3 in INS-1 or betaG 40/110 cells results in little or no enhancement  in inositol phosphate (IP) accumulation and no improvement in insulin  secretion when the cells are stimulated with glucose or carbachol, despite  the fact that the overexpressed proteins are fully active in cell  extracts.",
+      "proteins": [
+        "PLC",
+        "insulin"
+      ],
+      "relations": {}
+    },
+    "IEPA.d115.s281": {
+      "sentence": "Overexpression of PROTEIN0-beta1 or -beta3 in normal rat islets  elicits a larger increase in IP accumulation but, again, has no effect on  PROTEIN1 secretion.",
+      "orig_sentence": "Overexpression of PLC-beta1 or -beta3 in normal rat islets  elicits a larger increase in IP accumulation but, again, has no effect on  insulin secretion.",
+      "proteins": [
+        "PLC",
+        "insulin"
+      ],
+      "relations": {}
+    },
+    "IEPA.d115.s282": {
+      "sentence": "Because the effect of carbachol on PROTEIN0 secretion is  thought to be mediated through muscarinic receptors that link to the Gq/11  class of heterotrimeric G proteins, we also overexpressed G11alpha in  INS-1 cells, either alone or in concert with overexpression of PROTEIN1-beta1  or -beta3.",
+      "orig_sentence": "Because the effect of carbachol on insulin secretion is  thought to be mediated through muscarinic receptors that link to the Gq/11  class of heterotrimeric G proteins, we also overexpressed G11alpha in  INS-1 cells, either alone or in concert with overexpression of PLC-beta1  or -beta3.",
+      "proteins": [
+        "insulin",
+        "PLC"
+      ],
+      "relations": {}
+    },
+    "IEPA.d115.s283": {
+      "sentence": "Overexpression of G11alpha enhances IP accumulation, an effect  slightly potentiated by co-overexpression of PROTEIN0-beta1 or -beta3, but  these maneuvers do not affect glucose or carbachol-stimulated PROTEIN1  secretion.",
+      "orig_sentence": "Overexpression of G11alpha enhances IP accumulation, an effect  slightly potentiated by co-overexpression of PLC-beta1 or -beta3, but  these maneuvers do not affect glucose or carbachol-stimulated insulin  secretion.",
+      "proteins": [
+        "PLC",
+        "insulin"
+      ],
+      "relations": {}
+    },
+    "IEPA.d116.s284": {
+      "sentence": "In the present study we found that at increasing PROTEIN0 concentrations, increasing numbers of barley (Hordeum vulgare) cells showed the enhanced PROTEIN1 secretion and vacuolation characteristic of the PROTEIN2 response",
+      "orig_sentence": "In the present study we found that at increasing GA concentrations, increasing numbers of barley (Hordeum vulgare) cells showed the enhanced amylase secretion and vacuolation characteristic of the GA response",
+      "proteins": [
+        "GA",
+        "amylase",
+        "GA"
+      ],
+      "relations": {
+        "[0, 1]": "PPI"
+      }
+    },
+    "IEPA.d123.s296": {
+      "sentence": "The activity of catalase was found to be significantly enhanced in the tissues of normal and PROTEIN0 fed rats administered 1 mg PROTEIN1 from brinjal/100 g BW/day",
+      "orig_sentence": "The activity of catalase was found to be significantly enhanced in the tissues of normal and cholesterol fed rats administered 1 mg flavonoid from brinjal/100 g BW/day",
+      "proteins": [
+        "cholesterol",
+        "flavonoid"
+      ],
+      "relations": {}
+    },
+    "IEPA.d124.s297": {
+      "sentence": "By comparison with the promoters of PROTEIN0 genes, which are also induced by PROTEIN1, we suggest that GARE is coupled with the upstream element and the pyrimidine box to form a PROTEIN2 response complex",
+      "orig_sentence": "By comparison with the promoters of alpha-amylase genes, which are also induced by GA, we suggest that GARE is coupled with the upstream element and the pyrimidine box to form a GA response complex",
+      "proteins": [
+        "alpha-amylase",
+        "GA",
+        "GA"
+      ],
+      "relations": {
+        "[0, 1]": "PPI"
+      }
+    },
+    "IEPA.d125.s298": {
+      "sentence": "Our data demonstrate, that activation of mitogen activated protein (MAP) kinase alone is sufficient to promote PROTEIN0 secretion, whereas inhibition of MAP kinase will reduce PROTEIN1 secretion only when PROTEIN2 or phosphatidylinositol 3-kinase are additionally inhibited",
+      "orig_sentence": "Our data demonstrate, that activation of mitogen activated protein (MAP) kinase alone is sufficient to promote APP secretion, whereas inhibition of MAP kinase will reduce APP secretion only when phospholipase Cgamma or phosphatidylinositol 3-kinase are additionally inhibited",
+      "proteins": [
+        "APP",
+        "APP",
+        "phospholipase Cgamma"
+      ],
+      "relations": {}
+    },
+    "IEPA.d135.s323": {
+      "sentence": "These results suggest that, in isolated white adipocytes, the released adenosine acts as a helper and/or a positive regulator for PROTEIN0 in the release of leptin via an activation of adenosine A1 receptors that involves the PROTEIN1-PKC pathway.",
+      "orig_sentence": "These results suggest that, in isolated white adipocytes, the released adenosine acts as a helper and/or a positive regulator for insulin in the release of leptin via an activation of adenosine A1 receptors that involves the PLC-PKC pathway.",
+      "proteins": [
+        "insulin",
+        "PLC"
+      ],
+      "relations": {
+        "[0, 1]": "PPI"
+      }
+    },
+    "IEPA.d136.s324": {
+      "sentence": "The etiology for diabetes mellitus in PWS may be related to the morbid obesity and consequent PROTEIN0 resistance, because a decrease of PROTEIN1 neurons and leptin resistance in PWS may cause hyperphagia, inducing obesity",
+      "orig_sentence": "The etiology for diabetes mellitus in PWS may be related to the morbid obesity and consequent insulin resistance, because a decrease of oxytocin neurons and leptin resistance in PWS may cause hyperphagia, inducing obesity",
+      "proteins": [
+        "insulin",
+        "oxytocin"
+      ],
+      "relations": {}
+    },
+    "IEPA.d142.s341": {
+      "sentence": "METHODS: We have therefore studied possible associations of the Gln27Glu and the Gly16Arg polymorphisms in the beta2AR with BMI, plasma PROTEIN0 and PROTEIN1 mRNA expression in the intraperitoneal adipose tissue in a population of Caucasian women",
+      "orig_sentence": "METHODS: We have therefore studied possible associations of the Gln27Glu and the Gly16Arg polymorphisms in the beta2AR with BMI, plasma leptin and UCP-1 mRNA expression in the intraperitoneal adipose tissue in a population of Caucasian women",
+      "proteins": [
+        "leptin",
+        "UCP-1"
+      ],
+      "relations": {}
+    },
+    "IEPA.d142.s342": {
+      "sentence": "Furthermore, no association was found between the Gln27Glu or the Gly16Arg polymorphisms and plasma PROTEIN0 or adipose tissue PROTEIN1 gene expression in either group",
+      "orig_sentence": "Furthermore, no association was found between the Gln27Glu or the Gly16Arg polymorphisms and plasma leptin or adipose tissue UCP-1 gene expression in either group",
+      "proteins": [
+        "leptin",
+        "UCP-1"
+      ],
+      "relations": {}
+    },
+    "IEPA.d145.s346": {
+      "sentence": "Aggregated beta PROTEIN0 peptide 1-40 decreases Ca2+- and cholinergic receptor-mediated phosphoinositide degradation by alteration of membrane and cytosolic PROTEIN1 in brain cortex",
+      "orig_sentence": "Aggregated beta amyloid peptide 1-40 decreases Ca2+- and cholinergic receptor-mediated phosphoinositide degradation by alteration of membrane and cytosolic phospholipase C in brain cortex",
+      "proteins": [
+        "amyloid",
+        "phospholipase C"
+      ],
+      "relations": {
+        "[0, 1]": "PPI"
+      }
+    },
+    "IEPA.d145.s347": {
+      "sentence": "The effects of full-length PROTEIN0 beta protein, A(beta) (1-40), on phosphoinositide-specific PROTEIN1 (PLC) were investigated in synaptic plasma membranes (SPM) and cytosol prepared from the cerebral cortex of adult rats",
+      "orig_sentence": "The effects of full-length amyloid beta protein, A(beta) (1-40), on phosphoinositide-specific phospholipase C (PLC) were investigated in synaptic plasma membranes (SPM) and cytosol prepared from the cerebral cortex of adult rats",
+      "proteins": [
+        "amyloid",
+        "phospholipase C"
+      ],
+      "relations": {}
+    },
+    "IEPA.d145.s348": {
+      "sentence": "Aggregated PROTEIN0 also decreased significantly the level of diacylglycerol, the product of PROTEIN1",
+      "orig_sentence": "Aggregated A(beta) also decreased significantly the level of diacylglycerol, the product of PLC",
+      "proteins": [
+        "A(beta)",
+        "PLC"
+      ],
+      "relations": {}
+    },
+    "IEPA.d145.s349": {
+      "sentence": "This additionally supports the inhibitory effect of PROTEIN0 on membrane-bound and cytosolic PROTEIN1",
+      "orig_sentence": "This additionally supports the inhibitory effect of A(beta) on membrane-bound and cytosolic PLC",
+      "proteins": [
+        "A(beta)",
+        "PLC"
+      ],
+      "relations": {
+        "[0, 1]": "PPI"
+      }
+    },
+    "IEPA.d145.s350": {
+      "sentence": "Moreover, PROTEIN0 significantly decreased the basal activity of the PROTEIN1 in SPM and the enzyme activity regulated through cholinergic receptors",
+      "orig_sentence": "Moreover, A(beta) (1-40) significantly decreased the basal activity of the PIP2-PLC in SPM and the enzyme activity regulated through cholinergic receptors",
+      "proteins": [
+        "A(beta) (1-40)",
+        "PIP2-PLC"
+      ],
+      "relations": {
+        "[0, 1]": "PPI"
+      }
+    },
+    "IEPA.d167.s403": {
+      "sentence": "Pretreatment of HEK-293 cells for 2 min with carbachol, a mAChR agonist, lysophosphatidic acid, or ATP, followed by agonist washout, strongly increased (by 2-3-fold) maximal PROTEIN0 stimulation (measured >/=40 min later) by epidermal growth factor and platelet-derived growth factor, but not PROTEIN1, and largely enhanced PROTEIN2 sensitivity to these RTK agonists",
+      "orig_sentence": "Pretreatment of HEK-293 cells for 2 min with carbachol, a mAChR agonist, lysophosphatidic acid, or ATP, followed by agonist washout, strongly increased (by 2-3-fold) maximal PLC stimulation (measured >/=40 min later) by epidermal growth factor and platelet-derived growth factor, but not insulin, and largely enhanced PLC sensitivity to these RTK agonists",
+      "proteins": [
+        "PLC",
+        "insulin",
+        "PLC"
+      ],
+      "relations": {}
+    },
+    "IEPA.d170.s410": {
+      "sentence": "Influence of obesity and menopausal status on serum PROTEIN0, cholecystokinin, galanin and PROTEIN1 levels",
+      "orig_sentence": "Influence of obesity and menopausal status on serum leptin, cholecystokinin, galanin and neuropeptide Y levels",
+      "proteins": [
+        "leptin",
+        "neuropeptide Y"
+      ],
+      "relations": {}
+    },
+    "IEPA.d170.s411": {
+      "sentence": "Obesity occurs in 60% of women after menopause and is characterized by an excess of adipose tissue that depends on several orexigenic (PROTEIN0 (NPY) stimulates carbohydrate ingestion, galanin stimulates fat intake) and anorectic (PROTEIN1, cholecystokinin (CCK)) factors",
+      "orig_sentence": "Obesity occurs in 60% of women after menopause and is characterized by an excess of adipose tissue that depends on several orexigenic (neuropeptide Y (NPY) stimulates carbohydrate ingestion, galanin stimulates fat intake) and anorectic (leptin, cholecystokinin (CCK)) factors",
+      "proteins": [
+        "neuropeptide Y",
+        "leptin"
+      ],
+      "relations": {}
+    },
+    "IEPA.d170.s412": {
+      "sentence": "Both PROTEIN0 and insulin can reduce hypothalamic PROTEIN1 production and secretion",
+      "orig_sentence": "Both leptin and insulin can reduce hypothalamic NPY production and secretion",
+      "proteins": [
+        "leptin",
+        "NPY"
+      ],
+      "relations": {
+        "[0, 1]": "PPI"
+      }
+    },
+    "IEPA.d170.s413": {
+      "sentence": "We investigated basal levels of serum PROTEIN0, CCK, galanin and PROTEIN1 in 16 non-obese premenopausal women, in 15 obese premenopausal women (body mass index (BMI) 34.6 +/- 1.3 SD) and in ten obese postmenopausal women (BMI 34.7 +/- 1.5 SD) to determine the relationship between obesity, menopause and these neuropeptides",
+      "orig_sentence": "We investigated basal levels of serum leptin, CCK, galanin and NPY in 16 non-obese premenopausal women, in 15 obese premenopausal women (body mass index (BMI) 34.6 +/- 1.3 SD) and in ten obese postmenopausal women (BMI 34.7 +/- 1.5 SD) to determine the relationship between obesity, menopause and these neuropeptides",
+      "proteins": [
+        "leptin",
+        "NPY"
+      ],
+      "relations": {}
+    },
+    "IEPA.d170.s414": {
+      "sentence": "Significantly increased PROTEIN0 and galanin levels in postmenopausal obese women coupled with decreased PROTEIN1 levels revealed some changes in the neuropeptides regulating eating behavior, which may be the reason for the onset of postmenopausal obesity",
+      "orig_sentence": "Significantly increased leptin and galanin levels in postmenopausal obese women coupled with decreased NPY levels revealed some changes in the neuropeptides regulating eating behavior, which may be the reason for the onset of postmenopausal obesity",
+      "proteins": [
+        "leptin",
+        "NPY"
+      ],
+      "relations": {}
+    },
+    "IEPA.d189.s453": {
+      "sentence": "These findings are consistent with increased PROTEIN0 signaling to the PROTEIN1 and POMC neurons in the ARC by physiological levels of circulating PROTEIN2 during normal feeding",
+      "orig_sentence": "These findings are consistent with increased leptin signaling to the NPY and POMC neurons in the ARC by physiological levels of circulating leptin during normal feeding",
+      "proteins": [
+        "leptin",
+        "NPY",
+        "leptin"
+      ],
+      "relations": {}
+    },
+    "IEPA.d195.s469": {
+      "sentence": "PROTEIN0 Rapidly Inhibits Hypothalamic PROTEIN1 Secretion and Stimulates Corticotropin-Releasing Hormone Secretion in Adrenalectomized Mice",
+      "orig_sentence": "Leptin Rapidly Inhibits Hypothalamic Neuropeptide Y Secretion and Stimulates Corticotropin-Releasing Hormone Secretion in Adrenalectomized Mice",
+      "proteins": [
+        "Leptin",
+        "Neuropeptide Y"
+      ],
+      "relations": {
+        "[0, 1]": "PPI"
+      }
+    },
+    "IEPA.d195.s470": {
+      "sentence": "PROTEIN0 may rapidly inhibit food intake by altering the secretion of hypothalamic neuropeptides such as PROTEIN1 (NPY), a stimulator of food intake, and/or corticotropin-releasing hormone (CRH), an inhibitor of food intake",
+      "orig_sentence": "Leptin may rapidly inhibit food intake by altering the secretion of hypothalamic neuropeptides such as neuropeptide Y (NPY), a stimulator of food intake, and/or corticotropin-releasing hormone (CRH), an inhibitor of food intake",
+      "proteins": [
+        "Leptin",
+        "neuropeptide Y"
+      ],
+      "relations": {
+        "[0, 1]": "PPI"
+      }
+    },
+    "IEPA.d195.s471": {
+      "sentence": "We measured concentrations of PROTEIN0 and CRH in specific hypothalamic regions [i.e., arcuate nucleus (ARC), paraventricular nucleus (PVN), ventromedial nucleus and dorsomedial nucleus] of 7- to 8-wk-old lean and ob/ob mice at 1 or 3 h after intracerebroventricular PROTEIN1 administration",
+      "orig_sentence": "We measured concentrations of NPY and CRH in specific hypothalamic regions [i.e., arcuate nucleus (ARC), paraventricular nucleus (PVN), ventromedial nucleus and dorsomedial nucleus] of 7- to 8-wk-old lean and ob/ob mice at 1 or 3 h after intracerebroventricular leptin administration",
+      "proteins": [
+        "NPY",
+        "leptin"
+      ],
+      "relations": {}
+    },
+    "IEPA.d195.s472": {
+      "sentence": "No rapid-onset effects of PROTEIN0 on hypothalamic PROTEIN1 or CRH concentrations were observed in intact mice",
+      "orig_sentence": "No rapid-onset effects of leptin on hypothalamic NPY or CRH concentrations were observed in intact mice",
+      "proteins": [
+        "leptin",
+        "NPY"
+      ],
+      "relations": {}
+    },
+    "IEPA.d195.s473": {
+      "sentence": "The addition of PROTEIN0 to hypothalamic preparations from intact mice also did not alter PROTEIN1 or CRH secretion",
+      "orig_sentence": "The addition of leptin to hypothalamic preparations from intact mice also did not alter NPY or CRH secretion",
+      "proteins": [
+        "leptin",
+        "NPY"
+      ],
+      "relations": {}
+    },
+    "IEPA.d195.s474": {
+      "sentence": "Within 20 min after exposure to PROTEIN0, PROTEIN1 secretion from hypothalamic preparations obtained from adrenalectomized mice was lowered by 27% and CRH secretion was elevated by 51%",
+      "orig_sentence": "Within 20 min after exposure to leptin, NPY secretion from hypothalamic preparations obtained from adrenalectomized mice was lowered by 27% and CRH secretion was elevated by 51%",
+      "proteins": [
+        "leptin",
+        "NPY"
+      ],
+      "relations": {
+        "[0, 1]": "PPI"
+      }
+    },
+    "IEPA.d195.s475": {
+      "sentence": "The current study demonstrates that PROTEIN0 rapidly influences the secretion of hypothalamic PROTEIN1 and CRH and that these actions of PROTEIN2 within the hypothalamus are restrained by the presence of endogenous corticosterone",
+      "orig_sentence": "The current study demonstrates that leptin rapidly influences the secretion of hypothalamic NPY and CRH and that these actions of leptin within the hypothalamus are restrained by the presence of endogenous corticosterone",
+      "proteins": [
+        "leptin",
+        "NPY",
+        "leptin"
+      ],
+      "relations": {
+        "[0, 1]": "PPI"
+      }
+    }
+  }
+}

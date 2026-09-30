@@ -1,0 +1,2831 @@
+{
+  "metadata": {
+    "created_at": "2026-06-24T06:37:39.574464+00:00",
+    "source": "BioInfer test (rebuilt from canonical XML, 2026-06-24)",
+    "total_sentences": 206,
+    "sentences_with_relation": 142,
+    "total_pairs": 1623,
+    "pairs_with_relation": 425
+  },
+  "data": {
+    "BioInfer.d13.s0": {
+      "sentence": "PROTEIN0 appears to control at least four functions that collectively lead to PROTEIN1-based motility: (1) initiation of PROTEIN2 polymerization, (2) polarization of PROTEIN3 function, (3) transformation of PROTEIN4 polymerization into a motile force and (4) acceleration of movement mediated by the host protein PROTEIN5.",
+      "orig_sentence": "ActA appears to control at least four functions that collectively lead to actin-based motility: (1) initiation of actin polymerization, (2) polarization of ActA function, (3) transformation of actin polymerization into a motile force and (4) acceleration of movement mediated by the host protein profilin.",
+      "proteins": [
+        "ActA",
+        "actin",
+        "actin",
+        "ActA",
+        "actin",
+        "profilin"
+      ],
+      "relations": {
+        "[0, 2]": "PPI",
+        "[0, 3]": "PPI",
+        "[0, 4]": "PPI",
+        "[0, 5]": "PPI",
+        "[1, 2]": "PPI",
+        "[1, 3]": "PPI",
+        "[1, 4]": "PPI",
+        "[1, 5]": "PPI"
+      }
+    },
+    "BioInfer.d15.s0": {
+      "sentence": "PROTEIN0 such as PROTEIN1 participate in the restructuration of the PROTEIN2 cytoskeleton in plant cells.",
+      "orig_sentence": "Actin-binding proteins such as profilins participate in the restructuration of the actin cytoskeleton in plant cells.",
+      "proteins": [
+        "Actin-binding proteins",
+        "profilins",
+        "actin"
+      ],
+      "relations": {
+        "[0, 1]": "PPI",
+        "[0, 2]": "PPI"
+      }
+    },
+    "BioInfer.d19.s0": {
+      "sentence": "[Activation induces dephosphorylation of PROTEIN0 (an PROTEIN1/PIP2-binding protein) and its translocation to plasma membranes in leukocytes].",
+      "orig_sentence": "[Activation induces dephosphorylation of cofilin (an actin/PIP2-binding protein) and its translocation to plasma membranes in leukocytes].",
+      "proteins": [
+        "cofilin",
+        "actin"
+      ],
+      "relations": {
+        "[0, 1]": "PPI"
+      }
+    },
+    "BioInfer.d22.s0": {
+      "sentence": "Additional studies demonstrated the PROTEIN0 distribution to be remarkably similar to that of PROTEIN1, whereas PROTEIN2 staining was more diffuse in the cytoplasm of airway epithelial and gland bud cells.",
+      "orig_sentence": "Additional studies demonstrated the gamma-catenin distribution to be remarkably similar to that of beta-catenin, whereas alpha-catenin staining was more diffuse in the cytoplasm of airway epithelial and gland bud cells.",
+      "proteins": [
+        "gamma-catenin",
+        "beta-catenin",
+        "alpha-catenin"
+      ],
+      "relations": {
+        "[0, 1]": "PPI"
+      }
+    },
+    "BioInfer.d23.s0": {
+      "sentence": "Addition of Acanthamoeba PROTEIN0 in molar ratios to PROTEIN1 of about 1.1:1 and 2.3:1 retarded the initial kinetics of assembly (induced by addition of 2mM Mg+2) and reduced the fraction of PROTEIN2 incorporated into filaments.",
+      "orig_sentence": "Addition of Acanthamoeba profilin in molar ratios to actin of about 1.1:1 and 2.3:1 retarded the initial kinetics of assembly (induced by addition of 2mM Mg+2) and reduced the fraction of actin incorporated into filaments.",
+      "proteins": [
+        "profilin",
+        "actin",
+        "actin"
+      ],
+      "relations": {
+        "[0, 2]": "PPI"
+      }
+    },
+    "BioInfer.d38.s0": {
+      "sentence": "All these results suggest that PROTEIN0 is a new type of PROTEIN1-associated protein.",
+      "orig_sentence": "All these results suggest that cofilin is a new type of actin-associated protein.",
+      "proteins": [
+        "cofilin",
+        "actin"
+      ],
+      "relations": {
+        "[0, 1]": "PPI"
+      }
+    },
+    "BioInfer.d38.s1": {
+      "sentence": "The centrifugation assay and the PROTEIN0 inhibition assay demonstrate that PROTEIN1 binds to PROTEIN2 filaments in a 1:1 molar ratio of PROTEIN3 to PROTEIN4 monomer in the filament and that PROTEIN5 increases the monomeric PROTEIN6 to a limited extent (up to 1.1-1.5 microM monomer) in the presence of physiological concentrations of Mg2+ and KCl.",
+      "orig_sentence": "The centrifugation assay and the DNase I inhibition assay demonstrate that cofilin binds to actin filaments in a 1:1 molar ratio of cofilin to actin monomer in the filament and that cofilin increases the monomeric actin to a limited extent (up to 1.1-1.5 microM monomer) in the presence of physiological concentrations of Mg2+ and KCl.",
+      "proteins": [
+        "DNase I",
+        "cofilin",
+        "actin",
+        "cofilin",
+        "actin",
+        "cofilin",
+        "actin"
+      ],
+      "relations": {
+        "[1, 2]": "PPI",
+        "[5, 6]": "PPI"
+      }
+    },
+    "BioInfer.d38.s2": {
+      "sentence": "The gel point assay using an PROTEIN0 cross-linking protein and the nucleation assay also suggested that PROTEIN1 shortens the PROTEIN2 filaments and hence increases the filament number.",
+      "orig_sentence": "The gel point assay using an actin cross-linking protein and the nucleation assay also suggested that cofilin shortens the actin filaments and hence increases the filament number.",
+      "proteins": [
+        "actin",
+        "cofilin",
+        "actin"
+      ],
+      "relations": {
+        "[1, 2]": "PPI"
+      }
+    },
+    "BioInfer.d40.s0": {
+      "sentence": "Although both receptors are involved in M21 and H2981 cell adhesion to PROTEIN0, only a PROTEIN1 can be detected in focal contacts, colocalizing with PROTEIN2, PROTEIN3, and the ends of PROTEIN4 filaments, while PROTEIN5 shows a distinct, nonfocal contact, distribution on the cell surface.",
+      "orig_sentence": "Although both receptors are involved in M21 and H2981 cell adhesion to vitronectin, only a alpha v beta 3 can be detected in focal contacts, colocalizing with vinculin, talin, and the ends of actin filaments, while alpha v beta 5 shows a distinct, nonfocal contact, distribution on the cell surface.",
+      "proteins": [
+        "vitronectin",
+        "alpha v beta 3",
+        "vinculin",
+        "talin",
+        "actin",
+        "alpha v beta 5"
+      ],
+      "relations": {
+        "[0, 1]": "PPI",
+        "[0, 5]": "PPI",
+        "[1, 2]": "PPI",
+        "[1, 3]": "PPI",
+        "[1, 4]": "PPI"
+      }
+    },
+    "BioInfer.d42.s0": {
+      "sentence": "Although PROTEIN0 has been suggested to act as a linkage protein mediating the attachment of PROTEIN1 PROTEIN2 to PROTEIN3 filaments, direct binding of PROTEIN4 PROTEIN5 to this cytoskeletal protein has not been demonstrated.",
+      "orig_sentence": "Although talin has been suggested to act as a linkage protein mediating the attachment of GPIIb-IIIa to actin filaments, direct binding of GPIIb-IIIa to this cytoskeletal protein has not been demonstrated.",
+      "proteins": [
+        "talin",
+        "GP IIIa",
+        "GPIIb",
+        "actin",
+        "GPIIb",
+        "GP IIIa"
+      ],
+      "relations": {
+        "[0, 1]": "PPI",
+        "[0, 2]": "PPI",
+        "[0, 3]": "PPI",
+        "[0, 4]": "PPI",
+        "[0, 5]": "PPI",
+        "[1, 2]": "PPI",
+        "[1, 3]": "PPI",
+        "[2, 3]": "PPI",
+        "[4, 5]": "PPI"
+      }
+    },
+    "BioInfer.d45.s0": {
+      "sentence": "Although platelets contain only 1 PROTEIN0 for every 5-10 PROTEIN1 molecules, these complex reactions may allow substoichiometric PROTEIN2 to have an important influence on PROTEIN3 assembly.",
+      "orig_sentence": "Although platelets contain only 1 profilin for every 5-10 actin molecules, these complex reactions may allow substoichiometric profilin to have an important influence on actin assembly.",
+      "proteins": [
+        "profilin",
+        "actin",
+        "profilin",
+        "actin"
+      ],
+      "relations": {
+        "[2, 3]": "PPI"
+      }
+    },
+    "BioInfer.d45.s1": {
+      "sentence": "Kinetic simulation showed that the PROTEIN0 exchanges between PROTEIN1 monomers on a subsecond time scale that allows it to catalyze nucleotide exchange.",
+      "orig_sentence": "Kinetic simulation showed that the profilin exchanges between actin monomers on a subsecond time scale that allows it to catalyze nucleotide exchange.",
+      "proteins": [
+        "profilin",
+        "actin"
+      ],
+      "relations": {
+        "[0, 1]": "PPI"
+      }
+    },
+    "BioInfer.d45.s2": {
+      "sentence": "On the other hand, polymerization assays give disparate results that are inconsistent with the binding assays and each other: PROTEIN0 has different effects on elongation at the two ends of PROTEIN1 filaments; PROTEIN2 inhibits the elongation of PROTEIN3 much more strongly than PROTEIN4; and simple formation of 1:1 complexes of PROTEIN5 with PROTEIN6 cannot account for the strong inhibition of spontaneous polymerization.",
+      "orig_sentence": "On the other hand, polymerization assays give disparate results that are inconsistent with the binding assays and each other: profilin has different effects on elongation at the two ends of actin filaments; profilin inhibits the elongation of platelet actin much more strongly than muscle actin; and simple formation of 1:1 complexes of actin with profilin cannot account for the strong inhibition of spontaneous polymerization.",
+      "proteins": [
+        "profilin",
+        "actin",
+        "profilin",
+        "platelet actin",
+        "muscle actin",
+        "actin",
+        "profilin"
+      ],
+      "relations": {
+        "[0, 1]": "PPI",
+        "[2, 3]": "PPI",
+        "[2, 4]": "PPI",
+        "[5, 6]": "PPI"
+      }
+    },
+    "BioInfer.d46.s0": {
+      "sentence": "Although striated myotubules were identified within the urethra by hematoxylin and eosin staining starting on postnatal day 1, PROTEIN0 protein was absent in the embryonic and neonatal development of the sphincter, and it was expressed only in the mature myotubule of adults.",
+      "orig_sentence": "Although striated myotubules were identified within the urethra by hematoxylin and eosin staining starting on postnatal day 1, striated muscle myosin heavy chain protein was absent in the embryonic and neonatal development of the sphincter, and it was expressed only in the mature myotubule of adults.",
+      "proteins": [
+        "striated muscle myosin heavy chain"
+      ],
+      "relations": {}
+    },
+    "BioInfer.d46.s1": {
+      "sentence": "PROTEIN0 was expressed throughout the urethral sphincter of embryonic and neonatal animals.",
+      "orig_sentence": "alpha-Smooth muscle actin was expressed throughout the urethral sphincter of embryonic and neonatal animals.",
+      "proteins": [
+        "alpha-Smooth muscle actin"
+      ],
+      "relations": {}
+    },
+    "BioInfer.d47.s0": {
+      "sentence": "Although the chemical basis of these results is not known, they indicate that PROTEIN0 can tightly sequester PROTEIN1 monomers and support the earlier suggestion that the affinity of PROTEIN2 for PROTEIN3 may be under metabolic control.",
+      "orig_sentence": "Although the chemical basis of these results is not known, they indicate that profilin can tightly sequester actin monomers and support the earlier suggestion that the affinity of profilin for actin may be under metabolic control.",
+      "proteins": [
+        "profilin",
+        "actin",
+        "profilin",
+        "actin"
+      ],
+      "relations": {
+        "[0, 1]": "PPI",
+        "[2, 3]": "PPI"
+      }
+    },
+    "BioInfer.d47.s1": {
+      "sentence": "Recent evidence that PROTEIN0 inhibits PROTEIN1 and enhances nucleotide exchange of PROTEIN2 has led some to question whether PROTEIN3 is ever truly an PROTEIN4 monomer sequestering agent.",
+      "orig_sentence": "Recent evidence that profilin inhibits phospholipase C and enhances nucleotide exchange of actin has led some to question whether profilin is ever truly an actin monomer sequestering agent.",
+      "proteins": [
+        "profilin",
+        "phospholipase C",
+        "actin",
+        "profilin",
+        "actin"
+      ],
+      "relations": {
+        "[0, 1]": "PPI",
+        "[0, 2]": "PPI",
+        "[3, 4]": "PPI"
+      }
+    },
+    "BioInfer.d54.s0": {
+      "sentence": "Analyses of dynamic light scattering data by stretched exponential fit show that PROTEIN0 has a negligible influence on internal PROTEIN1 filament dynamics and PROTEIN2 bending stiffness which contrasts with our previous observations with PROTEIN3, another PROTEIN4 and PROTEIN5-binding protein from focal adhesions.",
+      "orig_sentence": "Analyses of dynamic light scattering data by stretched exponential fit show that vinculin has a negligible influence on internal actin filament dynamics and actin bending stiffness which contrasts with our previous observations with talin, another actin and vinculin-binding protein from focal adhesions.",
+      "proteins": [
+        "vinculin",
+        "actin",
+        "actin",
+        "talin",
+        "actin",
+        "vinculin"
+      ],
+      "relations": {
+        "[0, 1]": "PPI",
+        "[0, 2]": "PPI",
+        "[3, 4]": "PPI",
+        "[3, 5]": "PPI"
+      }
+    },
+    "BioInfer.d64.s0": {
+      "sentence": "An atomic model of PROTEIN0 filaments cross-linked by PROTEIN1 and its implications for bundle assembly and function.",
+      "orig_sentence": "An atomic model of actin filaments cross-linked by fimbrin and its implications for bundle assembly and function.",
+      "proteins": [
+        "actin",
+        "fimbrin"
+      ],
+      "relations": {
+        "[0, 1]": "PPI"
+      }
+    },
+    "BioInfer.d74.s0": {
+      "sentence": "Archaeal PROTEIN0 are most similar to the globular PROTEIN1 fold region of eukaryal PROTEIN2 PROTEIN3, and the results reported are consistent with archaeal PROTEIN4 resembling the structure formed by eukaryal PROTEIN5 (PROTEIN6+PROTEIN7)2tetramers.",
+      "orig_sentence": "Archaeal histones are most similar to the globular histone fold region of eukaryal histone H4, and the results reported are consistent with archaeal nucleosomes resembling the structure formed by eukaryal histone (H3+H4)2tetramers.",
+      "proteins": [
+        "histones",
+        "histone",
+        "histone",
+        "H4",
+        "nucleosomes",
+        "histone",
+        "H3",
+        "H4"
+      ],
+      "relations": {
+        "[0, 1]": "PPI",
+        "[1, 3]": "PPI",
+        "[2, 3]": "PPI",
+        "[4, 6]": "PPI",
+        "[4, 7]": "PPI",
+        "[5, 6]": "PPI",
+        "[5, 7]": "PPI",
+        "[6, 7]": "PPI"
+      }
+    },
+    "BioInfer.d80.s0": {
+      "sentence": "As expected, PROTEIN0 was found to interact with three domains of PROTEIN1 including PROTEIN2 binding domain or PROTEIN3-inducible interaction (KIX) domain, the third cysteine-histidine-rich region (CH3 domain) and the PROTEIN4 PROTEIN5-interacting domain.",
+      "orig_sentence": "As expected, C/ATF was found to interact with three domains of CBP including CREB binding domain or kinase-inducible interaction (KIX) domain, the third cysteine-histidine-rich region (CH3 domain) and the nuclear receptor coactivator p160/SRC-1-interacting domain.",
+      "proteins": [
+        "C/ATF",
+        "CBP",
+        "CREB",
+        "kinase",
+        "nuclear receptor coactivator",
+        "p160/SRC-1"
+      ],
+      "relations": {
+        "[0, 1]": "PPI",
+        "[1, 2]": "PPI",
+        "[1, 5]": "PPI",
+        "[4, 5]": "PPI"
+      }
+    },
+    "BioInfer.d86.s0": {
+      "sentence": "At least one element of the PROTEIN0-binding region of human PROTEIN1 is an alpha-helix.",
+      "orig_sentence": "At least one element of the actin-binding region of human profilin is an alpha-helix.",
+      "proteins": [
+        "actin",
+        "profilin"
+      ],
+      "relations": {
+        "[0, 1]": "PPI"
+      }
+    },
+    "BioInfer.d90.s0": {
+      "sentence": "BACKGROUND AND OBJECTIVES: Reduced expressions of cell adhesion molecules (PROTEIN0, PROTEIN1, and PROTEIN2) has been reported to be associated with tumor metastasis.",
+      "orig_sentence": "BACKGROUND AND OBJECTIVES: Reduced expressions of cell adhesion molecules (E-cadherin, alpha-catenin, and beta-catenin) has been reported to be associated with tumor metastasis.",
+      "proteins": [
+        "E-cadherin",
+        "alpha-catenin",
+        "beta-catenin"
+      ],
+      "relations": {}
+    },
+    "BioInfer.d90.s1": {
+      "sentence": "In this study, we evaluated the prognostic significance of PROTEIN0, PROTEIN1, and PROTEIN2 expressions in the metastatic foci of patients with colorectal carcinoma.",
+      "orig_sentence": "In this study, we evaluated the prognostic significance of E-cadherin, alpha-catenin, and beta-catenin expressions in the metastatic foci of patients with colorectal carcinoma.",
+      "proteins": [
+        "E-cadherin",
+        "alpha-catenin",
+        "beta-catenin"
+      ],
+      "relations": {}
+    },
+    "BioInfer.d90.s2": {
+      "sentence": "RESULTS: Reduced normal expression of PROTEIN0, PROTEIN1, and PROTEIN2 in comparison with normal epithelium was detected in 78 primary tumors, respectively.",
+      "orig_sentence": "RESULTS: Reduced normal expression of E-cadherin, alpha-catenin, and beta-catenin in comparison with normal epithelium was detected in 78 primary tumors, respectively.",
+      "proteins": [
+        "E-cadherin",
+        "alpha-catenin",
+        "beta-catenin"
+      ],
+      "relations": {}
+    },
+    "BioInfer.d93.s0": {
+      "sentence": "Because PROTEIN0 PROTEIN1 shares many structural features with PROTEIN2 PROTEIN3 and is intimately associated with PROTEIN4 in the assembled nucleosome, we asked whether PROTEIN5 has similar functions.",
+      "orig_sentence": "Because histone H3 shares many structural features with histone H4 and is intimately associated with H4 in the assembled nucleosome, we asked whether H3 has similar functions.",
+      "proteins": [
+        "histone",
+        "H3",
+        "histone",
+        "H4",
+        "H4",
+        "H3"
+      ],
+      "relations": {
+        "[0, 1]": "PPI",
+        "[1, 3]": "PPI",
+        "[1, 4]": "PPI",
+        "[2, 3]": "PPI"
+      }
+    },
+    "BioInfer.d98.s0": {
+      "sentence": "Binding to human PROTEIN0 by PROTEIN1 and antibodies that inhibit ligand binding involves overlapping, discontinuous sites on a predicted beta propeller domain.",
+      "orig_sentence": "Binding to human dipeptidyl peptidase IV by adenosine deaminase and antibodies that inhibit ligand binding involves overlapping, discontinuous sites on a predicted beta propeller domain.",
+      "proteins": [
+        "dipeptidyl peptidase IV",
+        "adenosine deaminase"
+      ],
+      "relations": {
+        "[0, 1]": "PPI"
+      }
+    },
+    "BioInfer.d101.s0": {
+      "sentence": "Biopsies taken prior to NAC and operative specimens were subjected to immunohistochemical (IHC) staining for PROTEIN0, PROTEIN1, PROTEIN2, and PROTEIN3 (PROTEIN4), to uncover the role of adhesion molecules as determinants of the response to NAC and disease outcome.",
+      "orig_sentence": "Biopsies taken prior to NAC and operative specimens were subjected to immunohistochemical (IHC) staining for alpha-catenin, beta-catenin, E-cadherin, and CD44 isoform 6 (CD44v6), to uncover the role of adhesion molecules as determinants of the response to NAC and disease outcome.",
+      "proteins": [
+        "alpha-catenin",
+        "beta-catenin",
+        "E-cadherin",
+        "CD44 6",
+        "CD44v6"
+      ],
+      "relations": {}
+    },
+    "BioInfer.d109.s0": {
+      "sentence": "PROTEIN0 (PROTEIN1) is a 130-kDa transmembrane receptor for PROTEIN2, mediators of neuronal guidance, and for PROTEIN3 (PROTEIN4), an angiogenesis factor.",
+      "orig_sentence": "Neuropilin-1 (NRP1) is a 130-kDa transmembrane receptor for semaphorins, mediators of neuronal guidance, and for vascular endothelial growth factor 165 (VEGF(165)), an angiogenesis factor.",
+      "proteins": [
+        "Neuropilin-1",
+        "NRP1",
+        "semaphorins",
+        "vascular endothelial growth factor 165",
+        "VEGF(165)"
+      ],
+      "relations": {
+        "[0, 2]": "PPI",
+        "[0, 3]": "PPI",
+        "[0, 4]": "PPI",
+        "[1, 2]": "PPI",
+        "[1, 3]": "PPI",
+        "[1, 4]": "PPI"
+      }
+    },
+    "BioInfer.d109.s1": {
+      "sentence": "A 2.2-kb truncated PROTEIN0 cDNA was cloned that encodes a 644-aa PROTEIN1 (PROTEIN2) isoform containing just the a/PROTEIN3 and b/PROTEIN4 homology extracellular domains of PROTEIN5 PROTEIN6.",
+      "orig_sentence": "A 2.2-kb truncated NRP1 cDNA was cloned that encodes a 644-aa soluble NRP1 (sNRP1) isoform containing just the a/CUB and b/coagulation factor homology extracellular domains of NRP1.",
+      "proteins": [
+        "NRP1",
+        "soluble NRP1",
+        "sNRP1",
+        "CUB",
+        "coagulation factor",
+        "NRP1",
+        "NRP1"
+      ],
+      "relations": {
+        "[0, 1]": "PPI",
+        "[0, 2]": "PPI",
+        "[3, 5]": "PPI",
+        "[4, 5]": "PPI"
+      }
+    },
+    "BioInfer.d109.s2": {
+      "sentence": "PROTEIN0 is secreted by cells as a 90-kDa protein that binds PROTEIN1, but not PROTEIN2.",
+      "orig_sentence": "sNRP1 is secreted by cells as a 90-kDa protein that binds VEGF(165), but not VEGF(121).",
+      "proteins": [
+        "sNRP1",
+        "VEGF(165)",
+        "VEGF(121)"
+      ],
+      "relations": {
+        "[0, 1]": "PPI",
+        "[0, 2]": "PPI"
+      }
+    },
+    "BioInfer.d110.s0": {
+      "sentence": "Both complexes are composed of PROTEIN0 and PROTEIN1 which bind to either PROTEIN2 or PROTEIN3 in a mutually exclusive manner.",
+      "orig_sentence": "Both complexes are composed of N-cadherin and alpha-catenin which bind to either beta-catenin or plakoglobin in a mutually exclusive manner.",
+      "proteins": [
+        "N-cadherin",
+        "alpha-catenin",
+        "beta-catenin",
+        "plakoglobin"
+      ],
+      "relations": {
+        "[0, 1]": "PPI",
+        "[0, 2]": "PPI",
+        "[0, 3]": "PPI",
+        "[1, 2]": "PPI",
+        "[1, 3]": "PPI"
+      }
+    },
+    "BioInfer.d120.s0": {
+      "sentence": "By the use of HSV mutants for the PROTEIN0 gene we show here that HSV can induce DNA amplification in the absence of lytic viral growth in contrast to replication-negative mutants for either the PROTEIN1 or PROTEIN2 gene used as control.",
+      "orig_sentence": "By the use of HSV mutants for the UL9 gene we show here that HSV can induce DNA amplification in the absence of lytic viral growth in contrast to replication-negative mutants for either the UL8 or UL52 gene used as control.",
+      "proteins": [
+        "UL9",
+        "UL8",
+        "UL52"
+      ],
+      "relations": {}
+    },
+    "BioInfer.d125.s0": {
+      "sentence": "Calculated solution molecular masses are 213 kDa for PROTEIN0, 73 kDa for PROTEIN1, and 186 kDa for both.",
+      "orig_sentence": "Calculated solution molecular masses are 213 kDa for alpha-catenin, 73 kDa for beta-catenin, and 186 kDa for both.",
+      "proteins": [
+        "alpha-catenin",
+        "beta-catenin"
+      ],
+      "relations": {}
+    },
+    "BioInfer.d128.s0": {
+      "sentence": "Cardiac hypertrophy and the steady state level of the \"fetal\" genes, PROTEIN0, PROTEIN1 (PROTEIN2), and PROTEIN3 (PROTEIN4) mRNAs were assessed.",
+      "orig_sentence": "Cardiac hypertrophy and the steady state level of the \"fetal\" genes, ANP, alpha-skeletal actin (alpha-skA), and beta myosin heavy chain (beta-MHC) mRNAs were assessed.",
+      "proteins": [
+        "ANP",
+        "alpha-skeletal actin",
+        "alpha-skA",
+        "beta myosin heavy chain",
+        "beta-MHC"
+      ],
+      "relations": {}
+    },
+    "BioInfer.d132.s0": {
+      "sentence": "Cells lacking PROTEIN0, a protein which in many mammalian cell types is a constituent of focal complexes that link the PROTEIN1 cytoskeleton to the plasma membrane, are strongly impaired in adhesion to external surfaces.",
+      "orig_sentence": "Cells lacking talin, a protein which in many mammalian cell types is a constituent of focal complexes that link the actin cytoskeleton to the plasma membrane, are strongly impaired in adhesion to external surfaces.",
+      "proteins": [
+        "talin",
+        "actin"
+      ],
+      "relations": {}
+    },
+    "BioInfer.d138.s0": {
+      "sentence": "Characterization of PROTEIN0 and PROTEIN1 DNA mismatch repair proteins in cell lines of the NCI anticancer drug screen.",
+      "orig_sentence": "Characterization of MLH1 and MSH2 DNA mismatch repair proteins in cell lines of the NCI anticancer drug screen.",
+      "proteins": [
+        "MLH1",
+        "MSH2"
+      ],
+      "relations": {}
+    },
+    "BioInfer.d145.s0": {
+      "sentence": "cDNA clones of the PROTEIN0, PROTEIN1, and PROTEIN2 genes were constructed in pGEM-based expression plasmids and shown to direct expression of the appropriate polypeptides.",
+      "orig_sentence": "cDNA clones of the N, P, and L genes were constructed in pGEM-based expression plasmids and shown to direct expression of the appropriate polypeptides.",
+      "proteins": [
+        "N",
+        "P",
+        "L"
+      ],
+      "relations": {}
+    },
+    "BioInfer.d146.s0": {
+      "sentence": "PROTEIN0 and PROTEIN1 may also be involved in the redistribution of PROTEIN2 during myofibrillogenesis and in the process of PROTEIN3 disassembly in degenerating muscles.",
+      "orig_sentence": "Cofilin and profilin may also be involved in the redistribution of actin during myofibrillogenesis and in the process of actin disassembly in degenerating muscles.",
+      "proteins": [
+        "Cofilin",
+        "profilin",
+        "actin",
+        "actin"
+      ],
+      "relations": {
+        "[0, 2]": "PPI",
+        "[0, 3]": "PPI",
+        "[1, 2]": "PPI",
+        "[1, 3]": "PPI"
+      }
+    },
+    "BioInfer.d152.s0": {
+      "sentence": "CONCLUSION: The results show that PROTEIN0 and PROTEIN1 form a complex in vivo and suggest that they participate in epithelial cell differentiation and targeted vesicle transport processes in the developing kidney.",
+      "orig_sentence": "CONCLUSION: The results show that Munc-18-2 and syntaxin 3 form a complex in vivo and suggest that they participate in epithelial cell differentiation and targeted vesicle transport processes in the developing kidney.",
+      "proteins": [
+        "Munc-18-2",
+        "syntaxin 3"
+      ],
+      "relations": {
+        "[0, 1]": "PPI"
+      }
+    },
+    "BioInfer.d176.s0": {
+      "sentence": "Dispersal of PROTEIN0 from such sites by oligoproline-rich peptide inhibitors suggests that PROTEIN1 is directly involved in intracellular pathogen locomotion and reorganization of PROTEIN2 cytoskeleton of the host cell peripheral membrane.",
+      "orig_sentence": "Dispersal of profilin from such sites by oligoproline-rich peptide inhibitors suggests that profilin is directly involved in intracellular pathogen locomotion and reorganization of actin cytoskeleton of the host cell peripheral membrane.",
+      "proteins": [
+        "profilin",
+        "profilin",
+        "actin"
+      ],
+      "relations": {
+        "[1, 2]": "PPI"
+      }
+    },
+    "BioInfer.d194.s0": {
+      "sentence": "Even though rates of total protein and PROTEIN0 synthesis resembled values measured in vivo, PROTEIN1 fractional rate of synthesis was only 22% of in vivo levels.",
+      "orig_sentence": "Even though rates of total protein and actin synthesis resembled values measured in vivo, myosin heavy chain fractional rate of synthesis was only 22% of in vivo levels.",
+      "proteins": [
+        "actin",
+        "myosin heavy chain"
+      ],
+      "relations": {}
+    },
+    "BioInfer.d196.s0": {
+      "sentence": "Evidence suggests that this differential recognition bears functional significance concerning the intricate roles of PROTEIN0 and inositol lipids in modulating PROTEIN1 polymerization and PtdIns(4,5)P2 turnover.",
+      "orig_sentence": "Evidence suggests that this differential recognition bears functional significance concerning the intricate roles of profilin and inositol lipids in modulating actin polymerization and PtdIns(4,5)P2 turnover.",
+      "proteins": [
+        "profilin",
+        "actin"
+      ],
+      "relations": {
+        "[0, 1]": "PPI"
+      }
+    },
+    "BioInfer.d198.s0": {
+      "sentence": "Experiments performed using extracts from doubly infected cells indicated that PROTEIN0 could interact separately with both the PROTEIN1 and PROTEIN2 proteins.",
+      "orig_sentence": "Experiments performed using extracts from doubly infected cells indicated that UL8 could interact separately with both the UL5 and UL52 proteins.",
+      "proteins": [
+        "UL8",
+        "UL5",
+        "UL52"
+      ],
+      "relations": {
+        "[0, 1]": "PPI",
+        "[0, 2]": "PPI",
+        "[1, 2]": "PPI"
+      }
+    },
+    "BioInfer.d198.s1": {
+      "sentence": "PROTEIN0 was shown to recognize the PROTEIN1 protein in both Western blots and immunoprecipitation assays and to co-precipitate the other two proteins in the complex from insect cells triply infected with recombinants expressing the PROTEIN2, PROTEIN3 and PROTEIN4 polypeptides.",
+      "orig_sentence": "MAb 0811 was shown to recognize the UL8 protein in both Western blots and immunoprecipitation assays and to co-precipitate the other two proteins in the complex from insect cells triply infected with recombinants expressing the UL5, UL8 and UL52 polypeptides.",
+      "proteins": [
+        "MAb 0811",
+        "UL8",
+        "UL5",
+        "UL8",
+        "UL52"
+      ],
+      "relations": {
+        "[0, 1]": "PPI"
+      }
+    },
+    "BioInfer.d200.s0": {
+      "sentence": "Exposure of the rabbit retina to a combination of an PROTEIN0 antagonist, 8-cyclopentyl-1,3 dipropylxanthine (DPCPX), and PROTEIN1 did not affect the enhancing action of DAMGO on the light-evoked release of ACh.",
+      "orig_sentence": "Exposure of the rabbit retina to a combination of an A1-adenosine receptor antagonist, 8-cyclopentyl-1,3 dipropylxanthine (DPCPX), and adenosine deaminase did not affect the enhancing action of DAMGO on the light-evoked release of ACh.",
+      "proteins": [
+        "A1-adenosine receptor",
+        "adenosine deaminase"
+      ],
+      "relations": {}
+    },
+    "BioInfer.d203.s0": {
+      "sentence": "Expression of PROTEIN0 was investigated in normal breast tissue and 66 breast carcinomas in conjunction with expression of PROTEIN1 (PROTEIN2) and PROTEIN3.",
+      "orig_sentence": "Expression of beta-catenin was investigated in normal breast tissue and 66 breast carcinomas in conjunction with expression of epithelial cadherin (E-CD) and alpha-catenin.",
+      "proteins": [
+        "beta-catenin",
+        "epithelial cadherin",
+        "E-CD",
+        "alpha-catenin"
+      ],
+      "relations": {}
+    },
+    "BioInfer.d203.s1": {
+      "sentence": "In invasive ductal carcinomas, PROTEIN0 was reduced more frequently in diffuse than in solid type tumours, whereas the level of expression of PROTEIN1 and PROTEIN2 was unchanged between them.",
+      "orig_sentence": "In invasive ductal carcinomas, alpha-catenin was reduced more frequently in diffuse than in solid type tumours, whereas the level of expression of beta-catenin and E-CD was unchanged between them.",
+      "proteins": [
+        "alpha-catenin",
+        "beta-catenin",
+        "E-CD"
+      ],
+      "relations": {}
+    },
+    "BioInfer.d206.s0": {
+      "sentence": "Expressions of PROTEIN0 PROTEIN1 PROTEIN2 in Hodgkin and Reed-Sternberg cells: not suppressed by PROTEIN3 PROTEIN4 expression.",
+      "orig_sentence": "Expressions of cyclin E, A, and B1 in Hodgkin and Reed-Sternberg cells: not suppressed by cyclin-dependent kinase inhibitor p21 expression.",
+      "proteins": [
+        "cyclin B1",
+        "cyclin E",
+        "cyclin A",
+        "cyclin-dependent kinase inhibitor",
+        "p21"
+      ],
+      "relations": {
+        "[0, 4]": "PPI",
+        "[1, 4]": "PPI",
+        "[2, 4]": "PPI",
+        "[3, 4]": "PPI"
+      }
+    },
+    "BioInfer.d211.s0": {
+      "sentence": "Finally, we used in vitro translated proteins in an immunoprecipitation assay to show that, like PROTEIN0, both PROTEIN1 PROTEIN2 interact with peptides encoding the PROTEIN3-binding region of PROTEIN4, PROTEIN5/PROTEIN6, and the Torpedo PROTEIN7 protein.",
+      "orig_sentence": "Finally, we used in vitro translated proteins in an immunoprecipitation assay to show that, like beta 1-syntrophin, both beta 2- and alpha 1-syntrophin interact with peptides encoding the syntrophin-binding region of dystrophin, utrophin/dystrophin related protein, and the Torpedo 87K protein.",
+      "proteins": [
+        "beta 1-syntrophin",
+        "beta 2- syntrophin",
+        "alpha 1-syntrophin",
+        "syntrophin",
+        "dystrophin",
+        "utrophin",
+        "dystrophin related protein",
+        "87K"
+      ],
+      "relations": {
+        "[0, 4]": "PPI",
+        "[0, 5]": "PPI",
+        "[0, 6]": "PPI",
+        "[0, 7]": "PPI",
+        "[1, 4]": "PPI",
+        "[1, 5]": "PPI",
+        "[1, 6]": "PPI",
+        "[1, 7]": "PPI",
+        "[2, 4]": "PPI",
+        "[2, 5]": "PPI",
+        "[2, 6]": "PPI",
+        "[2, 7]": "PPI",
+        "[3, 4]": "PPI"
+      }
+    },
+    "BioInfer.d217.s0": {
+      "sentence": "From previous work, the PROTEIN0, PROTEIN1, and PROTEIN2 gene products also appear to be involved in linking PROTEIN3 to the PROTEIN4 cytoskeleton.",
+      "orig_sentence": "From previous work, the BNI1, GIC1, and GIC2 gene products also appear to be involved in linking Cdc42p to the actin cytoskeleton.",
+      "proteins": [
+        "BNI1",
+        "GIC1",
+        "GIC2",
+        "Cdc42p",
+        "actin"
+      ],
+      "relations": {
+        "[0, 3]": "PPI",
+        "[0, 4]": "PPI",
+        "[1, 3]": "PPI",
+        "[1, 4]": "PPI",
+        "[2, 3]": "PPI",
+        "[2, 4]": "PPI",
+        "[3, 4]": "PPI"
+      }
+    },
+    "BioInfer.d219.s0": {
+      "sentence": "From these we have isolated eight viable and lethal alleles of the PROTEIN0 gene, and seven viable alleles of the indirect flight muscle (IFM)-specific PROTEIN1 PROTEIN2 gene.",
+      "orig_sentence": "From these we have isolated eight viable and lethal alleles of the muscle myosin heavy chain gene, and seven viable alleles of the indirect flight muscle (IFM)-specific Act88F actin gene.",
+      "proteins": [
+        "muscle myosin heavy chain",
+        "Act88F",
+        "actin"
+      ],
+      "relations": {
+        "[1, 2]": "PPI"
+      }
+    },
+    "BioInfer.d220.s0": {
+      "sentence": "Frozen tissue sections, isolated cardiomyocytes, cultured neonatal cardiomyocytes and fibroblasts were hybridized with DNA probes for type-specific PROTEIN0, PROTEIN1, and PROTEIN2.",
+      "orig_sentence": "Frozen tissue sections, isolated cardiomyocytes, cultured neonatal cardiomyocytes and fibroblasts were hybridized with DNA probes for type-specific collagens, actin, and myosin heavy chain.",
+      "proteins": [
+        "collagens",
+        "actin",
+        "myosin heavy chain"
+      ],
+      "relations": {}
+    },
+    "BioInfer.d221.s0": {
+      "sentence": "Further deletion analysis demonstrated that this fragment contains three regions, which are important for nucleation and share functional and/or limited sequence similarity with host PROTEIN0 family proteins: an acidic stretch, an PROTEIN1 monomer-binding region, and a PROTEIN2 homology sequence.",
+      "orig_sentence": "Further deletion analysis demonstrated that this fragment contains three regions, which are important for nucleation and share functional and/or limited sequence similarity with host WASP family proteins: an acidic stretch, an actin monomer-binding region, and a cofilin homology sequence.",
+      "proteins": [
+        "WASP",
+        "actin",
+        "cofilin"
+      ],
+      "relations": {
+        "[0, 1]": "PPI",
+        "[0, 2]": "PPI"
+      }
+    },
+    "BioInfer.d221.s1": {
+      "sentence": "The PROTEIN0 homology sequence is critical for stimulating PROTEIN1 nucleation with the PROTEIN2 PROTEIN3 complex in vitro, and is essential for PROTEIN4 polymerization and motility in cells.",
+      "orig_sentence": "The cofilin homology sequence is critical for stimulating actin nucleation with the Arp2/3 complex in vitro, and is essential for actin polymerization and motility in cells.",
+      "proteins": [
+        "cofilin",
+        "actin",
+        "Arp2",
+        "Arp 3",
+        "actin"
+      ],
+      "relations": {
+        "[0, 1]": "PPI",
+        "[0, 4]": "PPI",
+        "[1, 2]": "PPI",
+        "[1, 3]": "PPI",
+        "[2, 3]": "PPI"
+      }
+    },
+    "BioInfer.d228.s0": {
+      "sentence": "Fusion of the endocardial ridges of the truncus on late ED13 is accompanied by the organization of PROTEIN0-and PROTEIN1-positive myofibroblasts into a central whorl and the appearance of the semilunar valve anlagen at their definitive topographical position within the proximal portion of the truncus.",
+      "orig_sentence": "Fusion of the endocardial ridges of the truncus on late ED13 is accompanied by the organization of alpha-smooth muscle actin-and nonmuscle myosin heavy chain-positive myofibroblasts into a central whorl and the appearance of the semilunar valve anlagen at their definitive topographical position within the proximal portion of the truncus.",
+      "proteins": [
+        "alpha-smooth muscle actin",
+        "nonmuscle myosin heavy chain"
+      ],
+      "relations": {}
+    },
+    "BioInfer.d231.s0": {
+      "sentence": "Genetic analysis suggested that this phenotype was due to PROTEIN0 sequestering PROTEIN1 and preventing it from interacting with PROTEIN2 and PROTEIN3.",
+      "orig_sentence": "Genetic analysis suggested that this phenotype was due to msh6-F337A sequestering MSH2 and preventing it from interacting with MSH3 and MSH6.",
+      "proteins": [
+        "msh6-F337A",
+        "MSH2",
+        "MSH3",
+        "MSH6"
+      ],
+      "relations": {
+        "[0, 1]": "PPI",
+        "[0, 2]": "PPI",
+        "[0, 3]": "PPI",
+        "[1, 2]": "PPI",
+        "[1, 3]": "PPI"
+      }
+    },
+    "BioInfer.d235.s0": {
+      "sentence": "PROTEIN0 is not likely to be a PROTEIN1, PROTEIN2, PROTEIN3, or PROTEIN4 based on the lack of reactivity of PROTEIN5 with these polypeptides in immunoblots.",
+      "orig_sentence": "Gravin is not likely to be a nonerythroid spectrin, talin, myosin, or actin-binding protein based on the lack of reactivity of antigravin with these polypeptides in immunoblots.",
+      "proteins": [
+        "Gravin",
+        "nonerythroid spectrin",
+        "talin",
+        "myosin",
+        "actin-binding protein",
+        "antigravin"
+      ],
+      "relations": {
+        "[1, 5]": "PPI",
+        "[2, 5]": "PPI",
+        "[3, 5]": "PPI",
+        "[4, 5]": "PPI"
+      }
+    },
+    "BioInfer.d253.s0": {
+      "sentence": "Here we show that the PROTEIN0-dependent proteolysis system is involved in the regulation of PROTEIN1 turnover.",
+      "orig_sentence": "Here we show that the ubiquitin-dependent proteolysis system is involved in the regulation of beta-catenin turnover.",
+      "proteins": [
+        "ubiquitin",
+        "beta-catenin"
+      ],
+      "relations": {
+        "[0, 1]": "PPI"
+      }
+    },
+    "BioInfer.d253.s1": {
+      "sentence": "PROTEIN0, but not PROTEIN1, PROTEIN2(PROTEIN3) or PROTEIN4, becomes stabilized when PROTEIN5-mediated proteolysis is inhibited and this leads to the accumulation of multi-ubiquitinated forms of PROTEIN6.",
+      "orig_sentence": "beta-catenin, but not E-cadherin, p120(cas) or alpha-catenin, becomes stabilized when proteasome-mediated proteolysis is inhibited and this leads to the accumulation of multi-ubiquitinated forms of beta-catenin.",
+      "proteins": [
+        "beta-catenin",
+        "E-cadherin",
+        "p120",
+        "cas",
+        "alpha-catenin",
+        "proteasome",
+        "beta-catenin"
+      ],
+      "relations": {}
+    },
+    "BioInfer.d265.s0": {
+      "sentence": "How PROTEIN0/barbed-end synergy controls PROTEIN1 polymerization: a kinetic model of the ATP hydrolysis circuit.",
+      "orig_sentence": "How profilin/barbed-end synergy controls actin polymerization: a kinetic model of the ATP hydrolysis circuit.",
+      "proteins": [
+        "profilin",
+        "actin"
+      ],
+      "relations": {
+        "[0, 1]": "PPI"
+      }
+    },
+    "BioInfer.d265.s1": {
+      "sentence": "In particular, both PROTEIN0 and free filament barbed ends have been shown to play major roles in the processing of ATP by PROTEIN1.",
+      "orig_sentence": "In particular, both profilin and free filament barbed ends have been shown to play major roles in the processing of ATP by actin.",
+      "proteins": [
+        "profilin",
+        "actin"
+      ],
+      "relations": {}
+    },
+    "BioInfer.d265.s2": {
+      "sentence": "We have developed a new integrated kinetic model to examine how the maintenance of the pool of unpolymerized PROTEIN0 and the flux of PROTEIN1 subunits through filaments are controlled by PROTEIN2 and free filament barbed ends through their interaction with ATP.",
+      "orig_sentence": "We have developed a new integrated kinetic model to examine how the maintenance of the pool of unpolymerized actin and the flux of actin subunits through filaments are controlled by profilin and free filament barbed ends through their interaction with ATP.",
+      "proteins": [
+        "actin",
+        "actin",
+        "profilin"
+      ],
+      "relations": {
+        "[0, 2]": "PPI",
+        "[1, 2]": "PPI"
+      }
+    },
+    "BioInfer.d271.s0": {
+      "sentence": "However, in non-adherent cells no molecular mechanism has yet been proposed for the cell adhesion-dependent up-regulation of the PROTEIN0 PROTEIN1 (PROTEIN2), and the associated inhibition of PROTEIN3-PROTEIN4.",
+      "orig_sentence": "However, in non-adherent cells no molecular mechanism has yet been proposed for the cell adhesion-dependent up-regulation of the p27 cyclin-dependent kinase inhibitor (CKI), and the associated inhibition of cyclin E-CDK2.",
+      "proteins": [
+        "p27",
+        "cyclin-dependent kinase inhibitor",
+        "CKI",
+        "cyclin E",
+        "CDK2"
+      ],
+      "relations": {
+        "[0, 1]": "PPI",
+        "[0, 2]": "PPI",
+        "[0, 3]": "PPI",
+        "[0, 4]": "PPI",
+        "[3, 4]": "PPI"
+      }
+    },
+    "BioInfer.d273.s0": {
+      "sentence": "However, regulation of PROTEIN0 function is generally unknown and controversy exists regarding PROTEIN1 effects on PROTEIN2 polymerization.",
+      "orig_sentence": "However, regulation of profilin function is generally unknown and controversy exists regarding profilin effects on actin polymerization.",
+      "proteins": [
+        "profilin",
+        "profilin",
+        "actin"
+      ],
+      "relations": {
+        "[1, 2]": "PPI"
+      }
+    },
+    "BioInfer.d277.s0": {
+      "sentence": "However, there were no changes in the expression of PROTEIN0, PROTEIN1, and PROTEIN2.",
+      "orig_sentence": "However, there were no changes in the expression of E-cadherin, alpha-catenin, and beta-catenin.",
+      "proteins": [
+        "E-cadherin",
+        "alpha-catenin",
+        "beta-catenin"
+      ],
+      "relations": {}
+    },
+    "BioInfer.d286.s0": {
+      "sentence": "Immunoblot and Northern blot analyses also revealed the presence of PROTEIN0, PROTEIN1, and PROTEIN2 (PROTEIN3) in these cell lines.",
+      "orig_sentence": "Immunoblot and Northern blot analyses also revealed the presence of alpha-catenin, beta-catenin, and gamma-catenin (plakoglobin) in these cell lines.",
+      "proteins": [
+        "alpha-catenin",
+        "beta-catenin",
+        "gamma-catenin",
+        "plakoglobin"
+      ],
+      "relations": {}
+    },
+    "BioInfer.d290.s0": {
+      "sentence": "Immunofluorescence studies with these antibodies showed PROTEIN0 to be distributed throughout the Acanthamoeba cytoplasm, except for lamellipodia, with the highest fluorescence intensity in cortical regions in which monomeric PROTEIN1 also was present, as shown by labeling with fluorescent PROTEIN2.",
+      "orig_sentence": "Immunofluorescence studies with these antibodies showed profilin I to be distributed throughout the Acanthamoeba cytoplasm, except for lamellipodia, with the highest fluorescence intensity in cortical regions in which monomeric actin also was present, as shown by labeling with fluorescent DNase.",
+      "proteins": [
+        "profilin I",
+        "actin",
+        "DNase"
+      ],
+      "relations": {
+        "[0, 1]": "PPI"
+      }
+    },
+    "BioInfer.d290.s1": {
+      "sentence": "The differential localization of the three PROTEIN0 monomer-binding proteins suggests that they have different biologic functions in Acanthamoeba and is consistent with the hypotheses that (1) PROTEIN1 functions predominantly as an PROTEIN2 monomer-binding protein; (2) PROTEIN3 regulates, or is regulated by, PIP2; and (3) PROTEIN4 inhibits nucleation of new filaments and facilitates elongation of existing polarized filaments in actively motile regions.",
+      "orig_sentence": "The differential localization of the three actin monomer-binding proteins suggests that they have different biologic functions in Acanthamoeba and is consistent with the hypotheses that (1) profilin I functions predominantly as an actin monomer-binding protein; (2) profilin II regulates, or is regulated by, PIP2; and (3) actobindin inhibits nucleation of new filaments and facilitates elongation of existing polarized filaments in actively motile regions.",
+      "proteins": [
+        "actin",
+        "profilin I",
+        "actin",
+        "profilin II",
+        "actobindin"
+      ],
+      "relations": {
+        "[0, 1]": "PPI",
+        "[0, 3]": "PPI",
+        "[0, 4]": "PPI",
+        "[1, 2]": "PPI"
+      }
+    },
+    "BioInfer.d303.s0": {
+      "sentence": "Immunostaining showed that APBs also contain PROTEIN0, PROTEIN1, and PROTEIN2, proteins involved in DNA synthesis and recombination.",
+      "orig_sentence": "Immunostaining showed that APBs also contain replication factor A, RAD51, and RAD52, proteins involved in DNA synthesis and recombination.",
+      "proteins": [
+        "replication factor A",
+        "RAD51",
+        "RAD52"
+      ],
+      "relations": {
+        "[0, 1]": "PPI",
+        "[0, 2]": "PPI",
+        "[1, 2]": "PPI"
+      }
+    },
+    "BioInfer.d310.s0": {
+      "sentence": "In addition, interactions with components of the phosphatidylinositol cycle and the PROTEIN0 pathway in yeast implicate PROTEIN1 as an important link through which the PROTEIN2 cytoskeleton is able to communicate with major signaling pathways.",
+      "orig_sentence": "In addition, interactions with components of the phosphatidylinositol cycle and the RAS pathway in yeast implicate profilin as an important link through which the actin cytoskeleton is able to communicate with major signaling pathways.",
+      "proteins": [
+        "RAS",
+        "profilin",
+        "actin"
+      ],
+      "relations": {
+        "[0, 1]": "PPI",
+        "[1, 2]": "PPI"
+      }
+    },
+    "BioInfer.d310.s1": {
+      "sentence": "So far, three ligands for PROTEIN0 have been well-characterized in vitro: PROTEIN1 monomers, membrane polyphosphoinositides and poly-L-proline.",
+      "orig_sentence": "So far, three ligands for profilin have been well-characterized in vitro: actin monomers, membrane polyphosphoinositides and poly-L-proline.",
+      "proteins": [
+        "profilin",
+        "actin"
+      ],
+      "relations": {
+        "[0, 1]": "PPI"
+      }
+    },
+    "BioInfer.d318.s0": {
+      "sentence": "In adherens junctions, the cytoplasmic domain of PROTEIN0 bind to PROTEIN1, which in turn binds to the PROTEIN2-associated protein PROTEIN3.",
+      "orig_sentence": "In adherens junctions, the cytoplasmic domain of cadherins bind to beta-catenin, which in turn binds to the actin-associated protein alpha-catenin.",
+      "proteins": [
+        "cadherins",
+        "beta-catenin",
+        "actin",
+        "alpha-catenin"
+      ],
+      "relations": {
+        "[0, 1]": "PPI",
+        "[1, 3]": "PPI",
+        "[2, 3]": "PPI"
+      }
+    },
+    "BioInfer.d326.s0": {
+      "sentence": "In contrast, EC located immediately behind the migrating front retained junctional PROTEIN0, PROTEIN1, and PROTEIN2 while PROTEIN3 was absent from these sites.",
+      "orig_sentence": "In contrast, EC located immediately behind the migrating front retained junctional VE-cadherin, alpha-catenin, and beta-catenin while plakoglobin was absent from these sites.",
+      "proteins": [
+        "VE-cadherin",
+        "alpha-catenin",
+        "beta-catenin",
+        "plakoglobin"
+      ],
+      "relations": {}
+    },
+    "BioInfer.d328.s0": {
+      "sentence": "In contrast to the PROTEIN0(Min/+) enterocytes, PROTEIN1(Min/-) adenomas displayed increased expression and association of PROTEIN2, PROTEIN3, and PROTEIN4 relative to PROTEIN5(+/+) controls.",
+      "orig_sentence": "In contrast to the Apc(Min/+) enterocytes, Apc(Min/-) adenomas displayed increased expression and association of E-cadherin, beta-catenin, and alpha-catenin relative to Apc(+/+) controls.",
+      "proteins": [
+        "Apc",
+        "Apc",
+        "E-cadherin",
+        "beta-catenin",
+        "alpha-catenin",
+        "Apc"
+      ],
+      "relations": {
+        "[2, 3]": "PPI",
+        "[2, 4]": "PPI",
+        "[3, 4]": "PPI"
+      }
+    },
+    "BioInfer.d341.s0": {
+      "sentence": "Inhibition of PROTEIN0 expression or induction of PROTEIN1 PROTEIN2 expression was found in mimosine-treated lung cancer cells.",
+      "orig_sentence": "Inhibition of cyclin D1 expression or induction of cyclin-dependent kinase inhibitor p21WAF1 expression was found in mimosine-treated lung cancer cells.",
+      "proteins": [
+        "cyclin D1",
+        "cyclin-dependent kinase inhibitor",
+        "p21WAF1"
+      ],
+      "relations": {
+        "[1, 2]": "PPI"
+      }
+    },
+    "BioInfer.d344.s0": {
+      "sentence": "In infected cells, PROTEIN0 was detected exclusively in the cytoplasm as granular fluorescence, which coincided very well with the distribution of PROTEIN1 PROTEIN2 and PROTEIN3 PROTEIN4, which were also detected with specific antisera.",
+      "orig_sentence": "In infected cells, C protein was detected exclusively in the cytoplasm as granular fluorescence, which coincided very well with the distribution of nucleocapsid protein NP and phosphoprotein P, which were also detected with specific antisera.",
+      "proteins": [
+        "C protein",
+        "nucleocapsid protein",
+        "NP",
+        "phosphoprotein",
+        "P"
+      ],
+      "relations": {
+        "[0, 2]": "PPI",
+        "[0, 4]": "PPI",
+        "[1, 2]": "PPI",
+        "[3, 4]": "PPI"
+      }
+    },
+    "BioInfer.d345.s0": {
+      "sentence": "In investigating the mechanism by which PROTEIN0 induces senescence, we have found that PROTEIN1 causes a posttranscriptional accumulation of the PROTEIN2 PROTEIN3(PROTEIN4) that is accompanied by an increase in PROTEIN5(PROTEIN6) specifically bound to PROTEIN7 and a concomitant decrease in PROTEIN8 activity.",
+      "orig_sentence": "In investigating the mechanism by which pRb induces senescence, we have found that pRb causes a posttranscriptional accumulation of the cyclin-dependent kinase inhibitor p27(KIP1) that is accompanied by an increase in p27(KIP1) specifically bound to cyclin E and a concomitant decrease in cyclin E-associated kinase activity.",
+      "proteins": [
+        "pRb",
+        "pRb",
+        "cyclin-dependent kinase inhibitor",
+        "p27",
+        "KIP1",
+        "p27",
+        "KIP1",
+        "cyclin E",
+        "cyclin E-associated kinase"
+      ],
+      "relations": {
+        "[1, 3]": "PPI",
+        "[1, 4]": "PPI",
+        "[2, 3]": "PPI",
+        "[2, 4]": "PPI",
+        "[3, 5]": "PPI",
+        "[3, 6]": "PPI",
+        "[3, 8]": "PPI",
+        "[4, 5]": "PPI",
+        "[4, 6]": "PPI",
+        "[4, 8]": "PPI",
+        "[5, 7]": "PPI",
+        "[5, 8]": "PPI",
+        "[6, 7]": "PPI",
+        "[6, 8]": "PPI"
+      }
+    },
+    "BioInfer.d349.s0": {
+      "sentence": "In order to determine possible changes in the cytoskeleton organization and function during these processes, we have studied the in situ distribution of two major cytoskeleton-associated elements involved in the membrane anchorage of PROTEIN0 microfilaments, i.e. PROTEIN1 and PROTEIN2, during the ontogeny of the neural crest and its derivatives in the avian embryo.",
+      "orig_sentence": "In order to determine possible changes in the cytoskeleton organization and function during these processes, we have studied the in situ distribution of two major cytoskeleton-associated elements involved in the membrane anchorage of actin microfilaments, i.e. vinculin and talin, during the ontogeny of the neural crest and its derivatives in the avian embryo.",
+      "proteins": [
+        "actin",
+        "vinculin",
+        "talin"
+      ],
+      "relations": {
+        "[0, 1]": "PPI",
+        "[0, 2]": "PPI"
+      }
+    },
+    "BioInfer.d362.s0": {
+      "sentence": "Interestingly, the regions that show the most structural diversity are located at or near the PROTEIN0-binding site of PROTEIN1.",
+      "orig_sentence": "Interestingly, the regions that show the most structural diversity are located at or near the actin-binding site of profilin.",
+      "proteins": [
+        "actin",
+        "profilin"
+      ],
+      "relations": {
+        "[0, 1]": "PPI"
+      }
+    },
+    "BioInfer.d363.s0": {
+      "sentence": "Interestingly, two major PROTEIN0 found in brain, PROTEIN1 and PROTEIN2, specifically interact with phosphatidylinositol 4,5-bisphosphate, and may themselves play a role in regulating phosphoinositide turnover.",
+      "orig_sentence": "Interestingly, two major actin-binding proteins found in brain, gelsolin and profilin, specifically interact with phosphatidylinositol 4,5-bisphosphate, and may themselves play a role in regulating phosphoinositide turnover.",
+      "proteins": [
+        "actin-binding proteins",
+        "gelsolin",
+        "profilin"
+      ],
+      "relations": {
+        "[0, 1]": "PPI",
+        "[0, 2]": "PPI"
+      }
+    },
+    "BioInfer.d368.s0": {
+      "sentence": "In the hippocampus, ATP gamma S, an ATP analogue more resistant to catabolism than ATP, was virtually devoid of effect on tritium release, and the effect of ATP was prevented by the PROTEIN0 inhibitor alpha,beta-methylene ADP (100 microM), by PROTEIN1 (2 U/ml) and by the PROTEIN2 antagonist 1,3-dipropyl-8-cyclopentylxanthine (DPCPX, 20 nM).",
+      "orig_sentence": "In the hippocampus, ATP gamma S, an ATP analogue more resistant to catabolism than ATP, was virtually devoid of effect on tritium release, and the effect of ATP was prevented by the ecto-5'-nucleotidase inhibitor alpha,beta-methylene ADP (100 microM), by adenosine deaminase (2 U/ml) and by the A1 adenosine receptor antagonist 1,3-dipropyl-8-cyclopentylxanthine (DPCPX, 20 nM).",
+      "proteins": [
+        "ecto-5'-nucleotidase",
+        "adenosine deaminase",
+        "A1 adenosine receptor"
+      ],
+      "relations": {}
+    },
+    "BioInfer.d369.s0": {
+      "sentence": "In their cytoplasmic region, some of these receptors share a conserved sequence motif - the 'death domain' - which is required for transduction of the apoptotic signal by recruiting other death-domain-containing adaptor molecules like the PROTEIN0-associated protein PROTEIN1/PROTEIN2 or the PROTEIN3-associated protein PROTEIN4 [2-4].",
+      "orig_sentence": "In their cytoplasmic region, some of these receptors share a conserved sequence motif - the 'death domain' - which is required for transduction of the apoptotic signal by recruiting other death-domain-containing adaptor molecules like the Fas-associated protein FADD/MORT1 or the TNF receptor-associated protein TRADD [2-4].",
+      "proteins": [
+        "Fas",
+        "FADD",
+        "MORT1",
+        "TNF receptor",
+        "TRADD"
+      ],
+      "relations": {
+        "[0, 1]": "PPI",
+        "[0, 2]": "PPI",
+        "[3, 4]": "PPI"
+      }
+    },
+    "BioInfer.d371.s0": {
+      "sentence": "In the present work we have used PROTEIN0 and PROTEIN1 injections, as well as latrunculin B and cytochalasin D treatments, under quantitatively controlled conditions, to perturb PROTEIN2 microfilament structure and assembly in an attempt to answer this question.",
+      "orig_sentence": "In the present work we have used profilin and DNAse I injections, as well as latrunculin B and cytochalasin D treatments, under quantitatively controlled conditions, to perturb actin microfilament structure and assembly in an attempt to answer this question.",
+      "proteins": [
+        "profilin",
+        "DNAse I",
+        "actin"
+      ],
+      "relations": {}
+    },
+    "BioInfer.d380.s0": {
+      "sentence": "In this study we aimed to determine which type of expression abnormalities for PROTEIN0, PROTEIN1 and PROTEIN2 correlate with clinico-pathological features and survival in gastric cancer.",
+      "orig_sentence": "In this study we aimed to determine which type of expression abnormalities for E-cadherin, beta-catenin and alpha-catenin correlate with clinico-pathological features and survival in gastric cancer.",
+      "proteins": [
+        "E-cadherin",
+        "beta-catenin",
+        "alpha-catenin"
+      ],
+      "relations": {}
+    },
+    "BioInfer.d382.s0": {
+      "sentence": "In this study, we demonstrate that PROTEIN0 isoforms expressed in a single cell can have different effects on PROTEIN1 in living cells and that the poly-L-proline binding function of PROTEIN2 may have important consequences for the regulation of PROTEIN3 cytoskeletal dynamics in plant cells.",
+      "orig_sentence": "In this study, we demonstrate that profilin isoforms expressed in a single cell can have different effects on actin in living cells and that the poly-L-proline binding function of profilin may have important consequences for the regulation of actin cytoskeletal dynamics in plant cells.",
+      "proteins": [
+        "profilin",
+        "actin",
+        "profilin",
+        "actin"
+      ],
+      "relations": {
+        "[0, 1]": "PPI",
+        "[2, 3]": "PPI"
+      }
+    },
+    "BioInfer.d382.s1": {
+      "sentence": "Recently, we characterized several PROTEIN0 isoforms from maize pollen for their ability to alter cytoarchitecture when microinjected into living plant cells and for their association with poly-L-proline and monomeric PROTEIN1 from maize pollen.",
+      "orig_sentence": "Recently, we characterized several profilin isoforms from maize pollen for their ability to alter cytoarchitecture when microinjected into living plant cells and for their association with poly-L-proline and monomeric actin from maize pollen.",
+      "proteins": [
+        "profilin",
+        "actin"
+      ],
+      "relations": {
+        "[0, 1]": "PPI"
+      }
+    },
+    "BioInfer.d382.s2": {
+      "sentence": "The affinity of PROTEIN0 for monomeric PROTEIN1, which was measured by two independent methods, is similar to that of the three PROTEIN2 isoforms previously identified in pollen.",
+      "orig_sentence": "The affinity of ZmPRO4 for monomeric actin, which was measured by two independent methods, is similar to that of the three profilin isoforms previously identified in pollen.",
+      "proteins": [
+        "ZmPRO4",
+        "actin",
+        "profilin"
+      ],
+      "relations": {
+        "[0, 1]": "PPI",
+        "[1, 2]": "PPI"
+      }
+    },
+    "BioInfer.d382.s3": {
+      "sentence": "When PROTEIN0 was microinjected into plant cells, the effect on PROTEIN1-dependent nuclear position was significantly more rapid than that of another pollen PROTEIN2 isoform, PROTEIN3.",
+      "orig_sentence": "When ZmPRO4 was microinjected into plant cells, the effect on actin-dependent nuclear position was significantly more rapid than that of another pollen profilin isoform, ZmPRO1.",
+      "proteins": [
+        "ZmPRO4",
+        "actin",
+        "profilin",
+        "ZmPRO1"
+      ],
+      "relations": {
+        "[0, 1]": "PPI",
+        "[1, 3]": "PPI",
+        "[2, 3]": "PPI"
+      }
+    },
+    "BioInfer.d383.s0": {
+      "sentence": "In this work we report that the Saccharomyces cerevisiae PROTEIN0, PROTEIN1, PROTEIN2, PROTEIN3, PROTEIN4 and PROTEIN5 checkpoint genes are required for efficient non-homologous end joining (NHEJ).",
+      "orig_sentence": "In this work we report that the Saccharomyces cerevisiae RAD9, RAD24, RAD17, MEC1, MEC3 and RAD53 checkpoint genes are required for efficient non-homologous end joining (NHEJ).",
+      "proteins": [
+        "RAD9",
+        "RAD24",
+        "RAD17",
+        "MEC1",
+        "MEC3",
+        "RAD53"
+      ],
+      "relations": {}
+    },
+    "BioInfer.d386.s0": {
+      "sentence": "In vitro, PROTEIN0 purified from some of these mutants is defective in polymerization or binding PROTEIN1.",
+      "orig_sentence": "In vitro, actin purified from some of these mutants is defective in polymerization or binding fimbrin.",
+      "proteins": [
+        "actin",
+        "fimbrin"
+      ],
+      "relations": {
+        "[0, 1]": "PPI"
+      }
+    },
+    "BioInfer.d402.s0": {
+      "sentence": "Like PROTEIN0, the PROTEIN1-associated proteins PROTEIN2, PROTEIN3 and the PROTEIN4 were also found to accumulate around entering bacteria.",
+      "orig_sentence": "Like actin, the actin-associated proteins filamin, talin and the beta 1 integrin subunit were also found to accumulate around entering bacteria.",
+      "proteins": [
+        "actin",
+        "actin",
+        "filamin",
+        "talin",
+        "beta 1 integrin subunit"
+      ],
+      "relations": {
+        "[0, 2]": "PPI",
+        "[0, 3]": "PPI",
+        "[0, 4]": "PPI",
+        "[1, 2]": "PPI",
+        "[1, 3]": "PPI",
+        "[1, 4]": "PPI",
+        "[2, 3]": "PPI",
+        "[2, 4]": "PPI",
+        "[3, 4]": "PPI"
+      }
+    },
+    "BioInfer.d403.s0": {
+      "sentence": "Like PROTEIN0, PROTEIN1 phosphorylated PROTEIN2 specifically at Ser-3 and induced formation of PROTEIN3 stress fibers and focal adhesions.",
+      "orig_sentence": "Like TESK1, TESK2 phosphorylated cofilin specifically at Ser-3 and induced formation of actin stress fibers and focal adhesions.",
+      "proteins": [
+        "TESK1",
+        "TESK2",
+        "cofilin",
+        "actin"
+      ],
+      "relations": {
+        "[0, 2]": "PPI",
+        "[0, 3]": "PPI",
+        "[1, 2]": "PPI",
+        "[1, 3]": "PPI"
+      }
+    },
+    "BioInfer.d414.s0": {
+      "sentence": "PROTEIN0 and PROTEIN1 inhibited both PROTEIN2- and PROTEIN3-induced apoptosis as well as killing mediated by overexpression of the downstream adaptors PROTEIN4 and PROTEIN5.",
+      "orig_sentence": "MC159 and E8 inhibited both TNFR-1- and CD-95-induced apoptosis as well as killing mediated by overexpression of the downstream adaptors TRADD and FADD.",
+      "proteins": [
+        "MC159",
+        "E8",
+        "TNFR-1",
+        "CD-95",
+        "TRADD",
+        "FADD"
+      ],
+      "relations": {}
+    },
+    "BioInfer.d415.s0": {
+      "sentence": "PROTEIN0 is the previously identified PROTEIN1, which encodes PROTEIN2, required for proper organization of the PROTEIN3 cytoskeleton.",
+      "orig_sentence": "MDP2 is the previously identified VRP1, which encodes verprolin, required for proper organization of the actin cytoskeleton.",
+      "proteins": [
+        "MDP2",
+        "VRP1",
+        "verprolin",
+        "actin"
+      ],
+      "relations": {
+        "[1, 2]": "PPI",
+        "[2, 3]": "PPI"
+      }
+    },
+    "BioInfer.d419.s0": {
+      "sentence": "METHODS AND RESULTS: The frequency-dependent effects of iodotubercidin (ITU, an inhibitor of PROTEIN0), erythro-9-(2-hydroxy-3-nonyl)adenine (EHNA, an inhibitor of PROTEIN1), draflazine (a nucleoside transport blocker), and PD81,723 (an allosteric enhancer of the PROTEIN2 binding) on the stimulus-to-His bundle (SH) interval, a measure of AV nodal conduction, were determined in guinea pig hearts and compared with those of adenosine and diltiazem.",
+      "orig_sentence": "METHODS AND RESULTS: The frequency-dependent effects of iodotubercidin (ITU, an inhibitor of adenosine kinase), erythro-9-(2-hydroxy-3-nonyl)adenine (EHNA, an inhibitor of adenosine deaminase), draflazine (a nucleoside transport blocker), and PD81,723 (an allosteric enhancer of the A1 adenosine receptor binding) on the stimulus-to-His bundle (SH) interval, a measure of AV nodal conduction, were determined in guinea pig hearts and compared with those of adenosine and diltiazem.",
+      "proteins": [
+        "adenosine kinase",
+        "adenosine deaminase",
+        "A1 adenosine receptor"
+      ],
+      "relations": {}
+    },
+    "BioInfer.d419.s1": {
+      "sentence": "The AV nodal effects of draflazine, ITU, EHNA, and PD81,723 were reversed by the PROTEIN0 antagonist 8-cyclopentyltheophylline and PROTEIN1, implicating endogenous adenosine acting at the PROTEIN2.",
+      "orig_sentence": "The AV nodal effects of draflazine, ITU, EHNA, and PD81,723 were reversed by the A1 adenosine receptor antagonist 8-cyclopentyltheophylline and adenosine deaminase, implicating endogenous adenosine acting at the A1 adenosine receptor.",
+      "proteins": [
+        "A1 adenosine receptor",
+        "adenosine deaminase",
+        "A1 adenosine receptor"
+      ],
+      "relations": {}
+    },
+    "BioInfer.d422.s0": {
+      "sentence": "METHODS: Tumor samples from 77 patients with squamous cell carcinoma of the esophagus were immunohistochemically evaluated for the expression of 10 molecules: the cell cycle-related molecules of PROTEIN0, PROTEIN1, PROTEIN2, PROTEIN3, and PROTEIN4; the cell-cell adhesion molecules of PROTEIN5, PROTEIN6, and PROTEIN7; and the PROTEIN8 of PROTEIN9 and PROTEIN10.",
+      "orig_sentence": "METHODS: Tumor samples from 77 patients with squamous cell carcinoma of the esophagus were immunohistochemically evaluated for the expression of 10 molecules: the cell cycle-related molecules of cyclin D1, Rb, p16INK4, p27KIP1, and PCNA; the cell-cell adhesion molecules of E-cadherin, alpha-catenin, and beta-catenin; and the heat shock proteins of HSP27 and HSP70.",
+      "proteins": [
+        "cyclin D1",
+        "Rb",
+        "p16INK4",
+        "p27KIP1",
+        "PCNA",
+        "E-cadherin",
+        "alpha-catenin",
+        "beta-catenin",
+        "heat shock proteins",
+        "HSP27",
+        "HSP70"
+      ],
+      "relations": {
+        "[8, 9]": "PPI",
+        "[8, 10]": "PPI"
+      }
+    },
+    "BioInfer.d424.s0": {
+      "sentence": "METHODS: We immunohistochemically investigated the expression of PROTEIN0 (PROTEIN1), PROTEIN2 (PROTEIN3) and PROTEIN4 (PROTEIN5) during human intrahepatic bile duct development, using 31 fetal livers of various gestational ages.",
+      "orig_sentence": "METHODS: We immunohistochemically investigated the expression of E-cadherin (E-Cad), alpha-catenin (A-Cat) and beta-catenin (B-Cat) during human intrahepatic bile duct development, using 31 fetal livers of various gestational ages.",
+      "proteins": [
+        "E-cadherin",
+        "E-Cad",
+        "alpha-catenin",
+        "A-Cat",
+        "beta-catenin",
+        "B-Cat"
+      ],
+      "relations": {}
+    },
+    "BioInfer.d426.s0": {
+      "sentence": "Mitochondrial genes (16.2%), PROTEIN0 genes (9%) and the PROTEIN1 gene (9%) were the most abundant transcripts.",
+      "orig_sentence": "Mitochondrial genes (16.2%), myosin heavy chain genes (9%) and the actin alpha skeletal muscle gene (9%) were the most abundant transcripts.",
+      "proteins": [
+        "myosin heavy chain",
+        "actin alpha skeletal muscle"
+      ],
+      "relations": {}
+    },
+    "BioInfer.d436.s0": {
+      "sentence": "Moreover, ectopic expression of PROTEIN0 and PROTEIN1 can stimulate the PROTEIN2 promoter in an PROTEIN3-dependent manner, and this is inhibited by coexpression of the PROTEIN4(PROTEIN5) PROTEIN6.",
+      "orig_sentence": "Moreover, ectopic expression of cyclin D1 and Cdk4 can stimulate the Brca1 promoter in an E2F-dependent manner, and this is inhibited by coexpression of the p16(INK4a) cyclin-dependent kinase inhibitor.",
+      "proteins": [
+        "cyclin D1",
+        "Cdk4",
+        "Brca1",
+        "E2F",
+        "p16",
+        "INK4a",
+        "cyclin-dependent kinase inhibitor"
+      ],
+      "relations": {
+        "[0, 2]": "PPI",
+        "[0, 4]": "PPI",
+        "[0, 5]": "PPI",
+        "[1, 2]": "PPI",
+        "[1, 4]": "PPI",
+        "[1, 5]": "PPI",
+        "[2, 3]": "PPI",
+        "[2, 4]": "PPI",
+        "[2, 5]": "PPI",
+        "[4, 6]": "PPI",
+        "[5, 6]": "PPI"
+      }
+    },
+    "BioInfer.d439.s0": {
+      "sentence": "Most of these PROTEIN0, with their intracellular domains, interact with the PROTEIN1-containing cytoskeleton, via linking proteins such as PROTEIN2 and PROTEIN3, while one of them interacts with the PROTEIN4 filaments, via an as yet unknown linking molecule(s).",
+      "orig_sentence": "Most of these integrins, with their intracellular domains, interact with the actin-containing cytoskeleton, via linking proteins such as vinculin and talin, while one of them interacts with the keratin filaments, via an as yet unknown linking molecule(s).",
+      "proteins": [
+        "integrins",
+        "actin",
+        "vinculin",
+        "talin",
+        "keratin"
+      ],
+      "relations": {
+        "[0, 1]": "PPI",
+        "[0, 2]": "PPI",
+        "[0, 3]": "PPI",
+        "[0, 4]": "PPI",
+        "[1, 2]": "PPI",
+        "[1, 3]": "PPI"
+      }
+    },
+    "BioInfer.d445.s0": {
+      "sentence": "Mutations in PROTEIN0 cause increased rates of mitotic crossing over and are lethal in combination with mutations in PROTEIN1 and PROTEIN2.",
+      "orig_sentence": "Mutations in RAD27 cause increased rates of mitotic crossing over and are lethal in combination with mutations in RAD51 and RAD52.",
+      "proteins": [
+        "RAD27",
+        "RAD51",
+        "RAD52"
+      ],
+      "relations": {}
+    },
+    "BioInfer.d458.s0": {
+      "sentence": "PROTEIN0 and PROTEIN1 were phosphorylated before the infected myotubes entered S phase, despite the high expression of the PROTEIN2 PROTEIN3, and PROTEIN4 was released.",
+      "orig_sentence": "p130 and pRb were phosphorylated before the infected myotubes entered S phase, despite the high expression of the cyclin-dependent kinase inhibitor p21, and E2F was released.",
+      "proteins": [
+        "p130",
+        "pRb",
+        "cyclin-dependent kinase inhibitor",
+        "p21",
+        "E2F"
+      ],
+      "relations": {
+        "[0, 3]": "PPI",
+        "[1, 3]": "PPI",
+        "[2, 3]": "PPI"
+      }
+    },
+    "BioInfer.d462.s0": {
+      "sentence": "One mutation, PROTEIN0, is in the gene encoding PROTEIN1, another PROTEIN2, which was expected because null mutations in PROTEIN3 and PROTEIN4 are known to be synthetic-lethal.",
+      "orig_sentence": "One mutation, sac6-69, is in the gene encoding fimbrin, another actin-binding protein, which was expected because null mutations in SAC6 and CAP2 are known to be synthetic-lethal.",
+      "proteins": [
+        "sac6-69",
+        "fimbrin",
+        "actin-binding protein",
+        "SAC6",
+        "CAP2"
+      ],
+      "relations": {
+        "[1, 2]": "PPI"
+      }
+    },
+    "BioInfer.d472.s0": {
+      "sentence": "Our data indicate that even PROTEIN0 of highly distant evolutionary origin can functionally substitute for each other and support the hypothesis that in animal cells, PROTEIN1 are engaged in regulating either the stability or the kinetic properties of PROTEIN2 filaments.",
+      "orig_sentence": "Our data indicate that even profilins of highly distant evolutionary origin can functionally substitute for each other and support the hypothesis that in animal cells, profilins are engaged in regulating either the stability or the kinetic properties of actin filaments.",
+      "proteins": [
+        "profilins",
+        "profilins",
+        "actin"
+      ],
+      "relations": {
+        "[1, 2]": "PPI"
+      }
+    },
+    "BioInfer.d475.s0": {
+      "sentence": "Our results showed that cell morphology, cell adhesion pattern, PROTEIN0 organization, and distribution of PROTEIN1 subunits, PROTEIN2, PROTEIN3, and phosphotyrosine-containing proteins are dependent on the supramolecular organization of the PROTEIN4.",
+      "orig_sentence": "Our results showed that cell morphology, cell adhesion pattern, actin organization, and distribution of integrin subunits, talin, vinculin, and phosphotyrosine-containing proteins are dependent on the supramolecular organization of the collagens.",
+      "proteins": [
+        "actin",
+        "integrin",
+        "talin",
+        "vinculin",
+        "collagens"
+      ],
+      "relations": {
+        "[0, 4]": "PPI",
+        "[1, 4]": "PPI",
+        "[2, 4]": "PPI",
+        "[3, 4]": "PPI"
+      }
+    },
+    "BioInfer.d476.s0": {
+      "sentence": "Overexpression of a gene fragment encoding the PROTEIN0 binding domain of PROTEIN1 stimulates transcription from the PROTEIN2 gene promoter.",
+      "orig_sentence": "Overexpression of a gene fragment encoding the CREB binding domain of CBP stimulates transcription from the PEPCK gene promoter.",
+      "proteins": [
+        "CREB",
+        "CBP",
+        "PEPCK"
+      ],
+      "relations": {
+        "[0, 1]": "PPI",
+        "[1, 2]": "PPI"
+      }
+    },
+    "BioInfer.d477.s0": {
+      "sentence": "Overexpression of PROTEIN0 stimulates bundling of PROTEIN1 filaments, membrane ruffling, and cell movement in Dictyostelium.",
+      "orig_sentence": "Overexpression of cofilin stimulates bundling of actin filaments, membrane ruffling, and cell movement in Dictyostelium.",
+      "proteins": [
+        "cofilin",
+        "actin"
+      ],
+      "relations": {
+        "[0, 1]": "PPI"
+      }
+    },
+    "BioInfer.d478.s0": {
+      "sentence": "Overexpression of PROTEIN0 and PROTEIN1 (PROTEIN2): effect on cell cycle regulation in HeLa cells.",
+      "orig_sentence": "Overexpression of cyclin E and cyclin-dependent kinase inhibitor (p27Kip1): effect on cell cycle regulation in HeLa cells.",
+      "proteins": [
+        "cyclin E",
+        "cyclin-dependent kinase inhibitor",
+        "p27Kip1"
+      ],
+      "relations": {
+        "[1, 2]": "PPI"
+      }
+    },
+    "BioInfer.d483.s0": {
+      "sentence": "PROTEIN0 treatment had no effect on PROTEIN1, PROTEIN2, or microtubule distribution in BALB/c-3T3 cells; in addition, exposure of cells to 5% platelet-poor plasma (PPP), 0.1% PPP, 30 ng/ml PROTEIN3 (PROTEIN4), 30 ng/ml PROTEIN5, or 10 microM PROTEIN6 also had no effect on PROTEIN7 or PROTEIN8 distribution.",
+      "orig_sentence": "PDGF treatment had no effect on talin, vimentin, or microtubule distribution in BALB/c-3T3 cells; in addition, exposure of cells to 5% platelet-poor plasma (PPP), 0.1% PPP, 30 ng/ml epidermal growth factor (EGF), 30 ng/ml somatomedin C, or 10 microM insulin also had no effect on vinculin or actin distribution.",
+      "proteins": [
+        "PDGF",
+        "talin",
+        "vimentin",
+        "epidermal growth factor",
+        "EGF",
+        "somatomedin C",
+        "insulin",
+        "vinculin",
+        "actin"
+      ],
+      "relations": {}
+    },
+    "BioInfer.d485.s0": {
+      "sentence": "PROTEIN0-dependent downregulation of PROTEIN1-PROTEIN2 activity was associated with increased binding of the PROTEIN3, PROTEIN4(PROTEIN5/PROTEIN6), to the PROTEIN7-PROTEIN8 complex.",
+      "orig_sentence": "PF4-dependent downregulation of cyclin E-cdk2 activity was associated with increased binding of the cyclin-dependent kinase inhibitor, p21(Cip1/WAF1), to the cyclin E-cdk2 complex.",
+      "proteins": [
+        "PF4",
+        "cyclin E",
+        "cdk2",
+        "cyclin-dependent kinase inhibitor",
+        "p21",
+        "Cip1",
+        "WAF1",
+        "cyclin E",
+        "cdk2"
+      ],
+      "relations": {
+        "[0, 1]": "PPI",
+        "[0, 2]": "PPI",
+        "[1, 2]": "PPI",
+        "[1, 4]": "PPI",
+        "[1, 5]": "PPI",
+        "[1, 6]": "PPI",
+        "[1, 7]": "PPI",
+        "[1, 8]": "PPI",
+        "[2, 4]": "PPI",
+        "[2, 5]": "PPI",
+        "[2, 6]": "PPI",
+        "[2, 7]": "PPI",
+        "[2, 8]": "PPI",
+        "[3, 4]": "PPI",
+        "[3, 5]": "PPI",
+        "[3, 6]": "PPI",
+        "[4, 7]": "PPI",
+        "[4, 8]": "PPI",
+        "[5, 7]": "PPI",
+        "[5, 8]": "PPI",
+        "[6, 7]": "PPI",
+        "[6, 8]": "PPI",
+        "[7, 8]": "PPI"
+      }
+    },
+    "BioInfer.d489.s0": {
+      "sentence": "PROTEIN0 is one of a complex of genes encoding DNA repair proteins that includes PROTEIN1, PROTEIN2, PROTEIN3 and PROTEIN4.",
+      "orig_sentence": "PMS2 is one of a complex of genes encoding DNA repair proteins that includes MSH2, MLH1, MSH6 and MSH3.",
+      "proteins": [
+        "PMS2",
+        "MSH2",
+        "MLH1",
+        "MSH6",
+        "MSH3"
+      ],
+      "relations": {}
+    },
+    "BioInfer.d491.s0": {
+      "sentence": "Porcine arterial SMCs in culture not only express high levels of PROTEIN0 but, contrary to rodent SMCs, also maintain an appreciable expression of PROTEIN1 PROTEIN2, PROTEIN3, and PROTEIN4, a recently described late differentiation marker of vascular SMCs.",
+      "orig_sentence": "Porcine arterial SMCs in culture not only express high levels of alpha-smooth muscle (SM) actin but, contrary to rodent SMCs, also maintain an appreciable expression of SM myosin heavy chain isoforms 1 and 2, desmin, and smoothelin, a recently described late differentiation marker of vascular SMCs.",
+      "proteins": [
+        "alpha-smooth muscle actin",
+        "SM myosin heavy chain 1",
+        "SM myosin heavy chain 2",
+        "desmin",
+        "smoothelin"
+      ],
+      "relations": {}
+    },
+    "BioInfer.d499.s0": {
+      "sentence": "Protein phosphorylation of PROTEIN0, an PROTEIN1 that depolymerizes PROTEIN2 filaments, suppresses its function.",
+      "orig_sentence": "Protein phosphorylation of cofilin, an actin-binding protein that depolymerizes actin filaments, suppresses its function.",
+      "proteins": [
+        "cofilin",
+        "actin-binding protein",
+        "actin"
+      ],
+      "relations": {
+        "[0, 1]": "PPI",
+        "[0, 2]": "PPI"
+      }
+    },
+    "BioInfer.d503.s0": {
+      "sentence": "Pulse-chase biosynthetic labeling experiments demonstrated that contractile arrest accelerated the loss of isotopic tracer from the total myofibrillar protein fraction, PROTEIN0 (PROTEIN1), and PROTEIN2, but not PROTEIN3.",
+      "orig_sentence": "Pulse-chase biosynthetic labeling experiments demonstrated that contractile arrest accelerated the loss of isotopic tracer from the total myofibrillar protein fraction, myosin heavy chain (MHC), and actin, but not desmin.",
+      "proteins": [
+        "myosin heavy chain",
+        "MHC",
+        "actin",
+        "desmin"
+      ],
+      "relations": {}
+    },
+    "BioInfer.d504.s0": {
+      "sentence": "Purification of a cortical complex containing two unconventional PROTEIN0 from Acanthamoeba by affinity chromatography on PROTEIN1-agarose.",
+      "orig_sentence": "Purification of a cortical complex containing two unconventional actins from Acanthamoeba by affinity chromatography on profilin-agarose.",
+      "proteins": [
+        "actins",
+        "profilin"
+      ],
+      "relations": {}
+    },
+    "BioInfer.d508.s0": {
+      "sentence": "Recently we reported that the isolated 23 kDa N-terminal fragment of PROTEIN0, which contains the 'consensus' ATP binding site, binds to PROTEIN1 in an ATP-sensitive manner (Muhlrad, A. (1989) Biochemistry 28, 4002).",
+      "orig_sentence": "Recently we reported that the isolated 23 kDa N-terminal fragment of myosin heavy chain, which contains the 'consensus' ATP binding site, binds to actin in an ATP-sensitive manner (Muhlrad, A. (1989) Biochemistry 28, 4002).",
+      "proteins": [
+        "myosin heavy chain",
+        "actin"
+      ],
+      "relations": {
+        "[0, 1]": "PPI"
+      }
+    },
+    "BioInfer.d511.s0": {
+      "sentence": "Redistribution of PROTEIN0, PROTEIN1 and phosphatidylinositol-4, 5-bisphosphate in growing and maturing root hairs",
+      "orig_sentence": "Redistribution of actin, profilin and phosphatidylinositol-4, 5-bisphosphate in growing and maturing root hairs",
+      "proteins": [
+        "actin",
+        "profilin"
+      ],
+      "relations": {}
+    },
+    "BioInfer.d513.s0": {
+      "sentence": "Reduced expression of PROTEIN0, PROTEIN1, and PROTEIN2 was observed in 64% (87 of 135), 50% (43 of 86), and 58% (50 of 86) of the specimens tested, respectively.",
+      "orig_sentence": "Reduced expression of E-cadherin, alpha-catenin, and beta-catenin was observed in 64% (87 of 135), 50% (43 of 86), and 58% (50 of 86) of the specimens tested, respectively.",
+      "proteins": [
+        "E-cadherin",
+        "alpha-catenin",
+        "beta-catenin"
+      ],
+      "relations": {}
+    },
+    "BioInfer.d516.s0": {
+      "sentence": "Reinvestigation of the inhibition of PROTEIN0 polymerization by PROTEIN1.",
+      "orig_sentence": "Reinvestigation of the inhibition of actin polymerization by profilin.",
+      "proteins": [
+        "actin",
+        "profilin"
+      ],
+      "relations": {
+        "[0, 1]": "PPI"
+      }
+    },
+    "BioInfer.d516.s1": {
+      "sentence": "The very much lower affinity of PROTEIN0 for modified PROTEIN1 explains the anomalous critical concentrations curves obtained for 5-10% pyrenyl-labeled PROTEIN2 in the presence of PROTEIN3 and the apparently weak inhibition by PROTEIN4 of the rate of filament elongation when polymerization is quantified by the increase in fluorescence of pyrenyl-labeled PROTEIN5.",
+      "orig_sentence": "The very much lower affinity of profilin for modified actin explains the anomalous critical concentrations curves obtained for 5-10% pyrenyl-labeled actin in the presence of profilin and the apparently weak inhibition by profilin of the rate of filament elongation when polymerization is quantified by the increase in fluorescence of pyrenyl-labeled actin.",
+      "proteins": [
+        "profilin",
+        "actin",
+        "actin",
+        "profilin",
+        "profilin",
+        "actin"
+      ],
+      "relations": {
+        "[0, 1]": "PPI"
+      }
+    },
+    "BioInfer.d518.s0": {
+      "sentence": "Removal of the amino-terminal tails of either PROTEIN0 PROTEIN1 or PROTEIN2 PROTEIN3 allowed these polyamides to bind.",
+      "orig_sentence": "Removal of the amino-terminal tails of either histone H3 or histone H4 allowed these polyamides to bind.",
+      "proteins": [
+        "histone",
+        "H3",
+        "histone",
+        "H4"
+      ],
+      "relations": {
+        "[0, 1]": "PPI",
+        "[2, 3]": "PPI"
+      }
+    },
+    "BioInfer.d524.s0": {
+      "sentence": "Rod formation was prevented by coexpression of PROTEIN0, PROTEIN1, and PROTEIN2, which bind to the PROTEIN3 repeats of PROTEIN4, but not by coexpression of PROTEIN5, although PROTEIN6 expression did prevent accumulation of PROTEIN7 in the nucleus.",
+      "orig_sentence": "Rod formation was prevented by coexpression of N-cadherin, APC, and Tcf-4, which bind to the armadillo repeats of beta-catenin, but not by coexpression of alpha-catenin, although alpha-catenin expression did prevent accumulation of beta-catenin in the nucleus.",
+      "proteins": [
+        "N-cadherin",
+        "APC",
+        "Tcf-4",
+        "armadillo",
+        "beta-catenin",
+        "alpha-catenin",
+        "alpha-catenin",
+        "beta-catenin"
+      ],
+      "relations": {
+        "[0, 4]": "PPI",
+        "[1, 4]": "PPI",
+        "[2, 4]": "PPI",
+        "[3, 4]": "PPI",
+        "[6, 7]": "PPI"
+      }
+    },
+    "BioInfer.d525.s0": {
+      "sentence": "Role of PROTEIN0 in PROTEIN1-stimulated PROTEIN2 polymerization and lamellipod protrusion.",
+      "orig_sentence": "Role of cofilin in epidermal growth factor-stimulated actin polymerization and lamellipod protrusion.",
+      "proteins": [
+        "cofilin",
+        "epidermal growth factor",
+        "actin"
+      ],
+      "relations": {
+        "[0, 2]": "PPI",
+        "[1, 2]": "PPI"
+      }
+    },
+    "BioInfer.d525.s1": {
+      "sentence": "These results support a model in which PROTEIN0 stimulation recruits PROTEIN1 to the leading edge where its severing activity is activated, leading to the generation of short PROTEIN2 filaments with free barbed ends that participate in the nucleation of PROTEIN3 polymerization.",
+      "orig_sentence": "These results support a model in which EGF stimulation recruits cofilin to the leading edge where its severing activity is activated, leading to the generation of short actin filaments with free barbed ends that participate in the nucleation of actin polymerization.",
+      "proteins": [
+        "EGF",
+        "cofilin",
+        "actin",
+        "actin"
+      ],
+      "relations": {
+        "[0, 1]": "PPI",
+        "[1, 2]": "PPI",
+        "[2, 3]": "PPI"
+      }
+    },
+    "BioInfer.d525.s2": {
+      "sentence": "To investigate the role of PROTEIN0 in PROTEIN1-stimulated PROTEIN2 polymerization and lamellipod extension in MTLn3 cells, we examined in detail the temporal and spatial distribution of PROTEIN3 relative to free barbed ends and characterized the PROTEIN4 dynamics by measuring the changes in the number of PROTEIN5 filaments.",
+      "orig_sentence": "To investigate the role of cofilin in EGF-stimulated actin polymerization and lamellipod extension in MTLn3 cells, we examined in detail the temporal and spatial distribution of cofilin relative to free barbed ends and characterized the actin dynamics by measuring the changes in the number of actin filaments.",
+      "proteins": [
+        "cofilin",
+        "EGF",
+        "actin",
+        "cofilin",
+        "actin",
+        "actin"
+      ],
+      "relations": {
+        "[0, 2]": "PPI",
+        "[1, 2]": "PPI"
+      }
+    },
+    "BioInfer.d527.s0": {
+      "sentence": "Saccharomyces cerevisiae PROTEIN0 was identified in a two-hybrid screen using PROTEIN1 as \"bait,\" and pairwise interactions between PROTEIN2 and PROTEIN3, PROTEIN4, PROTEIN5, PROTEIN6, PROTEIN7, and PROTEIN8 subsequently were demonstrated by two-hybrid analysis.",
+      "orig_sentence": "Saccharomyces cerevisiae RAD14 was identified in a two-hybrid screen using MSH2 as \"bait,\" and pairwise interactions between MSH2 and RAD1, RAD2, RAD3, RAD10, RAD14, and RAD25 subsequently were demonstrated by two-hybrid analysis.",
+      "proteins": [
+        "RAD14",
+        "MSH2",
+        "MSH2",
+        "RAD1",
+        "RAD2",
+        "RAD3",
+        "RAD10",
+        "RAD14",
+        "RAD25"
+      ],
+      "relations": {
+        "[2, 3]": "PPI",
+        "[2, 4]": "PPI",
+        "[2, 5]": "PPI",
+        "[2, 6]": "PPI",
+        "[2, 7]": "PPI",
+        "[2, 8]": "PPI"
+      }
+    },
+    "BioInfer.d531.s0": {
+      "sentence": "Sequences upstream of the coding region for PROTEIN0 protein share homology with the damage response sequence element of PROTEIN1, an upstream activating sequence required for damage regulation of the PROTEIN2 transcript, and also contain two sites for restriction enzyme PROTEIN3; the presence of PROTEIN4 restriction sites has been associated with cell cycle regulation.",
+      "orig_sentence": "Sequences upstream of the coding region for RAD51 protein share homology with the damage response sequence element of RAD54, an upstream activating sequence required for damage regulation of the RAD54 transcript, and also contain two sites for restriction enzyme MluI; the presence of MluI restriction sites has been associated with cell cycle regulation.",
+      "proteins": [
+        "RAD51",
+        "RAD54",
+        "RAD54",
+        "MluI",
+        "MluI"
+      ],
+      "relations": {
+        "[0, 1]": "PPI",
+        "[0, 3]": "PPI",
+        "[1, 2]": "PPI"
+      }
+    },
+    "BioInfer.d531.s1": {
+      "sentence": "A 1.6-kb transcript corresponding to PROTEIN0 was observed, and levels of this transcript increased rapidly after exposure to relatively low doses of X-rays.",
+      "orig_sentence": "A 1.6-kb transcript corresponding to RAD51 was observed, and levels of this transcript increased rapidly after exposure to relatively low doses of X-rays.",
+      "proteins": [
+        "RAD51"
+      ],
+      "relations": {}
+    },
+    "BioInfer.d541.s0": {
+      "sentence": "Since both PROTEIN0 and PROTEIN1 have been found enriched in ruffling membranes of animal cells, our in vitro findings may be relevant to the regulation of PROTEIN2 filaments in living cells.",
+      "orig_sentence": "Since both caldesmon and profilin have been found enriched in ruffling membranes of animal cells, our in vitro findings may be relevant to the regulation of actin filaments in living cells.",
+      "proteins": [
+        "caldesmon",
+        "profilin",
+        "actin"
+      ],
+      "relations": {
+        "[0, 1]": "PPI"
+      }
+    },
+    "BioInfer.d548.s0": {
+      "sentence": "Specific interactions between the PROTEIN0 (PROTEIN1) and the PROTEIN2 (PROTEIN3) of bovine respiratory syncytial virus (BRSV) have been investigated using a yeast-based two-hybrid system.",
+      "orig_sentence": "Specific interactions between the nucleocapsid protein (N) and the phosphoprotein (P) of bovine respiratory syncytial virus (BRSV) have been investigated using a yeast-based two-hybrid system.",
+      "proteins": [
+        "nucleocapsid protein",
+        "N",
+        "phosphoprotein",
+        "P"
+      ],
+      "relations": {
+        "[0, 2]": "PPI",
+        "[0, 3]": "PPI",
+        "[1, 2]": "PPI",
+        "[1, 3]": "PPI"
+      }
+    },
+    "BioInfer.d555.s0": {
+      "sentence": "Such motifs are known to bind to PROTEIN0 (PROTEIN1), small proteins engaged in the control of PROTEIN2 dynamics.",
+      "orig_sentence": "Such motifs are known to bind to profilins (PFNs), small proteins engaged in the control of actin dynamics.",
+      "proteins": [
+        "profilins",
+        "PFNs",
+        "actin"
+      ],
+      "relations": {
+        "[0, 2]": "PPI",
+        "[1, 2]": "PPI"
+      }
+    },
+    "BioInfer.d565.s0": {
+      "sentence": "The ability of these three mutant PROTEIN0 proteins to form specific interactions with other members of the PROTEIN1 complex, PROTEIN2 and PROTEIN3, indicates that the functional domains required for replication activity of PROTEIN4 are separable from domains responsible for protein-protein interactions.",
+      "orig_sentence": "The ability of these three mutant UL5 proteins to form specific interactions with other members of the helicase-primase complex, UL8 and UL52, indicates that the functional domains required for replication activity of UL5 are separable from domains responsible for protein-protein interactions.",
+      "proteins": [
+        "UL5",
+        "helicase-primase",
+        "UL8",
+        "UL52",
+        "UL5"
+      ],
+      "relations": {
+        "[0, 2]": "PPI",
+        "[0, 3]": "PPI",
+        "[1, 2]": "PPI",
+        "[1, 3]": "PPI",
+        "[2, 3]": "PPI"
+      }
+    },
+    "BioInfer.d570.s0": {
+      "sentence": "The affinity of yeast PROTEIN0 for rabbit PROTEIN1 (2.9 microM) is approximately 30-fold weaker than the affinity of human PROTEIN2 for rabbit PROTEIN3 (0.1 microM), and the relative contributions of entropic and enthalpic terms to the overall free energy of binding are different for the two PROTEIN4.",
+      "orig_sentence": "The affinity of yeast profilin for rabbit actin (2.9 microM) is approximately 30-fold weaker than the affinity of human platelet profilin for rabbit actin (0.1 microM), and the relative contributions of entropic and enthalpic terms to the overall free energy of binding are different for the two profilins.",
+      "proteins": [
+        "profilin",
+        "actin",
+        "platelet profilin",
+        "actin",
+        "profilins"
+      ],
+      "relations": {
+        "[0, 1]": "PPI",
+        "[2, 3]": "PPI"
+      }
+    },
+    "BioInfer.d570.s1": {
+      "sentence": "The interactions of yeast and human PROTEIN0 PROTEIN1 with rabbit PROTEIN2 were characterized by titration microcalorimetry, fluorescence titrations, and nucleotide exchange kinetics.",
+      "orig_sentence": "The interactions of yeast and human platelet profilins with rabbit skeletal muscle actin were characterized by titration microcalorimetry, fluorescence titrations, and nucleotide exchange kinetics.",
+      "proteins": [
+        "platelet profilins",
+        "profilins",
+        "skeletal muscle actin"
+      ],
+      "relations": {
+        "[0, 2]": "PPI",
+        "[1, 2]": "PPI"
+      }
+    },
+    "BioInfer.d570.s2": {
+      "sentence": "The in vivo and in vitro properties of yeast PROTEIN0 mutants with altered poly-L-proline and PROTEIN1 binding sites are discussed in the context of the crystal structure.",
+      "orig_sentence": "The in vivo and in vitro properties of yeast profilin mutants with altered poly-L-proline and actin binding sites are discussed in the context of the crystal structure.",
+      "proteins": [
+        "profilin",
+        "actin"
+      ],
+      "relations": {
+        "[0, 1]": "PPI"
+      }
+    },
+    "BioInfer.d570.s3": {
+      "sentence": "The titration of pyrene-labeled rabbit PROTEIN0 with human PROTEIN1 yielded a Kd of 2.8 microM, similar to the Kd of 2.0 microM for the interaction between yeast PROTEIN2 and pyrene-labeled yeast PROTEIN3.",
+      "orig_sentence": "The titration of pyrene-labeled rabbit skeletal actin with human profilin yielded a Kd of 2.8 microM, similar to the Kd of 2.0 microM for the interaction between yeast profilin and pyrene-labeled yeast actin.",
+      "proteins": [
+        "skeletal actin",
+        "profilin",
+        "profilin",
+        "actin"
+      ],
+      "relations": {
+        "[0, 1]": "PPI",
+        "[2, 3]": "PPI"
+      }
+    },
+    "BioInfer.d570.s4": {
+      "sentence": "Yeast PROTEIN0 was shown to catalyze adenine nucleotide exchange from yeast PROTEIN1 almost 2 orders of magnitude less efficiently than human PROTEIN2 and rabbit PROTEIN3.",
+      "orig_sentence": "Yeast profilin was shown to catalyze adenine nucleotide exchange from yeast actin almost 2 orders of magnitude less efficiently than human profilin and rabbit skeletal muscle actin.",
+      "proteins": [
+        "profilin",
+        "actin",
+        "profilin",
+        "skeletal muscle actin"
+      ],
+      "relations": {}
+    },
+    "BioInfer.d572.s0": {
+      "sentence": "The amino acid composition of the 15-kDa protein was similar to that of mammalian PROTEIN0 and it inhibited the salt-induced polymerization of rabbit PROTEIN1.",
+      "orig_sentence": "The amino acid composition of the 15-kDa protein was similar to that of mammalian profilin and it inhibited the salt-induced polymerization of rabbit skeletal muscle actin.",
+      "proteins": [
+        "profilin",
+        "skeletal muscle actin"
+      ],
+      "relations": {}
+    },
+    "BioInfer.d578.s0": {
+      "sentence": "The assay detects the high-affinity binding of PROTEIN0 to PROTEIN1 (PROTEIN2), PROTEIN3 or PROTEIN4.",
+      "orig_sentence": "The assay detects the high-affinity binding of actin to actin-binding proteins (ABPs), cofilin or DNase I.",
+      "proteins": [
+        "actin",
+        "actin-binding proteins",
+        "ABPs",
+        "cofilin",
+        "DNase I"
+      ],
+      "relations": {
+        "[0, 1]": "PPI",
+        "[0, 2]": "PPI",
+        "[0, 3]": "PPI",
+        "[0, 4]": "PPI"
+      }
+    },
+    "BioInfer.d582.s0": {
+      "sentence": "The binding constants of Acanthamoeba PROTEIN0 to fluorescein-labeled PROTEIN1 from Acanthamoeba and from rabbit skeletal muscle have been determined by measuring the reduction in the PROTEIN2 tracer diffusion coefficients, determined by fluorescence photobleaching recovery, as a function of added PROTEIN3 concentration.",
+      "orig_sentence": "The binding constants of Acanthamoeba profilin to fluorescein-labeled actin from Acanthamoeba and from rabbit skeletal muscle have been determined by measuring the reduction in the actin tracer diffusion coefficients, determined by fluorescence photobleaching recovery, as a function of added profilin concentration.",
+      "proteins": [
+        "profilin",
+        "actin",
+        "actin",
+        "profilin"
+      ],
+      "relations": {
+        "[0, 1]": "PPI"
+      }
+    },
+    "BioInfer.d582.s1": {
+      "sentence": "These dissociation constants are the first to be determined from direct physical measurement; they are in agreement with values inferred from earlier studies on the effect of PROTEIN0 on the assembly of PROTEIN1 that had been fluorescently labeled or otherwise modified at Cys 374.",
+      "orig_sentence": "These dissociation constants are the first to be determined from direct physical measurement; they are in agreement with values inferred from earlier studies on the effect of profilin on the assembly of actin that had been fluorescently labeled or otherwise modified at Cys 374.",
+      "proteins": [
+        "profilin",
+        "actin"
+      ],
+      "relations": {
+        "[0, 1]": "PPI"
+      }
+    },
+    "BioInfer.d582.s2": {
+      "sentence": "These results place important restrictions on the interpretation of experiments in which fluorescently labeled PROTEIN0 is used as a probe of living cytoplasm or cytoplasmic extracts that include PROTEIN1.",
+      "orig_sentence": "These results place important restrictions on the interpretation of experiments in which fluorescently labeled actin is used as a probe of living cytoplasm or cytoplasmic extracts that include profilin.",
+      "proteins": [
+        "actin",
+        "profilin"
+      ],
+      "relations": {}
+    },
+    "BioInfer.d585.s0": {
+      "sentence": "The PROTEIN0 (PROTEIN1) of vesicular stomatitis virus (VSV) serotypes New Jersey [PROTEIN2] and Indiana [PROTEIN3] contains a highly conserved carboxy-terminal domain which is required for binding to the cognate N-RNA template as well as to form a soluble complex with the PROTEIN4 PROTEIN5 in vivo.",
+      "orig_sentence": "The phosphoprotein (P) of vesicular stomatitis virus (VSV) serotypes New Jersey [P(NJ)] and Indiana [P(I)] contains a highly conserved carboxy-terminal domain which is required for binding to the cognate N-RNA template as well as to form a soluble complex with the nucleocapsid protein N in vivo.",
+      "proteins": [
+        "phosphoprotein",
+        "P",
+        "P(NJ)",
+        "P(I)",
+        "nucleocapsid protein",
+        "N"
+      ],
+      "relations": {
+        "[0, 2]": "PPI",
+        "[0, 3]": "PPI",
+        "[0, 5]": "PPI",
+        "[1, 2]": "PPI",
+        "[1, 3]": "PPI",
+        "[1, 5]": "PPI",
+        "[2, 5]": "PPI",
+        "[3, 5]": "PPI",
+        "[4, 5]": "PPI"
+      }
+    },
+    "BioInfer.d589.s0": {
+      "sentence": "The PROTEIN0-associated proteins, PROTEIN1 and PROTEIN2, were present in both mesotheliomas and adenocarcinomas.",
+      "orig_sentence": "The cadherin-associated proteins, alpha-catenin and beta-catenin, were present in both mesotheliomas and adenocarcinomas.",
+      "proteins": [
+        "cadherin",
+        "alpha-catenin",
+        "beta-catenin"
+      ],
+      "relations": {
+        "[0, 1]": "PPI",
+        "[0, 2]": "PPI"
+      }
+    },
+    "BioInfer.d593.s0": {
+      "sentence": "The characteristics of the PROTEIN0 and PROTEIN1 interactions with PROTEIN2 are similar.",
+      "orig_sentence": "The characteristics of the vitamin D-binding protein and profilin interactions with actin are similar.",
+      "proteins": [
+        "vitamin D-binding protein",
+        "profilin",
+        "actin"
+      ],
+      "relations": {
+        "[0, 1]": "PPI",
+        "[0, 2]": "PPI",
+        "[1, 2]": "PPI"
+      }
+    },
+    "BioInfer.d594.s0": {
+      "sentence": "The clone contains an open reading frame of 139 amino acid residues which shows greater than 40% sequence identity in a 91 amino acid overlap to animal PROTEIN0 (PROTEIN1), PROTEIN2 and PROTEIN3.",
+      "orig_sentence": "The clone contains an open reading frame of 139 amino acid residues which shows greater than 40% sequence identity in a 91 amino acid overlap to animal actin-depolymerizing factors (ADF), cofilin and destrin.",
+      "proteins": [
+        "actin-depolymerizing factors",
+        "ADF",
+        "cofilin",
+        "destrin"
+      ],
+      "relations": {
+        "[0, 2]": "PPI",
+        "[0, 3]": "PPI",
+        "[1, 2]": "PPI",
+        "[1, 3]": "PPI"
+      }
+    },
+    "BioInfer.d598.s0": {
+      "sentence": "The contents of PROTEIN0, PROTEIN1, PROTEIN2, PROTEIN3 in 125-week-old rats decreased compared with those of 12-week-old rats.",
+      "orig_sentence": "The contents of myosin heavy chain, myosin light chain 2, actin, troponin-I in 125-week-old rats decreased compared with those of 12-week-old rats.",
+      "proteins": [
+        "myosin heavy chain",
+        "myosin light chain 2",
+        "actin",
+        "troponin-I"
+      ],
+      "relations": {}
+    },
+    "BioInfer.d600.s0": {
+      "sentence": "The core, isolated in the absence of free Ca2+, contains five major proteins: the PROTEIN0 (Mr 43 000) that makes up the filaments, the PROTEIN1 (Mr 95 000) and PROTEIN2 (Mr 68 000) that cross-link the filaments together, and the 110 000 Mr polypeptide-PROTEIN3 complex that makes up cross-filaments which project laterally from the core and link it to the inner surface of the microvillus membrane.",
+      "orig_sentence": "The core, isolated in the absence of free Ca2+, contains five major proteins: the actin (Mr 43 000) that makes up the filaments, the villin (Mr 95 000) and fimbrin (Mr 68 000) that cross-link the filaments together, and the 110 000 Mr polypeptide-calmodulin complex that makes up cross-filaments which project laterally from the core and link it to the inner surface of the microvillus membrane.",
+      "proteins": [
+        "actin",
+        "villin",
+        "fimbrin",
+        "calmodulin"
+      ],
+      "relations": {}
+    },
+    "BioInfer.d601.s0": {
+      "sentence": "The C-terminal of PROTEIN0 comprises the \"death domain\" that is responsible for association of PROTEIN1 and other death domain-containing proteins such as PROTEIN2 and PROTEIN3.",
+      "orig_sentence": "The C-terminal of TRADD comprises the \"death domain\" that is responsible for association of TNFR1 and other death domain-containing proteins such as FADD and RIP.",
+      "proteins": [
+        "TRADD",
+        "TNFR1",
+        "FADD",
+        "RIP"
+      ],
+      "relations": {
+        "[1, 2]": "PPI",
+        "[1, 3]": "PPI"
+      }
+    },
+    "BioInfer.d619.s0": {
+      "sentence": "The herpes simplex virus type 1 PROTEIN0 protein influences the intracellular localization of the PROTEIN1 but not the PROTEIN2 or PROTEIN3 replication proteins in virus-infected cells.",
+      "orig_sentence": "The herpes simplex virus type 1 UL8 protein influences the intracellular localization of the UL52 but not the ICP8 or POL replication proteins in virus-infected cells.",
+      "proteins": [
+        "UL8",
+        "UL52",
+        "ICP8",
+        "POL"
+      ],
+      "relations": {
+        "[0, 1]": "PPI",
+        "[0, 2]": "PPI",
+        "[0, 3]": "PPI"
+      }
+    },
+    "BioInfer.d626.s0": {
+      "sentence": "The I/LWEQ module is a conserved sequence that we have identified as an PROTEIN0-binding motif in the metazoan focal adhesion protein PROTEIN1 and the yeast protein PROTEIN2.",
+      "orig_sentence": "The I/LWEQ module is a conserved sequence that we have identified as an actin-binding motif in the metazoan focal adhesion protein talin and the yeast protein Sla2p.",
+      "proteins": [
+        "actin",
+        "talin",
+        "Sla2p"
+      ],
+      "relations": {
+        "[0, 1]": "PPI",
+        "[0, 2]": "PPI"
+      }
+    },
+    "BioInfer.d630.s0": {
+      "sentence": "The interaction of a mouse monoclonal antibody (PROTEIN0) and birch PROTEIN1, a structurally well conserved PROTEIN2- and phosphoinositide-binding protein and cross-reactive allergen, was characterized.",
+      "orig_sentence": "The interaction of a mouse monoclonal antibody (4A6) and birch profilin, a structurally well conserved actin- and phosphoinositide-binding protein and cross-reactive allergen, was characterized.",
+      "proteins": [
+        "4A6",
+        "profilin",
+        "actin"
+      ],
+      "relations": {
+        "[0, 1]": "PPI",
+        "[1, 2]": "PPI"
+      }
+    },
+    "BioInfer.d642.s0": {
+      "sentence": "The map locates the N-terminal calcium-binding domain and identifies PROTEIN0-binding site residues on the two PROTEIN1-homology domains of PROTEIN2.",
+      "orig_sentence": "The map locates the N-terminal calcium-binding domain and identifies actin-binding site residues on the two calponin-homology domains of fimbrin.",
+      "proteins": [
+        "actin",
+        "calponin",
+        "fimbrin"
+      ],
+      "relations": {
+        "[0, 2]": "PPI",
+        "[1, 2]": "PPI"
+      }
+    },
+    "BioInfer.d643.s0": {
+      "sentence": "The mechanism of PROTEIN0-promoted PROTEIN1 polymerization has been systematically reinvestigated.",
+      "orig_sentence": "The mechanism of profilin-promoted actin polymerization has been systematically reinvestigated.",
+      "proteins": [
+        "profilin",
+        "actin"
+      ],
+      "relations": {
+        "[0, 1]": "PPI"
+      }
+    },
+    "BioInfer.d643.s1": {
+      "sentence": "When measured in the absence of PROTEIN0, PROTEIN1 assembly curves over a 0.7-4 microM PROTEIN2 concentration range fit a simple monomer sequestering model (1 microM K(D) for PROTEIN3.PROTEIN4).",
+      "orig_sentence": "When measured in the absence of profilin, actin assembly curves over a 0.7-4 microM thymosin-beta4 concentration range fit a simple monomer sequestering model (1 microM K(D) for Thymosin-beta4.Actin).",
+      "proteins": [
+        "profilin",
+        "actin",
+        "thymosin-beta4",
+        "Thymosin-beta4",
+        "Actin"
+      ],
+      "relations": {
+        "[3, 4]": "PPI"
+      }
+    },
+    "BioInfer.d643.s2": {
+      "sentence": "With solutions of PROTEIN0 (2 microM) and PROTEIN1 (2 or 4 microM), the barbed-end assembly rate rose with increasing PROTEIN2 concentration (0.7-2 microM).",
+      "orig_sentence": "With solutions of actin (2 microM) and thymosin-beta4 (2 or 4 microM), the barbed-end assembly rate rose with increasing profilin concentration (0.7-2 microM).",
+      "proteins": [
+        "actin",
+        "thymosin-beta4",
+        "profilin"
+      ],
+      "relations": {}
+    },
+    "BioInfer.d655.s0": {
+      "sentence": "The ordered assembly of the PROTEIN0 homologue together with PROTEIN1 and a series of other proteins is considered to play a key role in chemotactic orientation.",
+      "orig_sentence": "The ordered assembly of the talin homologue together with actin and a series of other proteins is considered to play a key role in chemotactic orientation.",
+      "proteins": [
+        "talin",
+        "actin"
+      ],
+      "relations": {
+        "[0, 1]": "PPI"
+      }
+    },
+    "BioInfer.d660.s0": {
+      "sentence": "The polypeptide folds and the PROTEIN0-binding surfaces of the amoeba PROTEIN1 are very similar to those of bovine and human PROTEIN2.",
+      "orig_sentence": "The polypeptide folds and the actin-binding surfaces of the amoeba profilins are very similar to those of bovine and human profilins.",
+      "proteins": [
+        "actin",
+        "profilins",
+        "profilins"
+      ],
+      "relations": {
+        "[0, 1]": "PPI",
+        "[0, 2]": "PPI",
+        "[1, 2]": "PPI"
+      }
+    },
+    "BioInfer.d660.s1": {
+      "sentence": "The proximity of these sites to the PROTEIN0 binding site provides an explanation for the competition between PROTEIN1 and lipids for binding PROTEIN2.",
+      "orig_sentence": "The proximity of these sites to the actin binding site provides an explanation for the competition between actin and lipids for binding profilin.",
+      "proteins": [
+        "actin",
+        "actin",
+        "profilin"
+      ],
+      "relations": {
+        "[0, 2]": "PPI",
+        "[1, 2]": "PPI"
+      }
+    },
+    "BioInfer.d660.s2": {
+      "sentence": "X-ray structures of isoforms of the PROTEIN0 PROTEIN1 that differ in their affinity for phosphatidylinositol phosphates.",
+      "orig_sentence": "X-ray structures of isoforms of the actin-binding protein profilin that differ in their affinity for phosphatidylinositol phosphates.",
+      "proteins": [
+        "actin-binding protein",
+        "profilin"
+      ],
+      "relations": {
+        "[0, 1]": "PPI"
+      }
+    },
+    "BioInfer.d661.s0": {
+      "sentence": "The position of the PROTEIN0-binding site at the C terminal suggests that PROTEIN1 may work as a crosslinker between PROTEIN2 and PROTEIN3.",
+      "orig_sentence": "The position of the actin-binding site at the C terminal suggests that talin may work as a crosslinker between myosin and actin.",
+      "proteins": [
+        "actin",
+        "talin",
+        "myosin",
+        "actin"
+      ],
+      "relations": {
+        "[0, 1]": "PPI",
+        "[1, 2]": "PPI",
+        "[1, 3]": "PPI",
+        "[2, 3]": "PPI"
+      }
+    },
+    "BioInfer.d664.s0": {
+      "sentence": "The predicted sequence of PROTEIN0 shares ca. 40% identity with nonplant PROTEIN1 and contains two tandem repeats, each possessing a 27 amino acid region identified as a putative PROTEIN2-binding domain in PROTEIN3 and in a larger family of PROTEIN4 cross-linking proteins.",
+      "orig_sentence": "The predicted sequence of AtFim1 shares ca. 40% identity with nonplant fimbrins and contains two tandem repeats, each possessing a 27 amino acid region identified as a putative actin-binding domain in fimbrins and in a larger family of actin cross-linking proteins.",
+      "proteins": [
+        "AtFim1",
+        "fimbrins",
+        "actin",
+        "fimbrins",
+        "actin"
+      ],
+      "relations": {
+        "[0, 1]": "PPI",
+        "[0, 2]": "PPI",
+        "[2, 3]": "PPI"
+      }
+    },
+    "BioInfer.d677.s0": {
+      "sentence": "The qualitative changes involve differential expression of multigene families of contractile proteins, especially PROTEIN0 (PROTEIN1) and PROTEIN2.",
+      "orig_sentence": "The qualitative changes involve differential expression of multigene families of contractile proteins, especially myosin heavy chain (MHC) and actin.",
+      "proteins": [
+        "myosin heavy chain",
+        "MHC",
+        "actin"
+      ],
+      "relations": {}
+    },
+    "BioInfer.d679.s0": {
+      "sentence": "The ratios PROTEIN0 mRNA:PROTEIN1 and PROTEIN2 mRNA:PROTEIN3 were unaffected by clenbuterol.",
+      "orig_sentence": "The ratios actin mRNA:18S RNA and fast myosin heavy chain mRNA:18S RNA were unaffected by clenbuterol.",
+      "proteins": [
+        "actin",
+        "18S RNA",
+        "fast myosin heavy chain",
+        "18S RNA"
+      ],
+      "relations": {}
+    },
+    "BioInfer.d681.s0": {
+      "sentence": "There are three PROTEIN0 PROTEIN1 genes, two of which are identical; four PROTEIN2 PROTEIN3 genes, two of which are identical, one PROTEIN4 PROTEIN5 gene; and two PROTEIN6 PROTEIN7 genes.",
+      "orig_sentence": "There are three histone H3 genes, two of which are identical; four histone H2a genes, two of which are identical, one histone H4 gene; and two histone H2b genes.",
+      "proteins": [
+        "histone",
+        "H3",
+        "histone",
+        "H2a",
+        "histone",
+        "H4",
+        "histone",
+        "H2b"
+      ],
+      "relations": {
+        "[0, 1]": "PPI",
+        "[2, 3]": "PPI",
+        "[4, 5]": "PPI",
+        "[6, 7]": "PPI"
+      }
+    },
+    "BioInfer.d681.s1": {
+      "sentence": "These PROTEIN0 PROTEIN1 and PROTEIN2 genes encode approximately 40% of the total PROTEIN3 and PROTEIN4 mRNA, whereas the PROTEIN5 PROTEIN6 and PROTEIN7 PROTEIN8 genes encode < 10% of the total PROTEIN9 and PROTEIN10 mRNA.",
+      "orig_sentence": "These histone H3 and H2a genes encode approximately 40% of the total H3 and H2a mRNA, whereas the histone H4 and histone H2b genes encode < 10% of the total H4 and H2b mRNA.",
+      "proteins": [
+        "histone",
+        "H3",
+        "H2a",
+        "H3",
+        "H2a",
+        "histone",
+        "H4",
+        "histone",
+        "H2b",
+        "H4",
+        "H2b"
+      ],
+      "relations": {
+        "[0, 1]": "PPI",
+        "[0, 2]": "PPI",
+        "[1, 3]": "PPI",
+        "[2, 4]": "PPI",
+        "[5, 6]": "PPI",
+        "[6, 9]": "PPI",
+        "[7, 8]": "PPI",
+        "[8, 10]": "PPI"
+      }
+    },
+    "BioInfer.d684.s0": {
+      "sentence": "The relatively conservative sequence of PROTEIN0 from yeast, Physarum, Acanthamoeba, echinoid eggs and mammalian cells was found in the N-terminal region, which was suggested to be a common PROTEIN1-binding region.",
+      "orig_sentence": "The relatively conservative sequence of profilins from yeast, Physarum, Acanthamoeba, echinoid eggs and mammalian cells was found in the N-terminal region, which was suggested to be a common actin-binding region.",
+      "proteins": [
+        "profilins",
+        "actin"
+      ],
+      "relations": {
+        "[0, 1]": "PPI"
+      }
+    },
+    "BioInfer.d687.s0": {
+      "sentence": "The results indicate increased fractional synthesis and degradation of PROTEIN0 PROTEIN1, but not PROTEIN2, in the left compared to the right ventricular free wall.",
+      "orig_sentence": "The results indicate increased fractional synthesis and degradation of myosin heavy chain and light chains, but not actin, in the left compared to the right ventricular free wall.",
+      "proteins": [
+        "myosin light chains",
+        "myosin heavy chain",
+        "actin"
+      ],
+      "relations": {}
+    },
+    "BioInfer.d687.s1": {
+      "sentence": "To test for regional differences in the rates of synthesis and degradation of contractile proteins during normal physiological growth of the heart in vivo, fractional rates of protein accumulation and synthesis were assessed for total protein, PROTEIN0, PROTEIN1, PROTEIN2, and PROTEIN3 in the right and left ventricular free walls of growing, New Zealand White rabbits.",
+      "orig_sentence": "To test for regional differences in the rates of synthesis and degradation of contractile proteins during normal physiological growth of the heart in vivo, fractional rates of protein accumulation and synthesis were assessed for total protein, myosin heavy chain, myosin light chain, phosphorylatable myosin light chain, and actin in the right and left ventricular free walls of growing, New Zealand White rabbits.",
+      "proteins": [
+        "myosin heavy chain",
+        "myosin light chain",
+        "phosphorylatable myosin light chain",
+        "actin"
+      ],
+      "relations": {}
+    },
+    "BioInfer.d689.s0": {
+      "sentence": "The Saccharomyces cerevisiae PROTEIN0 and PROTEIN1 genes are both required for the occurrence of homologous recombination and for the repair of double-stranded DNA breaks.",
+      "orig_sentence": "The Saccharomyces cerevisiae RAD51 and RAD54 genes are both required for the occurrence of homologous recombination and for the repair of double-stranded DNA breaks.",
+      "proteins": [
+        "RAD51",
+        "RAD54"
+      ],
+      "relations": {}
+    },
+    "BioInfer.d690.s0": {
+      "sentence": "The Saccharomyces cerevisiae PROTEIN0 gene belongs to the PROTEIN1, PROTEIN2 and PROTEIN3 epistasis group which, together with PROTEIN4, is proposed to act at the beginning of the DNA damage checkpoint pathway.",
+      "orig_sentence": "The Saccharomyces cerevisiae DDC1 gene belongs to the RAD17, MEC3 and RAD24 epistasis group which, together with RAD9, is proposed to act at the beginning of the DNA damage checkpoint pathway.",
+      "proteins": [
+        "DDC1",
+        "RAD17",
+        "MEC3",
+        "RAD24",
+        "RAD9"
+      ],
+      "relations": {
+        "[0, 1]": "PPI",
+        "[0, 2]": "PPI",
+        "[0, 3]": "PPI",
+        "[1, 2]": "PPI",
+        "[1, 3]": "PPI",
+        "[2, 3]": "PPI"
+      }
+    },
+    "BioInfer.d691.s0": {
+      "sentence": "The same steady state concentrations of polymerized and nonpolymerized PROTEIN0 are reached whether PROTEIN1 is added before initiation of polymerization or after polymerization is complete.",
+      "orig_sentence": "The same steady state concentrations of polymerized and nonpolymerized actin are reached whether profilin is added before initiation of polymerization or after polymerization is complete.",
+      "proteins": [
+        "actin",
+        "profilin"
+      ],
+      "relations": {}
+    },
+    "BioInfer.d698.s0": {
+      "sentence": "These findings suggest that this novel PROTEIN0 is involved in the PROTEIN1 signalling pathway, probably downstream of PROTEIN2 activation, and mediates the stimulation of PROTEIN3, which leads to PROTEIN4-related cytoskeletal changes through the hydrolysis of PIP2, which binds to PROTEIN5 such as PROTEIN6 and PROTEIN7.",
+      "orig_sentence": "These findings suggest that this novel RhoGAP is involved in the Rho signalling pathway, probably downstream of Rho activation, and mediates the stimulation of PLC-delta, which leads to actin-related cytoskeletal changes through the hydrolysis of PIP2, which binds to actin binding proteins such as gelsolin and profilin.",
+      "proteins": [
+        "RhoGAP",
+        "Rho",
+        "Rho",
+        "PLC-delta",
+        "actin",
+        "actin binding proteins",
+        "gelsolin",
+        "profilin"
+      ],
+      "relations": {
+        "[0, 1]": "PPI",
+        "[0, 2]": "PPI",
+        "[0, 3]": "PPI",
+        "[1, 2]": "PPI",
+        "[5, 6]": "PPI",
+        "[5, 7]": "PPI"
+      }
+    },
+    "BioInfer.d703.s0": {
+      "sentence": "These proteins also compose the essential heterotrimeric splicing factor PROTEIN0, and products of yeast pre-mRNA processing genes PROTEIN1, PROTEIN2, and PROTEIN3 are their likely yeast counterparts.",
+      "orig_sentence": "These proteins also compose the essential heterotrimeric splicing factor SF3a, and products of yeast pre-mRNA processing genes PRP9, PRP11, and PRP21 are their likely yeast counterparts.",
+      "proteins": [
+        "SF3a",
+        "PRP9",
+        "PRP11",
+        "PRP21"
+      ],
+      "relations": {}
+    },
+    "BioInfer.d708.s0": {
+      "sentence": "These results indicate that (i) cotranslational assembly of PROTEIN0 is developmentally regulated, (ii) structures containing PROTEIN1 and not microtubules may mediate initial association of the heavy chains with the cytoskeleton, and (iii) the site of translation dictates where a significant fraction of the heavy chains will be inserted into the cytoskeleton.",
+      "orig_sentence": "These results indicate that (i) cotranslational assembly of myosin heavy chains is developmentally regulated, (ii) structures containing actin and not microtubules may mediate initial association of the heavy chains with the cytoskeleton, and (iii) the site of translation dictates where a significant fraction of the heavy chains will be inserted into the cytoskeleton.",
+      "proteins": [
+        "myosin heavy chains",
+        "actin"
+      ],
+      "relations": {
+        "[0, 1]": "PPI"
+      }
+    },
+    "BioInfer.d717.s0": {
+      "sentence": "These separately encoded a complete HPIV3 genome (negative-sense), the HPIV3 PROTEIN0 PROTEIN1, the PROTEIN2 PROTEIN3, and the PROTEIN4 PROTEIN5.",
+      "orig_sentence": "These separately encoded a complete HPIV3 genome (negative-sense), the HPIV3 nucleocapsid protein N, the phosphoprotein P, and the polymerase protein L.",
+      "proteins": [
+        "nucleocapsid protein",
+        "N",
+        "phosphoprotein",
+        "P",
+        "polymerase protein",
+        "L"
+      ],
+      "relations": {
+        "[0, 1]": "PPI",
+        "[2, 3]": "PPI",
+        "[4, 5]": "PPI"
+      }
+    },
+    "BioInfer.d719.s0": {
+      "sentence": "These were identified as PROTEIN0, PROTEIN1, PROTEIN2, PROTEIN3 PROTEIN4)-60, an unidentified protein and PROTEIN5, respectively.",
+      "orig_sentence": "These were identified as myosin light chain 1, tropomyosin, actin, heat shock protein (HSP)-60, an unidentified protein and myosin heavy chain, respectively.",
+      "proteins": [
+        "myosin light chain 1",
+        "tropomyosin",
+        "actin",
+        "heat shock protein -60",
+        "HSP",
+        "myosin heavy chain"
+      ],
+      "relations": {}
+    },
+    "BioInfer.d720.s0": {
+      "sentence": "The sites on the PROTEIN0 that interact with PROTEIN1 and are responsible for force generation are ill-defined: crosslinking and experiments with isolated domains of the PROTEIN2 head implicate regions in both the 50K and 20K (molecular weights in thousands) domains of the PROTEIN3 head (subfragment 1, S1) in this process.",
+      "orig_sentence": "The sites on the myosin heavy chain that interact with actin and are responsible for force generation are ill-defined: crosslinking and experiments with isolated domains of the myosin head implicate regions in both the 50K and 20K (molecular weights in thousands) domains of the myosin head (subfragment 1, S1) in this process.",
+      "proteins": [
+        "myosin heavy chain",
+        "actin",
+        "myosin",
+        "myosin"
+      ],
+      "relations": {
+        "[0, 1]": "PPI"
+      }
+    },
+    "BioInfer.d738.s0": {
+      "sentence": "This PROTEIN0-PROTEIN1 complex plays an indispensable role in construction of ordered multicellular structures such as polarized epithelium.",
+      "orig_sentence": "This cadherin-catenin complex plays an indispensable role in construction of ordered multicellular structures such as polarized epithelium.",
+      "proteins": [
+        "cadherin",
+        "catenin"
+      ],
+      "relations": {
+        "[0, 1]": "PPI"
+      }
+    },
+    "BioInfer.d738.s1": {
+      "sentence": "PROTEIN0 and PROTEIN1 possibly play more regulatory roles, as it was shown that their tyrosine phosphorylation correlated with modified PROTEIN2 activities.",
+      "orig_sentence": "beta-catenin and plakoglobin possibly play more regulatory roles, as it was shown that their tyrosine phosphorylation correlated with modified cadherin activities.",
+      "proteins": [
+        "beta-catenin",
+        "plakoglobin",
+        "cadherin"
+      ],
+      "relations": {
+        "[0, 2]": "PPI",
+        "[1, 2]": "PPI"
+      }
+    },
+    "BioInfer.d743.s0": {
+      "sentence": "This paper describes the structural and biochemical characterization of PROTEIN0, a protein localized to various cellular sites where bundles of PROTEIN1 filaments attach to the plasma membrane.",
+      "orig_sentence": "This paper describes the structural and biochemical characterization of talin, a protein localized to various cellular sites where bundles of actin filaments attach to the plasma membrane.",
+      "proteins": [
+        "talin",
+        "actin"
+      ],
+      "relations": {
+        "[0, 1]": "PPI"
+      }
+    },
+    "BioInfer.d744.s0": {
+      "sentence": "This process involves other PROTEIN0, such as PROTEIN1 and PROTEIN2.",
+      "orig_sentence": "This process involves other actin-binding proteins, such as cofilin and coronin.",
+      "proteins": [
+        "actin-binding proteins",
+        "cofilin",
+        "coronin"
+      ],
+      "relations": {
+        "[0, 1]": "PPI",
+        "[0, 2]": "PPI"
+      }
+    },
+    "BioInfer.d745.s0": {
+      "sentence": "This result was supported by a high protein expression of the PROTEIN0 PROTEIN1 in 44% of the tumours with high PROTEIN2 PROTEIN3 expression, and all immunohistochemical PROTEIN4 defect tumours showed a high PROTEIN5 protein level.",
+      "orig_sentence": "This result was supported by a high protein expression of the cyclin-dependent kinase inhibitor p16 in 44% of the tumours with high cyclin E and low D1 expression, and all immunohistochemical pRB defect tumours showed a high p16 protein level.",
+      "proteins": [
+        "cyclin-dependent kinase inhibitor",
+        "p16",
+        "cyclin D1",
+        "cyclin E",
+        "pRB",
+        "p16"
+      ],
+      "relations": {
+        "[0, 1]": "PPI"
+      }
+    },
+    "BioInfer.d748.s0": {
+      "sentence": "Those observations were extended to include a spatiotemporal immunohistochemical analyses of PROTEIN0 and PROTEIN1, as well as a more detailed study of PROTEIN2, during segmentation, compaction, and compartmentalization of the somite.",
+      "orig_sentence": "Those observations were extended to include a spatiotemporal immunohistochemical analyses of beta-catenin and alpha-catenin, as well as a more detailed study of N-cadherin, during segmentation, compaction, and compartmentalization of the somite.",
+      "proteins": [
+        "beta-catenin",
+        "alpha-catenin",
+        "N-cadherin"
+      ],
+      "relations": {}
+    },
+    "BioInfer.d753.s0": {
+      "sentence": "Thus, PROTEIN0 and PROTEIN1 expression are not co-regulated in all cells.",
+      "orig_sentence": "Thus, profilin and actin expression are not co-regulated in all cells.",
+      "proteins": [
+        "profilin",
+        "actin"
+      ],
+      "relations": {
+        "[0, 1]": "PPI"
+      }
+    },
+    "BioInfer.d754.s0": {
+      "sentence": "Thus, it is likely that the both PROTEIN0 isoforms are involved in the regulation of PROTEIN1 assembly during myofibrillogenesis.",
+      "orig_sentence": "Thus, it is likely that the both cofilin isoforms are involved in the regulation of actin assembly during myofibrillogenesis.",
+      "proteins": [
+        "cofilin",
+        "actin"
+      ],
+      "relations": {
+        "[0, 1]": "PPI"
+      }
+    },
+    "BioInfer.d759.s0": {
+      "sentence": "To approach the problem, we have constructed a carp genomic library and isolated 28 nonoverlapping clones containing sequences of different PROTEIN0 (PROTEIN1) isoforms along with a clone containing carp PROTEIN2 sequences.",
+      "orig_sentence": "To approach the problem, we have constructed a carp genomic library and isolated 28 nonoverlapping clones containing sequences of different myosin heavy chain (MHC) isoforms along with a clone containing carp actin sequences.",
+      "proteins": [
+        "myosin heavy chain",
+        "MHC",
+        "actin"
+      ],
+      "relations": {}
+    },
+    "BioInfer.d770.s0": {
+      "sentence": "Total PROTEIN0 and PROTEIN1 mRNAs, and polyadenylated RNA, were determined using slot-blot assays.",
+      "orig_sentence": "Total actin and myosin heavy chain mRNAs, and polyadenylated RNA, were determined using slot-blot assays.",
+      "proteins": [
+        "actin",
+        "myosin heavy chain"
+      ],
+      "relations": {}
+    },
+    "BioInfer.d771.s0": {
+      "sentence": "Total protein, PROTEIN0 (PROTEIN1), and PROTEIN2 appeared unchanged with SVT cardiomyopathy at the LV or myocyte level.",
+      "orig_sentence": "Total protein, myosin heavy chain (MHC), and actin appeared unchanged with SVT cardiomyopathy at the LV or myocyte level.",
+      "proteins": [
+        "myosin heavy chain",
+        "MHC",
+        "actin"
+      ],
+      "relations": {}
+    },
+    "BioInfer.d775.s0": {
+      "sentence": "Transfection of plasmids encoding the BRSV minigenome, PROTEIN0 (PROTEIN1), PROTEIN2 (PROTEIN3) and PROTEIN4 protein, each under the control of T7 promoter, into cells infected with a vaccinia virus recombinant expressing the T7 PROTEIN5 gave rise to PROTEIN6 activity and progeny with the minigenome.",
+      "orig_sentence": "Transfection of plasmids encoding the BRSV minigenome, nucleocapsid protein (N), phosphoprotein (P) and L protein, each under the control of T7 promoter, into cells infected with a vaccinia virus recombinant expressing the T7 RNA polymerase gave rise to CAT activity and progeny with the minigenome.",
+      "proteins": [
+        "nucleocapsid protein",
+        "N",
+        "phosphoprotein",
+        "P",
+        "L",
+        "RNA polymerase",
+        "CAT"
+      ],
+      "relations": {}
+    },
+    "BioInfer.d778.s0": {
+      "sentence": "Two PROTEIN0, PROTEIN1 and PROTEIN2, are associated with Hirano bodies.",
+      "orig_sentence": "Two actin binding proteins, actin depolymerizing factor and cofilin, are associated with Hirano bodies.",
+      "proteins": [
+        "actin binding proteins",
+        "actin depolymerizing factor",
+        "cofilin"
+      ],
+      "relations": {
+        "[0, 1]": "PPI",
+        "[0, 2]": "PPI",
+        "[1, 2]": "PPI"
+      }
+    },
+    "BioInfer.d780.s0": {
+      "sentence": "Two isoforms of PROTEIN0 (PROTEIN1) are generated by alternative splicing; PROTEIN2 differs from PROTEIN3 by the insertion of B2 exon cassette near the PROTEIN4 binding region.",
+      "orig_sentence": "Two isoforms of nonmuscle myosin heavy chain IIB (MHC-IIB) are generated by alternative splicing; MHC-IIB(B2) differs from MHC-IIB(DeltaB2) by the insertion of B2 exon cassette near the actin binding region.",
+      "proteins": [
+        "nonmuscle myosin heavy chain IIB",
+        "MHC-IIB",
+        "MHC-IIB(B2)",
+        "MHC-IIB(DeltaB2)",
+        "actin"
+      ],
+      "relations": {
+        "[2, 3]": "PPI",
+        "[2, 4]": "PPI",
+        "[3, 4]": "PPI"
+      }
+    },
+    "BioInfer.d785.s0": {
+      "sentence": "Up to now three allergens have been identified as responsible for cross-reactivity in these associations: PROTEIN0, a 14 kd protein that regulates PROTEIN1; PROTEIN2, the 18 kd birch pollen allergen; and a 60-69 kd allergen.",
+      "orig_sentence": "Up to now three allergens have been identified as responsible for cross-reactivity in these associations: profilin, a 14 kd protein that regulates actin; Bet v 1, the 18 kd birch pollen allergen; and a 60-69 kd allergen.",
+      "proteins": [
+        "profilin",
+        "actin",
+        "Bet v 1"
+      ],
+      "relations": {
+        "[0, 1]": "PPI"
+      }
+    },
+    "BioInfer.d794.s0": {
+      "sentence": "PROTEIN0 and PROTEIN1 were also up-regulated, whereas an isoform of PROTEIN2 was down-regulated.",
+      "orig_sentence": "Vimentin and actin were also up-regulated, whereas an isoform of myosin heavy chain was down-regulated.",
+      "proteins": [
+        "Vimentin",
+        "actin",
+        "myosin heavy chain"
+      ],
+      "relations": {}
+    },
+    "BioInfer.d798.s0": {
+      "sentence": "We conclude that germ-line involvement of PROTEIN0 and PROTEIN1 is rare and that other genes are likely to account for a majority of PROTEIN2-, PROTEIN3-mutation negative families with nonpolypotic colon cancer.",
+      "orig_sentence": "We conclude that germ-line involvement of MSH6 and MSH3 is rare and that other genes are likely to account for a majority of MSH2-, MLH1-mutation negative families with nonpolypotic colon cancer.",
+      "proteins": [
+        "MSH6",
+        "MSH3",
+        "MSH2",
+        "MLH1"
+      ],
+      "relations": {}
+    },
+    "BioInfer.d806.s0": {
+      "sentence": "We found that the expression of all these genes, including PROTEIN0 (PROTEIN1), PROTEIN2 (PROTEIN3), PROTEIN4 (PROTEIN5), PROTEIN6 (PROTEIN7), PROTEIN8 PROTEIN9, PROTEIN10 PROTEIN11 PROTEIN12, PROTEIN13 PROTEIN14, and PROTEIN15 PROTEIN16, was induced to high levels in young IMR-90 cells but not in old IMR-90 cells.",
+      "orig_sentence": "We found that the expression of all these genes, including thymidylate synthase (TS), dihydrofolate reductase (DHFR), ribonucleotide reductase (PNR), proliferating cell nuclear antigen (PCNA), histone H1, histone H2A + 2B, histone H3, and histone H4, was induced to high levels in young IMR-90 cells but not in old IMR-90 cells.",
+      "proteins": [
+        "thymidylate synthase",
+        "TS",
+        "dihydrofolate reductase",
+        "DHFR",
+        "ribonucleotide reductase",
+        "PNR",
+        "proliferating cell nuclear antigen",
+        "PCNA",
+        "histone",
+        "H1",
+        "histone",
+        "H 2B",
+        "H2A",
+        "histone",
+        "H3",
+        "histone",
+        "H4"
+      ],
+      "relations": {
+        "[8, 9]": "PPI",
+        "[10, 11]": "PPI",
+        "[10, 12]": "PPI",
+        "[13, 14]": "PPI",
+        "[15, 16]": "PPI"
+      }
+    },
+    "BioInfer.d808.s0": {
+      "sentence": "We have characterized the interaction and nuclear localization of the PROTEIN0 PROTEIN1) protein and PROTEIN2 (PROTEIN3) of sonchus yellow net nucleorhabdovirus.",
+      "orig_sentence": "We have characterized the interaction and nuclear localization of the nucleocapsid (N) protein and phosphoprotein (P) of sonchus yellow net nucleorhabdovirus.",
+      "proteins": [
+        "nucleocapsid protein",
+        "N",
+        "phosphoprotein",
+        "P"
+      ],
+      "relations": {
+        "[0, 2]": "PPI",
+        "[0, 3]": "PPI",
+        "[1, 2]": "PPI",
+        "[1, 3]": "PPI"
+      }
+    },
+    "BioInfer.d811.s0": {
+      "sentence": "We have established an PROTEIN0-deficient HHUA/chr.2 cell line by introducing human chromosome 2, which carries wild-type PROTEIN1 and PROTEIN2 genes, to HHUA cells.",
+      "orig_sentence": "We have established an MSH3-deficient HHUA/chr.2 cell line by introducing human chromosome 2, which carries wild-type MSH6 and MSH2 genes, to HHUA cells.",
+      "proteins": [
+        "MSH3",
+        "MSH6",
+        "MSH2"
+      ],
+      "relations": {}
+    },
+    "BioInfer.d816.s0": {
+      "sentence": "We investigated PROTEIN0 filament turnover rates, length, number, barbed end exposure, and binding of PROTEIN1 in bovine arterial endothelial cells moving at different speeds depending on their position in a confluent monolayer.",
+      "orig_sentence": "We investigated actin filament turnover rates, length, number, barbed end exposure, and binding of cofilin in bovine arterial endothelial cells moving at different speeds depending on their position in a confluent monolayer.",
+      "proteins": [
+        "actin",
+        "cofilin"
+      ],
+      "relations": {
+        "[0, 1]": "PPI"
+      }
+    },
+    "BioInfer.d818.s0": {
+      "sentence": "We propose that PROTEIN0 may act by forming, during the critical period of cerebellar development, a reserve pool of monomeric PROTEIN1 that can easily be mobilized in cell regions such as growth cones or synaptic junctions where filamentous PROTEIN2 is highly concentrated.",
+      "orig_sentence": "We propose that profilin may act by forming, during the critical period of cerebellar development, a reserve pool of monomeric actin that can easily be mobilized in cell regions such as growth cones or synaptic junctions where filamentous actin is highly concentrated.",
+      "proteins": [
+        "profilin",
+        "actin",
+        "actin"
+      ],
+      "relations": {
+        "[0, 1]": "PPI"
+      }
+    },
+    "BioInfer.d820.s0": {
+      "sentence": "We show here that the phenotype of ts PROTEIN0 is highly similar to that of PROTEIN1 and that the functions of the gene products of PROTEIN2 and PROTEIN3 are closely interrelated.",
+      "orig_sentence": "We show here that the phenotype of ts cut2-364 is highly similar to that of cut1 and that the functions of the gene products of cut1+ and cut2+ are closely interrelated.",
+      "proteins": [
+        "cut2-364",
+        "cut1",
+        "cut1+",
+        "cut2+"
+      ],
+      "relations": {
+        "[2, 3]": "PPI"
+      }
+    },
+    "BioInfer.d824.s0": {
+      "sentence": "We studied the roles of PROTEIN0, an PROTEIN1-binding phosphoprotein, in superoxide production of neutrophil-like HL-60 cells triggered by opsonized zymosan (OZ).",
+      "orig_sentence": "We studied the roles of cofilin, an actin-binding phosphoprotein, in superoxide production of neutrophil-like HL-60 cells triggered by opsonized zymosan (OZ).",
+      "proteins": [
+        "cofilin",
+        "actin"
+      ],
+      "relations": {
+        "[0, 1]": "PPI"
+      }
+    },
+    "BioInfer.d825.s0": {
+      "sentence": "We suggest that the PROTEIN0 in the nodes functions, via a cross-linking activity, in the convergence of PROTEIN1 filaments at the membrane during development of the ribs.",
+      "orig_sentence": "We suggest that the talin in the nodes functions, via a cross-linking activity, in the convergence of actin filaments at the membrane during development of the ribs.",
+      "proteins": [
+        "talin",
+        "actin"
+      ],
+      "relations": {
+        "[0, 1]": "PPI"
+      }
+    },
+    "BioInfer.d826.s0": {
+      "sentence": "We tested for the presence of PROTEIN0, PROTEIN1, PROTEIN2, PROTEIN3) and cytoskeletal proteins PROTEIN4 and PROTEIN5.",
+      "orig_sentence": "We tested for the presence of alpha-smooth muscle actin, tropomyosin, desmin, smooth muscle myosin (heavy chain) and cytoskeletal proteins vimentin and cytokeratin.",
+      "proteins": [
+        "alpha-smooth muscle actin",
+        "tropomyosin",
+        "desmin",
+        "smooth muscle myosin heavy chain",
+        "vimentin",
+        "cytokeratin"
+      ],
+      "relations": {}
+    }
+  }
+}

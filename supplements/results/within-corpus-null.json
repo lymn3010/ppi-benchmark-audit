@@ -1,0 +1,12 @@
+{
+  "observed": 54,
+  "iters": 10000,
+  "seed": 0,
+  "min_support": 5,
+  "isolated_frac": 0.25,
+  "null_mean": 42.1,
+  "null_p95": 51,
+  "null_min": 24,
+  "null_max": 60,
+  "p_value": 0.0142
+}

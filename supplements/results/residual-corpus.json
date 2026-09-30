@@ -1,0 +1,675 @@
+{
+  "n_observations": 4184,
+  "positive_rate": 0.5,
+  "per_corpus_n": {
+    "aimed": 1847,
+    "bioinfer": 1840,
+    "hprd50": 177,
+    "iepa": 229,
+    "lll": 91
+  },
+  "per_corpus_positive_rate": {
+    "aimed": 0.3297,
+    "bioinfer": 0.6082,
+    "hprd50": 0.6215,
+    "iepa": 0.7424,
+    "lll": 0.9121
+  },
+  "out_of_fold": {
+    "m1_semantics": {
+      "logloss": {
+        "mean": 0.6014,
+        "se": 0.0046,
+        "ci_low": 0.5924,
+        "ci_high": 0.6103,
+        "n_folds": 5
+      },
+      "auc": {
+        "mean": 0.7376,
+        "se": 0.0052,
+        "ci_low": 0.7275,
+        "ci_high": 0.7478,
+        "n_folds": 5
+      },
+      "auc_within_corpus": {
+        "mean": 0.7472,
+        "se": 0.0064,
+        "ci_low": 0.7348,
+        "ci_high": 0.7597,
+        "n_folds": 5
+      },
+      "n_features": 126
+    },
+    "m2_plus_corpus": {
+      "logloss": {
+        "mean": 0.5415,
+        "se": 0.0021,
+        "ci_low": 0.5373,
+        "ci_high": 0.5456,
+        "n_folds": 5
+      },
+      "auc": {
+        "mean": 0.8036,
+        "se": 0.0017,
+        "ci_low": 0.8003,
+        "ci_high": 0.8069,
+        "n_folds": 5
+      },
+      "auc_within_corpus": {
+        "mean": 0.7564,
+        "se": 0.0054,
+        "ci_low": 0.7459,
+        "ci_high": 0.767,
+        "n_folds": 5
+      },
+      "n_features": 131
+    },
+    "m3_corpus_base_rate": {
+      "auc": {
+        "mean": 0.8027,
+        "se": 0.002,
+        "ci_low": 0.7987,
+        "ci_high": 0.8067,
+        "n_folds": 5
+      },
+      "n_features": 127
+    },
+    "corpus_auc_improvement_paired": {
+      "mean": 0.066,
+      "se": 0.0053,
+      "ci_low": 0.0557,
+      "ci_high": 0.0763,
+      "n_folds": 5
+    },
+    "corpus_logloss_improvement_paired": {
+      "mean": 0.0599,
+      "se": 0.0043,
+      "ci_low": 0.0515,
+      "ci_high": 0.0683,
+      "n_folds": 5
+    },
+    "corpus_auc_improvement_within_corpus_paired": {
+      "mean": 0.0092,
+      "se": 0.0026,
+      "ci_low": 0.004,
+      "ci_high": 0.0143,
+      "n_folds": 5
+    },
+    "base_rate_only_auc_improvement_paired": {
+      "mean": 0.0651,
+      "se": 0.0046,
+      "ci_low": 0.056,
+      "ci_high": 0.0742,
+      "n_folds": 5
+    },
+    "corpus_auc_improvement": 0.066,
+    "corpus_logloss_improvement": 0.0599
+  },
+  "document_bootstrap": {
+    "method": "document cluster bootstrap over held-out predictions from one document-grouped 5-fold CV; resampling is within corpus, preserving each corpus's document count",
+    "requested_replicates": 2000,
+    "seed": 0,
+    "n_documents_by_corpus": {
+      "aimed": 209,
+      "bioinfer": 497,
+      "hprd50": 37,
+      "iepa": 113,
+      "lll": 32
+    },
+    "raw_corpus_lift": {
+      "n_replicates": 2000,
+      "mean": 0.074,
+      "ci_low_2.5": 0.0555,
+      "ci_high_97.5": 0.0931
+    },
+    "within_corpus_lift": {
+      "n_replicates": 2000,
+      "mean": 0.0021,
+      "ci_low_2.5": -0.0054,
+      "ci_high_97.5": 0.01
+    },
+    "within_corpus_lift_by_corpus": {
+      "aimed": {
+        "n_replicates": 2000,
+        "mean": 0.0088,
+        "ci_low_2.5": -0.0008,
+        "ci_high_97.5": 0.0194
+      },
+      "bioinfer": {
+        "n_replicates": 2000,
+        "mean": -0.0031,
+        "ci_low_2.5": -0.0143,
+        "ci_high_97.5": 0.0083
+      },
+      "hprd50": {
+        "n_replicates": 2000,
+        "mean": -0.0148,
+        "ci_low_2.5": -0.0802,
+        "ci_high_97.5": 0.0435
+      },
+      "iepa": {
+        "n_replicates": 2000,
+        "mean": 0.0202,
+        "ci_low_2.5": -0.008,
+        "ci_high_97.5": 0.0508
+      },
+      "lll": {
+        "n_replicates": 1999,
+        "mean": -0.0379,
+        "ci_low_2.5": -0.1288,
+        "ci_high_97.5": 0.0293
+      }
+    }
+  },
+  "robustness": {
+    "corpus_only_baseline_auc": {
+      "mean": 0.6644,
+      "se": 0.0044,
+      "ci_low": 0.6557,
+      "ci_high": 0.6731,
+      "n_folds": 5
+    },
+    "full_sample": {
+      "semantics_auc": {
+        "mean": 0.7376,
+        "se": 0.0052,
+        "ci_low": 0.7275,
+        "ci_high": 0.7478,
+        "n_folds": 5
+      },
+      "semantics_plus_corpus_auc": {
+        "mean": 0.8036,
+        "se": 0.0017,
+        "ci_low": 0.8003,
+        "ci_high": 0.8069,
+        "n_folds": 5
+      },
+      "corpus_lift_paired": {
+        "mean": 0.066,
+        "se": 0.0053,
+        "ci_low": 0.0557,
+        "ci_high": 0.0763,
+        "n_folds": 5
+      }
+    },
+    "full_sample_document_clustered": {
+      "semantics_auc": {
+        "mean": 0.7013,
+        "se": 0.0111,
+        "ci_low": 0.6796,
+        "ci_high": 0.723,
+        "n_folds": 5
+      },
+      "semantics_plus_corpus_auc": {
+        "mean": 0.7724,
+        "se": 0.005,
+        "ci_low": 0.7626,
+        "ci_high": 0.7822,
+        "n_folds": 5
+      },
+      "corpus_lift_paired": {
+        "mean": 0.0711,
+        "se": 0.0082,
+        "ci_low": 0.0549,
+        "ci_high": 0.0872,
+        "n_folds": 5
+      }
+    },
+    "big_corpora_only(aimed+bioinfer)": {
+      "semantics_auc": {
+        "mean": 0.7322,
+        "se": 0.0058,
+        "ci_low": 0.7207,
+        "ci_high": 0.7436,
+        "n_folds": 5
+      },
+      "semantics_plus_corpus_auc": {
+        "mean": 0.7941,
+        "se": 0.005,
+        "ci_low": 0.7843,
+        "ci_high": 0.804,
+        "n_folds": 5
+      },
+      "corpus_lift_paired": {
+        "mean": 0.0619,
+        "se": 0.0033,
+        "ci_low": 0.0555,
+        "ci_high": 0.0683,
+        "n_folds": 5
+      }
+    },
+    "document_clustered_cv(aimed+bioinfer)": {
+      "semantics_auc": {
+        "mean": 0.6962,
+        "se": 0.02,
+        "ci_low": 0.6569,
+        "ci_high": 0.7355,
+        "n_folds": 5
+      },
+      "semantics_plus_corpus_auc": {
+        "mean": 0.7645,
+        "se": 0.0154,
+        "ci_low": 0.7344,
+        "ci_high": 0.7946,
+        "n_folds": 5
+      },
+      "corpus_lift_paired": {
+        "mean": 0.0683,
+        "se": 0.0083,
+        "ci_low": 0.052,
+        "ci_high": 0.0845,
+        "n_folds": 5
+      }
+    },
+    "semantics_auc": 0.738,
+    "semantics_plus_corpus_auc": 0.804
+  },
+  "matched_stratum": {
+    "testable_strata": 36,
+    "mean_corpus_gap": 0.394,
+    "median_corpus_gap": 0.378,
+    "frac_gap_ge_0.30": 0.583,
+    "n_strata_full_agreement": 1,
+    "examples": [
+      {
+        "stratum": "associate|verbal|asserted",
+        "rates": {
+          "aimed": 0.82,
+          "bioinfer": 0.67,
+          "hprd50": 1.0
+        },
+        "counts": {
+          "aimed": [
+            28,
+            34
+          ],
+          "bioinfer": [
+            6,
+            9
+          ],
+          "hprd50": [
+            5,
+            5
+          ]
+        }
+      },
+      {
+        "stratum": "inhibit|verbal|asserted",
+        "rates": {
+          "aimed": 0.2,
+          "bioinfer": 0.57,
+          "lll": 1.0
+        },
+        "counts": {
+          "aimed": [
+            3,
+            15
+          ],
+          "bioinfer": [
+            12,
+            21
+          ],
+          "lll": [
+            7,
+            7
+          ]
+        }
+      },
+      {
+        "stratum": "activate|verbal|asserted",
+        "rates": {
+          "aimed": 0.62,
+          "bioinfer": 0.75,
+          "iepa": 1.0,
+          "lll": 1.0
+        },
+        "counts": {
+          "aimed": [
+            16,
+            26
+          ],
+          "bioinfer": [
+            6,
+            8
+          ],
+          "iepa": [
+            5,
+            5
+          ],
+          "lll": [
+            5,
+            5
+          ]
+        }
+      },
+      {
+        "stratum": "link|verbal|asserted",
+        "rates": {
+          "aimed": 0.0,
+          "bioinfer": 0.96
+        },
+        "counts": {
+          "aimed": [
+            0,
+            5
+          ],
+          "bioinfer": [
+            23,
+            24
+          ]
+        }
+      },
+      {
+        "stratum": "associate|nominalized|asserted",
+        "rates": {
+          "aimed": 0.45,
+          "bioinfer": 0.89
+        },
+        "counts": {
+          "aimed": [
+            17,
+            38
+          ],
+          "bioinfer": [
+            16,
+            18
+          ]
+        }
+      },
+      {
+        "stratum": "bind|nominalized|asserted",
+        "rates": {
+          "aimed": 0.47,
+          "bioinfer": 0.88,
+          "hprd50": 0.07
+        },
+        "counts": {
+          "aimed": [
+            23,
+            49
+          ],
+          "bioinfer": [
+            22,
+            25
+          ],
+          "hprd50": [
+            1,
+            14
+          ]
+        }
+      },
+      {
+        "stratum": "complex|compound_state|asserted",
+        "rates": {
+          "aimed": 0.32,
+          "bioinfer": 0.75
+        },
+        "counts": {
+          "aimed": [
+            45,
+            140
+          ],
+          "bioinfer": [
+            98,
+            131
+          ]
+        }
+      },
+      {
+        "stratum": "encode|verbal|asserted",
+        "rates": {
+          "aimed": 0.18,
+          "bioinfer": 0.57
+        },
+        "counts": {
+          "aimed": [
+            2,
+            11
+          ],
+          "bioinfer": [
+            16,
+            28
+          ]
+        }
+      }
+    ]
+  },
+  "matched_stratum_legacy_capped_predicates": {
+    "testable_strata": 39,
+    "mean_corpus_gap": 0.415,
+    "median_corpus_gap": 0.39,
+    "frac_gap_ge_0.30": 0.59,
+    "n_strata_full_agreement": 1,
+    "examples": [
+      {
+        "stratum": "associate|verbal|asserted",
+        "rates": {
+          "aimed": 0.82,
+          "bioinfer": 0.67,
+          "hprd50": 1.0
+        },
+        "counts": {
+          "aimed": [
+            28,
+            34
+          ],
+          "bioinfer": [
+            6,
+            9
+          ],
+          "hprd50": [
+            5,
+            5
+          ]
+        }
+      },
+      {
+        "stratum": "inhibit|verbal|asserted",
+        "rates": {
+          "aimed": 0.2,
+          "bioinfer": 0.57,
+          "lll": 1.0
+        },
+        "counts": {
+          "aimed": [
+            3,
+            15
+          ],
+          "bioinfer": [
+            12,
+            21
+          ],
+          "lll": [
+            7,
+            7
+          ]
+        }
+      },
+      {
+        "stratum": "activate|verbal|asserted",
+        "rates": {
+          "aimed": 0.62,
+          "bioinfer": 0.75,
+          "iepa": 1.0,
+          "lll": 1.0
+        },
+        "counts": {
+          "aimed": [
+            16,
+            26
+          ],
+          "bioinfer": [
+            6,
+            8
+          ],
+          "iepa": [
+            5,
+            5
+          ],
+          "lll": [
+            5,
+            5
+          ]
+        }
+      },
+      {
+        "stratum": "link|verbal|asserted",
+        "rates": {
+          "aimed": 0.0,
+          "bioinfer": 0.96
+        },
+        "counts": {
+          "aimed": [
+            0,
+            5
+          ],
+          "bioinfer": [
+            23,
+            24
+          ]
+        }
+      },
+      {
+        "stratum": "OTHER|passive|asserted",
+        "rates": {
+          "aimed": 0.22,
+          "bioinfer": 0.53,
+          "hprd50": 0.64,
+          "iepa": 0.62,
+          "lll": 0.93
+        },
+        "counts": {
+          "aimed": [
+            13,
+            59
+          ],
+          "bioinfer": [
+            41,
+            78
+          ],
+          "hprd50": [
+            7,
+            11
+          ],
+          "iepa": [
+            10,
+            16
+          ],
+          "lll": [
+            13,
+            14
+          ]
+        }
+      },
+      {
+        "stratum": "OTHER|verbal|asserted",
+        "rates": {
+          "aimed": 0.26,
+          "bioinfer": 0.68,
+          "hprd50": 0.61,
+          "iepa": 0.69,
+          "lll": 0.93
+        },
+        "counts": {
+          "aimed": [
+            61,
+            233
+          ],
+          "bioinfer": [
+            202,
+            298
+          ],
+          "hprd50": [
+            11,
+            18
+          ],
+          "iepa": [
+            50,
+            72
+          ],
+          "lll": [
+            25,
+            27
+          ]
+        }
+      },
+      {
+        "stratum": "OTHER|nominalized|asserted",
+        "rates": {
+          "aimed": 0.28,
+          "bioinfer": 0.69,
+          "hprd50": 0.85,
+          "iepa": 0.56,
+          "lll": 0.91
+        },
+        "counts": {
+          "aimed": [
+            26,
+            92
+          ],
+          "bioinfer": [
+            80,
+            116
+          ],
+          "hprd50": [
+            11,
+            13
+          ],
+          "iepa": [
+            5,
+            9
+          ],
+          "lll": [
+            10,
+            11
+          ]
+        }
+      },
+      {
+        "stratum": "associate|nominalized|asserted",
+        "rates": {
+          "aimed": 0.45,
+          "bioinfer": 0.89
+        },
+        "counts": {
+          "aimed": [
+            17,
+            38
+          ],
+          "bioinfer": [
+            16,
+            18
+          ]
+        }
+      }
+    ]
+  },
+  "carrier_robustness": {
+    "oof_lift_full_semantics": 0.066,
+    "oof_lift_drop_carrier": 0.0658,
+    "oof_lift_carrier_words_only": 0.0669,
+    "oof_lift_carrier_classes_only": 0.0637,
+    "matched_stratum_no_carrier": {
+      "strata": 36,
+      "mean_gap": 0.394
+    },
+    "matched_stratum_plus_carrier_class": {
+      "strata": 26,
+      "mean_gap": 0.363
+    },
+    "matched_stratum_plus_carrier_word": {
+      "strata": 21,
+      "mean_gap": 0.39
+    },
+    "matched_stratum_plus_carrier_word_roles": {
+      "strata": 19,
+      "mean_gap": 0.337
+    },
+    "codebook_coverage": {
+      "carrier_bearing_rows": 1972,
+      "classified_rows": 1471,
+      "other_carrier_rows": 501,
+      "classified_share": 0.746
+    }
+  }
+}

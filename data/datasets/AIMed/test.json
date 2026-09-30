@@ -1,0 +1,3738 @@
+{
+  "metadata": {
+    "created_at": "2026-06-24T06:37:39.521209+00:00",
+    "source": "AIMed test (rebuilt from canonical XML, 2026-06-24)",
+    "total_sentences": 389,
+    "sentences_with_relation": 106,
+    "total_pairs": 1095,
+    "pairs_with_relation": 191
+  },
+  "data": {
+    "AIMed.d3.s25": {
+      "sentence": "Role of cyclin-dependent kinase inhibitors in the growth arrest at senescence in human prostate epithelial and uroepithelial cells.",
+      "orig_sentence": "Role of cyclin-dependent kinase inhibitors in the growth arrest at senescence in human prostate epithelial and uroepithelial cells.",
+      "proteins": [],
+      "relations": {}
+    },
+    "AIMed.d3.s26": {
+      "sentence": "Cellular senescence has been proposed to be an in vitro and in vivo block that cells must overcome in order to immortalize and become tumorigenic.",
+      "orig_sentence": "Cellular senescence has been proposed to be an in vitro and in vivo block that cells must overcome in order to immortalize and become tumorigenic.",
+      "proteins": [],
+      "relations": {}
+    },
+    "AIMed.d3.s27": {
+      "sentence": "To characterize these pathways, we focused on changes in the cyclin-dependent kinase inhibitors and their binding partners that underlie the cell cycle arrest at senescence.",
+      "orig_sentence": "To characterize these pathways, we focused on changes in the cyclin-dependent kinase inhibitors and their binding partners that underlie the cell cycle arrest at senescence.",
+      "proteins": [],
+      "relations": {}
+    },
+    "AIMed.d3.s28": {
+      "sentence": "As a model, we utilized normal human prostate epithelial cell (HPEC) and human uroepithelial cell (HUC) cultures.",
+      "orig_sentence": "As a model, we utilized normal human prostate epithelial cell (HPEC) and human uroepithelial cell (HUC) cultures.",
+      "proteins": [],
+      "relations": {}
+    },
+    "AIMed.d3.s29": {
+      "sentence": "After 30-40 population doublings cells became growth-arrested in G0/1 with a threefold decrease in PROTEIN0-associated activity, a point defined as pre-senescence.",
+      "orig_sentence": "After 30-40 population doublings cells became growth-arrested in G0/1 with a threefold decrease in Cdk2-associated activity, a point defined as pre-senescence.",
+      "proteins": [
+        "Cdk2"
+      ],
+      "relations": {}
+    },
+    "AIMed.d3.s30": {
+      "sentence": "Temporally following this growth arrest, the cells develop a senescence morphology and express PROTEIN0 PROTEIN1 (PROTEIN2).",
+      "orig_sentence": "Temporally following this growth arrest, the cells develop a senescence morphology and express senescence-associated beta-galactosidase (SA-beta-gal).",
+      "proteins": [
+        "senescence-associated beta-galactosidase",
+        "beta-galactosidase",
+        "SA-beta-gal"
+      ],
+      "relations": {}
+    },
+    "AIMed.d3.s31": {
+      "sentence": "Levels of PROTEIN0(PROTEIN1) and PROTEIN2(PROTEIN3) rise in HUCs during progressive passages, whereas only PROTEIN4 increases in HPEC cultures.",
+      "orig_sentence": "Levels of p16(INK4a) and p57(KIP2) rise in HUCs during progressive passages, whereas only p16 increases in HPEC cultures.",
+      "proteins": [
+        "p16",
+        "INK4a",
+        "p57",
+        "KIP2",
+        "p16"
+      ],
+      "relations": {}
+    },
+    "AIMed.d3.s32": {
+      "sentence": "The induced expression of PROTEIN0, similar to PROTEIN1, produces a senescent-like phenotype.",
+      "orig_sentence": "The induced expression of p57, similar to p16, produces a senescent-like phenotype.",
+      "proteins": [
+        "p57",
+        "p16"
+      ],
+      "relations": {}
+    },
+    "AIMed.d3.s33": {
+      "sentence": "PROTEIN0, PROTEIN1, PROTEIN2(PROTEIN3) and PROTEIN4(PROTEIN5) decrease in both cell types.",
+      "orig_sentence": "pRB, cyclin D, p19(INK4d) and p27(KIP1) decrease in both cell types.",
+      "proteins": [
+        "pRB",
+        "cyclin D",
+        "p19",
+        "INK4d",
+        "p27",
+        "KIP1"
+      ],
+      "relations": {}
+    },
+    "AIMed.d3.s34": {
+      "sentence": "We find that PROTEIN0, PROTEIN1(PROTEIN2) and PROTEIN3(PROTEIN4) are transiently elevated in HPECs and HUCs at the pre-senescent growth arrest, then return to low proliferating levels at terminal senescence.",
+      "orig_sentence": "We find that p53, p21(CIP1) and p15(INK4b) are transiently elevated in HPECs and HUCs at the pre-senescent growth arrest, then return to low proliferating levels at terminal senescence.",
+      "proteins": [
+        "p53",
+        "p21",
+        "CIP1",
+        "p15",
+        "INK4b"
+      ],
+      "relations": {}
+    },
+    "AIMed.d3.s35": {
+      "sentence": "Analysis of PROTEIN0, PROTEIN1(PROTEIN2), PROTEIN3(PROTEIN4), PROTEIN5(PROTEIN6), and PROTEIN7(PROTEIN8) reveals altered expression in immortalized, non-tumorigenic HPV16 E6 and E7 prostate lines and in tumorigenic prostate cancer cells.",
+      "orig_sentence": "Analysis of p53, p21(CIP1), p15(INK4b), p16(INK4a), and p57(KIP2) reveals altered expression in immortalized, non-tumorigenic HPV16 E6 and E7 prostate lines and in tumorigenic prostate cancer cells.",
+      "proteins": [
+        "p53",
+        "p21",
+        "CIP1",
+        "p15",
+        "INK4b",
+        "p16",
+        "INK4a",
+        "p57",
+        "KIP2"
+      ],
+      "relations": {}
+    },
+    "AIMed.d3.s36": {
+      "sentence": "These results indicate: (i) the existence of a subset of growth inhibiting genes elevated at the onset of the senescence, (ii) a distinct class of genes involved in the maintenance of senescence, and (iii) the frequent inactivation of these pathways during immortalization.",
+      "orig_sentence": "These results indicate: (i) the existence of a subset of growth inhibiting genes elevated at the onset of the senescence, (ii) a distinct class of genes involved in the maintenance of senescence, and (iii) the frequent inactivation of these pathways during immortalization.",
+      "proteins": [],
+      "relations": {}
+    },
+    "AIMed.d4.s37": {
+      "sentence": "Positive inotropic responses mediated by endothelin PROTEIN0 and PROTEIN1 receptors in human myocardial trabeculae.",
+      "orig_sentence": "Positive inotropic responses mediated by endothelin ET(A) and ET(B) receptors in human myocardial trabeculae.",
+      "proteins": [
+        "ET(A)",
+        "ET(B)"
+      ],
+      "relations": {}
+    },
+    "AIMed.d4.s38": {
+      "sentence": "The aim of the present study was to determine possible inotropic effects mediated by endothelin PROTEIN0 and PROTEIN1 receptors in human myocardial trabeculae from the right atrium and the left ventricle.",
+      "orig_sentence": "The aim of the present study was to determine possible inotropic effects mediated by endothelin ET(A) and ET(B) receptors in human myocardial trabeculae from the right atrium and the left ventricle.",
+      "proteins": [
+        "ET(A)",
+        "ET(B)"
+      ],
+      "relations": {}
+    },
+    "AIMed.d4.s39": {
+      "sentence": "Isolated trabeculae from human hearts were paced at 1.0 Hz in tissue baths, and changes in isometric contractile force upon exposure to agonist were studied.",
+      "orig_sentence": "Isolated trabeculae from human hearts were paced at 1.0 Hz in tissue baths, and changes in isometric contractile force upon exposure to agonist were studied.",
+      "proteins": [],
+      "relations": {}
+    },
+    "AIMed.d4.s40": {
+      "sentence": "PROTEIN0 (PROTEIN1) and PROTEIN2 had a strong positive inotropic effect in all trabeculae.",
+      "orig_sentence": "Endothelin-1 (ET-1) and ET-3 had a strong positive inotropic effect in all trabeculae.",
+      "proteins": [
+        "Endothelin-1",
+        "ET-1",
+        "ET-3"
+      ],
+      "relations": {}
+    },
+    "AIMed.d4.s41": {
+      "sentence": "PROTEIN0 was significantly more potent than PROTEIN1 in both atrial (P < 0.001) and ventricular (P < 0.05) trabeculae.",
+      "orig_sentence": "ET-1 was significantly more potent than ET-3 in both atrial (P < 0.001) and ventricular (P < 0.05) trabeculae.",
+      "proteins": [
+        "ET-1",
+        "ET-3"
+      ],
+      "relations": {}
+    },
+    "AIMed.d4.s42": {
+      "sentence": "Preincubation with the PROTEIN0 antagonist FR139317 (1 microM) decreased significantly (P < 0.005) the potency of PROTEIN1 in both atrial and ventricular trabeculae, without any significant changes in Emax (maximum effect obtained with an agonist).",
+      "orig_sentence": "Preincubation with the ET(A) receptor antagonist FR139317 (1 microM) decreased significantly (P < 0.005) the potency of ET- I in both atrial and ventricular trabeculae, without any significant changes in Emax (maximum effect obtained with an agonist).",
+      "proteins": [
+        "ET(A) receptor",
+        "ET- I"
+      ],
+      "relations": {}
+    },
+    "AIMed.d4.s43": {
+      "sentence": "The PROTEIN0 agonist IRL 1620 had a positive inotropic effect only in some trabeculae, and the PROTEIN1 antagonist BQ 788 (1 microM) almost completely blocked this effect.",
+      "orig_sentence": "The ET(B) receptor agonist IRL 1620 had a positive inotropic effect only in some trabeculae, and the ET(B) receptor antagonist BQ 788 (1 microM) almost completely blocked this effect.",
+      "proteins": [
+        "ET(B) receptor",
+        "ET(B) receptor"
+      ],
+      "relations": {}
+    },
+    "AIMed.d4.s44": {
+      "sentence": "These results suggest that both PROTEIN0 and PROTEIN1 receptors mediate positive inotropic responses at both the atrial and ventricular level in the human heart.",
+      "orig_sentence": "These results suggest that both ET(A) and ET(B) receptors mediate positive inotropic responses at both the atrial and ventricular level in the human heart.",
+      "proteins": [
+        "ET(A)",
+        "ET(B)"
+      ],
+      "relations": {}
+    },
+    "AIMed.d6.s50": {
+      "sentence": "Apoptotic proteins. PROTEIN0 and PROTEIN1 related pathways.",
+      "orig_sentence": "Apoptotic proteins. p53 and c-myc related pathways.",
+      "proteins": [
+        "p53",
+        "c-myc"
+      ],
+      "relations": {}
+    },
+    "AIMed.d6.s51": {
+      "sentence": "PROTEIN0 and PROTEIN1 are two proteins that have critical roles in the regulation of apoptosis and the cell cycle.",
+      "orig_sentence": "c-Myc and p53 are two proteins that have critical roles in the regulation of apoptosis and the cell cycle.",
+      "proteins": [
+        "c-Myc",
+        "p53"
+      ],
+      "relations": {}
+    },
+    "AIMed.d6.s52": {
+      "sentence": "The authors review how these two proteins are thought to control the opposing events of proliferation and apoptosis and examine whether their well-documented biological roles in tumorigenesis can be applied to the vascular system.",
+      "orig_sentence": "The authors review how these two proteins are thought to control the opposing events of proliferation and apoptosis and examine whether their well-documented biological roles in tumorigenesis can be applied to the vascular system.",
+      "proteins": [],
+      "relations": {}
+    },
+    "AIMed.d7.s53": {
+      "sentence": "A comparative study of PROTEIN0 and PROTEIN1 expression in de novo and ex adenoma carcinoma of the colorectum.",
+      "orig_sentence": "A comparative study of E-cadherin and stromelysin-3 expression in de novo and ex adenoma carcinoma of the colorectum.",
+      "proteins": [
+        "E-cadherin",
+        "stromelysin-3"
+      ],
+      "relations": {}
+    },
+    "AIMed.d7.s54": {
+      "sentence": "An apparent exception to the colorectal adenoma-carcinoma carcinogenetic pathway is the so-called \"de novo\" carcinoma which has no evidence of adenoma in its vicinity.",
+      "orig_sentence": "An apparent exception to the colorectal adenoma-carcinoma carcinogenetic pathway is the so-called \"de novo\" carcinoma which has no evidence of adenoma in its vicinity.",
+      "proteins": [],
+      "relations": {}
+    },
+    "AIMed.d7.s55": {
+      "sentence": "Despite the fact that they are often quite small, these lesions appear to be more aggressive (i.e., greater likelihood of lymph-node metastases) than carcinomas that clearly arise from surrounding adenomas exadenoma carcinoma.",
+      "orig_sentence": "Despite the fact that they are often quite small, these lesions appear to be more aggressive (i.e., greater likelihood of lymph-node metastases) than carcinomas that clearly arise from surrounding adenomas exadenoma carcinoma.",
+      "proteins": [],
+      "relations": {}
+    },
+    "AIMed.d7.s56": {
+      "sentence": "The purpose of the present comparative immunohistochemical study was to compare rates of cell adhesion molecule (PROTEIN0) and protease [PROTEIN1 (PROTEIN2)] expression in groups of de novo (n=64) and ex adenoma (n=42) lesions in order to see whether their more aggressive behavior is associated with decreased cell adhesion and increased protease expression.",
+      "orig_sentence": "The purpose of the present comparative immunohistochemical study was to compare rates of cell adhesion molecule (E-cadherin) and protease [stromelysin-3 (ST-3)] expression in groups of de novo (n=64) and ex adenoma (n=42) lesions in order to see whether their more aggressive behavior is associated with decreased cell adhesion and increased protease expression.",
+      "proteins": [
+        "E-cadherin",
+        "stromelysin-3",
+        "ST-3"
+      ],
+      "relations": {}
+    },
+    "AIMed.d7.s57": {
+      "sentence": "The rates of extensive PROTEIN0 expression and decreased PROTEIN1 expression were significantly higher in the de novo group (P=0.014 and 0.005, respectively).",
+      "orig_sentence": "The rates of extensive ST-3 expression and decreased E-cadherin expression were significantly higher in the de novo group (P=0.014 and 0.005, respectively).",
+      "proteins": [
+        "ST-3",
+        "E-cadherin"
+      ],
+      "relations": {}
+    },
+    "AIMed.d7.s58": {
+      "sentence": "Histopathologically, the de novo group also had a significantly higher percentage of cases with an infiltrative invasion pattern.",
+      "orig_sentence": "Histopathologically, the de novo group also had a significantly higher percentage of cases with an infiltrative invasion pattern.",
+      "proteins": [],
+      "relations": {}
+    },
+    "AIMed.d7.s59": {
+      "sentence": "These differences highlight the more aggressive phenotype of the de novo colorectal carcinoma and fit with their greater invasive potential.",
+      "orig_sentence": "These differences highlight the more aggressive phenotype of the de novo colorectal carcinoma and fit with their greater invasive potential.",
+      "proteins": [],
+      "relations": {}
+    },
+    "AIMed.d11.s87": {
+      "sentence": "Immunohistochemical analysis of epidermal growth factor receptor family members in stage I non-small cell lung cancer.",
+      "orig_sentence": "Immunohistochemical analysis of epidermal growth factor receptor family members in stage I non-small cell lung cancer.",
+      "proteins": [],
+      "relations": {}
+    },
+    "AIMed.d11.s88": {
+      "sentence": "BACKGROUND: To elucidate the relationship between the expression of epidermal growth factor receptor family members (PROTEIN0, neu/PROTEIN1, PROTEIN2, and PROTEIN3) and tumor recurrence.",
+      "orig_sentence": "BACKGROUND: To elucidate the relationship between the expression of epidermal growth factor receptor family members (ErbB-1, neu/ErbB-2, ErbB-3, and ErbB-4) and tumor recurrence.",
+      "proteins": [
+        "ErbB-1",
+        "ErbB-2",
+        "ErbB-3",
+        "ErbB-4"
+      ],
+      "relations": {}
+    },
+    "AIMed.d11.s89": {
+      "sentence": "METHODS: We used immunohistochemistry to examine the expression of four epidermal growth factor receptor family members in 73 patients with stage I non-small cell lung cancer.",
+      "orig_sentence": "METHODS: We used immunohistochemistry to examine the expression of four epidermal growth factor receptor family members in 73 patients with stage I non-small cell lung cancer.",
+      "proteins": [],
+      "relations": {}
+    },
+    "AIMed.d11.s90": {
+      "sentence": "RESULTS: Using Cox univariate analysis, we determined that angiolymphatic tumor emboli and non-well-differentiated tumor cells were two significant conventional pathologic predictors of tumor recurrence, and that PROTEIN0 and PROTEIN1 were also significant predictors.",
+      "orig_sentence": "RESULTS: Using Cox univariate analysis, we determined that angiolymphatic tumor emboli and non-well-differentiated tumor cells were two significant conventional pathologic predictors of tumor recurrence, and that ErbB-1 and ErbB-3 were also significant predictors.",
+      "proteins": [
+        "ErbB-1",
+        "ErbB-3"
+      ],
+      "relations": {}
+    },
+    "AIMed.d11.s91": {
+      "sentence": "Co-expression of PROTEIN0+, -3+, or expression of three or more epidermal growth factor receptor family members had a significant effect on lung cancer recurrence.",
+      "orig_sentence": "Co-expression of ErbB-1+, -3+, or expression of three or more epidermal growth factor receptor family members had a significant effect on lung cancer recurrence.",
+      "proteins": [
+        "ErbB-1"
+      ],
+      "relations": {}
+    },
+    "AIMed.d11.s92": {
+      "sentence": "A stepwise multivariate Cox proportional hazards regression analysis provided a predictive model for tumor recurrence.",
+      "orig_sentence": "A stepwise multivariate Cox proportional hazards regression analysis provided a predictive model for tumor recurrence.",
+      "proteins": [],
+      "relations": {}
+    },
+    "AIMed.d11.s93": {
+      "sentence": "CONCLUSIONS: The present study shows that in patients with a non-well-differentiated tumor, overexpression of PROTEIN0 is a useful marker for predicting tumor recurrence.",
+      "orig_sentence": "CONCLUSIONS: The present study shows that in patients with a non-well-differentiated tumor, overexpression of ErbB-3 is a useful marker for predicting tumor recurrence.",
+      "proteins": [
+        "ErbB-3"
+      ],
+      "relations": {}
+    },
+    "AIMed.d11.s94": {
+      "sentence": "The present study also confirmed that PROTEIN0 expression increased in proportion to the loss of tumor differentiation.",
+      "orig_sentence": "The present study also confirmed that ErbB-1 expression increased in proportion to the loss of tumor differentiation.",
+      "proteins": [
+        "ErbB-1"
+      ],
+      "relations": {}
+    },
+    "AIMed.d11.s95": {
+      "sentence": "The correlation between PROTEIN0 and distant metastasis was good.",
+      "orig_sentence": "The correlation between ErbB-3 and distant metastasis was good.",
+      "proteins": [
+        "ErbB-3"
+      ],
+      "relations": {}
+    },
+    "AIMed.d13.s107": {
+      "sentence": "Potential cellular signatures of viral infections in human hematopoietic cells.",
+      "orig_sentence": "Potential cellular signatures of viral infections in human hematopoietic cells.",
+      "proteins": [],
+      "relations": {}
+    },
+    "AIMed.d13.s108": {
+      "sentence": "Expression profiling of cellular genes was performed using a 10,000 cDNA human gene array in order to identify expression changes following chronic infection of human hematopoietic cells with Kaposi's Sarcoma-associated Virus (KSHV) also known as Human Herpesvirus 8 (HHV8) and Human T cell leukemia virus-1 (HTLV-1).",
+      "orig_sentence": "Expression profiling of cellular genes was performed using a 10,000 cDNA human gene array in order to identify expression changes following chronic infection of human hematopoietic cells with Kaposi's Sarcoma-associated Virus (KSHV) also known as Human Herpesvirus 8 (HHV8) and Human T cell leukemia virus-1 (HTLV-1).",
+      "proteins": [],
+      "relations": {}
+    },
+    "AIMed.d13.s109": {
+      "sentence": "We performed cell-free in vitro infection of primary bone marrow derived PROTEIN0+ cells using semi-purified HHV8 and a mature PROTEIN1 dependent T cell line, KIT 225, using highly concentrated viral stocks prepared from an infectious molecular clone of HTLV-1.",
+      "orig_sentence": "We performed cell-free in vitro infection of primary bone marrow derived CD34+ cells using semi-purified HHV8 and a mature IL-2 dependent T cell line, KIT 225, using highly concentrated viral stocks prepared from an infectious molecular clone of HTLV-1.",
+      "proteins": [
+        "CD34",
+        "IL-2"
+      ],
+      "relations": {}
+    },
+    "AIMed.d13.s110": {
+      "sentence": "Thirty days post infection, mRNA was isolated from infected cultures and uninfected controls and submitted for microarray analysis.",
+      "orig_sentence": "Thirty days post infection, mRNA was isolated from infected cultures and uninfected controls and submitted for microarray analysis.",
+      "proteins": [],
+      "relations": {}
+    },
+    "AIMed.d13.s111": {
+      "sentence": "More than 400 genes were differentially expressed more than two-fold following HHV8 infection of primary bone marrow derived PROTEIN0+ cells.",
+      "orig_sentence": "More than 400 genes were differentially expressed more than two-fold following HHV8 infection of primary bone marrow derived CD34+ cells.",
+      "proteins": [
+        "CD34"
+      ],
+      "relations": {}
+    },
+    "AIMed.d13.s112": {
+      "sentence": "Of these 400, PROTEIN0 (PROTEIN1), PROTEIN2, TBP-associated factor, eukaryotic elongation factor and PROTEIN3 were up-regulated more than 3.5 fold.",
+      "orig_sentence": "Of these 400, interferon regulatory factor 4 (IRF4), cyclin B2, TBP-associated factor, eukaryotic elongation factor and pim 2 were up-regulated more than 3.5 fold.",
+      "proteins": [
+        "interferon regulatory factor 4",
+        "IRF4",
+        "cyclin B2",
+        "pim 2"
+      ],
+      "relations": {}
+    },
+    "AIMed.d13.s113": {
+      "sentence": "In contrast, less than 100 genes were differentially expressed more than two-fold following chronic infection of a mature T cell line with HTLV-1.",
+      "orig_sentence": "In contrast, less than 100 genes were differentially expressed more than two-fold following chronic infection of a mature T cell line with HTLV-1.",
+      "proteins": [],
+      "relations": {}
+    },
+    "AIMed.d13.s114": {
+      "sentence": "Of these, only PROTEIN0 was up-regulated more than 3.5 fold.",
+      "orig_sentence": "Of these, only cdc7 was up-regulated more than 3.5 fold.",
+      "proteins": [
+        "cdc7"
+      ],
+      "relations": {}
+    },
+    "AIMed.d13.s115": {
+      "sentence": "These data may provide insight into cellular signatures of infection useful for diagnosis of infection as well as potential targets for therapeutic intervention.",
+      "orig_sentence": "These data may provide insight into cellular signatures of infection useful for diagnosis of infection as well as potential targets for therapeutic intervention.",
+      "proteins": [],
+      "relations": {}
+    },
+    "AIMed.d19.s159": {
+      "sentence": "The genetics of host resistance and susceptibility to tuberculosis.",
+      "orig_sentence": "The genetics of host resistance and susceptibility to tuberculosis.",
+      "proteins": [],
+      "relations": {}
+    },
+    "AIMed.d19.s160": {
+      "sentence": "The study of human genomics has the potential to aid our understanding of the interindividual and interpopulation differences in susceptibility to tuberculosis.",
+      "orig_sentence": "The study of human genomics has the potential to aid our understanding of the interindividual and interpopulation differences in susceptibility to tuberculosis.",
+      "proteins": [],
+      "relations": {}
+    },
+    "AIMed.d19.s161": {
+      "sentence": "Resistance to infection is affected by the ability of macrophages to phagocytose and destroy the bacilli.",
+      "orig_sentence": "Resistance to infection is affected by the ability of macrophages to phagocytose and destroy the bacilli.",
+      "proteins": [],
+      "relations": {}
+    },
+    "AIMed.d19.s162": {
+      "sentence": "Several genes are involved in this process, and two have been the focus of recent interest: the PROTEIN0 (PROTEIN1) gene and the genes coding for the PROTEIN2.",
+      "orig_sentence": "Several genes are involved in this process, and two have been the focus of recent interest: the natural resistance-associated protein (NRAMP1) gene and the genes coding for the vitamin D receptor.",
+      "proteins": [
+        "natural resistance-associated protein",
+        "NRAMP1",
+        "vitamin D receptor"
+      ],
+      "relations": {}
+    },
+    "AIMed.d19.s163": {
+      "sentence": "Susceptibility genes have also been discovered--for example, one on the X chromosome that may explain the increased susceptibility of males to tuberculosis.",
+      "orig_sentence": "Susceptibility genes have also been discovered--for example, one on the X chromosome that may explain the increased susceptibility of males to tuberculosis.",
+      "proteins": [],
+      "relations": {}
+    },
+    "AIMed.d19.s164": {
+      "sentence": "Studies have also focused on the variations in virulence of the bacillus in both its drug-susceptible and drug-resistant forms.",
+      "orig_sentence": "Studies have also focused on the variations in virulence of the bacillus in both its drug-susceptible and drug-resistant forms.",
+      "proteins": [],
+      "relations": {}
+    },
+    "AIMed.d19.s165": {
+      "sentence": "These mechanisms must be understood in order to prevent, or combat, the emergence of a virulent, multidrug-resistant form of the bacillus that would be uncontrollable by means of today's treatment strategies.",
+      "orig_sentence": "These mechanisms must be understood in order to prevent, or combat, the emergence of a virulent, multidrug-resistant form of the bacillus that would be uncontrollable by means of today's treatment strategies.",
+      "proteins": [],
+      "relations": {}
+    },
+    "AIMed.d21.s170": {
+      "sentence": "Regulated trafficking of neurotransmitter transporters: common notes but different melodies.",
+      "orig_sentence": "Regulated trafficking of neurotransmitter transporters: common notes but different melodies.",
+      "proteins": [],
+      "relations": {}
+    },
+    "AIMed.d21.s171": {
+      "sentence": "The activity of biogenic amine and amino acid neurotransmitters is limited by presynaptic and astrocytic Na(+)-dependent transport systems.",
+      "orig_sentence": "The activity of biogenic amine and amino acid neurotransmitters is limited by presynaptic and astrocytic Na(+)-dependent transport systems.",
+      "proteins": [],
+      "relations": {}
+    },
+    "AIMed.d21.s172": {
+      "sentence": "Their functional importance is underscored by the observation that these transporters are the targets of broad classes of psychotherapeutic agents, including antidepressants and stimulants.",
+      "orig_sentence": "Their functional importance is underscored by the observation that these transporters are the targets of broad classes of psychotherapeutic agents, including antidepressants and stimulants.",
+      "proteins": [],
+      "relations": {}
+    },
+    "AIMed.d21.s173": {
+      "sentence": "Early studies suggested that the activity of these transporters can be fine tuned by a number of different signaling pathways.",
+      "orig_sentence": "Early studies suggested that the activity of these transporters can be fine tuned by a number of different signaling pathways.",
+      "proteins": [],
+      "relations": {}
+    },
+    "AIMed.d21.s174": {
+      "sentence": "In the past five years, several groups have provided compelling evidence that changing the cell surface availability of these transporters contributes to this fine tuning.",
+      "orig_sentence": "In the past five years, several groups have provided compelling evidence that changing the cell surface availability of these transporters contributes to this fine tuning.",
+      "proteins": [],
+      "relations": {}
+    },
+    "AIMed.d21.s175": {
+      "sentence": "This regulated trafficking can result in rapid (within minutes) increases or decreases in the plasma membrane expression of these transporters and is independent of transcriptional or translational control mechanisms.",
+      "orig_sentence": "This regulated trafficking can result in rapid (within minutes) increases or decreases in the plasma membrane expression of these transporters and is independent of transcriptional or translational control mechanisms.",
+      "proteins": [],
+      "relations": {}
+    },
+    "AIMed.d21.s176": {
+      "sentence": "Many of the same signaling molecules, including PROTEIN0 (PROTEIN1), PROTEIN2 (PROTEIN3), and protein phosphatase, regulate the transporters for different neurotransmitters.",
+      "orig_sentence": "Many of the same signaling molecules, including protein kinase C (PKC), tyrosine kinase, phosphatidylinositol 3-kinase (P13-K), and protein phosphatase, regulate the transporters for different neurotransmitters.",
+      "proteins": [
+        "protein kinase C",
+        "PKC",
+        "tyrosine kinase, phosphatidylinositol 3-kinase",
+        "P13-K"
+      ],
+      "relations": {}
+    },
+    "AIMed.d21.s177": {
+      "sentence": "In addition to these classical receptor activated pathways, transporter substrates also regulate activity and cell surface expression of these transporters.",
+      "orig_sentence": "In addition to these classical receptor activated pathways, transporter substrates also regulate activity and cell surface expression of these transporters.",
+      "proteins": [],
+      "relations": {}
+    },
+    "AIMed.d21.s178": {
+      "sentence": "In fact, some of the transporters form complexes with signaling molecules.",
+      "orig_sentence": "In fact, some of the transporters form complexes with signaling molecules.",
+      "proteins": [],
+      "relations": {}
+    },
+    "AIMed.d21.s179": {
+      "sentence": "Given the functional and genetic similarities of these transporters, it is not surprising that the same signaling molecules regulate their trafficking, but except for the molecules, the actual effects on individual transporters are remarkably different.",
+      "orig_sentence": "Given the functional and genetic similarities of these transporters, it is not surprising that the same signaling molecules regulate their trafficking, but except for the molecules, the actual effects on individual transporters are remarkably different.",
+      "proteins": [],
+      "relations": {}
+    },
+    "AIMed.d21.s180": {
+      "sentence": "It is as if the same musical notes have been rearranged into several different melodies.",
+      "orig_sentence": "It is as if the same musical notes have been rearranged into several different melodies.",
+      "proteins": [],
+      "relations": {}
+    },
+    "AIMed.d24.s196": {
+      "sentence": "Instability of extracellular matrix gene expression in primary cell culture of fibroblasts from human vocal fold lamina propria and tracheal",
+      "orig_sentence": "Instability of extracellular matrix gene expression in primary cell culture of fibroblasts from human vocal fold lamina propria and tracheal",
+      "proteins": [],
+      "relations": {}
+    },
+    "AIMed.d24.s197": {
+      "sentence": "scar.Primary fibroblast cell cultures were established from lamina propria of human vocal fold and tracheal scar.",
+      "orig_sentence": "scar.Primary fibroblast cell cultures were established from lamina propria of human vocal fold and tracheal scar.",
+      "proteins": [],
+      "relations": {}
+    },
+    "AIMed.d24.s198": {
+      "sentence": "There exists a crucial need to provide new tools for studying voice biology, and one of the first steps is the development of a human primary laryngeal cell culture bank.",
+      "orig_sentence": "There exists a crucial need to provide new tools for studying voice biology, and one of the first steps is the development of a human primary laryngeal cell culture bank.",
+      "proteins": [],
+      "relations": {}
+    },
+    "AIMed.d24.s199": {
+      "sentence": "Because cell lines can lose their differentiated phenotype in culture across passages, documentation of gene expression must be determined for passage populations, for us to have knowledge of cell behavior in vitro.",
+      "orig_sentence": "Because cell lines can lose their differentiated phenotype in culture across passages, documentation of gene expression must be determined for passage populations, for us to have knowledge of cell behavior in vitro.",
+      "proteins": [],
+      "relations": {}
+    },
+    "AIMed.d24.s200": {
+      "sentence": "Comparison of messenger RNA gene expression of extracellular matrix proteins (PROTEIN0, PROTEIN1, PROTEIN2, PROTEIN3, PROTEIN4, PROTEIN5, PROTEIN6, PROTEIN7, and PROTEIN8) across cell passages (3, 4, 5, 6, 10, and 12 fornormal laminapropria and 3, 4, 5, 6, and 10 for tracheal scar) revealed varied growth patterns.",
+      "orig_sentence": "Comparison of messenger RNA gene expression of extracellular matrix proteins (procollagen I, collagenase, elastin, hyaluronic acid synthase 2, hyaluronidase, fibronectin, cd44, fibromodulin, and decorin) across cell passages (3, 4, 5, 6, 10, and 12 fornormal laminapropria and 3, 4, 5, 6, and 10 for tracheal scar) revealed varied growth patterns.",
+      "proteins": [
+        "procollagen I",
+        "collagenase",
+        "elastin",
+        "hyaluronic acid synthase 2",
+        "hyaluronidase",
+        "fibronectin",
+        "cd44",
+        "fibromodulin",
+        "decorin"
+      ],
+      "relations": {}
+    },
+    "AIMed.d24.s201": {
+      "sentence": "Cytogenetic analysis demonstrated relative stability of the karyotypes across passages for the tracheal scar cell cultures, whereas the karyotypes of the normal lamina propria fibroblasts showed instability in in vitro cultures.",
+      "orig_sentence": "Cytogenetic analysis demonstrated relative stability of the karyotypes across passages for the tracheal scar cell cultures, whereas the karyotypes of the normal lamina propria fibroblasts showed instability in in vitro cultures.",
+      "proteins": [],
+      "relations": {}
+    },
+    "AIMed.d24.s202": {
+      "sentence": "Recommendations for use of primary cell cultures for further studies of gene expression are made.",
+      "orig_sentence": "Recommendations for use of primary cell cultures for further studies of gene expression are made.",
+      "proteins": [],
+      "relations": {}
+    },
+    "AIMed.d28.s232": {
+      "sentence": "Identification of a new member of the tumor necrosis factor family and its receptor, a human ortholog of mouse GITR.",
+      "orig_sentence": "Identification of a new member of the tumor necrosis factor family and its receptor, a human ortholog of mouse GITR.",
+      "proteins": [],
+      "relations": {}
+    },
+    "AIMed.d28.s233": {
+      "sentence": "The tumor necrosis factor (TNF) and TNF receptor (TNFR) gene superfamilies regulate diverse biological functions, including cell proliferation, differentiation, and survival [1] [2] [3].",
+      "orig_sentence": "The tumor necrosis factor (TNF) and TNF receptor (TNFR) gene superfamilies regulate diverse biological functions, including cell proliferation, differentiation, and survival [1] [2] [3].",
+      "proteins": [],
+      "relations": {}
+    },
+    "AIMed.d28.s234": {
+      "sentence": "We have identified a new TNF-related ligand, designated human PROTEIN0 PROTEIN1 (PROTEIN2), and its human receptor (PROTEIN3), an ortholog of the recently discovered murine PROTEIN4 PROTEIN5 [4].",
+      "orig_sentence": "We have identified a new TNF-related ligand, designated human GITR ligand (hGITRL), and its human receptor (hGITR), an ortholog of the recently discovered murine glucocorticoid-induced TNFR-related (mGITR) protein [4].",
+      "proteins": [
+        "GITR",
+        "GITR ligand",
+        "hGITRL",
+        "hGITR",
+        "glucocorticoid-induced TNFR-related (mGITR) protein",
+        "mGITR"
+      ],
+      "relations": {
+        "[0, 2]": "PPI",
+        "[1, 3]": "PPI",
+        "[2, 3]": "PPI"
+      }
+    },
+    "AIMed.d28.s235": {
+      "sentence": "The PROTEIN0 gene mapped to chromosome 1q23, near the gene for the TNF homolog PROTEIN1/PROTEIN2 [5].",
+      "orig_sentence": "The hGITRL gene mapped to chromosome 1q23, near the gene for the TNF homolog Fas/CD95 ligand [5].",
+      "proteins": [
+        "hGITRL",
+        "Fas",
+        "CD95 ligand"
+      ],
+      "relations": {}
+    },
+    "AIMed.d28.s236": {
+      "sentence": "The PROTEIN0 gene mapped to chromosome 1p36, near a cluster of five genes encoding TNFR homologs [1] [6].",
+      "orig_sentence": "The hGITR gene mapped to chromosome 1p36, near a cluster of five genes encoding TNFR homologs [1] [6].",
+      "proteins": [
+        "hGITR"
+      ],
+      "relations": {}
+    },
+    "AIMed.d28.s237": {
+      "sentence": "We found PROTEIN0 mRNA in several peripheral tissues, and detected PROTEIN1 protein on cultured vascular endothelial cells.",
+      "orig_sentence": "We found hGITRL mRNA in several peripheral tissues, and detected hGITRL protein on cultured vascular endothelial cells.",
+      "proteins": [
+        "hGITRL",
+        "hGITRL"
+      ],
+      "relations": {}
+    },
+    "AIMed.d28.s238": {
+      "sentence": "The levels of PROTEIN0 mRNA in tissues were generally low; in peripheral blood T cells, however, antigen-receptor stimulation led to a substantial induction of PROTEIN1 transcripts.",
+      "orig_sentence": "The levels of hGITR mRNA in tissues were generally low; in peripheral blood T cells, however, antigen-receptor stimulation led to a substantial induction of hGITR transcripts.",
+      "proteins": [
+        "hGITR",
+        "hGITR"
+      ],
+      "relations": {}
+    },
+    "AIMed.d28.s239": {
+      "sentence": "Cotransfection of PROTEIN0 and PROTEIN1 in embryonic kidney 293 cells activated the anti-apoptotic transcription factor PROTEIN2, via a pathway that appeared to involve PROTEIN3 (PROTEIN4) [7] and PROTEIN5 PROTEIN6 (PROTEIN7) [8].",
+      "orig_sentence": "Cotransfection of hGITRL and hGITR in embryonic kidney 293 cells activated the anti-apoptotic transcription factor NF-kappaB, via a pathway that appeared to involve TNFR-associated factor 2 (TRAF2) [7] and NF-kappaB-inducing kinase (NIK) [8].",
+      "proteins": [
+        "hGITRL",
+        "hGITR",
+        "NF-kappaB",
+        "TNFR-associated factor 2",
+        "TRAF2",
+        "NF-kappaB",
+        "NF-kappaB-inducing kinase",
+        "NIK"
+      ],
+      "relations": {}
+    },
+    "AIMed.d28.s240": {
+      "sentence": "Cotransfection of PROTEIN0 and PROTEIN1 in Jurkat T leukemia cells inhibited antigen-receptor-induced cell death.",
+      "orig_sentence": "Cotransfection of hGITRL and hGITR in Jurkat T leukemia cells inhibited antigen-receptor-induced cell death.",
+      "proteins": [
+        "hGITRL",
+        "hGITR"
+      ],
+      "relations": {}
+    },
+    "AIMed.d28.s241": {
+      "sentence": "Thus, PROTEIN0 and PROTEIN1 may modulate T lymphocyte survival in peripheral tissues.",
+      "orig_sentence": "Thus, hGITRL and hGITR may modulate T lymphocyte survival in peripheral tissues.",
+      "proteins": [
+        "hGITRL",
+        "hGITR"
+      ],
+      "relations": {}
+    },
+    "AIMed.d31.s256": {
+      "sentence": "A newly identified member of tumor necrosis factor receptor superfamily (PROTEIN0) suppresses PROTEIN1-mediated apoptosis.",
+      "orig_sentence": "A newly identified member of tumor necrosis factor receptor superfamily (TR6) suppresses LIGHT-mediated apoptosis.",
+      "proteins": [
+        "TR6",
+        "LIGHT"
+      ],
+      "relations": {}
+    },
+    "AIMed.d31.s257": {
+      "sentence": "PROTEIN0 (PROTEIN1 (PROTEIN2)) is a new member of the tumor necrosis factor receptor (TNFR) family.",
+      "orig_sentence": "TR6 (decoy receptor 3 (DcR3)) is a new member of the tumor necrosis factor receptor (TNFR) family.",
+      "proteins": [
+        "TR6",
+        "decoy receptor 3",
+        "DcR3"
+      ],
+      "relations": {}
+    },
+    "AIMed.d31.s258": {
+      "sentence": "PROTEIN0 mRNA is expressed in lung tissues and colon adenocarcinoma, SW480.",
+      "orig_sentence": "TR6 mRNA is expressed in lung tissues and colon adenocarcinoma, SW480.",
+      "proteins": [
+        "TR6"
+      ],
+      "relations": {}
+    },
+    "AIMed.d31.s259": {
+      "sentence": "In addition, the expression of PROTEIN0 mRNA was shown in the endothelial cell line and induced by phorbol 12-myristate 13-acetate/ionomycin in Jurkat T leukemia cells.",
+      "orig_sentence": "In addition, the expression of TR6 mRNA was shown in the endothelial cell line and induced by phorbol 12-myristate 13-acetate/ionomycin in Jurkat T leukemia cells.",
+      "proteins": [
+        "TR6"
+      ],
+      "relations": {}
+    },
+    "AIMed.d31.s260": {
+      "sentence": "The open reading frame of PROTEIN0 encodes 300 amino acids with a 29-residue signal sequence but no transmembrane region.",
+      "orig_sentence": "The open reading frame of TR6 encodes 300 amino acids with a 29-residue signal sequence but no transmembrane region.",
+      "proteins": [
+        "TR6"
+      ],
+      "relations": {}
+    },
+    "AIMed.d31.s261": {
+      "sentence": "Using histidine-tagged recombinant PROTEIN0, we screened soluble forms of TNF-ligand proteins with immunoprecipitation.",
+      "orig_sentence": "Using histidine-tagged recombinant TR6, we screened soluble forms of TNF-ligand proteins with immunoprecipitation.",
+      "proteins": [
+        "TR6"
+      ],
+      "relations": {}
+    },
+    "AIMed.d31.s262": {
+      "sentence": "Here, we demonstrate that PROTEIN0 specifically binds two cellular ligands, PROTEIN1 (PROTEIN2 PROTEIN3) and PROTEIN4 (PROTEIN5/PROTEIN6).",
+      "orig_sentence": "Here, we demonstrate that TR6 specifically binds two cellular ligands, LIGHT (herpes virus entry mediator (HVEM)-L) and Fas ligand (FasL/CD95L).",
+      "proteins": [
+        "TR6",
+        "LIGHT",
+        "herpes virus entry mediator (HVEM)-L",
+        "HVEM",
+        "Fas ligand",
+        "FasL",
+        "CD95L"
+      ],
+      "relations": {
+        "[0, 1]": "PPI",
+        "[0, 2]": "PPI",
+        "[0, 4]": "PPI",
+        "[0, 5]": "PPI",
+        "[0, 6]": "PPI"
+      }
+    },
+    "AIMed.d31.s263": {
+      "sentence": "These bindings were confirmed with HEK 293 EBNA cells transfected with PROTEIN0 cDNA by flow cytometry.",
+      "orig_sentence": "These bindings were confirmed with HEK 293 EBNA cells transfected with LIGHT cDNA by flow cytometry.",
+      "proteins": [
+        "LIGHT"
+      ],
+      "relations": {}
+    },
+    "AIMed.d31.s264": {
+      "sentence": "PROTEIN0 inhibited PROTEIN1-induced cytotoxicity in HT29 cells.",
+      "orig_sentence": "TR6 inhibited LIGHT-induced cytotoxicity in HT29 cells.",
+      "proteins": [
+        "TR6",
+        "LIGHT"
+      ],
+      "relations": {}
+    },
+    "AIMed.d31.s265": {
+      "sentence": "It has been shown that PROTEIN0 triggers apoptosis of various tumor cells including HT29 cells that express both PROTEIN1 PROTEIN2 (PROTEIN3) and PROTEIN4/PROTEIN5 receptors.",
+      "orig_sentence": "It has been shown that LIGHT triggers apoptosis of various tumor cells including HT29 cells that express both lymphotoxin beta receptor (LTbetaR) and HVEM/TR2 receptors.",
+      "proteins": [
+        "LIGHT",
+        "lymphotoxin beta",
+        "lymphotoxin beta receptor",
+        "LTbetaR",
+        "HVEM",
+        "TR2"
+      ],
+      "relations": {
+        "[1, 3]": "PPI"
+      }
+    },
+    "AIMed.d31.s266": {
+      "sentence": "Our data suggest that PROTEIN0 inhibits the interactions of PROTEIN1 with PROTEIN2/PROTEIN3 and PROTEIN4, thereby suppressing PROTEIN5- mediated HT29 cell death.",
+      "orig_sentence": "Our data suggest that TR6 inhibits the interactions of LIGHT with HVEM/TR2 and LTbetaR, thereby suppressing LIGHT- mediated HT29 cell death.",
+      "proteins": [
+        "TR6",
+        "LIGHT",
+        "HVEM",
+        "TR2",
+        "LTbetaR",
+        "LIGHT"
+      ],
+      "relations": {
+        "[1, 2]": "PPI",
+        "[1, 3]": "PPI",
+        "[1, 4]": "PPI"
+      }
+    },
+    "AIMed.d31.s267": {
+      "sentence": "Thus, PROTEIN0 may play a regulatory role for suppressing in PROTEIN1- and PROTEIN2-mediated cell death.",
+      "orig_sentence": "Thus, TR6 may play a regulatory role for suppressing in FasL- and LIGHT-mediated cell death.",
+      "proteins": [
+        "TR6",
+        "FasL",
+        "LIGHT"
+      ],
+      "relations": {}
+    },
+    "AIMed.d34.s284": {
+      "sentence": "Presenilins interact with PROTEIN0, a small GTPase involved in the regulation of vesicular transport.",
+      "orig_sentence": "Presenilins interact with Rab11, a small GTPase involved in the regulation of vesicular transport.",
+      "proteins": [
+        "Rab11"
+      ],
+      "relations": {}
+    },
+    "AIMed.d34.s285": {
+      "sentence": "PROTEIN0 (PROTEIN1) mutations account for the majority of early-onset dominant cases of familial Alzheimer's disease.",
+      "orig_sentence": "Presenilin 1 (PS1) mutations account for the majority of early-onset dominant cases of familial Alzheimer's disease.",
+      "proteins": [
+        "Presenilin 1",
+        "PS1"
+      ],
+      "relations": {}
+    },
+    "AIMed.d34.s286": {
+      "sentence": "Presenilins (PSs) are located in many intra-cellular compartments such as the endoplasmic reticulum, Golgi apparatus, nuclear region and vesicular structures.",
+      "orig_sentence": "Presenilins (PSs) are located in many intra-cellular compartments such as the endoplasmic reticulum, Golgi apparatus, nuclear region and vesicular structures.",
+      "proteins": [],
+      "relations": {}
+    },
+    "AIMed.d34.s287": {
+      "sentence": "These proteins include from seven to nine putative transmembrane domains, with the N- and C-terminal ends and a large hydrophilic loop orientated towards the cytoplasm.",
+      "orig_sentence": "These proteins include from seven to nine putative transmembrane domains, with the N- and C-terminal ends and a large hydrophilic loop orientated towards the cytoplasm.",
+      "proteins": [],
+      "relations": {}
+    },
+    "AIMed.d34.s288": {
+      "sentence": "We report an interaction between the human PROTEIN0 or PROTEIN1 hydrophilic loop and PROTEIN2, a small GTPase belonging to the Ras-related superfamily.",
+      "orig_sentence": "We report an interaction between the human PS1 or PS2 hydrophilic loop and Rab11, a small GTPase belonging to the Ras-related superfamily.",
+      "proteins": [
+        "PS1",
+        "PS2",
+        "Rab11"
+      ],
+      "relations": {
+        "[0, 2]": "PPI",
+        "[1, 2]": "PPI"
+      }
+    },
+    "AIMed.d34.s289": {
+      "sentence": "Interaction domains were mapped to codons 374-400 for PROTEIN0 and to codons 106-179 for PROTEIN1, a region including the fourth GTP-binding domain.",
+      "orig_sentence": "Interaction domains were mapped to codons 374-400 for PS1 and to codons 106-179 for Rab11, a region including the fourth GTP-binding domain.",
+      "proteins": [
+        "PS1",
+        "Rab11"
+      ],
+      "relations": {
+        "[0, 1]": "PPI"
+      }
+    },
+    "AIMed.d34.s290": {
+      "sentence": "Considering the implication of Rab proteins in vesicular transport pathways, the PS-PROTEIN0 inter-action suggests that PSs might be involved in amyloid precursor protein vesicular routing.",
+      "orig_sentence": "Considering the implication of Rab proteins in vesicular transport pathways, the PS-Rab11 inter-action suggests that PSs might be involved in amyloid precursor protein vesicular routing.",
+      "proteins": [
+        "Rab11"
+      ],
+      "relations": {}
+    },
+    "AIMed.d38.s320": {
+      "sentence": "Molecular cloning of a novel human CC chemokine (PROTEIN0) that is a functional ligand of PROTEIN1.",
+      "orig_sentence": "Molecular cloning of a novel human CC chemokine (Eotaxin-3) that is a functional ligand of CC chemokine receptor 3.",
+      "proteins": [
+        "Eotaxin-3",
+        "CC chemokine receptor 3"
+      ],
+      "relations": {
+        "[0, 1]": "PPI"
+      }
+    },
+    "AIMed.d38.s321": {
+      "sentence": "Previously, we mapped the novel CC chemokine PROTEIN0 (PROTEIN1)/PROTEIN2 to chromosome 7q11.23 (Nomiyama, H., Osborne, L. R., Imai, T., Kusuda, J., Miura, R., Tsui, L.-C., and Yoshie, O. (1998) Genomics 49, 339-340).",
+      "orig_sentence": "Previously, we mapped the novel CC chemokine myeloid progenitor inhibitory factor 2 (MPIF-2)/eotaxin-2 to chromosome 7q11.23 (Nomiyama, H., Osborne, L. R., Imai, T., Kusuda, J., Miura, R., Tsui, L.-C., and Yoshie, O. (1998) Genomics 49, 339-340).",
+      "proteins": [
+        "myeloid progenitor inhibitory factor 2",
+        "MPIF-2",
+        "eotaxin-2"
+      ],
+      "relations": {}
+    },
+    "AIMed.d38.s322": {
+      "sentence": "Since chemokine genes tend to be clustered, unknown chemokines may be present in the vicinity of those mapped to new chromosomal loci.",
+      "orig_sentence": "Since chemokine genes tend to be clustered, unknown chemokines may be present in the vicinity of those mapped to new chromosomal loci.",
+      "proteins": [],
+      "relations": {}
+    },
+    "AIMed.d38.s323": {
+      "sentence": "Prompted by this hypothesis, we analyzed the genomic region containing the gene for PROTEIN0/PROTEIN1 (PROTEIN2) and have identified a novel CC chemokine termed PROTEIN3.",
+      "orig_sentence": "Prompted by this hypothesis, we analyzed the genomic region containing the gene for MPIF-2/eotaxin-2 (SCYA24) and have identified a novel CC chemokine termed eotaxin-3.",
+      "proteins": [
+        "MPIF-2",
+        "eotaxin-2",
+        "SCYA24",
+        "eotaxin-3"
+      ],
+      "relations": {}
+    },
+    "AIMed.d38.s324": {
+      "sentence": "The genes for PROTEIN0/PROTEIN1 (PROTEIN2) and PROTEIN3 (PROTEIN4) are localized within a region of approximately 40 kilobases.",
+      "orig_sentence": "The genes for MPIF-2/eotaxin-2 (SCYA24) and eotaxin-3 (SCYA26) are localized within a region of approximately 40 kilobases.",
+      "proteins": [
+        "MPIF-2",
+        "eotaxin-2",
+        "SCYA24",
+        "eotaxin-3",
+        "SCYA26"
+      ],
+      "relations": {}
+    },
+    "AIMed.d38.s325": {
+      "sentence": "By Northern blot analysis, PROTEIN0 mRNA was constitutively expressed in the heart and ovary.",
+      "orig_sentence": "By Northern blot analysis, eotaxin-3 mRNA was constitutively expressed in the heart and ovary.",
+      "proteins": [
+        "eotaxin-3"
+      ],
+      "relations": {}
+    },
+    "AIMed.d38.s326": {
+      "sentence": "We have generated recombinant PROTEIN0 in a baculovirus expression system.",
+      "orig_sentence": "We have generated recombinant eotaxin-3 in a baculovirus expression system.",
+      "proteins": [
+        "eotaxin-3"
+      ],
+      "relations": {}
+    },
+    "AIMed.d38.s327": {
+      "sentence": "PROTEIN0 induced transient calcium mobilization specifically in PROTEIN1 (PROTEIN2)-expressing L1.2 cells with an EC(50) of 3 nM.",
+      "orig_sentence": "Eotaxin-3 induced transient calcium mobilization specifically in CC chemokine receptor 3 (CCR3)-expressing L1.2 cells with an EC(50) of 3 nM.",
+      "proteins": [
+        "Eotaxin-3",
+        "CC chemokine receptor 3",
+        "CCR3"
+      ],
+      "relations": {}
+    },
+    "AIMed.d38.s328": {
+      "sentence": "PROTEIN0 competed the binding of (125)PROTEIN1 to PROTEIN2-expressing L1.2 cells with an IC(50) of 13 nM.",
+      "orig_sentence": "Eotaxin-3 competed the binding of (125)I-eotaxin to CCR3-expressing L1.2 cells with an IC(50) of 13 nM.",
+      "proteins": [
+        "Eotaxin-3",
+        "I-eotaxin",
+        "CCR3"
+      ],
+      "relations": {
+        "[0, 2]": "PPI",
+        "[1, 2]": "PPI"
+      }
+    },
+    "AIMed.d38.s329": {
+      "sentence": "PROTEIN0 was chemotactic for normal peripheral blood eosinophils and basophils at high concentrations.",
+      "orig_sentence": "Eotaxin-3 was chemotactic for normal peripheral blood eosinophils and basophils at high concentrations.",
+      "proteins": [
+        "Eotaxin-3"
+      ],
+      "relations": {}
+    },
+    "AIMed.d38.s330": {
+      "sentence": "Collectively, PROTEIN0 is yet another functional ligand for PROTEIN1.",
+      "orig_sentence": "Collectively, eotaxin-3 is yet another functional ligand for CCR3.",
+      "proteins": [
+        "eotaxin-3",
+        "CCR3"
+      ],
+      "relations": {
+        "[0, 1]": "PPI"
+      }
+    },
+    "AIMed.d38.s331": {
+      "sentence": "The potency of PROTEIN0 as a PROTEIN1 ligand seems, however, to be approximately 10-fold less than that of PROTEIN2.",
+      "orig_sentence": "The potency of eotaxin-3 as a CCR3 ligand seems, however, to be approximately 10-fold less than that of eotaxin.",
+      "proteins": [
+        "eotaxin-3",
+        "CCR3",
+        "eotaxin"
+      ],
+      "relations": {
+        "[0, 1]": "PPI",
+        "[1, 2]": "PPI"
+      }
+    },
+    "AIMed.d38.s332": {
+      "sentence": "Identification of PROTEIN0 will further promote our understanding of the control of eosinophil trafficking and other PROTEIN1-mediated biological phenomena.",
+      "orig_sentence": "Identification of eotaxin-3 will further promote our understanding of the control of eosinophil trafficking and other CCR3-mediated biological phenomena.",
+      "proteins": [
+        "eotaxin-3",
+        "CCR3"
+      ],
+      "relations": {}
+    },
+    "AIMed.d38.s333": {
+      "sentence": "The strategy used in this study may also be applicable to identification of other unknown chemokine genes.",
+      "orig_sentence": "The strategy used in this study may also be applicable to identification of other unknown chemokine genes.",
+      "proteins": [],
+      "relations": {}
+    },
+    "AIMed.d45.s389": {
+      "sentence": "Design, characterization, and structure of a biologically active single-chain mutant of human PROTEIN0.",
+      "orig_sentence": "Design, characterization, and structure of a biologically active single-chain mutant of human IFN-gamma.",
+      "proteins": [
+        "IFN-gamma"
+      ],
+      "relations": {}
+    },
+    "AIMed.d45.s390": {
+      "sentence": "A mutant form of human PROTEIN0 (PROTEIN1 PROTEIN2) that binds one PROTEIN3 PROTEIN4 PROTEIN5 (PROTEIN6 PROTEIN7) has been designed and characterized.",
+      "orig_sentence": "A mutant form of human interferon-gamma (IFN-gamma SC1) that binds one IFN-gamma receptor alpha chain (IFN-gamma R alpha) has been designed and characterized.",
+      "proteins": [
+        "interferon-gamma",
+        "IFN-gamma",
+        "IFN-gamma SC1",
+        "IFN-gamma",
+        "IFN-gamma receptor",
+        "IFN-gamma receptor alpha chain",
+        "IFN-gamma",
+        "IFN-gamma R alpha"
+      ],
+      "relations": {
+        "[2, 5]": "PPI",
+        "[2, 7]": "PPI"
+      }
+    },
+    "AIMed.d45.s391": {
+      "sentence": "PROTEIN0 PROTEIN1 was derived by linking the two peptide chains of the PROTEIN2 dimer by a seven-residue linker and changing His111 in the first chain to an aspartic acid residue.",
+      "orig_sentence": "IFN-gamma SC1 was derived by linking the two peptide chains of the IFN-gamma dimer by a seven-residue linker and changing His111 in the first chain to an aspartic acid residue.",
+      "proteins": [
+        "IFN-gamma",
+        "IFN-gamma SC1",
+        "IFN-gamma"
+      ],
+      "relations": {}
+    },
+    "AIMed.d45.s392": {
+      "sentence": "Isothermal titration calorimetry shows that PROTEIN0 PROTEIN1 forms a 1:1 complex with its high-affinity receptor (PROTEIN2 PROTEIN3) with an affinity of 27(+/- 9) nM.",
+      "orig_sentence": "Isothermal titration calorimetry shows that IFN-gamma SC1 forms a 1:1 complex with its high-affinity receptor (IFN-gamma R alpha) with an affinity of 27(+/- 9) nM.",
+      "proteins": [
+        "IFN-gamma",
+        "IFN-gamma SC1",
+        "IFN-gamma",
+        "IFN-gamma R alpha"
+      ],
+      "relations": {
+        "[1, 3]": "PPI"
+      }
+    },
+    "AIMed.d45.s393": {
+      "sentence": "The crystal structure of PROTEIN0 PROTEIN1 has been determined at 2.9 A resolution from crystals grown in 1.4 M citrate solutions at pH 7.6.",
+      "orig_sentence": "The crystal structure of IFN-gamma SC1 has been determined at 2.9 A resolution from crystals grown in 1.4 M citrate solutions at pH 7.6.",
+      "proteins": [
+        "IFN-gamma",
+        "IFN-gamma SC1"
+      ],
+      "relations": {}
+    },
+    "AIMed.d45.s394": {
+      "sentence": "Comparison of the wild-type receptor-binding domain and the Asp111-containing domain of PROTEIN0 PROTEIN1 show that they are structurally equivalent but have very different electrostatic surface potentials.",
+      "orig_sentence": "Comparison of the wild-type receptor-binding domain and the Asp111-containing domain of IFN-gamma SC1 show that they are structurally equivalent but have very different electrostatic surface potentials.",
+      "proteins": [
+        "IFN-gamma",
+        "IFN-gamma SC1"
+      ],
+      "relations": {}
+    },
+    "AIMed.d45.s395": {
+      "sentence": "As a result, surface charge rather than structural changes is likely responsible for the inability of the His111-->Asp domain of to bind PROTEIN0.",
+      "orig_sentence": "As a result, surface charge rather than structural changes is likely responsible for the inability of the His111-->Asp domain of to bind IFN-gamma R alpha.",
+      "proteins": [
+        "IFN-gamma R alpha"
+      ],
+      "relations": {}
+    },
+    "AIMed.d45.s396": {
+      "sentence": "The AB loops of PROTEIN0 adopt conformations similar to the ordered loops of PROTEIN1 observed in the crystal structure of the PROTEIN2/PROTEIN3 PROTEIN4 complex.",
+      "orig_sentence": "The AB loops of IFN-gamma SC1 adopt conformations similar to the ordered loops of IFN-gamma observed in the crystal structure of the IFN-gamma/IFN-gamma R alpha complex.",
+      "proteins": [
+        "IFN-gamma SC1",
+        "IFN-gamma",
+        "IFN-gamma",
+        "IFN-gamma",
+        "IFN-gamma R alpha"
+      ],
+      "relations": {
+        "[2, 4]": "PPI"
+      }
+    },
+    "AIMed.d45.s397": {
+      "sentence": "Thus, PROTEIN0 PROTEIN1 binding does not result in a large conformational change in the AB loop as previously suggested.",
+      "orig_sentence": "Thus, IFN-gamma R alpha binding does not result in a large conformational change in the AB loop as previously suggested.",
+      "proteins": [
+        "IFN-gamma",
+        "IFN-gamma R alpha"
+      ],
+      "relations": {}
+    },
+    "AIMed.d45.s398": {
+      "sentence": "The structure also reveals the final six C-terminal amino acid residues of PROTEIN0 PROTEIN1 (residues 253-258) that have not been observed in any other reported PROTEIN2 structures.",
+      "orig_sentence": "The structure also reveals the final six C-terminal amino acid residues of IFN-gamma SC1 (residues 253-258) that have not been observed in any other reported IFN-gamma structures.",
+      "proteins": [
+        "IFN-gamma",
+        "IFN-gamma SC1",
+        "IFN-gamma"
+      ],
+      "relations": {}
+    },
+    "AIMed.d45.s399": {
+      "sentence": "Despite binding to only one PROTEIN0 PROTEIN1, PROTEIN2 is biologically active in cell proliferation, MHC class I induction, and anti-viral assays.",
+      "orig_sentence": "Despite binding to only one IFN-gamma R alpha, IFN-gamma SC1 is biologically active in cell proliferation, MHC class I induction, and anti-viral assays.",
+      "proteins": [
+        "IFN-gamma",
+        "IFN-gamma R alpha",
+        "IFN-gamma SC1"
+      ],
+      "relations": {
+        "[1, 2]": "PPI"
+      }
+    },
+    "AIMed.d45.s400": {
+      "sentence": "This suggests that one domain of PROTEIN0 is sufficient to recruit PROTEIN1 PROTEIN2 and PROTEIN3 PROTEIN4 into a complex competent for eliciting biological activity.",
+      "orig_sentence": "This suggests that one domain of IFN-gamma is sufficient to recruit IFN-gamma R alpha and IFN-gamma R beta into a complex competent for eliciting biological activity.",
+      "proteins": [
+        "IFN-gamma",
+        "IFN-gamma",
+        "IFN-gamma R alpha",
+        "IFN-gamma",
+        "IFN-gamma R beta"
+      ],
+      "relations": {
+        "[0, 2]": "PPI",
+        "[0, 4]": "PPI"
+      }
+    },
+    "AIMed.d45.s401": {
+      "sentence": "The current data are consistent with the main role of the PROTEIN0 dimer being to decrease the dissociation constant of PROTEIN1 for its cellular receptors.",
+      "orig_sentence": "The current data are consistent with the main role of the IFN-gamma dimer being to decrease the dissociation constant of IFN-gamma for its cellular receptors.",
+      "proteins": [
+        "IFN-gamma",
+        "IFN-gamma"
+      ],
+      "relations": {}
+    },
+    "AIMed.d55.s481": {
+      "sentence": "Human PROTEIN0/PROTEIN1 is a functional ligand for PROTEIN2, PROTEIN3 and PROTEIN4, and constitutively expressed by hepatocytes.",
+      "orig_sentence": "Human CC chemokine liver-expressed chemokine/CCL16 is a functional ligand for CCR1, CCR2 and CCR5, and constitutively expressed by hepatocytes.",
+      "proteins": [
+        "CC chemokine liver-expressed chemokine",
+        "CCL16",
+        "CCR1",
+        "CCR2",
+        "CCR5"
+      ],
+      "relations": {
+        "[0, 2]": "PPI",
+        "[0, 3]": "PPI",
+        "[0, 4]": "PPI",
+        "[1, 2]": "PPI",
+        "[1, 3]": "PPI",
+        "[1, 4]": "PPI"
+      }
+    },
+    "AIMed.d55.s482": {
+      "sentence": "PROTEIN0 (PROTEIN1)/PROTEIN2 is a human CC chemokine selectively expressed in the liver.",
+      "orig_sentence": "Liver-expressed chemokine (LEC)/CCL16 is a human CC chemokine selectively expressed in the liver.",
+      "proteins": [
+        "Liver-expressed chemokine",
+        "LEC",
+        "CCL16"
+      ],
+      "relations": {}
+    },
+    "AIMed.d55.s483": {
+      "sentence": "Here, we investigated its receptor usage by calcium mobilization and chemotactic assays using mouse L1.2 pre-B cell lines stably expressing a panel of 12 human chemokine receptors.",
+      "orig_sentence": "Here, we investigated its receptor usage by calcium mobilization and chemotactic assays using mouse L1.2 pre-B cell lines stably expressing a panel of 12 human chemokine receptors.",
+      "proteins": [],
+      "relations": {}
+    },
+    "AIMed.d55.s484": {
+      "sentence": "At relatively high concentrations, PROTEIN0 induced calcium mobilization and chemotaxis via PROTEIN1 and PROTEIN2.",
+      "orig_sentence": "At relatively high concentrations, LEC induced calcium mobilization and chemotaxis via CCR1 and CCR2.",
+      "proteins": [
+        "LEC",
+        "CCR1",
+        "CCR2"
+      ],
+      "relations": {
+        "[0, 1]": "PPI",
+        "[0, 2]": "PPI"
+      }
+    },
+    "AIMed.d55.s485": {
+      "sentence": "PROTEIN0 also induced calcium mobilization, but marginal chemotaxis via PROTEIN1.",
+      "orig_sentence": "LEC also induced calcium mobilization, but marginal chemotaxis via CCR5.",
+      "proteins": [
+        "LEC",
+        "CCR5"
+      ],
+      "relations": {
+        "[0, 1]": "PPI"
+      }
+    },
+    "AIMed.d55.s486": {
+      "sentence": "Consistently, PROTEIN0 was found to bind to PROTEIN1, PROTEIN2 and PROTEIN3 with relatively low affinities.",
+      "orig_sentence": "Consistently, LEC was found to bind to CCR1, CCR2 and CCR5 with relatively low affinities.",
+      "proteins": [
+        "LEC",
+        "CCR1",
+        "CCR2",
+        "CCR5"
+      ],
+      "relations": {
+        "[0, 1]": "PPI",
+        "[0, 2]": "PPI",
+        "[0, 3]": "PPI"
+      }
+    },
+    "AIMed.d55.s487": {
+      "sentence": "The binding of PROTEIN0 to PROTEIN1 was much less significant.",
+      "orig_sentence": "The binding of LEC to CCR8 was much less significant.",
+      "proteins": [
+        "LEC",
+        "CCR8"
+      ],
+      "relations": {
+        "[0, 1]": "PPI"
+      }
+    },
+    "AIMed.d55.s488": {
+      "sentence": "In spite of its binding to PROTEIN0, PROTEIN1 was unable to inhibit infection of an R5-type HIV-1 to activated human peripheral blood mononuclear cells even at high concentrations.",
+      "orig_sentence": "In spite of its binding to CCR5, LEC was unable to inhibit infection of an R5-type HIV-1 to activated human peripheral blood mononuclear cells even at high concentrations.",
+      "proteins": [
+        "CCR5",
+        "LEC"
+      ],
+      "relations": {
+        "[0, 1]": "PPI"
+      }
+    },
+    "AIMed.d55.s489": {
+      "sentence": "In human liver sections, hepatocytes were strongly stained by anti-LEC antibody.",
+      "orig_sentence": "In human liver sections, hepatocytes were strongly stained by anti-LEC antibody.",
+      "proteins": [],
+      "relations": {}
+    },
+    "AIMed.d55.s490": {
+      "sentence": "HepG2, a human hepatocarcinoma cell line, was found to constitutively express PROTEIN0.",
+      "orig_sentence": "HepG2, a human hepatocarcinoma cell line, was found to constitutively express LEC.",
+      "proteins": [
+        "LEC"
+      ],
+      "relations": {}
+    },
+    "AIMed.d55.s491": {
+      "sentence": "PROTEIN0 was also present in the plasma samples from healthy adult donors at relatively high concentrations (0.3--4 nM).",
+      "orig_sentence": "LEC was also present in the plasma samples from healthy adult donors at relatively high concentrations (0.3--4 nM).",
+      "proteins": [
+        "LEC"
+      ],
+      "relations": {}
+    },
+    "AIMed.d55.s492": {
+      "sentence": "Taken together, PROTEIN0 is a new low-affinity functional ligand for PROTEIN1, PROTEIN2 and PROTEIN3, and is constitutively expressed by liver parenchymal cells.",
+      "orig_sentence": "Taken together, LEC is a new low-affinity functional ligand for CCR1, CCR2 and CCR5, and is constitutively expressed by liver parenchymal cells.",
+      "proteins": [
+        "LEC",
+        "CCR1",
+        "CCR2",
+        "CCR5"
+      ],
+      "relations": {
+        "[0, 1]": "PPI",
+        "[0, 2]": "PPI",
+        "[0, 3]": "PPI"
+      }
+    },
+    "AIMed.d55.s493": {
+      "sentence": "The presence of PROTEIN0 in normal plasma at relatively high concentrations may modulate inflammatory responses.",
+      "orig_sentence": "The presence of LEC in normal plasma at relatively high concentrations may modulate inflammatory responses.",
+      "proteins": [
+        "LEC"
+      ],
+      "relations": {}
+    },
+    "AIMed.d62.s540": {
+      "sentence": "Crystal structure of human PROTEIN0.",
+      "orig_sentence": "Crystal structure of human platelet-derived growth factor BB.",
+      "proteins": [
+        "platelet-derived growth factor BB"
+      ],
+      "relations": {}
+    },
+    "AIMed.d62.s541": {
+      "sentence": "The crystal structure of the homodimeric PROTEIN0 (PROTEIN1) has been determined by X-ray analysis to 3.0 A resolution.",
+      "orig_sentence": "The crystal structure of the homodimeric BB isoform of human recombinant platelet-derived growth factor (PDGF-BB) has been determined by X-ray analysis to 3.0 A resolution.",
+      "proteins": [
+        "BB isoform of human recombinant platelet-derived growth factor",
+        "PDGF-BB"
+      ],
+      "relations": {}
+    },
+    "AIMed.d62.s542": {
+      "sentence": "The polypeptide chain is folded into two highly twisted antiparallel pairs of beta-strands and contains an unusual knotted arrangement of three intramolecular disulfide bonds.",
+      "orig_sentence": "The polypeptide chain is folded into two highly twisted antiparallel pairs of beta-strands and contains an unusual knotted arrangement of three intramolecular disulfide bonds.",
+      "proteins": [],
+      "relations": {}
+    },
+    "AIMed.d62.s543": {
+      "sentence": "Dimerization leads to the clustering of three surface loops at each end of the elongated dimer, which most probably form the receptor recognition sites.",
+      "orig_sentence": "Dimerization leads to the clustering of three surface loops at each end of the elongated dimer, which most probably form the receptor recognition sites.",
+      "proteins": [],
+      "relations": {}
+    },
+    "AIMed.d66.s562": {
+      "sentence": "Human PROTEIN0, a new cyclin that interacts with two members of the PROTEIN1 gene family.",
+      "orig_sentence": "Human cyclin E, a new cyclin that interacts with two members of the CDC2 gene family.",
+      "proteins": [
+        "cyclin E",
+        "CDC2"
+      ],
+      "relations": {}
+    },
+    "AIMed.d66.s563": {
+      "sentence": "A new human cyclin, named PROTEIN0, was isolated by complementation of a triple cln deletion in S. cerevisiae.",
+      "orig_sentence": "A new human cyclin, named cyclin E, was isolated by complementation of a triple cln deletion in S. cerevisiae.",
+      "proteins": [
+        "cyclin E"
+      ],
+      "relations": {}
+    },
+    "AIMed.d66.s564": {
+      "sentence": "PROTEIN0 showed genetic interactions with the PROTEIN1 gene, suggesting that it functioned at START by interacting with the PROTEIN2 protein.",
+      "orig_sentence": "Cyclin E showed genetic interactions with the CDC28 gene, suggesting that it functioned at START by interacting with the CDC28 protein.",
+      "proteins": [
+        "Cyclin E",
+        "CDC28",
+        "CDC28"
+      ],
+      "relations": {
+        "[0, 1]": "PPI",
+        "[0, 2]": "PPI"
+      }
+    },
+    "AIMed.d66.s565": {
+      "sentence": "Two human genes were identified that could interact with PROTEIN0 to perform START in yeast containing a PROTEIN1 mutation.",
+      "orig_sentence": "Two human genes were identified that could interact with cyclin E to perform START in yeast containing a cdc28 mutation.",
+      "proteins": [
+        "cyclin E",
+        "cdc28"
+      ],
+      "relations": {}
+    },
+    "AIMed.d66.s566": {
+      "sentence": "One was PROTEIN0 PROTEIN1, and the second was the human homolog of Xenopus PROTEIN2.",
+      "orig_sentence": "One was CDC2-HS, and the second was the human homolog of Xenopus CDK2.",
+      "proteins": [
+        "CDC2",
+        "CDC2-HS",
+        "CDK2"
+      ],
+      "relations": {}
+    },
+    "AIMed.d66.s567": {
+      "sentence": "PROTEIN0 produced in E. coli bound and activated the PROTEIN1 protein in extracts from human G1 cells, and antibodies against PROTEIN2 immunoprecipitated a histone H1 kinase from HeLa cells.",
+      "orig_sentence": "Cyclin E produced in E. coli bound and activated the CDC2 protein in extracts from human G1 cells, and antibodies against cyclin E immunoprecipitated a histone H1 kinase from HeLa cells.",
+      "proteins": [
+        "Cyclin E",
+        "CDC2",
+        "cyclin E"
+      ],
+      "relations": {
+        "[0, 1]": "PPI"
+      }
+    },
+    "AIMed.d66.s568": {
+      "sentence": "The interactions between PROTEIN0 and PROTEIN1, or PROTEIN2, may be important at the G1 to S transition in human cells.",
+      "orig_sentence": "The interactions between cyclin E and CDC2, or CDK2, may be important at the G1 to S transition in human cells.",
+      "proteins": [
+        "cyclin E",
+        "CDC2",
+        "CDK2"
+      ],
+      "relations": {
+        "[0, 1]": "PPI",
+        "[0, 2]": "PPI"
+      }
+    },
+    "AIMed.d72.s609": {
+      "sentence": "A cellular protein that competes with PROTEIN0 for binding to the PROTEIN1 gene product.",
+      "orig_sentence": "A cellular protein that competes with SV40 T antigen for binding to the retinoblastoma gene product.",
+      "proteins": [
+        "SV40 T antigen",
+        "retinoblastoma"
+      ],
+      "relations": {}
+    },
+    "AIMed.d72.s610": {
+      "sentence": "Tumour-suppressor genes, such as the human PROTEIN0 (PROTEIN1), are widely recognized as being vital in the control of cell growth and tumour formation.",
+      "orig_sentence": "Tumour-suppressor genes, such as the human retinoblastoma susceptibility gene (Rb), are widely recognized as being vital in the control of cell growth and tumour formation.",
+      "proteins": [
+        "retinoblastoma susceptibility gene",
+        "Rb"
+      ],
+      "relations": {}
+    },
+    "AIMed.d72.s611": {
+      "sentence": "This role is indicated, in part, by the suppression of tumorigenicity of human tumour cells after retrovirus-mediated PROTEIN0 replacement.",
+      "orig_sentence": "This role is indicated, in part, by the suppression of tumorigenicity of human tumour cells after retrovirus-mediated Rb replacement.",
+      "proteins": [
+        "Rb"
+      ],
+      "relations": {}
+    },
+    "AIMed.d72.s612": {
+      "sentence": "How PROTEIN0 acts to bring about this suppression is not clear but one clue is that the PROTEIN1 protein forms complexes with the transforming oncoproteins of several DNA tumour viruses, and that two regions of PROTEIN2 essential for such binding frequently contain mutations in tumour cells.",
+      "orig_sentence": "How Rb acts to bring about this suppression is not clear but one clue is that the Rb protein forms complexes with the transforming oncoproteins of several DNA tumour viruses, and that two regions of Rb essential for such binding frequently contain mutations in tumour cells.",
+      "proteins": [
+        "Rb",
+        "Rb",
+        "Rb"
+      ],
+      "relations": {}
+    },
+    "AIMed.d72.s613": {
+      "sentence": "These observations suggest that endogenous cellular proteins might exist that bind to the same regions of PROTEIN0 and thereby mediate its function.",
+      "orig_sentence": "These observations suggest that endogenous cellular proteins might exist that bind to the same regions of Rb and thereby mediate its function.",
+      "proteins": [
+        "Rb"
+      ],
+      "relations": {}
+    },
+    "AIMed.d72.s614": {
+      "sentence": "We report here the identification of one such human cellular PROTEIN0 PROTEIN1 of relative molecular mass 46,000 (46K) (PROTEIN2).",
+      "orig_sentence": "We report here the identification of one such human cellular Rb-associated protein of relative molecular mass 46,000 (46K) (RbAP46).",
+      "proteins": [
+        "Rb",
+        "Rb-associated protein",
+        "RbAP46"
+      ],
+      "relations": {}
+    },
+    "AIMed.d72.s615": {
+      "sentence": "Two lines of evidence support the notion that PROTEIN0 and PROTEIN1 have homologous PROTEIN2-binding properties: first, several mutated PROTEIN3 proteins that failed to bind to T also did not associate with PROTEIN4; and second, both T antigen and T peptide (amino acids 101-118) were able to compete with PROTEIN5 for binding to PROTEIN6.",
+      "orig_sentence": "Two lines of evidence support the notion that RbAP46 and simian virus 40 T antigen have homologous Rb-binding properties: first, several mutated Rb proteins that failed to bind to T also did not associate with RbAP46; and second, both T antigen and T peptide (amino acids 101-118) were able to compete with RbAP46 for binding to Rb.",
+      "proteins": [
+        "RbAP46",
+        "simian virus 40 T antigen",
+        "Rb",
+        "Rb",
+        "RbAP46",
+        "RbAP46",
+        "Rb"
+      ],
+      "relations": {
+        "[0, 2]": "PPI",
+        "[1, 2]": "PPI"
+      }
+    },
+    "AIMed.d72.s616": {
+      "sentence": "The apparent targeting of the PROTEIN0-PROTEIN1 interaction by oncoproteins of DNA tumour viruses strongly suggests that formation of this complex is functionally important.",
+      "orig_sentence": "The apparent targeting of the RbAP46-Rb interaction by oncoproteins of DNA tumour viruses strongly suggests that formation of this complex is functionally important.",
+      "proteins": [
+        "RbAP46",
+        "Rb"
+      ],
+      "relations": {
+        "[0, 1]": "PPI"
+      }
+    },
+    "AIMed.d84.s711": {
+      "sentence": "Evidence for a differential interaction of PROTEIN0 and the PROTEIN1 (PROTEIN2) with the PROTEIN3 PROTEIN4 PROTEIN5 in the yeast two-hybrid system.",
+      "orig_sentence": "Evidence for a differential interaction of SHC and the insulin receptor substrate-1 (IRS-1) with the insulin-like growth factor-I (IGF-I) receptor in the yeast two-hybrid system.",
+      "proteins": [
+        "SHC",
+        "insulin receptor substrate-1",
+        "IRS-1",
+        "insulin-like growth factor-I",
+        "insulin-like growth factor-I (IGF-I) receptor",
+        "IGF-I"
+      ],
+      "relations": {
+        "[1, 4]": "PPI",
+        "[2, 4]": "PPI"
+      }
+    },
+    "AIMed.d84.s712": {
+      "sentence": "Using the yeast two-hybrid system, a genetic assay for studying protein-protein interactions, we have examined and compared the interaction of the PROTEIN0 PROTEIN1 (PROTEIN2) and the PROTEIN3 (PROTEIN4) with their two known substrates PROTEIN5 and the PROTEIN6 PROTEIN7 (PROTEIN8).",
+      "orig_sentence": "Using the yeast two-hybrid system, a genetic assay for studying protein-protein interactions, we have examined and compared the interaction of the insulin-like growth factor-I receptor (IGF-IR) and the insulin receptor (IR) with their two known substrates p52Shc and the insulin receptor substrate-1 (IRS-1).",
+      "proteins": [
+        "insulin-like growth factor-I",
+        "insulin-like growth factor-I receptor",
+        "IGF-IR",
+        "insulin receptor",
+        "IR",
+        "p52Shc",
+        "insulin receptor",
+        "insulin receptor substrate-1",
+        "IRS-1"
+      ],
+      "relations": {
+        "[1, 5]": "PPI",
+        "[1, 7]": "PPI",
+        "[1, 8]": "PPI",
+        "[2, 5]": "PPI",
+        "[2, 7]": "PPI",
+        "[2, 8]": "PPI",
+        "[3, 5]": "PPI",
+        "[3, 7]": "PPI",
+        "[3, 8]": "PPI",
+        "[4, 5]": "PPI",
+        "[4, 7]": "PPI",
+        "[4, 8]": "PPI"
+      }
+    },
+    "AIMed.d84.s713": {
+      "sentence": "We also mapped the specific domains of the PROTEIN0 and PROTEIN1 participating in these interactions.",
+      "orig_sentence": "We also mapped the specific domains of the IGF-IR and p52Shc participating in these interactions.",
+      "proteins": [
+        "IGF-IR",
+        "p52Shc"
+      ],
+      "relations": {}
+    },
+    "AIMed.d84.s714": {
+      "sentence": "Our findings can be summarized as follows: (i) the tyrosine kinase activity of the PROTEIN0 is essential for the interaction with PROTEIN1 and PROTEIN2, (ii) PROTEIN3 and PROTEIN4 bind to the PROTEIN5 in the NPEY-juxtamembrane motif, (iii) contrary to PROTEIN6, PROTEIN7 binds also to the major autophosphorylation sites (Tyr-1131, -1135, and -1136) of the PROTEIN8, and (iv) the amino-terminal domain of PROTEIN9 is required for its association with the PROTEIN10 and the PROTEIN11.",
+      "orig_sentence": "Our findings can be summarized as follows: (i) the tyrosine kinase activity of the IGF-IR is essential for the interaction with p52Shc and IRS-1, (ii) p52Shc and IRS-1 bind to the IGF-IR in the NPEY-juxtamembrane motif, (iii) contrary to p52Shc, IRS-1 binds also to the major autophosphorylation sites (Tyr-1131, -1135, and -1136) of the IGF-IR, and (iv) the amino-terminal domain of p52Shc is required for its association with the IR and the IGF-IR.",
+      "proteins": [
+        "IGF-IR",
+        "p52Shc",
+        "IRS-1",
+        "p52Shc",
+        "IRS-1",
+        "IGF-IR",
+        "p52Shc",
+        "IRS-1",
+        "IGF-IR",
+        "p52Shc",
+        "IR",
+        "IGF-IR"
+      ],
+      "relations": {
+        "[0, 1]": "PPI",
+        "[0, 2]": "PPI",
+        "[3, 5]": "PPI",
+        "[4, 5]": "PPI",
+        "[7, 8]": "PPI",
+        "[9, 10]": "PPI",
+        "[9, 11]": "PPI"
+      }
+    },
+    "AIMed.d84.s715": {
+      "sentence": "We propose that (i) the PROTEIN0 and the PROTEIN1 share at least in part the same molecular mechanism underlying their interplay with their two substrates, PROTEIN2 and PROTEIN3, and (ii) PROTEIN4 interacts with the PROTEIN5 in a fashion that is different from that used by PROTEIN6.",
+      "orig_sentence": "We propose that (i) the IGF-IR and the IR share at least in part the same molecular mechanism underlying their interplay with their two substrates, p52Shc and IRS-1, and (ii) IRS-1 interacts with the IGF-IR in a fashion that is different from that used by p52Shc.",
+      "proteins": [
+        "IGF-IR",
+        "IR",
+        "p52Shc",
+        "IRS-1",
+        "IRS-1",
+        "IGF-IR",
+        "p52Shc"
+      ],
+      "relations": {
+        "[0, 2]": "PPI",
+        "[0, 3]": "PPI",
+        "[1, 2]": "PPI",
+        "[1, 3]": "PPI",
+        "[4, 5]": "PPI",
+        "[5, 6]": "PPI"
+      }
+    },
+    "AIMed.d84.s716": {
+      "sentence": "Finally, our data highlight the crucial role of the juxtamembrane domain in signaling by both the PROTEIN0 and the PROTEIN1.",
+      "orig_sentence": "Finally, our data highlight the crucial role of the juxtamembrane domain in signaling by both the IR and the IGF-IR.",
+      "proteins": [
+        "IR",
+        "IGF-IR"
+      ],
+      "relations": {}
+    },
+    "AIMed.d86.s724": {
+      "sentence": "Correlation of two-hybrid affinity data with in vitro measurements.",
+      "orig_sentence": "Correlation of two-hybrid affinity data with in vitro measurements.",
+      "proteins": [],
+      "relations": {}
+    },
+    "AIMed.d86.s725": {
+      "sentence": "Since their introduction, the interaction trap and other two-hybrid systems have been used to study protein-protein interactions.",
+      "orig_sentence": "Since their introduction, the interaction trap and other two-hybrid systems have been used to study protein-protein interactions.",
+      "proteins": [],
+      "relations": {}
+    },
+    "AIMed.d86.s726": {
+      "sentence": "Despite their general use, little is known about the extent to which the degree of protein interaction determined by two-hybrid approaches parallels the degree of interaction determined by biochemical techniques.",
+      "orig_sentence": "Despite their general use, little is known about the extent to which the degree of protein interaction determined by two-hybrid approaches parallels the degree of interaction determined by biochemical techniques.",
+      "proteins": [],
+      "relations": {}
+    },
+    "AIMed.d86.s727": {
+      "sentence": "In this study, we used a set of lexAop-LEU2 and lexAop-lacZ reporters to calibrate the interaction trap.",
+      "orig_sentence": "In this study, we used a set of lexAop-LEU2 and lexAop-lacZ reporters to calibrate the interaction trap.",
+      "proteins": [],
+      "relations": {}
+    },
+    "AIMed.d86.s728": {
+      "sentence": "For the calibration, we used two sets of proteins, the PROTEIN0-PROTEIN1-PROTEIN2 helix-loop-helix proteins, and wild-type and dimerization-defective versions of the lambda cI repressor.",
+      "orig_sentence": "For the calibration, we used two sets of proteins, the Myc-Max-Mxi1 helix-loop-helix proteins, and wild-type and dimerization-defective versions of the lambda cI repressor.",
+      "proteins": [
+        "Myc",
+        "Max",
+        "Mxi1"
+      ],
+      "relations": {}
+    },
+    "AIMed.d86.s729": {
+      "sentence": "Our results indicate that the strength of interaction as predicted by the two-hybrid approach generally correlates with that determined in vitro, permitting discrimination of high-, intermediate-, and low-affinity interactions, but there was no single reporter for which the amount of gene expression linearly reflected affinity measured in vitro.",
+      "orig_sentence": "Our results indicate that the strength of interaction as predicted by the two-hybrid approach generally correlates with that determined in vitro, permitting discrimination of high-, intermediate-, and low-affinity interactions, but there was no single reporter for which the amount of gene expression linearly reflected affinity measured in vitro.",
+      "proteins": [],
+      "relations": {}
+    },
+    "AIMed.d86.s730": {
+      "sentence": "However, some reporters showed thresholds and only responded to stronger interactions.",
+      "orig_sentence": "However, some reporters showed thresholds and only responded to stronger interactions.",
+      "proteins": [],
+      "relations": {}
+    },
+    "AIMed.d86.s731": {
+      "sentence": "Finally, some interactions were subject to directionality, and their apparent strength depended on the reporter used.",
+      "orig_sentence": "Finally, some interactions were subject to directionality, and their apparent strength depended on the reporter used.",
+      "proteins": [],
+      "relations": {}
+    },
+    "AIMed.d86.s732": {
+      "sentence": "Taken together, our results provide a cautionary framework for interpreting affinities from two-hybrid experiments.",
+      "orig_sentence": "Taken together, our results provide a cautionary framework for interpreting affinities from two-hybrid experiments.",
+      "proteins": [],
+      "relations": {}
+    },
+    "AIMed.d88.s742": {
+      "sentence": "Interaction of the protein PROTEIN0 with PROTEIN1, as revealed by the yeast two-hybrid system.",
+      "orig_sentence": "Interaction of the protein nucleobindin with G alpha i2, as revealed by the yeast two-hybrid system.",
+      "proteins": [
+        "nucleobindin",
+        "G alpha i2"
+      ],
+      "relations": {
+        "[0, 1]": "PPI"
+      }
+    },
+    "AIMed.d88.s743": {
+      "sentence": "The heterotrimeric G protein, PROTEIN0, transduces signals from seven membrane spanning receptors to effectors such as adenylyl cyclase and ion channels.",
+      "orig_sentence": "The heterotrimeric G protein, G alpha i2, transduces signals from seven membrane spanning receptors to effectors such as adenylyl cyclase and ion channels.",
+      "proteins": [
+        "G alpha i2"
+      ],
+      "relations": {}
+    },
+    "AIMed.d88.s744": {
+      "sentence": "The purpose of this study was to identify these or other cellular proteins that interact with PROTEIN0 by use of the yeast two-hybrid system.",
+      "orig_sentence": "The purpose of this study was to identify these or other cellular proteins that interact with G alpha i2 by use of the yeast two-hybrid system.",
+      "proteins": [
+        "G alpha i2"
+      ],
+      "relations": {}
+    },
+    "AIMed.d88.s745": {
+      "sentence": "A human B cell cDNA library was screened by this system using full length PROTEIN0.",
+      "orig_sentence": "A human B cell cDNA library was screened by this system using full length G alpha i2.",
+      "proteins": [
+        "G alpha i2"
+      ],
+      "relations": {}
+    },
+    "AIMed.d88.s746": {
+      "sentence": "Four positive colonies were obtained.",
+      "orig_sentence": "Four positive colonies were obtained.",
+      "proteins": [],
+      "relations": {}
+    },
+    "AIMed.d88.s747": {
+      "sentence": "Two of the four were identified as PROTEIN0, a calcium binding protein and a putative antigen to which anti-nuclear antibodies are generated in mice with a disorder that resembles systemic lupus erythematosus.",
+      "orig_sentence": "Two of the four were identified as nucleobindin, a calcium binding protein and a putative antigen to which anti-nuclear antibodies are generated in mice with a disorder that resembles systemic lupus erythematosus.",
+      "proteins": [
+        "nucleobindin"
+      ],
+      "relations": {}
+    },
+    "AIMed.d88.s748": {
+      "sentence": "PROTEIN0 has a leucine zipper, EF hands, and a signal peptide sequence and is thought to localize to the nucleus as well as being secreted.",
+      "orig_sentence": "Nucleobindin has a leucine zipper, EF hands, and a signal peptide sequence and is thought to localize to the nucleus as well as being secreted.",
+      "proteins": [
+        "Nucleobindin"
+      ],
+      "relations": {}
+    },
+    "AIMed.d88.s749": {
+      "sentence": "The specificity of intehraction between PROTEIN0 and PROTEIN1 was confirmed by an in vitro binding assay using recombinant proteins.",
+      "orig_sentence": "The specificity of intehraction between G alpha i2 and nucleobindin was confirmed by an in vitro binding assay using recombinant proteins.",
+      "proteins": [
+        "G alpha i2",
+        "nucleobindin"
+      ],
+      "relations": {
+        "[0, 1]": "PPI"
+      }
+    },
+    "AIMed.d88.s750": {
+      "sentence": "Transfection of PROTEIN0 and PROTEIN1 in COS cells increased PROTEIN2 expression relative to cells transfected with PROTEIN3 and mock vector.",
+      "orig_sentence": "Transfection of G alpha i2 and nucleobindin in COS cells increased G alpha i2 expression relative to cells transfected with G alpha i2 and mock vector.",
+      "proteins": [
+        "G alpha i2",
+        "nucleobindin",
+        "G alpha i2",
+        "G alpha i2"
+      ],
+      "relations": {}
+    },
+    "AIMed.d88.s751": {
+      "sentence": "Our results indicate that the yeast two-hybrid system provides a means to identify novel proteins that interact with G alpha proteins.",
+      "orig_sentence": "Our results indicate that the yeast two-hybrid system provides a means to identify novel proteins that interact with G alpha proteins.",
+      "proteins": [],
+      "relations": {}
+    },
+    "AIMed.d88.s752": {
+      "sentence": "PROTEIN0 appears to represent one of those proteins.",
+      "orig_sentence": "Nucleobindin appears to represent one of those proteins.",
+      "proteins": [
+        "Nucleobindin"
+      ],
+      "relations": {}
+    },
+    "AIMed.d106.s893": {
+      "sentence": "PROTEIN0 interaction with PROTEIN1 ties mitogenic signal transduction to cell cycle activation.",
+      "orig_sentence": "Raf1 interaction with Cdc25 phosphatase ties mitogenic signal transduction to cell cycle activation.",
+      "proteins": [
+        "Raf1",
+        "Cdc25 phosphatase"
+      ],
+      "relations": {
+        "[0, 1]": "PPI"
+      }
+    },
+    "AIMed.d106.s894": {
+      "sentence": "The PROTEIN0 and PROTEIN1 proto-oncogenes transduce extracellular signals that promote cell growth.",
+      "orig_sentence": "The Ras and Raf1 proto-oncogenes transduce extracellular signals that promote cell growth.",
+      "proteins": [
+        "Ras",
+        "Raf1"
+      ],
+      "relations": {}
+    },
+    "AIMed.d106.s895": {
+      "sentence": "Cdc25 phosphatases activate the cell division cycle by dephosphorylation of critical threonine and tyrosine residues within the cyclin-dependent kinases.",
+      "orig_sentence": "Cdc25 phosphatases activate the cell division cycle by dephosphorylation of critical threonine and tyrosine residues within the cyclin-dependent kinases.",
+      "proteins": [],
+      "relations": {}
+    },
+    "AIMed.d106.s896": {
+      "sentence": "We show here that PROTEIN0 associates with PROTEIN1 in somatic mammalian cells and in meiotic frog oocytes.",
+      "orig_sentence": "We show here that Cdc25 phosphatase associates with raf1 in somatic mammalian cells and in meiotic frog oocytes.",
+      "proteins": [
+        "Cdc25 phosphatase",
+        "raf1"
+      ],
+      "relations": {
+        "[0, 1]": "PPI"
+      }
+    },
+    "AIMed.d106.s897": {
+      "sentence": "Furthermore, PROTEIN0 can be activated in vitro in a PROTEIN1-dependent manner.",
+      "orig_sentence": "Furthermore, Cdc25 phosphatase can be activated in vitro in a Raf1-dependent manner.",
+      "proteins": [
+        "Cdc25 phosphatase",
+        "Raf1"
+      ],
+      "relations": {
+        "[0, 1]": "PPI"
+      }
+    },
+    "AIMed.d106.s898": {
+      "sentence": "We suggest that activation of the cell cycle by the PROTEIN0/PROTEIN1 pathways might be mediated in part by PROTEIN2.",
+      "orig_sentence": "We suggest that activation of the cell cycle by the Ras/Raf1 pathways might be mediated in part by Cdc25.",
+      "proteins": [
+        "Ras",
+        "Raf1",
+        "Cdc25"
+      ],
+      "relations": {}
+    },
+    "AIMed.d107.s899": {
+      "sentence": "A direct interaction between PROTEIN0 subunits and the PROTEIN1.",
+      "orig_sentence": "A direct interaction between G-protein beta gamma subunits and the Raf-1 protein kinase.",
+      "proteins": [
+        "G-protein beta gamma",
+        "Raf-1 protein kinase"
+      ],
+      "relations": {
+        "[0, 1]": "PPI"
+      }
+    },
+    "AIMed.d107.s900": {
+      "sentence": "PROTEIN0 is a serine/threonine protein kinase positioned downstream of PROTEIN1 in the PROTEIN2 cascade.",
+      "orig_sentence": "Raf-1 is a serine/threonine protein kinase positioned downstream of Ras in the mitogen-activated protein kinase cascade.",
+      "proteins": [
+        "Raf-1",
+        "Ras",
+        "mitogen-activated protein kinase"
+      ],
+      "relations": {}
+    },
+    "AIMed.d107.s901": {
+      "sentence": "Using a yeast two-hybrid strategy to identify other proteins that interact with and potentially regulate PROTEIN0, we isolated a clone encoding the carboxyl-terminal half of the PROTEIN1 of heterotrimeric G-proteins.",
+      "orig_sentence": "Using a yeast two-hybrid strategy to identify other proteins that interact with and potentially regulate Raf-1, we isolated a clone encoding the carboxyl-terminal half of the G beta 2 subunit of heterotrimeric G-proteins.",
+      "proteins": [
+        "Raf-1",
+        "G beta 2 subunit"
+      ],
+      "relations": {
+        "[0, 1]": "PPI"
+      }
+    },
+    "AIMed.d107.s902": {
+      "sentence": "In vitro, purified PROTEIN0 subunits specifically bound to a GST fusion protein encoding amino acids 1-330 of PROTEIN1 (PROTEIN2).",
+      "orig_sentence": "In vitro, purified G beta gamma subunits specifically bound to a GST fusion protein encoding amino acids 1-330 of Raf-1 (Raf/330).",
+      "proteins": [
+        "G beta gamma",
+        "Raf-1",
+        "Raf/330"
+      ],
+      "relations": {
+        "[0, 1]": "PPI",
+        "[0, 2]": "PPI"
+      }
+    },
+    "AIMed.d107.s903": {
+      "sentence": "Binding assays with truncation mutants of GST-PROTEIN0 indicate that the region located between amino acids 136 and 239 is a primary determinant for interaction with PROTEIN1.",
+      "orig_sentence": "Binding assays with truncation mutants of GST-Raf indicate that the region located between amino acids 136 and 239 is a primary determinant for interaction with G beta gamma.",
+      "proteins": [
+        "Raf",
+        "G beta gamma"
+      ],
+      "relations": {}
+    },
+    "AIMed.d107.s904": {
+      "sentence": "In competition experiments, the carboxyl terminus of PROTEIN0 (PROTEIN1) blocked the binding of PROTEIN2 to PROTEIN3; however, the PROTEIN4-binding proteins, PROTEIN5 and 14-3-3, had no effect.",
+      "orig_sentence": "In competition experiments, the carboxyl terminus of beta-adrenergic receptor kinase (beta ARK) blocked the binding of G beta gamma to Raf/330; however, the Raf-1-binding proteins, Ras and 14-3-3, had no effect.",
+      "proteins": [
+        "beta-adrenergic receptor kinase",
+        "beta ARK",
+        "G beta gamma",
+        "Raf/330",
+        "Raf-1",
+        "Ras"
+      ],
+      "relations": {
+        "[2, 3]": "PPI",
+        "[4, 5]": "PPI"
+      }
+    },
+    "AIMed.d107.s905": {
+      "sentence": "Scatchard analysis of in vitro binding between PROTEIN0 and PROTEIN1 revealed an affinity of interaction (Kd = 163 +/- 36 nM), similar to that seen between PROTEIN2 and PROTEIN3 (Kd = 87 +/- 24 nM).",
+      "orig_sentence": "Scatchard analysis of in vitro binding between Raf/330 and G beta gamma revealed an affinity of interaction (Kd = 163 +/- 36 nM), similar to that seen between G beta gamma and beta ARK (Kd = 87 +/- 24 nM).",
+      "proteins": [
+        "Raf/330",
+        "G beta gamma",
+        "G beta gamma",
+        "beta ARK"
+      ],
+      "relations": {
+        "[0, 1]": "PPI",
+        "[2, 3]": "PPI"
+      }
+    },
+    "AIMed.d107.s906": {
+      "sentence": "The formation of native heterotrimeric PROTEIN0 complexes, as measured by pertussis toxin ADP-ribosylation of G alpha, could be disrupted by increasing amounts of PROTEIN1, with an EC50 of approximately 200 nM, in close agreement with the estimated binding affinity.",
+      "orig_sentence": "The formation of native heterotrimeric G alpha beta gamma complexes, as measured by pertussis toxin ADP-ribosylation of G alpha, could be disrupted by increasing amounts of Raf/330, with an EC50 of approximately 200 nM, in close agreement with the estimated binding affinity.",
+      "proteins": [
+        "G alpha beta gamma",
+        "Raf/330"
+      ],
+      "relations": {}
+    },
+    "AIMed.d107.s907": {
+      "sentence": "In vivo complexes of PROTEIN0 and PROTEIN1 were isolated from human embryonic kidney 293-T cells transfected with epitope-tagged PROTEIN2.",
+      "orig_sentence": "In vivo complexes of Raf-1 and G beta gamma were isolated from human embryonic kidney 293-T cells transfected with epitope-tagged G beta 2.",
+      "proteins": [
+        "Raf-1",
+        "G beta gamma",
+        "G beta 2"
+      ],
+      "relations": {
+        "[0, 1]": "PPI"
+      }
+    },
+    "AIMed.d107.s908": {
+      "sentence": "The identification and characterization of this novel interaction raises several possibilities for signaling cross-talk between growth factor receptors and those receptors coupled to heterotrimeric G-proteins.",
+      "orig_sentence": "The identification and characterization of this novel interaction raises several possibilities for signaling cross-talk between growth factor receptors and those receptors coupled to heterotrimeric G-proteins.",
+      "proteins": [],
+      "relations": {}
+    },
+    "AIMed.d111.s930": {
+      "sentence": "Mutagenesis of the regulatory subunit (PROTEIN0) of PROTEIN1 reveals hydrophobic amino acids that are essential for PROTEIN2 dimerization and/or anchoring PROTEIN3 to the cytoskeleton.",
+      "orig_sentence": "Mutagenesis of the regulatory subunit (RII beta) of cAMP-dependent protein kinase II beta reveals hydrophobic amino acids that are essential for RII beta dimerization and/or anchoring RII beta to the cytoskeleton.",
+      "proteins": [
+        "RII beta",
+        "cAMP-dependent protein kinase II beta",
+        "RII beta",
+        "RII beta"
+      ],
+      "relations": {}
+    },
+    "AIMed.d111.s931": {
+      "sentence": "In neurons PROTEIN0 (PROTEIN1) is sequestered in the dendritic cytoskeleton because the regulatory subunit (PROTEIN2) of the enzyme is tightly bound by A Kinase Anchor Proteins (AKAPs).",
+      "orig_sentence": "In neurons cAMP-dependent protein kinase II beta (PKAII beta) is sequestered in the dendritic cytoskeleton because the regulatory subunit (RII beta) of the enzyme is tightly bound by A Kinase Anchor Proteins (AKAPs).",
+      "proteins": [
+        "cAMP-dependent protein kinase II beta",
+        "PKAII beta",
+        "RII beta"
+      ],
+      "relations": {}
+    },
+    "AIMed.d111.s932": {
+      "sentence": "The prototypic neuronal anchor protein PROTEIN0 has a COOH-terminal 22-residue PROTEIN1 binding (tethering) site.",
+      "orig_sentence": "The prototypic neuronal anchor protein AKAP75 has a COOH-terminal 22-residue RII beta binding (tethering) site.",
+      "proteins": [
+        "AKAP75",
+        "RII beta"
+      ],
+      "relations": {
+        "[0, 1]": "PPI"
+      }
+    },
+    "AIMed.d111.s933": {
+      "sentence": "A key feature of the tethering site is that several amino acids with large aliphatic side chains mediate the high-affinity binding of PROTEIN0.",
+      "orig_sentence": "A key feature of the tethering site is that several amino acids with large aliphatic side chains mediate the high-affinity binding of RII beta.",
+      "proteins": [
+        "RII beta"
+      ],
+      "relations": {}
+    },
+    "AIMed.d111.s934": {
+      "sentence": "Mutagenesis, recombinant protein expression, and physicochemical characterization were used to investigate the structural basis for the homodimerization and PROTEIN0 binding activities of PROTEIN1.",
+      "orig_sentence": "Mutagenesis, recombinant protein expression, and physicochemical characterization were used to investigate the structural basis for the homodimerization and AKAP75 binding activities of RII beta.",
+      "proteins": [
+        "AKAP75",
+        "RII beta"
+      ],
+      "relations": {
+        "[0, 1]": "PPI"
+      }
+    },
+    "AIMed.d111.s935": {
+      "sentence": "Several crucial residues are located in an NH2-terminal region that encompasses amino acids 13-36.",
+      "orig_sentence": "Several crucial residues are located in an NH2-terminal region that encompasses amino acids 13-36.",
+      "proteins": [],
+      "relations": {}
+    },
+    "AIMed.d111.s936": {
+      "sentence": "Substitution of Ala for Leu13 or Phe36 generates monomeric PROTEIN0 subunits that cannot bind PROTEIN1.",
+      "orig_sentence": "Substitution of Ala for Leu13 or Phe36 generates monomeric RII beta subunits that cannot bind AKAP75.",
+      "proteins": [
+        "RII beta",
+        "AKAP75"
+      ],
+      "relations": {}
+    },
+    "AIMed.d111.s937": {
+      "sentence": "The results are not due to general misfolding since mutant PROTEIN0 monomers bind cAMP and inhibit the catalytic subunit of PROTEIN1 with the same affinity and efficacy as wild-type PROTEIN2 dimers.",
+      "orig_sentence": "The results are not due to general misfolding since mutant RII beta monomers bind cAMP and inhibit the catalytic subunit of PKAII beta with the same affinity and efficacy as wild-type RII beta dimers.",
+      "proteins": [
+        "RII beta",
+        "PKAII beta",
+        "RII beta"
+      ],
+      "relations": {}
+    },
+    "AIMed.d111.s938": {
+      "sentence": "Moreover, substitution of Ala for Leu12, Val20, Leu21, Phe31, Leu33, or Leu39 and replacement of Leu13 with Ile or Val did not impair the dimerization reaction.",
+      "orig_sentence": "Moreover, substitution of Ala for Leu12, Val20, Leu21, Phe31, Leu33, or Leu39 and replacement of Leu13 with Ile or Val did not impair the dimerization reaction.",
+      "proteins": [],
+      "relations": {}
+    },
+    "AIMed.d111.s939": {
+      "sentence": "Evidently, large hydrophobic side chains of Leu13 and Phe36 play pivotal roles in stabilizing PROTEIN0-PROTEIN1 interactions.",
+      "orig_sentence": "Evidently, large hydrophobic side chains of Leu13 and Phe36 play pivotal roles in stabilizing RII beta-RII beta interactions.",
+      "proteins": [
+        "RII beta",
+        "RII beta"
+      ],
+      "relations": {
+        "[0, 1]": "PPI"
+      }
+    },
+    "AIMed.d111.s940": {
+      "sentence": "A secondary consequence of destabilizing PROTEIN0 dimers is the loss of intracellular targeting/anchoring capacity because monomers fail to bind PROTEIN1.",
+      "orig_sentence": "A secondary consequence of destabilizing RII beta dimers is the loss of intracellular targeting/anchoring capacity because monomers fail to bind AKAP75.",
+      "proteins": [
+        "RII beta",
+        "AKAP75"
+      ],
+      "relations": {}
+    },
+    "AIMed.d111.s941": {
+      "sentence": "Other NH2-terminal residues directly modulate the affinity of PROTEIN0 dimers for the PROTEIN1 tethering site.",
+      "orig_sentence": "Other NH2-terminal residues directly modulate the affinity of RII beta dimers for the AKAP75 tethering site.",
+      "proteins": [
+        "RII beta",
+        "AKAP75"
+      ],
+      "relations": {
+        "[0, 1]": "PPI"
+      }
+    },
+    "AIMed.d111.s942": {
+      "sentence": "Replacement of Val20-Leu21 with Ala-Ala produced a dimeric PROTEIN0 protein that binds PROTEIN1 approximately 4% as avidly as wild-type PROTEIN2.",
+      "orig_sentence": "Replacement of Val20-Leu21 with Ala-Ala produced a dimeric RII beta protein that binds AKAP75 approximately 4% as avidly as wild-type RII beta.",
+      "proteins": [
+        "RII beta",
+        "AKAP75",
+        "RII beta"
+      ],
+      "relations": {
+        "[0, 1]": "PPI"
+      }
+    },
+    "AIMed.d111.s943": {
+      "sentence": "It is possible that the aliphatic side chains of Val20 and Leu21 interact with the essential Leu and Ile residues in the PROTEIN0 tethering region.",
+      "orig_sentence": "It is possible that the aliphatic side chains of Val20 and Leu21 interact with the essential Leu and Ile residues in the AKAP75 tethering region.",
+      "proteins": [
+        "AKAP75"
+      ],
+      "relations": {}
+    },
+    "AIMed.d133.s1132": {
+      "sentence": "PROTEIN0: a protein kinase stimulated by UV light and PROTEIN1 that binds and phosphorylates the PROTEIN2 activation domain.",
+      "orig_sentence": "JNK1: a protein kinase stimulated by UV light and Ha-Ras that binds and phosphorylates the c-Jun activation domain.",
+      "proteins": [
+        "JNK1",
+        "Ha-Ras",
+        "c-Jun"
+      ],
+      "relations": {
+        "[0, 2]": "PPI"
+      }
+    },
+    "AIMed.d133.s1133": {
+      "sentence": "The ultraviolet (UV) response of mammalian cells is characterized by a rapid and selective increase in gene expression mediated by PROTEIN0 and PROTEIN1.",
+      "orig_sentence": "The ultraviolet (UV) response of mammalian cells is characterized by a rapid and selective increase in gene expression mediated by AP-1 and NF-kappa B.",
+      "proteins": [
+        "AP-1",
+        "NF-kappa B"
+      ],
+      "relations": {}
+    },
+    "AIMed.d133.s1134": {
+      "sentence": "The effect on PROTEIN0 transcriptional activity results, in part, from enhanced phosphorylation of the PROTEIN1 NH2-terminal activation domain.",
+      "orig_sentence": "The effect on AP-1 transcriptional activity results, in part, from enhanced phosphorylation of the c-Jun NH2-terminal activation domain.",
+      "proteins": [
+        "AP-1",
+        "c-Jun"
+      ],
+      "relations": {}
+    },
+    "AIMed.d133.s1135": {
+      "sentence": "Here, we describe the molecular cloning and characterization of PROTEIN0, a distant relative of the PROTEIN1 group that is activated by dual phosphorylation at Thr and Tyr during the UV response.",
+      "orig_sentence": "Here, we describe the molecular cloning and characterization of JNK1, a distant relative of the MAP kinase group that is activated by dual phosphorylation at Thr and Tyr during the UV response.",
+      "proteins": [
+        "JNK1",
+        "MAP kinase"
+      ],
+      "relations": {}
+    },
+    "AIMed.d133.s1136": {
+      "sentence": "Significantly, PROTEIN0 partially activates PROTEIN1 and potentiates the activation caused by UV.",
+      "orig_sentence": "Significantly, Ha-Ras partially activates JNK1 and potentiates the activation caused by UV.",
+      "proteins": [
+        "Ha-Ras",
+        "JNK1"
+      ],
+      "relations": {
+        "[0, 1]": "PPI"
+      }
+    },
+    "AIMed.d133.s1137": {
+      "sentence": "PROTEIN0 binds to the PROTEIN1 transactivation domain and phosphorylates it on Ser-63 and Ser-73.",
+      "orig_sentence": "JNK1 binds to the c-Jun transactivation domain and phosphorylates it on Ser-63 and Ser-73.",
+      "proteins": [
+        "JNK1",
+        "c-Jun"
+      ],
+      "relations": {
+        "[0, 1]": "PPI"
+      }
+    },
+    "AIMed.d133.s1138": {
+      "sentence": "Thus, PROTEIN0 is a component of a novel signal transduction pathway that is activated by oncoproteins and UV irradiation.",
+      "orig_sentence": "Thus, JNK1 is a component of a novel signal transduction pathway that is activated by oncoproteins and UV irradiation.",
+      "proteins": [
+        "JNK1"
+      ],
+      "relations": {}
+    },
+    "AIMed.d133.s1139": {
+      "sentence": "These properties indicate that PROTEIN0 activation may play an important role in tumor promotion.",
+      "orig_sentence": "These properties indicate that JNK1 activation may play an important role in tumor promotion.",
+      "proteins": [
+        "JNK1"
+      ],
+      "relations": {}
+    },
+    "AIMed.d134.s1140": {
+      "sentence": "PROTEIN0 is a ligand for the PROTEIN1 PROTEIN2.",
+      "orig_sentence": "B61 is a ligand for the ECK receptor protein-tyrosine kinase.",
+      "proteins": [
+        "B61",
+        "ECK",
+        "ECK receptor protein-tyrosine kinase"
+      ],
+      "relations": {
+        "[0, 2]": "PPI"
+      }
+    },
+    "AIMed.d134.s1141": {
+      "sentence": "A protein ligand for the PROTEIN0 PROTEIN1 has been isolated by using the extracellular domain (PROTEIN2-X) of the receptor as an affinity reagent.",
+      "orig_sentence": "A protein ligand for the ECK receptor protein-tyrosine kinase has been isolated by using the extracellular domain (ECK-X) of the receptor as an affinity reagent.",
+      "proteins": [
+        "ECK",
+        "ECK receptor protein-tyrosine kinase",
+        "ECK"
+      ],
+      "relations": {}
+    },
+    "AIMed.d134.s1142": {
+      "sentence": "Initially, concentrated cell culture supernatants were screened for receptor binding activity using immobilized PROTEIN0-X in a surface plasmon resonance detection system.",
+      "orig_sentence": "Initially, concentrated cell culture supernatants were screened for receptor binding activity using immobilized ECK-X in a surface plasmon resonance detection system.",
+      "proteins": [
+        "ECK"
+      ],
+      "relations": {}
+    },
+    "AIMed.d134.s1143": {
+      "sentence": "Subsequently, supernatants from selected cell lines were fractionated directly by receptor affinity chromatography, resulting in the single-step purification of PROTEIN0, a protein previously identified as the product of an early response gene induced by PROTEIN1.",
+      "orig_sentence": "Subsequently, supernatants from selected cell lines were fractionated directly by receptor affinity chromatography, resulting in the single-step purification of B61, a protein previously identified as the product of an early response gene induced by tumour necrosis factor-alpha.",
+      "proteins": [
+        "B61",
+        "tumour necrosis factor-alpha"
+      ],
+      "relations": {}
+    },
+    "AIMed.d134.s1144": {
+      "sentence": "We report here that recombinant PROTEIN0 induces autophosphorylation of PROTEIN1 in intact cells, consistent with PROTEIN2 being an authentic ligand for PROTEIN3.",
+      "orig_sentence": "We report here that recombinant B61 induces autophosphorylation of ECK in intact cells, consistent with B61 being an authentic ligand for ECK.",
+      "proteins": [
+        "B61",
+        "ECK",
+        "B61",
+        "ECK"
+      ],
+      "relations": {
+        "[0, 1]": "PPI",
+        "[2, 3]": "PPI"
+      }
+    },
+    "AIMed.d134.s1145": {
+      "sentence": "PROTEIN0 is a member of a large orphan receptor protein-tyrosine kinase family headed by EPH, and we suggest that ligands for other members of this family will be related to PROTEIN1, and can be isolated in the same way.",
+      "orig_sentence": "ECK is a member of a large orphan receptor protein-tyrosine kinase family headed by EPH, and we suggest that ligands for other members of this family will be related to B61, and can be isolated in the same way.",
+      "proteins": [
+        "ECK",
+        "B61"
+      ],
+      "relations": {}
+    },
+    "AIMed.d140.s1180": {
+      "sentence": "PROTEIN0, a human G1 and S phase protein phosphatase that associates with PROTEIN1.",
+      "orig_sentence": "Cdi1, a human G1 and S phase protein phosphatase that associates with Cdk2.",
+      "proteins": [
+        "Cdi1",
+        "Cdk2"
+      ],
+      "relations": {
+        "[0, 1]": "PPI"
+      }
+    },
+    "AIMed.d140.s1181": {
+      "sentence": "We used the interaction trap, a yeast genetic selection for interacting proteins, to isolate human PROTEIN0 (PROTEIN1).",
+      "orig_sentence": "We used the interaction trap, a yeast genetic selection for interacting proteins, to isolate human cyclin-dependent kinase interactor 1 (Cdi1).",
+      "proteins": [
+        "cyclin-dependent kinase interactor 1",
+        "Cdi1"
+      ],
+      "relations": {}
+    },
+    "AIMed.d140.s1182": {
+      "sentence": "In yeast, PROTEIN0 interacts with cyclin-dependent kinases, including human PROTEIN1, PROTEIN2, and PROTEIN3, but not with PROTEIN4.",
+      "orig_sentence": "In yeast, Cdi1 interacts with cyclin-dependent kinases, including human Cdc2, Cdk2, and Cdk3, but not with Cdk4.",
+      "proteins": [
+        "Cdi1",
+        "Cdc2",
+        "Cdk2",
+        "Cdk3",
+        "Cdk4"
+      ],
+      "relations": {
+        "[0, 1]": "PPI",
+        "[0, 2]": "PPI",
+        "[0, 3]": "PPI"
+      }
+    },
+    "AIMed.d140.s1183": {
+      "sentence": "In HeLa cells, PROTEIN0 is expressed at the G1 to S transition, and the protein forms stable complexes with PROTEIN1.",
+      "orig_sentence": "In HeLa cells, Cdi1 is expressed at the G1 to S transition, and the protein forms stable complexes with Cdk2.",
+      "proteins": [
+        "Cdi1",
+        "Cdk2"
+      ],
+      "relations": {
+        "[0, 1]": "PPI"
+      }
+    },
+    "AIMed.d140.s1184": {
+      "sentence": "PROTEIN0 bears weak sequence similarity to known tyrosine and dual specificity phosphatases.",
+      "orig_sentence": "Cdi1 bears weak sequence similarity to known tyrosine and dual specificity phosphatases.",
+      "proteins": [
+        "Cdi1"
+      ],
+      "relations": {}
+    },
+    "AIMed.d140.s1185": {
+      "sentence": "In vitro, PROTEIN0 removes phosphate from tyrosine residues in model substrates, but a mutant protein that bears a lesion in the putative active site cysteine does not.",
+      "orig_sentence": "In vitro, Cdi1 removes phosphate from tyrosine residues in model substrates, but a mutant protein that bears a lesion in the putative active site cysteine does not.",
+      "proteins": [
+        "Cdi1"
+      ],
+      "relations": {}
+    },
+    "AIMed.d140.s1186": {
+      "sentence": "Overexpression of wild-type PROTEIN0 delays progression through the cell cycle in yeast and HeLa cells; delay is dependent on PROTEIN1 phosphatase activity.",
+      "orig_sentence": "Overexpression of wild-type Cdi1 delays progression through the cell cycle in yeast and HeLa cells; delay is dependent on Cdi1 phosphatase activity.",
+      "proteins": [
+        "Cdi1",
+        "Cdi1"
+      ],
+      "relations": {}
+    },
+    "AIMed.d140.s1187": {
+      "sentence": "These experiments identify PROTEIN0 as a novel type of protein phosphatase that forms complexes with cyclin-dependent kinases.",
+      "orig_sentence": "These experiments identify Cdi1 as a novel type of protein phosphatase that forms complexes with cyclin-dependent kinases.",
+      "proteins": [
+        "Cdi1"
+      ],
+      "relations": {}
+    },
+    "AIMed.d149.s1262": {
+      "sentence": "The SH2/SH3 domain-containing protein PROTEIN0 interacts with tyrosine-phosphorylated PROTEIN1 and PROTEIN2: implications for insulin control of PROTEIN3 signalling.",
+      "orig_sentence": "The SH2/SH3 domain-containing protein GRB2 interacts with tyrosine-phosphorylated IRS1 and Shc: implications for insulin control of ras signalling.",
+      "proteins": [
+        "GRB2",
+        "IRS1",
+        "Shc",
+        "ras"
+      ],
+      "relations": {
+        "[0, 1]": "PPI",
+        "[0, 2]": "PPI"
+      }
+    },
+    "AIMed.d149.s1263": {
+      "sentence": "PROTEIN0, a small protein comprising one SH2 domain and two SH3 domains, represents the human homologue of the Caenorhabditis elegans protein, PROTEIN1.",
+      "orig_sentence": "GRB2, a small protein comprising one SH2 domain and two SH3 domains, represents the human homologue of the Caenorhabditis elegans protein, sem-5.",
+      "proteins": [
+        "GRB2",
+        "sem-5"
+      ],
+      "relations": {}
+    },
+    "AIMed.d149.s1264": {
+      "sentence": "Both PROTEIN0 and PROTEIN1 have been implicated in a highly conserved mechanism that regulates PROTEIN2 signalling by receptor tyrosine kinases.",
+      "orig_sentence": "Both GRB2 and sem-5 have been implicated in a highly conserved mechanism that regulates p21ras signalling by receptor tyrosine kinases.",
+      "proteins": [
+        "GRB2",
+        "sem-5",
+        "p21ras"
+      ],
+      "relations": {}
+    },
+    "AIMed.d149.s1265": {
+      "sentence": "In this report we show that in response to PROTEIN0, PROTEIN1 forms a stable complex with two tyrosine-phosphorylated proteins.",
+      "orig_sentence": "In this report we show that in response to insulin, GRB2 forms a stable complex with two tyrosine-phosphorylated proteins.",
+      "proteins": [
+        "insulin",
+        "GRB2"
+      ],
+      "relations": {}
+    },
+    "AIMed.d149.s1266": {
+      "sentence": "One protein is the major insulin receptor substrate PROTEIN0 and the second is the SH2 domain-containing oncogenic protein, PROTEIN1.",
+      "orig_sentence": "One protein is the major insulin receptor substrate IRS-1 and the second is the SH2 domain-containing oncogenic protein, Shc.",
+      "proteins": [
+        "IRS-1",
+        "Shc"
+      ],
+      "relations": {}
+    },
+    "AIMed.d149.s1267": {
+      "sentence": "The interactions between PROTEIN0 and these two proteins require ligand activation of the PROTEIN1 and are mediated by the binding of the SH2 domain of PROTEIN2 to phosphotyrosines on both PROTEIN3 and PROTEIN4.",
+      "orig_sentence": "The interactions between GRB2 and these two proteins require ligand activation of the insulin receptor and are mediated by the binding of the SH2 domain of GRB2 to phosphotyrosines on both IRS-1 and Shc.",
+      "proteins": [
+        "GRB2",
+        "insulin receptor",
+        "GRB2",
+        "IRS-1",
+        "Shc"
+      ],
+      "relations": {
+        "[2, 3]": "PPI",
+        "[2, 4]": "PPI"
+      }
+    },
+    "AIMed.d149.s1268": {
+      "sentence": "Although PROTEIN0 associates with PROTEIN1 and PROTEIN2, it is not tyrosine-phosphorylated after PROTEIN3 stimulation, implying that PROTEIN4 is not a substrate for the insulin receptor.",
+      "orig_sentence": "Although GRB2 associates with IRS-1 and Shc, it is not tyrosine-phosphorylated after insulin stimulation, implying that GRB2 is not a substrate for the insulin receptor.",
+      "proteins": [
+        "GRB2",
+        "IRS-1",
+        "Shc",
+        "insulin",
+        "GRB2"
+      ],
+      "relations": {
+        "[0, 1]": "PPI",
+        "[0, 2]": "PPI"
+      }
+    },
+    "AIMed.d149.s1269": {
+      "sentence": "Furthermore, we have identified a short sequence motif (YV/IN) present in PROTEIN0, PROTEIN1 and PROTEIN2, which specifically binds the SH2 domain of PROTEIN3 with high affinity.",
+      "orig_sentence": "Furthermore, we have identified a short sequence motif (YV/IN) present in IRS-1, EGFR and Shc, which specifically binds the SH2 domain of GRB2 with high affinity.",
+      "proteins": [
+        "IRS-1",
+        "EGFR",
+        "Shc",
+        "GRB2"
+      ],
+      "relations": {
+        "[0, 3]": "PPI",
+        "[1, 3]": "PPI",
+        "[2, 3]": "PPI"
+      }
+    },
+    "AIMed.d149.s1270": {
+      "sentence": "Interestingly, both PROTEIN0 and PROTEIN1 can simultaneously bind distinct tyrosine phosphorylated regions on the same PROTEIN2 molecule, suggesting a mechanism whereby PROTEIN3 could provide the core for a large signalling complex.",
+      "orig_sentence": "Interestingly, both GRB2 and phosphatidylinositol-3 (PI-3) kinase can simultaneously bind distinct tyrosine phosphorylated regions on the same IRS-1 molecule, suggesting a mechanism whereby IRS-1 could provide the core for a large signalling complex.",
+      "proteins": [
+        "GRB2",
+        "phosphatidylinositol-3 (PI-3) kinase",
+        "IRS-1",
+        "IRS-1"
+      ],
+      "relations": {
+        "[0, 2]": "PPI",
+        "[1, 2]": "PPI"
+      }
+    },
+    "AIMed.d149.s1271": {
+      "sentence": "We propose a model whereby insulin stimulation leads to formation of multiple protein--protein interactions between PROTEIN0 and the two targets PROTEIN1 and PROTEIN2.",
+      "orig_sentence": "We propose a model whereby insulin stimulation leads to formation of multiple protein--protein interactions between GRB2 and the two targets IRS-1 and Shc.",
+      "proteins": [
+        "GRB2",
+        "IRS-1",
+        "Shc"
+      ],
+      "relations": {
+        "[0, 1]": "PPI",
+        "[0, 2]": "PPI"
+      }
+    },
+    "AIMed.d149.s1272": {
+      "sentence": "These interactions may play a crucial role in activation of PROTEIN0 and the control of downstream effector molecules.",
+      "orig_sentence": "These interactions may play a crucial role in activation of p21ras and the control of downstream effector molecules.",
+      "proteins": [
+        "p21ras"
+      ],
+      "relations": {}
+    },
+    "AIMed.d155.s1315": {
+      "sentence": "A histone octamer-like structure within PROTEIN0.",
+      "orig_sentence": "A histone octamer-like structure within TFIID.",
+      "proteins": [
+        "TFIID"
+      ],
+      "relations": {}
+    },
+    "AIMed.d155.s1316": {
+      "sentence": "The general transcription factor PROTEIN0 nucleates initiation complex formation through direct core promoter binding, commits promoters within chromatin to transcription, and mediates the action of transcriptional activators, a phenomenon that may correlate with enhanced PROTEIN1 recruitment or conformational changes in PROTEIN2-promoter complexes.",
+      "orig_sentence": "The general transcription factor TFIID nucleates initiation complex formation through direct core promoter binding, commits promoters within chromatin to transcription, and mediates the action of transcriptional activators, a phenomenon that may correlate with enhanced TFIID recruitment or conformational changes in TFIID-promoter complexes.",
+      "proteins": [
+        "TFIID",
+        "TFIID",
+        "TFIID"
+      ],
+      "relations": {}
+    },
+    "AIMed.d155.s1317": {
+      "sentence": "Molecular studies of the multiprotein PROTEIN0 complex have identified a primary PROTEIN1 (PROTEIN2), TBP-associated factors (TAFs) that interact with and mediate the function of activators and intersubunit interactions but have yielded relatively little insight into the structural organization of the complex or the actual mechanism of transcriptional activation.",
+      "orig_sentence": "Molecular studies of the multiprotein TFIID complex have identified a primary TATA binding subunit (TBP), TBP-associated factors (TAFs) that interact with and mediate the function of activators and intersubunit interactions but have yielded relatively little insight into the structural organization of the complex or the actual mechanism of transcriptional activation.",
+      "proteins": [
+        "TFIID",
+        "TATA binding subunit",
+        "TBP"
+      ],
+      "relations": {}
+    },
+    "AIMed.d155.s1318": {
+      "sentence": "Here we present biochemical evidence for the structural relevance of histone homologies in the human PROTEIN0 subunits PROTEIN1, PROTEIN2 and PROTEIN3.",
+      "orig_sentence": "Here we present biochemical evidence for the structural relevance of histone homologies in the human TFIID subunits hTAF80, hTAF31 and hTAF20/15.",
+      "proteins": [
+        "TFIID",
+        "hTAF80",
+        "hTAF31",
+        "hTAF20/15"
+      ],
+      "relations": {}
+    },
+    "AIMed.d155.s1319": {
+      "sentence": "Together with analyses of native PROTEIN0 complexes and accompanying crystallographic studies, the results suggest that there is a histone octamer-like TAF complex within PROTEIN1.",
+      "orig_sentence": "Together with analyses of native TFIID complexes and accompanying crystallographic studies, the results suggest that there is a histone octamer-like TAF complex within TFIID.",
+      "proteins": [
+        "TFIID",
+        "TFIID"
+      ],
+      "relations": {}
+    },
+    "AIMed.d156.s1320": {
+      "sentence": "PROTEIN0: a kinase associated with the PROTEIN1.",
+      "orig_sentence": "IRAK: a kinase associated with the interleukin-1 receptor.",
+      "proteins": [
+        "IRAK",
+        "interleukin-1 receptor"
+      ],
+      "relations": {
+        "[0, 1]": "PPI"
+      }
+    },
+    "AIMed.d156.s1321": {
+      "sentence": "The pleiotropic biological activities of PROTEIN0 (PROTEIN1) are mediated by its type I receptor (PROTEIN2).",
+      "orig_sentence": "The pleiotropic biological activities of interleukin-1 (IL-1) are mediated by its type I receptor (IL-1RI).",
+      "proteins": [
+        "interleukin-1",
+        "IL-1",
+        "IL-1RI"
+      ],
+      "relations": {
+        "[0, 2]": "PPI",
+        "[1, 2]": "PPI"
+      }
+    },
+    "AIMed.d156.s1322": {
+      "sentence": "When the ligand binds, PROTEIN0 initiates a signaling cascade that results in the activation of the transcription regulator PROTEIN1 (PROTEIN2).",
+      "orig_sentence": "When the ligand binds, IL-1RI initiates a signaling cascade that results in the activation of the transcription regulator nuclear factor kappa B (NF-kappa B).",
+      "proteins": [
+        "IL-1RI",
+        "nuclear factor kappa B",
+        "NF-kappa B"
+      ],
+      "relations": {}
+    },
+    "AIMed.d156.s1323": {
+      "sentence": "A protein kinase designated PROTEIN0 (PROTEIN1 PROTEIN2) was purified, and its complementary DNA was molecularly cloned.",
+      "orig_sentence": "A protein kinase designated IRAK (IL-1 receptor-associated kinase) was purified, and its complementary DNA was molecularly cloned.",
+      "proteins": [
+        "IRAK",
+        "IL-1",
+        "IL-1 receptor-associated kinase"
+      ],
+      "relations": {}
+    },
+    "AIMed.d156.s1324": {
+      "sentence": "When human embryonic kidney cells (cell line 293) over-expressing PROTEIN0 or HeLa cells were exposed to PROTEIN1, PROTEIN2 rapidly associated with the PROTEIN3 complex and was phosphorylated.",
+      "orig_sentence": "When human embryonic kidney cells (cell line 293) over-expressing IL-1RI or HeLa cells were exposed to IL-1, IRAK rapidly associated with the IL-1RI complex and was phosphorylated.",
+      "proteins": [
+        "IL-1RI",
+        "IL-1",
+        "IRAK",
+        "IL-1RI"
+      ],
+      "relations": {
+        "[2, 3]": "PPI"
+      }
+    },
+    "AIMed.d156.s1325": {
+      "sentence": "The primary amino acid sequence of PROTEIN0 shares similarity with that of pelle,a protein kinase that is essential for the activation of a PROTEIN1 homolog in Drosophila.",
+      "orig_sentence": "The primary amino acid sequence of IRAK shares similarity with that of pelle,a protein kinase that is essential for the activation of a NF-kappa B homolog in Drosophila.",
+      "proteins": [
+        "IRAK",
+        "NF-kappa B"
+      ],
+      "relations": {}
+    },
+    "AIMed.d170.s1434": {
+      "sentence": "Elimination of false negative results in the two-hybrid system in the phagocyte PROTEIN0.",
+      "orig_sentence": "Elimination of false negative results in the two-hybrid system in the phagocyte NADPH oxidase.",
+      "proteins": [
+        "NADPH oxidase"
+      ],
+      "relations": {}
+    },
+    "AIMed.d170.s1435": {
+      "sentence": "The yeast two-hybrid system is finding increased use in the study of interactions between proteins.",
+      "orig_sentence": "The yeast two-hybrid system is finding increased use in the study of interactions between proteins.",
+      "proteins": [],
+      "relations": {}
+    },
+    "AIMed.d170.s1436": {
+      "sentence": "In this method, two polypeptides are expressed in yeast as fusion proteins to a transcriptional activator DNA-binding domain (bd) and activating domain (ad), respectively.",
+      "orig_sentence": "In this method, two polypeptides are expressed in yeast as fusion proteins to a transcriptional activator DNA-binding domain (bd) and activating domain (ad), respectively.",
+      "proteins": [],
+      "relations": {}
+    },
+    "AIMed.d170.s1437": {
+      "sentence": "Interaction between the two polypeptides reconstitutes function of a transactivator which controls expression of reporters.",
+      "orig_sentence": "Interaction between the two polypeptides reconstitutes function of a transactivator which controls expression of reporters.",
+      "proteins": [],
+      "relations": {}
+    },
+    "AIMed.d170.s1438": {
+      "sentence": "The phagocyte PROTEIN0 is a complex of membrane PROTEIN1 (comprised of subunits PROTEIN2 and PROTEIN3) and three cytosol proteins (PROTEIN4, PROTEIN5, and PROTEIN6) that translocate to membrane and bind to PROTEIN7.",
+      "orig_sentence": "The phagocyte NADPH oxidase is a complex of membrane cytochrome b558 (comprised of subunits p22-phox and gp91-phox) and three cytosol proteins (p47-phox, p67-phox, and p21rac) that translocate to membrane and bind to cytochrome b558.",
+      "proteins": [
+        "NADPH oxidase",
+        "cytochrome b558",
+        "p22-phox",
+        "gp91-phox",
+        "p47-phox",
+        "p67-phox",
+        "p21rac",
+        "cytochrome b558"
+      ],
+      "relations": {
+        "[2, 3]": "PPI",
+        "[4, 5]": "PPI",
+        "[4, 7]": "PPI",
+        "[5, 7]": "PPI",
+        "[6, 7]": "PPI"
+      }
+    },
+    "AIMed.d170.s1439": {
+      "sentence": "This is the first report to demonstrate that two of cytosolic components of PROTEIN0, PROTEIN1 binding to PROTEIN2 each other.",
+      "orig_sentence": "This is the first report to demonstrate that two of cytosolic components of cytochrome b558, p47-phox binding to p67-phox each other.",
+      "proteins": [
+        "cytochrome b558",
+        "p47-phox",
+        "p67-phox"
+      ],
+      "relations": {
+        "[1, 2]": "PPI"
+      }
+    },
+    "AIMed.d170.s1440": {
+      "sentence": "We encountered several methodological problems in the two-hybrid system which are the focus of this report.",
+      "orig_sentence": "We encountered several methodological problems in the two-hybrid system which are the focus of this report.",
+      "proteins": [],
+      "relations": {}
+    },
+    "AIMed.d178.s1506": {
+      "sentence": "Formation of PROTEIN0-CDK complexes during the human mitotic cell cycle.",
+      "orig_sentence": "Formation of p27-CDK complexes during the human mitotic cell cycle.",
+      "proteins": [
+        "p27"
+      ],
+      "relations": {}
+    },
+    "AIMed.d178.s1507": {
+      "sentence": "In eukaryotic cells, the coordinated activation of different cyclin-dependent kinases regulates entry into S-phase.",
+      "orig_sentence": "In eukaryotic cells, the coordinated activation of different cyclin-dependent kinases regulates entry into S-phase.",
+      "proteins": [],
+      "relations": {}
+    },
+    "AIMed.d178.s1508": {
+      "sentence": "In vitro and in nonproliferating cells, PROTEIN0 associates with and inhibits cyclin/cycin-dependent kinase (CDK) holoenzymes containing either PROTEIN1, PROTEIN2, or PROTEIN3.",
+      "orig_sentence": "In vitro and in nonproliferating cells, p27 associates with and inhibits cyclin/cycin-dependent kinase (CDK) holoenzymes containing either CDK4, CDK6, or CDK2.",
+      "proteins": [
+        "p27",
+        "CDK4",
+        "CDK6",
+        "CDK2"
+      ],
+      "relations": {
+        "[0, 1]": "PPI",
+        "[0, 2]": "PPI",
+        "[0, 3]": "PPI"
+      }
+    },
+    "AIMed.d178.s1509": {
+      "sentence": "Although many different types of proliferating cells contain PROTEIN0 protein, neither the interactions of PROTEIN1 with cyclin/CDK complexes nor the consequences of this interaction during the mitotic cycle have been fully explored.",
+      "orig_sentence": "Although many different types of proliferating cells contain p27 protein, neither the interactions of p27 with cyclin/CDK complexes nor the consequences of this interaction during the mitotic cycle have been fully explored.",
+      "proteins": [
+        "p27",
+        "p27"
+      ],
+      "relations": {}
+    },
+    "AIMed.d178.s1510": {
+      "sentence": "We report that, in MANCA cells, the amount of PROTEIN0 is constant during the cell cycle.",
+      "orig_sentence": "We report that, in MANCA cells, the amount of p27 is constant during the cell cycle.",
+      "proteins": [
+        "p27"
+      ],
+      "relations": {}
+    },
+    "AIMed.d178.s1511": {
+      "sentence": "In addition, PROTEIN0 associates with three different CDKs: PROTEIN1, PROTEIN2, and PROTEIN3.",
+      "orig_sentence": "In addition, p27 associates with three different CDKs: CDK2, CDK4, and CDK6.",
+      "proteins": [
+        "p27",
+        "CDK2",
+        "CDK4",
+        "CDK6"
+      ],
+      "relations": {
+        "[0, 1]": "PPI",
+        "[0, 2]": "PPI",
+        "[0, 3]": "PPI"
+      }
+    },
+    "AIMed.d178.s1512": {
+      "sentence": "Furthermore, the amount of PROTEIN0 is significantly lower than the amount of PROTEIN1 in these cells.",
+      "orig_sentence": "Furthermore, the amount of p27 is significantly lower than the amount of cyclin D3 in these cells.",
+      "proteins": [
+        "p27",
+        "cyclin D3"
+      ],
+      "relations": {}
+    },
+    "AIMed.d178.s1513": {
+      "sentence": "The amount of PROTEIN0 and PROTEIN1 associated with PROTEIN2 does not change in a cell cycle-dependent fashion; in contrast, the amount of PROTEIN3 associated with PROTEIN4 is lowest in early G1 cells and increases to a maximum in mid-G1 phase, reaching a steady-state level in late G1-phase cells.",
+      "orig_sentence": "The amount of CDK4 and CDK6 associated with p27 does not change in a cell cycle-dependent fashion; in contrast, the amount of CDK2 associated with p27 is lowest in early G1 cells and increases to a maximum in mid-G1 phase, reaching a steady-state level in late G1-phase cells.",
+      "proteins": [
+        "CDK4",
+        "CDK6",
+        "p27",
+        "CDK2",
+        "p27"
+      ],
+      "relations": {
+        "[0, 2]": "PPI",
+        "[1, 2]": "PPI",
+        "[3, 4]": "PPI"
+      }
+    },
+    "AIMed.d178.s1514": {
+      "sentence": "After mid-G1 phase, the amount of each PROTEIN0/CDK complex remains constant through the remainder of the cell cycle.",
+      "orig_sentence": "After mid-G1 phase, the amount of each p27/CDK complex remains constant through the remainder of the cell cycle.",
+      "proteins": [
+        "p27"
+      ],
+      "relations": {}
+    },
+    "AIMed.d178.s1515": {
+      "sentence": "PROTEIN0-immunoprecipitates contain an Rb-kinase activity.",
+      "orig_sentence": "p27-immunoprecipitates contain an Rb-kinase activity.",
+      "proteins": [
+        "p27"
+      ],
+      "relations": {}
+    },
+    "AIMed.d178.s1516": {
+      "sentence": "The substrate specificity, the expression pattern of this kinase, and the ability to deplete 50% of this kinase activity with a PROTEIN0-specific antibody suggest that the PROTEIN1 protein mediates, in part, the PROTEIN2-associated PROTEIN3-kinase activity.",
+      "orig_sentence": "The substrate specificity, the expression pattern of this kinase, and the ability to deplete 50% of this kinase activity with a CDK6-specific antibody suggest that the CDK6 protein mediates, in part, the p27-associated Rb-kinase activity.",
+      "proteins": [
+        "CDK6",
+        "CDK6",
+        "p27",
+        "Rb"
+      ],
+      "relations": {}
+    },
+    "AIMed.d178.s1517": {
+      "sentence": "In contrast, PROTEIN0 complexes containing PROTEIN1 are incapable of phosphorylating PROTEIN2.",
+      "orig_sentence": "In contrast, p27 complexes containing CDK2 are incapable of phosphorylating histone H1.",
+      "proteins": [
+        "p27",
+        "CDK2",
+        "histone H1"
+      ],
+      "relations": {
+        "[0, 1]": "PPI"
+      }
+    },
+    "AIMed.d178.s1518": {
+      "sentence": "These data are consistent with a model wherein PROTEIN0/CDK complexes sequester the PROTEIN1-dependent kinase inhibitory activity of PROTEIN2.",
+      "orig_sentence": "These data are consistent with a model wherein cyclin D/CDK complexes sequester the CDK2-dependent kinase inhibitory activity of p27.",
+      "proteins": [
+        "cyclin D",
+        "CDK2",
+        "p27"
+      ],
+      "relations": {}
+    },
+    "AIMed.d181.s1538": {
+      "sentence": "Structure of the PROTEIN0 tumor suppressor bound to the ankyrin and SH3 domains of PROTEIN1.",
+      "orig_sentence": "Structure of the p53 tumor suppressor bound to the ankyrin and SH3 domains of 53BP2.",
+      "proteins": [
+        "p53",
+        "53BP2"
+      ],
+      "relations": {
+        "[0, 1]": "PPI"
+      }
+    },
+    "AIMed.d181.s1539": {
+      "sentence": "Mutations in the PROTEIN0 tumor suppressor are among the most frequently observed genetic alterations in human cancer and map to the 200-amino acid core domain of the protein.",
+      "orig_sentence": "Mutations in the p53 tumor suppressor are among the most frequently observed genetic alterations in human cancer and map to the 200-amino acid core domain of the protein.",
+      "proteins": [
+        "p53"
+      ],
+      "relations": {}
+    },
+    "AIMed.d181.s1540": {
+      "sentence": "The core domain contains the sequence-specific DNA binding activity and the in vitro PROTEIN0 protein binding activity of PROTEIN1.",
+      "orig_sentence": "The core domain contains the sequence-specific DNA binding activity and the in vitro 53BP2 protein binding activity of p53.",
+      "proteins": [
+        "53BP2",
+        "p53"
+      ],
+      "relations": {
+        "[0, 1]": "PPI"
+      }
+    },
+    "AIMed.d181.s1541": {
+      "sentence": "The crystal structure of the PROTEIN0 core domain bound to the PROTEIN1 protein, which contains an SH3 (Src homology 3) domain and four ankyrin repeats, revealed that (i) the SH3 domain binds the L3 loop of PROTEIN2 in a manner distinct from that of previously characterized SH3-polyproline peptide complexes, and (ii) an ankyrin repeat, which forms an L-shaped structure consisting of a beta hairpin and two alpha helices, binds the L2 loop of PROTEIN3.",
+      "orig_sentence": "The crystal structure of the p53 core domain bound to the 53BP2 protein, which contains an SH3 (Src homology 3) domain and four ankyrin repeats, revealed that (i) the SH3 domain binds the L3 loop of p53 in a manner distinct from that of previously characterized SH3-polyproline peptide complexes, and (ii) an ankyrin repeat, which forms an L-shaped structure consisting of a beta hairpin and two alpha helices, binds the L2 loop of p53.",
+      "proteins": [
+        "p53",
+        "53BP2",
+        "p53",
+        "p53"
+      ],
+      "relations": {
+        "[0, 1]": "PPI"
+      }
+    },
+    "AIMed.d181.s1542": {
+      "sentence": "The structure of the complex shows that the PROTEIN0 binding site on the PROTEIN1 core domain consists of evolutionarily conserved regions that are frequently mutated in cancer and that it overlaps the site of DNA binding.",
+      "orig_sentence": "The structure of the complex shows that the 53BP2 binding site on the p53 core domain consists of evolutionarily conserved regions that are frequently mutated in cancer and that it overlaps the site of DNA binding.",
+      "proteins": [
+        "53BP2",
+        "p53"
+      ],
+      "relations": {
+        "[0, 1]": "PPI"
+      }
+    },
+    "AIMed.d181.s1543": {
+      "sentence": "The six most frequently observed PROTEIN0 mutations disrupt PROTEIN1 binding in vitro.",
+      "orig_sentence": "The six most frequently observed p53 mutations disrupt 53BP2 binding in vitro.",
+      "proteins": [
+        "p53",
+        "53BP2"
+      ],
+      "relations": {
+        "[0, 1]": "PPI"
+      }
+    },
+    "AIMed.d181.s1544": {
+      "sentence": "The structure provides evidence that the PROTEIN0-PROTEIN1 complex forms in vivo and may have a critical role in the PROTEIN2 pathway of tumor suppression.",
+      "orig_sentence": "The structure provides evidence that the 53BP2-p53 complex forms in vivo and may have a critical role in the p53 pathway of tumor suppression.",
+      "proteins": [
+        "53BP2",
+        "p53",
+        "p53"
+      ],
+      "relations": {
+        "[0, 1]": "PPI"
+      }
+    },
+    "AIMed.d186.s1579": {
+      "sentence": "cDNA cloning and characterization of the human PROTEIN0 PROTEIN1 PROTEIN2.",
+      "orig_sentence": "cDNA cloning and characterization of the human interleukin 13 receptor alpha chain.",
+      "proteins": [
+        "interleukin 13",
+        "interleukin 13 receptor",
+        "interleukin 13 receptor alpha chain"
+      ],
+      "relations": {}
+    },
+    "AIMed.d186.s1580": {
+      "sentence": "We have cloned cDNAs corresponding to the human PROTEIN0 PROTEIN1 PROTEIN2 (PROTEIN3).",
+      "orig_sentence": "We have cloned cDNAs corresponding to the human interleukin 13 receptor alpha chain (IL-13Ralpha).",
+      "proteins": [
+        "interleukin 13",
+        "interleukin 13 receptor",
+        "interleukin 13 receptor alpha chain",
+        "IL-13Ralpha"
+      ],
+      "relations": {}
+    },
+    "AIMed.d186.s1581": {
+      "sentence": "The protein has 76% homology to murine PROTEIN0, with 95% amino acid identity in the cytoplasmic domain.",
+      "orig_sentence": "The protein has 76% homology to murine IL-13Ralpha, with 95% amino acid identity in the cytoplasmic domain.",
+      "proteins": [
+        "IL-13Ralpha"
+      ],
+      "relations": {}
+    },
+    "AIMed.d186.s1582": {
+      "sentence": "Only weak PROTEIN0 binding activity was found in cells transfected with only PROTEIN1; however, the combination of both PROTEIN2 and PROTEIN3 resulted in substantial binding activity, with a Kd of approximately 400 pM, indicating that both chains are essential components of the PROTEIN4 PROTEIN5.",
+      "orig_sentence": "Only weak IL-13 binding activity was found in cells transfected with only IL-13Ralpha; however, the combination of both IL-13Ralpha and IL-4Ralpha resulted in substantial binding activity, with a Kd of approximately 400 pM, indicating that both chains are essential components of the IL-13 receptor.",
+      "proteins": [
+        "IL-13",
+        "IL-13Ralpha",
+        "IL-13Ralpha",
+        "IL-4Ralpha",
+        "IL-13",
+        "IL-13 receptor"
+      ],
+      "relations": {
+        "[0, 1]": "PPI"
+      }
+    },
+    "AIMed.d186.s1583": {
+      "sentence": "Whereas PROTEIN0 serves as an alternative accessory protein to the common PROTEIN1 (PROTEIN2) for PROTEIN3 signaling, it could not replace the function of PROTEIN4 in allowing enhanced PROTEIN5 binding activity.",
+      "orig_sentence": "Whereas IL-13Ralpha serves as an alternative accessory protein to the common cytokine receptor gamma chain (gammac) for IL-4 signaling, it could not replace the function of gammac in allowing enhanced IL-2 binding activity.",
+      "proteins": [
+        "IL-13Ralpha",
+        "cytokine receptor gamma chain",
+        "gammac",
+        "IL-4",
+        "gammac",
+        "IL-2"
+      ],
+      "relations": {
+        "[0, 3]": "PPI"
+      }
+    },
+    "AIMed.d186.s1584": {
+      "sentence": "Nevertheless, the overall size and length of the cytoplasmic domain of PROTEIN0 and PROTEIN1 are similar, and like PROTEIN2, PROTEIN3 is located on chromosome X.",
+      "orig_sentence": "Nevertheless, the overall size and length of the cytoplasmic domain of IL-13Ralpha and gammac are similar, and like gammac, IL-13Ralpha is located on chromosome X.",
+      "proteins": [
+        "IL-13Ralpha",
+        "gammac",
+        "gammac",
+        "IL-13Ralpha"
+      ],
+      "relations": {}
+    },
+    "AIMed.d188.s1595": {
+      "sentence": "SREBP transcriptional activity is mediated through an interaction with the PROTEIN0 PROTEIN1.",
+      "orig_sentence": "SREBP transcriptional activity is mediated through an interaction with the CREB-binding protein.",
+      "proteins": [
+        "CREB",
+        "CREB-binding protein"
+      ],
+      "relations": {}
+    },
+    "AIMed.d188.s1596": {
+      "sentence": "The sterol regulatory element binding proteins (PROTEIN0 and -2) activate transcription of genes whose products are involved in the cellular uptake and synthesis of cholesterol.",
+      "orig_sentence": "The sterol regulatory element binding proteins (SREBP-1 and -2) activate transcription of genes whose products are involved in the cellular uptake and synthesis of cholesterol.",
+      "proteins": [
+        "SREBP-1"
+      ],
+      "relations": {}
+    },
+    "AIMed.d188.s1597": {
+      "sentence": "Although considerable effort has been exerted to define the events regulating the levels of active SREBP, little is known about the transcriptional cofactors mediating SREBP function.",
+      "orig_sentence": "Although considerable effort has been exerted to define the events regulating the levels of active SREBP, little is known about the transcriptional cofactors mediating SREBP function.",
+      "proteins": [],
+      "relations": {}
+    },
+    "AIMed.d188.s1598": {
+      "sentence": "In an unbiased search for potential coactivators of SREBP, we isolated a protein of 265 kD from HeLa cells that directly bound PROTEIN0 and PROTEIN1.",
+      "orig_sentence": "In an unbiased search for potential coactivators of SREBP, we isolated a protein of 265 kD from HeLa cells that directly bound SREBP-1 and SREBP-2.",
+      "proteins": [
+        "SREBP-1",
+        "SREBP-2"
+      ],
+      "relations": {}
+    },
+    "AIMed.d188.s1599": {
+      "sentence": "Peptide sequencing and Western blot analysis established that the 265-kD protein was PROTEIN0 (PROTEIN1),a recently identified transcriptional coactivator.",
+      "orig_sentence": "Peptide sequencing and Western blot analysis established that the 265-kD protein was CBP (CREB-binding protein),a recently identified transcriptional coactivator.",
+      "proteins": [
+        "CBP",
+        "CREB-binding protein"
+      ],
+      "relations": {}
+    },
+    "AIMed.d188.s1600": {
+      "sentence": "The putative activation domain of SREBP was shown to bind specifically to amino-terminal domains of recombinant PROTEIN0 and PROTEIN1 (a PROTEIN2-related protein).",
+      "orig_sentence": "The putative activation domain of SREBP was shown to bind specifically to amino-terminal domains of recombinant CBP and p300 (a CBP-related protein).",
+      "proteins": [
+        "CBP",
+        "p300",
+        "CBP"
+      ],
+      "relations": {}
+    },
+    "AIMed.d188.s1601": {
+      "sentence": "Moreover, transfection studies demonstrated that PROTEIN0 enhances the ability of SREBP to activate transcription of reporter genes in HeLa cells.",
+      "orig_sentence": "Moreover, transfection studies demonstrated that CBP enhances the ability of SREBP to activate transcription of reporter genes in HeLa cells.",
+      "proteins": [
+        "CBP"
+      ],
+      "relations": {}
+    },
+    "AIMed.d188.s1602": {
+      "sentence": "Together, these data suggest that PROTEIN0 mediates SREBP transcriptional activity, thus revealing a new step in the biochemical pathway regulating cholesterol metabolism.",
+      "orig_sentence": "Together, these data suggest that CBP mediates SREBP transcriptional activity, thus revealing a new step in the biochemical pathway regulating cholesterol metabolism.",
+      "proteins": [
+        "CBP"
+      ],
+      "relations": {}
+    },
+    "AIMed.d189.s1603": {
+      "sentence": "Associations of PROTEIN0 with PROTEIN1, PROTEIN2, PROTEIN3, and PROTEIN4 proteins in a yeast two-hybrid system.",
+      "orig_sentence": "Associations of UBE2I with RAD52, UBL1, p53, and RAD51 proteins in a yeast two-hybrid system.",
+      "proteins": [
+        "UBE2I",
+        "RAD52",
+        "UBL1",
+        "p53",
+        "RAD51"
+      ],
+      "relations": {
+        "[0, 1]": "PPI",
+        "[0, 2]": "PPI",
+        "[0, 3]": "PPI",
+        "[0, 4]": "PPI"
+      }
+    },
+    "AIMed.d189.s1604": {
+      "sentence": "The yeast PROTEIN0-dependent pathway is involved in DNA recombination and double-strand break repair.",
+      "orig_sentence": "The yeast RAD52-dependent pathway is involved in DNA recombination and double-strand break repair.",
+      "proteins": [
+        "RAD52"
+      ],
+      "relations": {}
+    },
+    "AIMed.d189.s1605": {
+      "sentence": "Yeast ubiquitin-conjugating enzyme PROTEIN0 participates in S- and M-phase cyclin degradation and mitotic control.",
+      "orig_sentence": "Yeast ubiquitin-conjugating enzyme UBC9 participates in S- and M-phase cyclin degradation and mitotic control.",
+      "proteins": [
+        "UBC9"
+      ],
+      "relations": {}
+    },
+    "AIMed.d189.s1606": {
+      "sentence": "Using the human PROTEIN0 protein as the \"bait\" in a yeast two-hybrid system, we have identified a human homolog of yeast PROTEIN1, designated PROTEIN2, that interacts with PROTEIN3, PROTEIN4, PROTEIN5, and a ubiquitin-like protein PROTEIN6.",
+      "orig_sentence": "Using the human RAD52 protein as the \"bait\" in a yeast two-hybrid system, we have identified a human homolog of yeast UBC9, designated UBE2I, that interacts with RAD52, RAD51, p53, and a ubiquitin-like protein UBL1.",
+      "proteins": [
+        "RAD52",
+        "UBC9",
+        "UBE2I",
+        "RAD52",
+        "RAD51",
+        "p53",
+        "UBL1"
+      ],
+      "relations": {
+        "[2, 3]": "PPI",
+        "[2, 4]": "PPI",
+        "[2, 5]": "PPI",
+        "[2, 6]": "PPI"
+      }
+    },
+    "AIMed.d189.s1607": {
+      "sentence": "These interactions are PROTEIN0-specific, since another DNA repair-related ubiquitin-conjugating enzyme, PROTEIN1 (PROTEIN2), does not interact with these proteins.",
+      "orig_sentence": "These interactions are UBE2I-specific, since another DNA repair-related ubiquitin-conjugating enzyme, RAD6 (UBC2), does not interact with these proteins.",
+      "proteins": [
+        "UBE2I",
+        "RAD6",
+        "UBC2"
+      ],
+      "relations": {}
+    },
+    "AIMed.d189.s1608": {
+      "sentence": "The interaction of PROTEIN0 with PROTEIN1 is mediated by PROTEIN2's self-association region.",
+      "orig_sentence": "The interaction of UBE2I with RAD52 is mediated by RAD52's self-association region.",
+      "proteins": [
+        "UBE2I",
+        "RAD52",
+        "RAD52"
+      ],
+      "relations": {
+        "[0, 1]": "PPI"
+      }
+    },
+    "AIMed.d189.s1609": {
+      "sentence": "These results suggest that the PROTEIN0-dependent processes, cell cycle control, PROTEIN1-mediated pathway(s), and ubiquitination interact through human PROTEIN2.",
+      "orig_sentence": "These results suggest that the RAD52-dependent processes, cell cycle control, p53-mediated pathway(s), and ubiquitination interact through human UBE2I.",
+      "proteins": [
+        "RAD52",
+        "p53",
+        "UBE2I"
+      ],
+      "relations": {}
+    },
+    "AIMed.d191.s1621": {
+      "sentence": "Efficient interaction of HIV-1 with purified dendritic cells via multiple chemokine coreceptors.",
+      "orig_sentence": "Efficient interaction of HIV-1 with purified dendritic cells via multiple chemokine coreceptors.",
+      "proteins": [],
+      "relations": {}
+    },
+    "AIMed.d191.s1622": {
+      "sentence": "HIV-1 actively replicates in dendritic cell (DC)-T cell cocultures, but it has been difficult to demonstrate substantial infection of purified mature DCs.",
+      "orig_sentence": "HIV-1 actively replicates in dendritic cell (DC)-T cell cocultures, but it has been difficult to demonstrate substantial infection of purified mature DCs.",
+      "proteins": [],
+      "relations": {}
+    },
+    "AIMed.d191.s1623": {
+      "sentence": "We now find that HIV-1 begins reverse transcription much more efficiently in DCs than T cells, even though T cells have higher levels of PROTEIN0 and PROTEIN1 binding.",
+      "orig_sentence": "We now find that HIV-1 begins reverse transcription much more efficiently in DCs than T cells, even though T cells have higher levels of CD4 and gp120 binding.",
+      "proteins": [
+        "CD4",
+        "gp120"
+      ],
+      "relations": {}
+    },
+    "AIMed.d191.s1624": {
+      "sentence": "DCs isolated from skin or from blood precursors behave similarly.",
+      "orig_sentence": "DCs isolated from skin or from blood precursors behave similarly.",
+      "proteins": [],
+      "relations": {}
+    },
+    "AIMed.d191.s1625": {
+      "sentence": "Several M-tropic strains and the T-tropic strain IIIB enter DCs efficiently, as assessed by the progressive formation of the early products of reverse transcription after a 90-min virus pulse at 37 degrees C.",
+      "orig_sentence": "Several M-tropic strains and the T-tropic strain IIIB enter DCs efficiently, as assessed by the progressive formation of the early products of reverse transcription after a 90-min virus pulse at 37 degrees C.",
+      "proteins": [],
+      "relations": {}
+    },
+    "AIMed.d191.s1626": {
+      "sentence": "However, few late gag-containing sequences are detected, so that active viral replication does not occur.",
+      "orig_sentence": "However, few late gag-containing sequences are detected, so that active viral replication does not occur.",
+      "proteins": [],
+      "relations": {}
+    },
+    "AIMed.d191.s1627": {
+      "sentence": "The formation of these early transcripts seems to follow entry of HIV-1, rather than binding of virions that contain viral DNA.",
+      "orig_sentence": "The formation of these early transcripts seems to follow entry of HIV-1, rather than binding of virions that contain viral DNA.",
+      "proteins": [],
+      "relations": {}
+    },
+    "AIMed.d191.s1628": {
+      "sentence": "Early transcripts are scarce if DCs are exposed to virus on ice for 4 h, or for 90 min at 37 degrees C, conditions which allow virus binding.",
+      "orig_sentence": "Early transcripts are scarce if DCs are exposed to virus on ice for 4 h, or for 90 min at 37 degrees C, conditions which allow virus binding.",
+      "proteins": [],
+      "relations": {}
+    },
+    "AIMed.d191.s1629": {
+      "sentence": "Also the early transcripts once formed are insensitive to PROTEIN0.",
+      "orig_sentence": "Also the early transcripts once formed are insensitive to trypsin.",
+      "proteins": [
+        "trypsin"
+      ],
+      "relations": {}
+    },
+    "AIMed.d191.s1630": {
+      "sentence": "The entry of a M-tropic isolates is blocked by the chemokine PROTEIN0, and the entry of IIIB by SDF-1.",
+      "orig_sentence": "The entry of a M-tropic isolates is blocked by the chemokine RANTES, and the entry of IIIB by SDF-1.",
+      "proteins": [
+        "RANTES"
+      ],
+      "relations": {}
+    },
+    "AIMed.d191.s1631": {
+      "sentence": "PROTEIN0 interacts with PROTEIN1 and PROTEIN2 with PROTEIN3 receptors.",
+      "orig_sentence": "RANTES interacts with CCR5 and SDF-1 with CXCR4 receptors.",
+      "proteins": [
+        "RANTES",
+        "CCR5",
+        "SDF-1",
+        "CXCR4"
+      ],
+      "relations": {
+        "[0, 1]": "PPI",
+        "[2, 3]": "PPI"
+      }
+    },
+    "AIMed.d191.s1632": {
+      "sentence": "Entry of M-tropic but not T-tropic virus is ablated in DCs from individuals who lack a functional PROTEIN0 receptor.",
+      "orig_sentence": "Entry of M-tropic but not T-tropic virus is ablated in DCs from individuals who lack a functional CCR5 receptor.",
+      "proteins": [
+        "CCR5"
+      ],
+      "relations": {}
+    },
+    "AIMed.d191.s1633": {
+      "sentence": "DCs express more PROTEIN0 and PROTEIN1 mRNA than T cells.",
+      "orig_sentence": "DCs express more CCR5 and CXCR4 mRNA than T cells.",
+      "proteins": [
+        "CCR5",
+        "CXCR4"
+      ],
+      "relations": {}
+    },
+    "AIMed.d191.s1634": {
+      "sentence": "Therefore, while HIV-1 does not replicate efficiently in mature DCs, viral entry can be active and can be blocked by chemokines that act on known receptors for M- and T-tropic virus.",
+      "orig_sentence": "Therefore, while HIV-1 does not replicate efficiently in mature DCs, viral entry can be active and can be blocked by chemokines that act on known receptors for M- and T-tropic virus.",
+      "proteins": [],
+      "relations": {}
+    },
+    "AIMed.d200.s1716": {
+      "sentence": "Identification of interaction partners for the basic-helix-loop-helix protein PROTEIN0.",
+      "orig_sentence": "Identification of interaction partners for the basic-helix-loop-helix protein E47.",
+      "proteins": [
+        "E47"
+      ],
+      "relations": {}
+    },
+    "AIMed.d200.s1717": {
+      "sentence": "Helix-loop-helix proteins constitute a family of transcription factors with the potential to form homo- and hetero-dimers mediated by the helix-loop-helix domain.",
+      "orig_sentence": "Helix-loop-helix proteins constitute a family of transcription factors with the potential to form homo- and hetero-dimers mediated by the helix-loop-helix domain.",
+      "proteins": [],
+      "relations": {}
+    },
+    "AIMed.d200.s1718": {
+      "sentence": "Oncogenic mutations in such genes can disrupt the equilibrium of protein-protein interactions in the affected cell.",
+      "orig_sentence": "Oncogenic mutations in such genes can disrupt the equilibrium of protein-protein interactions in the affected cell.",
+      "proteins": [],
+      "relations": {}
+    },
+    "AIMed.d200.s1719": {
+      "sentence": "In order to assess the biological consequences of such mutations, the full complement of interacting proteins must be known.",
+      "orig_sentence": "In order to assess the biological consequences of such mutations, the full complement of interacting proteins must be known.",
+      "proteins": [],
+      "relations": {}
+    },
+    "AIMed.d200.s1720": {
+      "sentence": "To identify proteins interacting with the basic-helix-loop-helix domain of the ubiquitously expressed PROTEIN0 protein, a 'sandwich'-screening procedure was developed which distinguishes between homo- and hetero-oligomers, and specifically excludes the detection of complexes which cannot bind DNA.",
+      "orig_sentence": "To identify proteins interacting with the basic-helix-loop-helix domain of the ubiquitously expressed E47 protein, a 'sandwich'-screening procedure was developed which distinguishes between homo- and hetero-oligomers, and specifically excludes the detection of complexes which cannot bind DNA.",
+      "proteins": [
+        "E47"
+      ],
+      "relations": {}
+    },
+    "AIMed.d200.s1721": {
+      "sentence": "Nine distinct cDNAs were identified which encode proteins with apparent basic-helix-loop-helix domains, including a novel clone termed PROTEIN0 which is distantly related in the basic-helix-loop-helix domain to the Drosophila enhancer-of-split m7 protein.",
+      "orig_sentence": "Nine distinct cDNAs were identified which encode proteins with apparent basic-helix-loop-helix domains, including a novel clone termed eip1 which is distantly related in the basic-helix-loop-helix domain to the Drosophila enhancer-of-split m7 protein.",
+      "proteins": [
+        "eip1"
+      ],
+      "relations": {}
+    },
+    "AIMed.d200.s1722": {
+      "sentence": "Using epitope-tagging, interaction of PROTEIN0 basic-helix-loop-helix protein with the PROTEIN1 protein encoded by this novel cDNA was confirmed by immunoprecipitation experiments in COS7 cells.",
+      "orig_sentence": "Using epitope-tagging, interaction of E47 basic-helix-loop-helix protein with the eip1 protein encoded by this novel cDNA was confirmed by immunoprecipitation experiments in COS7 cells.",
+      "proteins": [
+        "E47",
+        "eip1"
+      ],
+      "relations": {
+        "[0, 1]": "PPI"
+      }
+    },
+    "AIMed.d200.s1723": {
+      "sentence": "Interaction was also observed in the yeast two-hybrid system.",
+      "orig_sentence": "Interaction was also observed in the yeast two-hybrid system.",
+      "proteins": [],
+      "relations": {}
+    },
+    "AIMed.d200.s1724": {
+      "sentence": "Three cDNAs encoding proteins without basic-helix-loop-helix domains were also found to interact in the sandwich-expression screen.",
+      "orig_sentence": "Three cDNAs encoding proteins without basic-helix-loop-helix domains were also found to interact in the sandwich-expression screen.",
+      "proteins": [],
+      "relations": {}
+    },
+    "AIMed.d200.s1725": {
+      "sentence": "Interactions with human PROTEIN0 and mouse PROTEIN1 were confirmed using glutathione transferase-tagged cDNAs.",
+      "orig_sentence": "Interactions with human PARP and mouse replication factor 1a were confirmed using glutathione transferase-tagged cDNAs.",
+      "proteins": [
+        "PARP",
+        "replication factor 1a"
+      ],
+      "relations": {}
+    },
+    "AIMed.d200.s1726": {
+      "sentence": "A cDNA encoding part of the PROTEIN0 protein sequence interacted with the PROTEIN1 basic-helix-loop-helix only when fused to a beta-galactosidase tag.",
+      "orig_sentence": "A cDNA encoding part of the nucleolin protein sequence interacted with the E47 basic-helix-loop-helix only when fused to a beta-galactosidase tag.",
+      "proteins": [
+        "nucleolin",
+        "E47"
+      ],
+      "relations": {
+        "[0, 1]": "PPI"
+      }
+    },
+    "AIMed.d201.s1727": {
+      "sentence": "PROTEIN0 is a transcriptional modulator that communicates with PROTEIN1 and the PROTEIN2.",
+      "orig_sentence": "Hepatitis B virus X protein is a transcriptional modulator that communicates with transcription factor IIB and the RNA polymerase II subunit 5.",
+      "proteins": [
+        "Hepatitis B virus X protein",
+        "transcription factor IIB",
+        "RNA polymerase II subunit 5"
+      ],
+      "relations": {}
+    },
+    "AIMed.d201.s1728": {
+      "sentence": "PROTEIN0 n (PROTEIN1) transactivates viral and cellular genes through a wide variety of cis-elements.",
+      "orig_sentence": "Hepatitis B virus X protein (HBx) transactivates viral and cellular genes through a wide variety of cis-elements.",
+      "proteins": [
+        "Hepatitis B virus X protei",
+        "HBx"
+      ],
+      "relations": {}
+    },
+    "AIMed.d201.s1729": {
+      "sentence": "However, the mechanism is still obscure.",
+      "orig_sentence": "However, the mechanism is still obscure.",
+      "proteins": [],
+      "relations": {}
+    },
+    "AIMed.d201.s1730": {
+      "sentence": "Our finding that PROTEIN0 directly interacts with PROTEIN1 (PROTEIN2), a common subunit of RNA polymerases, implies that PROTEIN3 directly modulates the function of RNA polymerase (Cheong, J. H., Yi, M., Lin, Y., and Murakami, S. (1995) EMBO J. 14, 142-150).",
+      "orig_sentence": "Our finding that HBx directly interacts with RNA polymerase II subunit 5 (RPB5), a common subunit of RNA polymerases, implies that HBx directly modulates the function of RNA polymerase (Cheong, J. H., Yi, M., Lin, Y., and Murakami, S. (1995) EMBO J. 14, 142-150).",
+      "proteins": [
+        "HBx",
+        "RNA polymerase II subunit 5",
+        "RPB5",
+        "HBx"
+      ],
+      "relations": {
+        "[0, 1]": "PPI",
+        "[0, 2]": "PPI"
+      }
+    },
+    "AIMed.d201.s1731": {
+      "sentence": "In this context, we examined the possibility that PROTEIN0 and PROTEIN1 interact with other general transcription factors.",
+      "orig_sentence": "In this context, we examined the possibility that HBx and RPB5 interact with other general transcription factors.",
+      "proteins": [
+        "HBx",
+        "RPB5"
+      ],
+      "relations": {}
+    },
+    "AIMed.d201.s1732": {
+      "sentence": "PROTEIN0 and PROTEIN1 specifically bound to PROTEIN2 (PROTEIN3) in vitro, both of which were detected by either far-Western blotting or the glutathione S-transferase-resin pull-down assay.",
+      "orig_sentence": "HBx and RPB5 specifically bound to transcription factor IIB (TFIIB) in vitro, both of which were detected by either far-Western blotting or the glutathione S-transferase-resin pull-down assay.",
+      "proteins": [
+        "HBx",
+        "RPB5",
+        "transcription factor IIB",
+        "TFIIB"
+      ],
+      "relations": {}
+    },
+    "AIMed.d201.s1733": {
+      "sentence": "Delineation of the binding regions of these three proteins revealed that PROTEIN0, PROTEIN1, and PROTEIN2 each has two binding regions for the other two proteins.",
+      "orig_sentence": "Delineation of the binding regions of these three proteins revealed that HBx, RPB5, and TFIIB each has two binding regions for the other two proteins.",
+      "proteins": [
+        "HBx",
+        "RPB5",
+        "TFIIB"
+      ],
+      "relations": {
+        "[0, 1]": "PPI"
+      }
+    },
+    "AIMed.d201.s1734": {
+      "sentence": "Co-immunoprecipitation using HepG2 cell lysates that express PROTEIN0 demonstrated trimeric interaction in vivo.",
+      "orig_sentence": "Co-immunoprecipitation using HepG2 cell lysates that express HBx demonstrated trimeric interaction in vivo.",
+      "proteins": [
+        "HBx"
+      ],
+      "relations": {}
+    },
+    "AIMed.d201.s1735": {
+      "sentence": "Some PROTEIN0 substitution mutants, which had severely impaired transacting activity, exhibited reduced binding affinity with either PROTEIN1 or PROTEIN2 in a mutually exclusive manner, suggesting that PROTEIN3 transactivation requires the interactions of both PROTEIN4 and PROTEIN5.",
+      "orig_sentence": "Some HBx substitution mutants, which had severely impaired transacting activity, exhibited reduced binding affinity with either TFIIB or RPB5 in a mutually exclusive manner, suggesting that HBx transactivation requires the interactions of both RPB5 and TFIIB.",
+      "proteins": [
+        "HBx",
+        "TFIIB",
+        "RPB5",
+        "HBx",
+        "RPB5",
+        "TFIIB"
+      ],
+      "relations": {
+        "[0, 2]": "PPI",
+        "[3, 4]": "PPI"
+      }
+    },
+    "AIMed.d201.s1736": {
+      "sentence": "These results indicated that PROTEIN0 is a novel virus modulator that facilitates transcriptional initiation by stabilizing the association between RNA polymerase and PROTEIN1 through communication with PROTEIN2 and PROTEIN3.",
+      "orig_sentence": "These results indicated that HBx is a novel virus modulator that facilitates transcriptional initiation by stabilizing the association between RNA polymerase and TFIIB through communication with RPB5 and TFIIB.",
+      "proteins": [
+        "HBx",
+        "TFIIB",
+        "RPB5",
+        "TFIIB"
+      ],
+      "relations": {}
+    },
+    "AIMed.d203.s1746": {
+      "sentence": "A new cytokine-receptor binding mode revealed by the crystal structure of the PROTEIN0 PROTEIN1 with an antagonist.",
+      "orig_sentence": "A new cytokine-receptor binding mode revealed by the crystal structure of the IL-1 receptor with an antagonist.",
+      "proteins": [
+        "IL-1",
+        "IL-1 receptor"
+      ],
+      "relations": {}
+    },
+    "AIMed.d203.s1747": {
+      "sentence": "Inflammation, regardless of whether it is provoked by infection or by tissue damage, starts with the activation of macrophages which initiate a cascade of inflammatory responses by producing the cytokines PROTEIN0 (PROTEIN1) and PROTEIN2 (ref. 1).",
+      "orig_sentence": "Inflammation, regardless of whether it is provoked by infection or by tissue damage, starts with the activation of macrophages which initiate a cascade of inflammatory responses by producing the cytokines interleukin-1 (IL-1) and tumour necrosis factor-alpha (ref. 1).",
+      "proteins": [
+        "interleukin-1",
+        "IL-1",
+        "tumour necrosis factor-alpha"
+      ],
+      "relations": {}
+    },
+    "AIMed.d203.s1748": {
+      "sentence": "Three naturally occurring ligands for the PROTEIN0 PROTEIN1 (PROTEIN2) exist: the agonists PROTEIN3 and PROTEIN4 and the PROTEIN5 PROTEIN6 PROTEIN7 PROTEIN8 (ref. 2).",
+      "orig_sentence": "Three naturally occurring ligands for the IL-1 receptor (IL1R) exist: the agonists IL-1alpha and IL-1beta and the IL-1-receptor antagonist IL1RA (ref. 2).",
+      "proteins": [
+        "IL-1",
+        "IL-1 receptor",
+        "IL1R",
+        "IL-1alpha",
+        "IL-1beta",
+        "IL-1",
+        "IL-1-receptor",
+        "IL-1-receptor antagonist",
+        "IL1RA"
+      ],
+      "relations": {
+        "[1, 3]": "PPI",
+        "[2, 4]": "PPI",
+        "[6, 8]": "PPI"
+      }
+    },
+    "AIMed.d203.s1749": {
+      "sentence": "PROTEIN0 is the only cytokine for which a naturally occurring antagonist is known.",
+      "orig_sentence": "IL-1 is the only cytokine for which a naturally occurring antagonist is known.",
+      "proteins": [
+        "IL-1"
+      ],
+      "relations": {}
+    },
+    "AIMed.d203.s1750": {
+      "sentence": "Here we describe the crystal structure at 2.7 A resolution of the soluble extracellular part of PROTEIN0 PROTEIN1 complexed with PROTEIN2.",
+      "orig_sentence": "Here we describe the crystal structure at 2.7 A resolution of the soluble extracellular part of type-I IL1R complexed with IL1RA.",
+      "proteins": [
+        "type-I IL1R",
+        "IL1R",
+        "IL1RA"
+      ],
+      "relations": {
+        "[0, 2]": "PPI"
+      }
+    },
+    "AIMed.d203.s1751": {
+      "sentence": "The receptor consists of three immunoglobulin-like domains.",
+      "orig_sentence": "The receptor consists of three immunoglobulin-like domains.",
+      "proteins": [],
+      "relations": {}
+    },
+    "AIMed.d203.s1752": {
+      "sentence": "Domains 1 and 2 are tightly linked, but domain three is completely separate and connected by a flexible linker.",
+      "orig_sentence": "Domains 1 and 2 are tightly linked, but domain three is completely separate and connected by a flexible linker.",
+      "proteins": [],
+      "relations": {}
+    },
+    "AIMed.d203.s1753": {
+      "sentence": "Residues of all three domains contact the antagonist and include the five critical PROTEIN0 residues which were identified by site-directed mutagenesis.",
+      "orig_sentence": "Residues of all three domains contact the antagonist and include the five critical IL1RA residues which were identified by site-directed mutagenesis.",
+      "proteins": [
+        "IL1RA"
+      ],
+      "relations": {}
+    },
+    "AIMed.d203.s1754": {
+      "sentence": "A region that is important for biological function in PROTEIN0, the 'receptor trigger site' is not in direct contact with the receptor in the PROTEIN1 complex.",
+      "orig_sentence": "A region that is important for biological function in IL-1beta, the 'receptor trigger site' is not in direct contact with the receptor in the IL1RA complex.",
+      "proteins": [
+        "IL-1beta",
+        "IL1RA"
+      ],
+      "relations": {}
+    },
+    "AIMed.d203.s1755": {
+      "sentence": "Modelling studies suggest that this PROTEIN0 trigger site might induce a movement of domain 3.",
+      "orig_sentence": "Modelling studies suggest that this IL-1beta trigger site might induce a movement of domain 3.",
+      "proteins": [
+        "IL-1beta"
+      ],
+      "relations": {}
+    },
+    "AIMed.d210.s1817": {
+      "sentence": "Cross-family interaction between the bHLHZip PROTEIN0 and bZip PROTEIN1 proteins results in down-regulation of PROTEIN2 activity.",
+      "orig_sentence": "Cross-family interaction between the bHLHZip USF and bZip Fra1 proteins results in down-regulation of AP1 activity.",
+      "proteins": [
+        "USF",
+        "Fra1",
+        "AP1"
+      ],
+      "relations": {
+        "[0, 1]": "PPI"
+      }
+    },
+    "AIMed.d210.s1818": {
+      "sentence": "Heterodimerization among the basic-leucine zipper (bZIP) proteins or among the basic-helix-loop-helix-leucine zipper (bHLHZip) proteins confers a multitude of combinational activities to these transcription factors.",
+      "orig_sentence": "Heterodimerization among the basic-leucine zipper (bZIP) proteins or among the basic-helix-loop-helix-leucine zipper (bHLHZip) proteins confers a multitude of combinational activities to these transcription factors.",
+      "proteins": [],
+      "relations": {}
+    },
+    "AIMed.d210.s1819": {
+      "sentence": "To further examine the function of the bHLHZip protein, PROTEIN0, we screened for cellular proteins which could directly interact with PROTEIN1 using the yeast two-hybrid system.",
+      "orig_sentence": "To further examine the function of the bHLHZip protein, USF, we screened for cellular proteins which could directly interact with USF using the yeast two-hybrid system.",
+      "proteins": [
+        "USF",
+        "USF"
+      ],
+      "relations": {}
+    },
+    "AIMed.d210.s1820": {
+      "sentence": "A bZip protein, PROTEIN0, was found to efficiently interact with PROTEIN1.",
+      "orig_sentence": "A bZip protein, Fra1, was found to efficiently interact with USF.",
+      "proteins": [
+        "Fra1",
+        "USF"
+      ],
+      "relations": {
+        "[0, 1]": "PPI"
+      }
+    },
+    "AIMed.d210.s1821": {
+      "sentence": "PROTEIN0 specifically interacts with PROTEIN1 but not with other closely related family members, PROTEIN2, PROTEIN3, PROTEIN4, or with PROTEIN5.",
+      "orig_sentence": "USF specifically interacts with Fra1 but not with other closely related family members, c-Fos, Fra2, FosB, or with c-Jun.",
+      "proteins": [
+        "USF",
+        "Fra1",
+        "c-Fos",
+        "Fra2",
+        "FosB",
+        "c-Jun"
+      ],
+      "relations": {
+        "[0, 1]": "PPI"
+      }
+    },
+    "AIMed.d210.s1822": {
+      "sentence": "Both the bHLHZip and the N-terminal regions of PROTEIN0 are required for efficient interaction with PROTEIN1.",
+      "orig_sentence": "Both the bHLHZip and the N-terminal regions of Fra1 are required for efficient interaction with USF.",
+      "proteins": [
+        "Fra1",
+        "USF"
+      ],
+      "relations": {
+        "[0, 1]": "PPI"
+      }
+    },
+    "AIMed.d210.s1823": {
+      "sentence": "In vivo association between PROTEIN0 and PROTEIN1 has been demonstrated by co-immunoprecipitation.",
+      "orig_sentence": "In vivo association between USF and Fra1 has been demonstrated by co-immunoprecipitation.",
+      "proteins": [
+        "USF",
+        "Fra1"
+      ],
+      "relations": {
+        "[0, 1]": "PPI"
+      }
+    },
+    "AIMed.d210.s1824": {
+      "sentence": "Expression of exogenous PROTEIN0 led to a decrease in PROTEIN1-dependent transcription in F9 cells.",
+      "orig_sentence": "Expression of exogenous USF led to a decrease in AP1-dependent transcription in F9 cells.",
+      "proteins": [
+        "USF",
+        "AP1"
+      ],
+      "relations": {}
+    },
+    "AIMed.d210.s1825": {
+      "sentence": "Co-expression of exogenous PROTEIN0 restored the PROTEIN1 activity in a dose-dependent manner.",
+      "orig_sentence": "Co-expression of exogenous Fra1 restored the AP1 activity in a dose-dependent manner.",
+      "proteins": [
+        "Fra1",
+        "AP1"
+      ],
+      "relations": {}
+    },
+    "AIMed.d210.s1826": {
+      "sentence": "These data show that PROTEIN0 and PROTEIN1 physically and functionally interact demonstrating that cross-talk occurs between factors of distantly related transcription families.",
+      "orig_sentence": "These data show that USF and Fra1 physically and functionally interact demonstrating that cross-talk occurs between factors of distantly related transcription families.",
+      "proteins": [
+        "USF",
+        "Fra1"
+      ],
+      "relations": {
+        "[0, 1]": "PPI"
+      }
+    },
+    "AIMed.d212.s1835": {
+      "sentence": "Interaction between PROTEIN0 protein and PROTEIN1 in response to DNA damage.",
+      "orig_sentence": "Interaction between ATM protein and c-Abl in response to DNA damage.",
+      "proteins": [
+        "ATM",
+        "c-Abl"
+      ],
+      "relations": {
+        "[0, 1]": "PPI"
+      }
+    },
+    "AIMed.d212.s1836": {
+      "sentence": "The gene mutated in the autosomal recessive disorder ataxia telangiectasia (AT), designated PROTEIN0 (for 'PROTEIN1'), is a member of a family of phosphatidylinositol-3-kinase-like enzymes that are involved in cell-cycle control, meiotic recombination, telomere length monitoring and DNA-damage response.",
+      "orig_sentence": "The gene mutated in the autosomal recessive disorder ataxia telangiectasia (AT), designated ATM (for 'AT mutated'), is a member of a family of phosphatidylinositol-3-kinase-like enzymes that are involved in cell-cycle control, meiotic recombination, telomere length monitoring and DNA-damage response.",
+      "proteins": [
+        "ATM",
+        "AT mutated"
+      ],
+      "relations": {}
+    },
+    "AIMed.d212.s1837": {
+      "sentence": "Previous results have demonstrated that AT cells are hypersensitive to ionizing radiation and are defective at the G1/S checkpoint after radiation damage.",
+      "orig_sentence": "Previous results have demonstrated that AT cells are hypersensitive to ionizing radiation and are defective at the G1/S checkpoint after radiation damage.",
+      "proteins": [],
+      "relations": {}
+    },
+    "AIMed.d212.s1838": {
+      "sentence": "Because cells lacking the protein tyrosine kinase PROTEIN0 are also defective in radiation-induced G1 arrest, we investigated the possibility that PROTEIN1 might interact with PROTEIN2 in response to radiation damage.",
+      "orig_sentence": "Because cells lacking the protein tyrosine kinase c-Abl are also defective in radiation-induced G1 arrest, we investigated the possibility that ATM might interact with c-Abl in response to radiation damage.",
+      "proteins": [
+        "c-Abl",
+        "ATM",
+        "c-Abl"
+      ],
+      "relations": {
+        "[1, 2]": "PPI"
+      }
+    },
+    "AIMed.d212.s1839": {
+      "sentence": "Here we show that PROTEIN0 binds PROTEIN1 constitutively in control cells but not in AT cells.",
+      "orig_sentence": "Here we show that ATM binds c-Abl constitutively in control cells but not in AT cells.",
+      "proteins": [
+        "ATM",
+        "c-Abl"
+      ],
+      "relations": {
+        "[0, 1]": "PPI"
+      }
+    },
+    "AIMed.d212.s1840": {
+      "sentence": "Our results demonstrate that the SH3 domain of PROTEIN0 interacts with a DPAPNPPHFP motif (residues 1,373-1,382) of PROTEIN1.",
+      "orig_sentence": "Our results demonstrate that the SH3 domain of c-Abl interacts with a DPAPNPPHFP motif (residues 1,373-1,382) of ATM.",
+      "proteins": [
+        "c-Abl",
+        "ATM"
+      ],
+      "relations": {
+        "[0, 1]": "PPI"
+      }
+    },
+    "AIMed.d212.s1841": {
+      "sentence": "The results also reveal that radiation-induction of PROTEIN0 tyrosine kinase activity is diminished in AT cells.",
+      "orig_sentence": "The results also reveal that radiation-induction of c-Abl tyrosine kinase activity is diminished in AT cells.",
+      "proteins": [
+        "c-Abl"
+      ],
+      "relations": {}
+    },
+    "AIMed.d212.s1842": {
+      "sentence": "These findings indicate that PROTEIN0 is involved in the activation of PROTEIN1 by DNA damage and this interaction may in part mediate radiation-induced G1 arrest.",
+      "orig_sentence": "These findings indicate that ATM is involved in the activation of c-Abl by DNA damage and this interaction may in part mediate radiation-induced G1 arrest.",
+      "proteins": [
+        "ATM",
+        "c-Abl"
+      ],
+      "relations": {
+        "[0, 1]": "PPI"
+      }
+    },
+    "AIMed.d221.s1921": {
+      "sentence": "A region of the beta subunit of the PROTEIN0 PROTEIN1 different from box 1 interacts with PROTEIN2 and is sufficient to activate the PROTEIN3-Stat pathway and induce an antiviral state.",
+      "orig_sentence": "A region of the beta subunit of the interferon alpha receptor different from box 1 interacts with Jak1 and is sufficient to activate the Jak-Stat pathway and induce an antiviral state.",
+      "proteins": [
+        "interferon alpha",
+        "interferon alpha receptor",
+        "Jak1",
+        "Jak"
+      ],
+      "relations": {
+        "[1, 2]": "PPI"
+      }
+    },
+    "AIMed.d221.s1922": {
+      "sentence": "Coexpression of the alpha and betaL subunits of the human PROTEIN0 PROTEIN1 PROTEIN2 is required for the induction of an antiviral state by human PROTEIN3.",
+      "orig_sentence": "Coexpression of the alpha and betaL subunits of the human interferon alpha (IFNalpha) receptor is required for the induction of an antiviral state by human IFNalpha.",
+      "proteins": [
+        "interferon alpha",
+        "interferon alpha (IFNalpha) receptor",
+        "IFNalpha",
+        "IFNalpha"
+      ],
+      "relations": {}
+    },
+    "AIMed.d221.s1923": {
+      "sentence": "To explore the role of the different domains of the betaL subunit in PROTEIN0 signaling, we coexpressed wild-type alpha subunit and truncated forms of the betaL chain in L-929 cells.",
+      "orig_sentence": "To explore the role of the different domains of the betaL subunit in IFNalpha signaling, we coexpressed wild-type alpha subunit and truncated forms of the betaL chain in L-929 cells.",
+      "proteins": [
+        "IFNalpha"
+      ],
+      "relations": {}
+    },
+    "AIMed.d221.s1924": {
+      "sentence": "Our results demonstrated that the first 82 amino acids (AAs) (AAs 265-346) of the cytoplasmic domain of the betaL chain are sufficient to activate the PROTEIN0-Stat pathway and trigger an antiviral state after PROTEIN1 binding to the receptor.",
+      "orig_sentence": "Our results demonstrated that the first 82 amino acids (AAs) (AAs 265-346) of the cytoplasmic domain of the betaL chain are sufficient to activate the Jak-Stat pathway and trigger an antiviral state after IFNalpha2 binding to the receptor.",
+      "proteins": [
+        "Jak",
+        "IFNalpha2"
+      ],
+      "relations": {}
+    },
+    "AIMed.d221.s1925": {
+      "sentence": "This region of the betaL chain, required for PROTEIN0 binding and activation, contains the Box 1 motif that is important for the interaction of some cytokine receptors with PROTEIN1 kinases.",
+      "orig_sentence": "This region of the betaL chain, required for Jak1 binding and activation, contains the Box 1 motif that is important for the interaction of some cytokine receptors with Jak kinases.",
+      "proteins": [
+        "Jak1",
+        "Jak"
+      ],
+      "relations": {}
+    },
+    "AIMed.d221.s1926": {
+      "sentence": "However, using glutathione S-transferase fusion proteins containing amino- and carboxyl-terminal deletions of the betaL cytoplasmic domain, we demonstrate that the main PROTEIN0-binding region (corresponding to AAs 300-346 on the beta subunit) is distinct from the Box 1 domain (AAs 287-295).",
+      "orig_sentence": "However, using glutathione S-transferase fusion proteins containing amino- and carboxyl-terminal deletions of the betaL cytoplasmic domain, we demonstrate that the main Jak1-binding region (corresponding to AAs 300-346 on the beta subunit) is distinct from the Box 1 domain (AAs 287-295).",
+      "proteins": [
+        "Jak1"
+      ],
+      "relations": {}
+    },
+    "AIMed.d223.s1934": {
+      "sentence": "Interaction between cell cycle regulator, PROTEIN0, and PROTEIN1 mediates repression of HIV-1 gene transcription.",
+      "orig_sentence": "Interaction between cell cycle regulator, E2F-1, and NF-kappaB mediates repression of HIV-1 gene transcription.",
+      "proteins": [
+        "E2F-1",
+        "NF-kappaB"
+      ],
+      "relations": {
+        "[0, 1]": "PPI"
+      }
+    },
+    "AIMed.d223.s1935": {
+      "sentence": "The PROTEIN0/PROTEIN1 family of transcription factors is one of the main targets of cytokines and other agents that induce HIV-1 gene expression.",
+      "orig_sentence": "The NF-kappaB/Rel family of transcription factors is one of the main targets of cytokines and other agents that induce HIV-1 gene expression.",
+      "proteins": [
+        "NF-kappaB",
+        "Rel"
+      ],
+      "relations": {}
+    },
+    "AIMed.d223.s1936": {
+      "sentence": "Some of these extracellular stimuli arrest cells in the G1 phase of the mitotic division cycle and modulate the activity of the tumor suppressor protein PROTEIN0 and its partner PROTEIN1.",
+      "orig_sentence": "Some of these extracellular stimuli arrest cells in the G1 phase of the mitotic division cycle and modulate the activity of the tumor suppressor protein Rb and its partner E2F-1.",
+      "proteins": [
+        "Rb",
+        "E2F-1"
+      ],
+      "relations": {
+        "[0, 1]": "PPI"
+      }
+    },
+    "AIMed.d223.s1937": {
+      "sentence": "Earlier studies indicated that PROTEIN0, a transcription factor that stimulates expression of S-phase-specific genes, is able to repress transcription directed by the human immunodeficiency virus (HIV-1) type-1 promoter in a variety of cells, including those of glial and lymphocytic origin.",
+      "orig_sentence": "Earlier studies indicated that E2F-1, a transcription factor that stimulates expression of S-phase-specific genes, is able to repress transcription directed by the human immunodeficiency virus (HIV-1) type-1 promoter in a variety of cells, including those of glial and lymphocytic origin.",
+      "proteins": [
+        "E2F-1"
+      ],
+      "relations": {}
+    },
+    "AIMed.d223.s1938": {
+      "sentence": "Here, we demonstrate that PROTEIN0 may regulate the activity of the HIV-1 long terminal repeat through its ability to bind sequences in the PROTEIN1 enhancer region and to interact with the PROTEIN2 subunit, PROTEIN3.",
+      "orig_sentence": "Here, we demonstrate that E2F-1 may regulate the activity of the HIV-1 long terminal repeat through its ability to bind sequences in the NF-kappaB enhancer region and to interact with the NF-kappaB subunit, p50.",
+      "proteins": [
+        "E2F-1",
+        "NF-kappaB",
+        "NF-kappaB",
+        "p50"
+      ],
+      "relations": {
+        "[0, 2]": "PPI",
+        "[0, 3]": "PPI"
+      }
+    },
+    "AIMed.d223.s1939": {
+      "sentence": "Gel retardation and methylation interference assays show that PROTEIN0 is able to bind specifically to a site embedded within the two PROTEIN1 elements.",
+      "orig_sentence": "Gel retardation and methylation interference assays show that E2F-1 is able to bind specifically to a site embedded within the two NF-kappaB elements.",
+      "proteins": [
+        "E2F-1",
+        "NF-kappaB"
+      ],
+      "relations": {}
+    },
+    "AIMed.d223.s1940": {
+      "sentence": "Gel retardation/immunoblot analysis using purified PROTEIN0 and PROTEIN1 homodimers reveals the presence of complexes containing both proteins.",
+      "orig_sentence": "Gel retardation/immunoblot analysis using purified E2F-1 and p50 homodimers reveals the presence of complexes containing both proteins.",
+      "proteins": [
+        "E2F-1",
+        "p50"
+      ],
+      "relations": {}
+    },
+    "AIMed.d223.s1941": {
+      "sentence": "Affinity chromatography and co-immunoprecipitation assays provide evidence for direct interaction of PROTEIN0 and PROTEIN1 in the absence of their DNA target sequences.",
+      "orig_sentence": "Affinity chromatography and co-immunoprecipitation assays provide evidence for direct interaction of E2F-1 and p50 in the absence of their DNA target sequences.",
+      "proteins": [
+        "E2F-1",
+        "p50"
+      ],
+      "relations": {
+        "[0, 1]": "PPI"
+      }
+    },
+    "AIMed.d223.s1942": {
+      "sentence": "In vitro transcription assay demonstrates that PROTEIN0 represses PROTEIN1 mediated transcription in a cell-free system.",
+      "orig_sentence": "In vitro transcription assay demonstrates that E2F-1 represses NF-kappaB mediated transcription in a cell-free system.",
+      "proteins": [
+        "E2F-1",
+        "NF-kappaB"
+      ],
+      "relations": {}
+    },
+    "AIMed.d223.s1943": {
+      "sentence": "Functional studies in Jurkat T lymphocytic cells point to the importance of both the PROTEIN0 and PROTEIN1 binding sites in PROTEIN2 mediated repression of HIV-1 promoter, in vivo.",
+      "orig_sentence": "Functional studies in Jurkat T lymphocytic cells point to the importance of both the E2F and NF-kappaB binding sites in E2F-1 mediated repression of HIV-1 promoter, in vivo.",
+      "proteins": [
+        "E2F",
+        "NF-kappaB",
+        "E2F-1"
+      ],
+      "relations": {}
+    },
+    "AIMed.d223.s1944": {
+      "sentence": "The results of this study suggest that PROTEIN0 activity may be regulated by its interaction with the cell cycle regulatory protein, PROTEIN1.",
+      "orig_sentence": "The results of this study suggest that NF-kappaB activity may be regulated by its interaction with the cell cycle regulatory protein, E2F-1.",
+      "proteins": [
+        "NF-kappaB",
+        "E2F-1"
+      ],
+      "relations": {
+        "[0, 1]": "PPI"
+      }
+    }
+  }
+}

@@ -1,0 +1,179 @@
+{
+  "metadata": {
+    "created_at": "2026-06-24T06:37:39.609896+00:00",
+    "source": "LLL test (rebuilt from canonical XML, 2026-06-24)",
+    "total_sentences": 12,
+    "sentences_with_relation": 12,
+    "total_pairs": 61,
+    "pairs_with_relation": 30
+  },
+  "data": {
+    "LLL.d11.s0": {
+      "sentence": "In addition to controlling transcription of PROTEIN0, PROTEIN1 appears to control expression of at least one other gene required for production of CSF.",
+      "orig_sentence": "In addition to controlling transcription of phrC, sigmaH appears to control expression of at least one other gene required for production of CSF.",
+      "proteins": [
+        "phrC",
+        "sigmaH"
+      ],
+      "relations": {
+        "[0, 1]": "PPI"
+      }
+    },
+    "LLL.d13.s0": {
+      "sentence": "Production of PROTEIN0 about 1 h earlier than normal does affect PROTEIN1, which when phosphorylated is an activator of PROTEIN2 transcription.",
+      "orig_sentence": "Production of sigmaK about 1 h earlier than normal does affect Spo0A, which when phosphorylated is an activator of sigE transcription.",
+      "proteins": [
+        "sigmaK",
+        "Spo0A",
+        "sigE"
+      ],
+      "relations": {
+        "[0, 1]": "PPI",
+        "[1, 2]": "PPI"
+      }
+    },
+    "LLL.d13.s1": {
+      "sentence": "The PROTEIN0 promoter, like the PROTEIN1 promoter, is believed to be recognized by PROTEIN2 RNA polymerase, suggesting that PROTEIN3 may inhibit PROTEIN4 activity late in sporulation.",
+      "orig_sentence": "The ald promoter, like the sigE promoter, is believed to be recognized by sigmaA RNA polymerase, suggesting that sigmaK may inhibit sigmaA activity late in sporulation.",
+      "proteins": [
+        "ald",
+        "sigE",
+        "sigmaA",
+        "sigmaK",
+        "sigmaA"
+      ],
+      "relations": {
+        "[0, 2]": "PPI",
+        "[1, 2]": "PPI",
+        "[3, 4]": "PPI"
+      }
+    },
+    "LLL.d13.s2": {
+      "sentence": "In the mother cell compartment of sporulating cells, expression of the PROTEIN0 gene, encoding the earlier-acting sigma factor, sigmaE, is negatively regulated by the later-acting sigma factor, PROTEIN1.",
+      "orig_sentence": "In the mother cell compartment of sporulating cells, expression of the sigE gene, encoding the earlier-acting sigma factor, sigmaE, is negatively regulated by the later-acting sigma factor, sigmaK.",
+      "proteins": [
+        "sigE",
+        "sigmaK"
+      ],
+      "relations": {
+        "[0, 1]": "PPI"
+      }
+    },
+    "LLL.d28.s0": {
+      "sentence": "Primer extension experiments and Northern blot analysis show that an active PROTEIN0-dependent promoter precedes PROTEIN1 and transcription is terminated at the putative p-independent terminator downstream of kdgT.",
+      "orig_sentence": "Primer extension experiments and Northern blot analysis show that an active sigmaA-dependent promoter precedes kdgR and transcription is terminated at the putative p-independent terminator downstream of kdgT.",
+      "proteins": [
+        "sigmaA",
+        "kdgR"
+      ],
+      "relations": {
+        "[0, 1]": "PPI"
+      }
+    },
+    "LLL.d30.s0": {
+      "sentence": "We overproduced and purified sigma(X) from Escherichia coli and demonstrate that in vitro, both PROTEIN0 and PROTEIN1 holoenzymes recognize promoter elements within the PROTEIN2-PROTEIN3 control region.",
+      "orig_sentence": "We overproduced and purified sigma(X) from Escherichia coli and demonstrate that in vitro, both sigma(A) and sigma(X) holoenzymes recognize promoter elements within the sigX-ypuN control region.",
+      "proteins": [
+        "sigma(A)",
+        "sigma(X)",
+        "sigX",
+        "ypuN"
+      ],
+      "relations": {
+        "[0, 2]": "PPI",
+        "[0, 3]": "PPI",
+        "[1, 2]": "PPI",
+        "[1, 3]": "PPI"
+      }
+    },
+    "LLL.d34.s0": {
+      "sentence": "However, the mutant was unable to stimulate transcription by final PROTEIN0-RNA polymerase from the PROTEIN1-dependent PROTEIN2 operon promoter.",
+      "orig_sentence": "However, the mutant was unable to stimulate transcription by final sigma(A)-RNA polymerase from the Spo0A-dependent spoIIG operon promoter.",
+      "proteins": [
+        "sigma(A)",
+        "Spo0A",
+        "spoIIG"
+      ],
+      "relations": {
+        "[0, 1]": "PPI",
+        "[0, 2]": "PPI",
+        "[1, 2]": "PPI"
+      }
+    },
+    "LLL.d35.s0": {
+      "sentence": "The Bacillus subtilis PROTEIN0 operon is regulated by two stress induction pathways relying on either PROTEIN1 or a class III stress induction mechanism acting at a PROTEIN2-like promoter.",
+      "orig_sentence": "The Bacillus subtilis clpC operon is regulated by two stress induction pathways relying on either sigmaB or a class III stress induction mechanism acting at a sigmaA-like promoter.",
+      "proteins": [
+        "clpC",
+        "sigmaB",
+        "sigmaA"
+      ],
+      "relations": {
+        "[0, 1]": "PPI",
+        "[0, 2]": "PPI"
+      }
+    },
+    "LLL.d35.s1": {
+      "sentence": "Our data demonstrate that the PROTEIN0 protein acts as a global repressor of the PROTEIN1 operon, as well as other class III heat shock genes, by preventing unstressed transcription from either the PROTEIN2- or PROTEIN3-dependent promoter and might be inactivated or dissociate under inducing stress conditions.",
+      "orig_sentence": "Our data demonstrate that the CtsR protein acts as a global repressor of the clpC operon, as well as other class III heat shock genes, by preventing unstressed transcription from either the sigmaB- or sigmaA-dependent promoter and might be inactivated or dissociate under inducing stress conditions.",
+      "proteins": [
+        "CtsR",
+        "clpC",
+        "sigmaB",
+        "sigmaA"
+      ],
+      "relations": {
+        "[0, 1]": "PPI",
+        "[1, 2]": "PPI",
+        "[1, 3]": "PPI"
+      }
+    },
+    "LLL.d37.s0": {
+      "sentence": "Therefore, PROTEIN0 is solely expressed during sporulation from a PROTEIN1- and PROTEIN2-controlled promoter that is located immediately upstream of ftsY inside the smc gene.",
+      "orig_sentence": "Therefore, ftsY is solely expressed during sporulation from a sigma(K)- and GerE-controlled promoter that is located immediately upstream of ftsY inside the smc gene.",
+      "proteins": [
+        "ftsY",
+        "sigma(K)",
+        "GerE"
+      ],
+      "relations": {
+        "[0, 1]": "PPI",
+        "[0, 2]": "PPI"
+      }
+    },
+    "LLL.d38.s0": {
+      "sentence": "In that respect PROTEIN0 is similar to the previously described gene PROTEIN1 which is also a member of the PROTEIN2 regulon.",
+      "orig_sentence": "In that respect sigB is similar to the previously described gene gsiB which is also a member of the sigmaB regulon.",
+      "proteins": [
+        "sigB",
+        "gsiB",
+        "sigmaB"
+      ],
+      "relations": {
+        "[0, 2]": "PPI",
+        "[1, 2]": "PPI"
+      }
+    },
+    "LLL.d43.s0": {
+      "sentence": "The PROTEIN0 and PROTEIN1 genes are recognized primarily by the forespore-specific sigma factor for RNA polymerase, PROTEIN2; the PROTEIN3-PROTEIN4 operon is recognized equally well by PROTEIN5 and the other forespore-specific sigma factor, PROTEIN6.",
+      "orig_sentence": "The sspH and sspL genes are recognized primarily by the forespore-specific sigma factor for RNA polymerase, sigmaG; the sspN-tlp operon is recognized equally well by sigmaG and the other forespore-specific sigma factor, sigmaF.",
+      "proteins": [
+        "sspH",
+        "sspL",
+        "sigmaG",
+        "sspN",
+        "tlp",
+        "sigmaG",
+        "sigmaF"
+      ],
+      "relations": {
+        "[0, 2]": "PPI",
+        "[1, 2]": "PPI",
+        "[3, 5]": "PPI",
+        "[3, 6]": "PPI",
+        "[4, 5]": "PPI",
+        "[4, 6]": "PPI"
+      }
+    }
+  }
+}

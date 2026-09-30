@@ -1,0 +1,7 @@
+cell
+cells
+cytoplasm
+membrane
+mitochondria
+nucleus
+tissue

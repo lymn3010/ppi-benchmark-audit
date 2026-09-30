@@ -1,0 +1,216 @@
+{
+  "schema": "ppi_paper_experiment_v1",
+  "paper_dir": "supplements",
+  "title": "Auditing Protein\u2013Protein Interaction Benchmarks by Relation Pattern and Entity Boundary",
+  "corpora": [
+    "aimed",
+    "bioinfer",
+    "hprd50",
+    "iepa",
+    "lll"
+  ],
+  "canonical_runs": {
+    "aimed": "20260710_192415",
+    "bioinfer": "20260710_192439",
+    "hprd50": "20260710_192500",
+    "iepa": "20260710_192502",
+    "lll": "20260710_192510"
+  },
+  "environment": "environments/PPI-stanza.yml",
+  "parser": {
+    "package": "craft",
+    "coreference": true,
+    "nominalization": true,
+    "qanom_threshold": 0.5,
+    "gpu": true
+  },
+  "seeds": {
+    "statistics": 0,
+    "family_bootstrap": 20260908,
+    "matched_gap": 20260908
+  },
+  "iterations": {
+    "within_corpus_null": 10000,
+    "clustered_matched_gap_null": 4000,
+    "document_bootstrap": 2000,
+    "matched_gap_null": 10000
+  },
+  "retained_evidence": [
+    "validation"
+  ],
+  "steps": [
+    {
+      "id": "cross_corpus",
+      "module": "cross_corpus",
+      "args": [
+        "{ledgers}",
+        "--out-dir",
+        "{paper}/results/cross-corpus"
+      ],
+      "outputs": [
+        "results/cross-corpus/pattern-rates.csv",
+        "results/cross-corpus/fisher-tests.csv"
+      ]
+    },
+    {
+      "id": "within_corpus",
+      "module": "within_corpus",
+      "args": [
+        "{ledgers}",
+        "--out-dir",
+        "{paper}/results"
+      ],
+      "outputs": [
+        "results/within-corpus-cells.csv",
+        "results/within-corpus-summary.csv"
+      ]
+    },
+    {
+      "id": "within_corpus_null",
+      "module": "within_corpus_null",
+      "args": [
+        "{ledgers}",
+        "--iters",
+        "{within_iters}",
+        "--seed",
+        "{seed}",
+        "--out",
+        "{paper}/results/within-corpus-null.json"
+      ],
+      "outputs": [
+        "results/within-corpus-null.json"
+      ]
+    },
+    {
+      "id": "residual_policy",
+      "module": "residual_corpus",
+      "args": [
+        "--out",
+        "{paper}/results/residual-corpus.json"
+      ],
+      "outputs": [
+        "results/residual-corpus.json"
+      ]
+    },
+    {
+      "id": "domain_control",
+      "module": "vocabulary_control",
+      "args": [
+        "--out",
+        "{paper}/results/vocabulary-control.json"
+      ],
+      "outputs": [
+        "results/vocabulary-control.json"
+      ]
+    },
+    {
+      "id": "family_breakdown",
+      "module": "construction_families",
+      "args": [
+        "--boot",
+        "{document_bootstrap}",
+        "--seed",
+        "{family_seed}"
+      ],
+      "outputs": [
+        "results/construction-families.json"
+      ]
+    },
+    {
+      "id": "matched_gap_nulls",
+      "module": "matched_gap_nulls",
+      "args": [
+        "--clustered-iters",
+        "{matched_iters}",
+        "--iters",
+        "{matched_null_iters}",
+        "--boot",
+        "{document_bootstrap}",
+        "--seed",
+        "{matched_seed}"
+      ],
+      "outputs": [
+        "results/matched-gap-nulls.json"
+      ]
+    },
+    {
+      "id": "scope_sensitivity",
+      "module": "scope_sensitivity",
+      "args": [
+        "--out",
+        "{paper}/results/scope-sensitivity.json",
+        "--b",
+        "{document_bootstrap}"
+      ],
+      "outputs": [
+        "results/scope-sensitivity.json"
+      ]
+    },
+    {
+      "id": "core_physical",
+      "module": "within_corpus_physical",
+      "args": [
+        "--isolated",
+        "{paper}/results/within-corpus-cells.csv",
+        "--out-dir",
+        "{paper}/results"
+      ],
+      "outputs": [
+        "results/within-corpus-physical-cells.csv"
+      ]
+    },
+    {
+      "id": "human_ratings",
+      "module": "validate_human_ratings",
+      "args": [
+        "--check"
+      ],
+      "status": "verified_retained",
+      "outputs": []
+    },
+    {
+      "id": "supplementary_workbook",
+      "module": "build_review_workbook",
+      "args": [],
+      "outputs": [
+        "appendix/pattern-carrier-review.xlsx"
+      ]
+    },
+    {
+      "id": "residual_figure",
+      "module": "plot_residual",
+      "args": [],
+      "outputs": [
+        "figures/fig4_residual_corpus_effect.png",
+        "figures/fig4_residual_corpus_effect.pdf"
+      ]
+    }
+  ],
+  "ablations": {
+    "noqanom": {
+      "coreference": false,
+      "nominalization": false
+    }
+  },
+  "required_materials": [
+    "reproduce.ipynb",
+    "src/__main__.py",
+    "src/reproduction/README.md",
+    "src/reproduction/runner.py",
+    "src/reproduction/check_numbers.py",
+    "src/reproduction/score_human_ratings.py",
+    "src/reproduction/validate_human_ratings.py",
+    "src/reproduction/experiment.json",
+    "environments/PPI-stanza.yml",
+    "environments/VERSIONS.md",
+    "supplements/README.md",
+    "supplements/appendix/paper-supplement.pdf",
+    "supplements/appendix/pattern-carrier-review.xlsx",
+    "supplements/validation/README.txt",
+    "supplements/validation/validation-items.csv",
+    "supplements/validation/validation-ratings-2026-09-12.csv",
+    "supplements/validation/rating-form.xlsx"
+  ],
+  "paper_version": "20260929-APBC-v2-camera_ready",
+  "ships_figures": false
+}

@@ -1,0 +1,17 @@
+activator
+complex
+cytokine
+enzyme
+factor
+homolog
+inhibitor
+isoform
+kinase
+ligand
+member
+phosphatase
+protein
+receptor
+regulator
+substrate
+subunit

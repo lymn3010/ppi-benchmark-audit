@@ -1,0 +1,8 @@
+aggregation
+association
+binding
+coupling
+dimerization
+dissociation
+interaction
+oligomerization

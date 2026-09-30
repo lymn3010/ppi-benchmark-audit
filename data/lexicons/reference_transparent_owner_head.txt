@@ -1,0 +1,9 @@
+absence
+abundance
+activity
+amount
+expression
+function
+level
+loss
+presence

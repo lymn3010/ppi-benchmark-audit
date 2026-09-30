@@ -1,0 +1,10 @@
+abundance
+amount
+concentration
+dose
+level
+levels
+rate
+ratio
+trend
+value

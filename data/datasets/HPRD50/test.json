@@ -1,0 +1,381 @@
+{
+  "metadata": {
+    "created_at": "2026-06-24T06:37:39.592632+00:00",
+    "source": "HPRD50 test (rebuilt from canonical XML, 2026-06-24)",
+    "total_sentences": 34,
+    "sentences_with_relation": 20,
+    "total_pairs": 70,
+    "pairs_with_relation": 26
+  },
+  "data": {
+    "HPRD50.d6.s0": {
+      "sentence": "Regulation of neutrophil adhesion by pituitary growth hormone accompanies tyrosine phosphorylation of PROTEIN0, p125FAK, and PROTEIN1",
+      "orig_sentence": "Regulation of neutrophil adhesion by pituitary growth hormone accompanies tyrosine phosphorylation of Jak2, p125FAK, and paxillin",
+      "proteins": [
+        "Jak2",
+        "paxillin"
+      ],
+      "relations": {}
+    },
+    "HPRD50.d6.s1": {
+      "sentence": "These results suggest that pituitary GH modulates neutrophil adhesion through tyrosine phosphorylation of PROTEIN0, p125FAK, and PROTEIN1 and actin polymerization",
+      "orig_sentence": "These results suggest that pituitary GH modulates neutrophil adhesion through tyrosine phosphorylation of Jak2, p125FAK, and paxillin and actin polymerization",
+      "proteins": [
+        "Jak2",
+        "paxillin"
+      ],
+      "relations": {}
+    },
+    "HPRD50.d6.s2": {
+      "sentence": "Pituitary GH triggered the tyrosine phosphorylation of PROTEIN0 (PROTEIN1) and PROTEIN2 in neutrophils",
+      "orig_sentence": "Pituitary GH triggered the tyrosine phosphorylation of Janus kinase 2 (Jak2) and STAT3 in neutrophils",
+      "proteins": [
+        "Janus kinase 2",
+        "Jak2",
+        "STAT3"
+      ],
+      "relations": {}
+    },
+    "HPRD50.d6.s3": {
+      "sentence": "Preincubation with genistein, a tyrosine kinase inhibitor, blocked the GH-stimulated adhesion and PROTEIN0, PROTEIN1, p125FAK, and PROTEIN2 phosphorylation",
+      "orig_sentence": "Preincubation with genistein, a tyrosine kinase inhibitor, blocked the GH-stimulated adhesion and Jak2, STAT3, p125FAK, and paxillin phosphorylation",
+      "proteins": [
+        "Jak2",
+        "STAT3",
+        "paxillin"
+      ],
+      "relations": {}
+    },
+    "HPRD50.d6.s4": {
+      "sentence": "Immunoprecipitation experiments revealed a physical association of PROTEIN0 with p125FAK via PROTEIN1 in vivo",
+      "orig_sentence": "Immunoprecipitation experiments revealed a physical association of Jak2 with p125FAK via STAT3 in vivo",
+      "proteins": [
+        "Jak2",
+        "STAT3"
+      ],
+      "relations": {
+        "[0, 1]": "PPI"
+      }
+    },
+    "HPRD50.d10.s0": {
+      "sentence": "Cutting edge: PROTEIN0 functions as a T cell counterreceptor for the macrophage adhesion receptor PROTEIN1 (PROTEIN2)",
+      "orig_sentence": "Cutting edge: CD43 functions as a T cell counterreceptor for the macrophage adhesion receptor sialoadhesin (Siglec-1)",
+      "proteins": [
+        "CD43",
+        "sialoadhesin",
+        "Siglec-1"
+      ],
+      "relations": {
+        "[0, 1]": "PPI",
+        "[0, 2]": "PPI"
+      }
+    },
+    "HPRD50.d10.s1": {
+      "sentence": "The 130- and 240-kDa sialoadhesin-binding glycoproteins were identified as the sialomucins PROTEIN0 and PROTEIN1 (PROTEIN2), respectively",
+      "orig_sentence": "The 130- and 240-kDa sialoadhesin-binding glycoproteins were identified as the sialomucins CD43 and P-selectin glycoprotein ligand 1 (CD162), respectively",
+      "proteins": [
+        "CD43",
+        "P-selectin glycoprotein ligand 1",
+        "CD162"
+      ],
+      "relations": {}
+    },
+    "HPRD50.d10.s2": {
+      "sentence": "PROTEIN0 expressed in COS cells supported increased binding to immobilized PROTEIN1",
+      "orig_sentence": "CD43 expressed in COS cells supported increased binding to immobilized sialoadhesin",
+      "proteins": [
+        "CD43",
+        "sialoadhesin"
+      ],
+      "relations": {
+        "[0, 1]": "PPI"
+      }
+    },
+    "HPRD50.d10.s3": {
+      "sentence": "Finally, PROTEIN0 bound different glycoforms of PROTEIN1 expressed in Chinese hamster ovary cells, including unbranched (core 1) and branched (core 2) O:-linked glycans, that are normally found on PROTEIN2 in resting and activated T cells, respectively",
+      "orig_sentence": "Finally, sialoadhesin bound different glycoforms of CD43 expressed in Chinese hamster ovary cells, including unbranched (core 1) and branched (core 2) O:-linked glycans, that are normally found on CD43 in resting and activated T cells, respectively",
+      "proteins": [
+        "sialoadhesin",
+        "CD43",
+        "CD43"
+      ],
+      "relations": {
+        "[0, 1]": "PPI"
+      }
+    },
+    "HPRD50.d10.s4": {
+      "sentence": "These results identify PROTEIN0 as a T cell counterreceptor for PROTEIN1 and suggest that in addition to its anti-adhesive role PROTEIN2 may promote cell-cell interactions",
+      "orig_sentence": "These results identify CD43 as a T cell counterreceptor for sialoadhesin and suggest that in addition to its anti-adhesive role CD43 may promote cell-cell interactions",
+      "proteins": [
+        "CD43",
+        "sialoadhesin",
+        "CD43"
+      ],
+      "relations": {
+        "[0, 1]": "PPI"
+      }
+    },
+    "HPRD50.d15.s0": {
+      "sentence": "Physical association of PROTEIN0 with PROTEIN1, a novel glycosylphosphatidylinositol-anchored protein with potential for regulating adhesion and migration",
+      "orig_sentence": "Physical association of beta 2 integrin with GPI-80, a novel glycosylphosphatidylinositol-anchored protein with potential for regulating adhesion and migration",
+      "proteins": [
+        "beta 2 integrin",
+        "GPI-80"
+      ],
+      "relations": {
+        "[0, 1]": "PPI"
+      }
+    },
+    "HPRD50.d15.s1": {
+      "sentence": "To clarify the mechanisms by which PROTEIN0 functions on leukocytes, we explored the possibility of its physical association with PROTEIN1 which is important for leukocyte adherence, locomotion, and extravasation",
+      "orig_sentence": "To clarify the mechanisms by which GPI-80 functions on leukocytes, we explored the possibility of its physical association with beta 2 integrin which is important for leukocyte adherence, locomotion, and extravasation",
+      "proteins": [
+        "GPI-80",
+        "beta 2 integrin"
+      ],
+      "relations": {
+        "[0, 1]": "PPI"
+      }
+    },
+    "HPRD50.d15.s2": {
+      "sentence": "PROTEIN0, detected by anti-CD18 mAb, was coprecipitated with PROTEIN1 from human neutrophil lysates by a mAb to PROTEIN2",
+      "orig_sentence": "beta 2 integrin, detected by anti-CD18 mAb, was coprecipitated with GPI-80 from human neutrophil lysates by a mAb to GPI-80",
+      "proteins": [
+        "beta 2 integrin",
+        "GPI-80",
+        "GPI-80"
+      ],
+      "relations": {
+        "[0, 1]": "PPI"
+      }
+    },
+    "HPRD50.d15.s3": {
+      "sentence": "In addition, PROTEIN0 was immunoprecipitated from human neutrophil lysates by anti-human PROTEIN1 mAb",
+      "orig_sentence": "In addition, GPI-80 was immunoprecipitated from human neutrophil lysates by anti-human CD18 mAb",
+      "proteins": [
+        "GPI-80",
+        "CD18"
+      ],
+      "relations": {
+        "[0, 1]": "PPI"
+      }
+    },
+    "HPRD50.d15.s4": {
+      "sentence": "These results clearly show that PROTEIN0 is physically associated with PROTEIN1 in human neutrophils",
+      "orig_sentence": "These results clearly show that GPI-80 is physically associated with beta 2 integrin in human neutrophils",
+      "proteins": [
+        "GPI-80",
+        "beta 2 integrin"
+      ],
+      "relations": {
+        "[0, 1]": "PPI"
+      }
+    },
+    "HPRD50.d17.s0": {
+      "sentence": "PROTEIN0 (type II isozyme) contains a PROTEIN1 homology domain at the N terminus and a sterile alpha motif domain at the C terminus",
+      "orig_sentence": "DGKdelta (type II isozyme) contains a pleckstrin homology domain at the N terminus and a sterile alpha motif domain at the C terminus",
+      "proteins": [
+        "DGKdelta",
+        "pleckstrin"
+      ],
+      "relations": {}
+    },
+    "HPRD50.d28.s0": {
+      "sentence": "We report that PROTEIN0 (MutS homolog 2) protein interacts with the ATR (ATM- and Rad3-related) kinase to form a signaling module and regulate the phosphorylation of PROTEIN1 and PROTEIN2 (structure maintenance of chromosome 1)",
+      "orig_sentence": "We report that MSH2 (MutS homolog 2) protein interacts with the ATR (ATM- and Rad3-related) kinase to form a signaling module and regulate the phosphorylation of Chk1 and SMC1 (structure maintenance of chromosome 1)",
+      "proteins": [
+        "MSH2",
+        "Chk1",
+        "SMC1"
+      ],
+      "relations": {
+        "[0, 1]": "PPI",
+        "[0, 2]": "PPI"
+      }
+    },
+    "HPRD50.d28.s1": {
+      "sentence": "We found that phosphorylation of PROTEIN0 by ATR also requires checkpoint proteins PROTEIN1 and replication protein A",
+      "orig_sentence": "We found that phosphorylation of Chk1 by ATR also requires checkpoint proteins Rad17 and replication protein A",
+      "proteins": [
+        "Chk1",
+        "Rad17"
+      ],
+      "relations": {
+        "[0, 1]": "PPI"
+      }
+    },
+    "HPRD50.d28.s2": {
+      "sentence": "In contrast, phosphorylation of PROTEIN0 by ATR is independent of PROTEIN1 and replication protein A, suggesting that the signaling pathway leading to PROTEIN2 phosphorylation is distinct from that mediated by the checkpoint proteins",
+      "orig_sentence": "In contrast, phosphorylation of SMC1 by ATR is independent of Rad17 and replication protein A, suggesting that the signaling pathway leading to SMC1 phosphorylation is distinct from that mediated by the checkpoint proteins",
+      "proteins": [
+        "SMC1",
+        "Rad17",
+        "SMC1"
+      ],
+      "relations": {}
+    },
+    "HPRD50.d28.s3": {
+      "sentence": "In addition, both PROTEIN0 and PROTEIN1 are required for the activation of the S-phase checkpoint to suppress DNA synthesis in response to MNNG, and phosphorylation of PROTEIN2 is required for cellular survival",
+      "orig_sentence": "In addition, both MSH2 and Rad17 are required for the activation of the S-phase checkpoint to suppress DNA synthesis in response to MNNG, and phosphorylation of SMC1 is required for cellular survival",
+      "proteins": [
+        "MSH2",
+        "Rad17",
+        "SMC1"
+      ],
+      "relations": {}
+    },
+    "HPRD50.d36.s0": {
+      "sentence": "PROTEIN0 associates with PROTEIN1, Syk, and phospholipase C-gamma(1) upon B cell activation",
+      "orig_sentence": "CD22 associates with protein tyrosine phosphatase 1C, Syk, and phospholipase C-gamma(1) upon B cell activation",
+      "proteins": [
+        "CD22",
+        "protein tyrosine phosphatase 1C"
+      ],
+      "relations": {
+        "[0, 1]": "PPI"
+      }
+    },
+    "HPRD50.d36.s1": {
+      "sentence": "These results suggest that tyrosyl-phosphorylated PROTEIN0 may be a substrate for PROTEIN1 regulates tyrosyl phosphorylation of PROTEIN2",
+      "orig_sentence": "These results suggest that tyrosyl-phosphorylated CD22 may be a substrate for PTP-1C regulates tyrosyl phosphorylation of CD22",
+      "proteins": [
+        "CD22",
+        "PTP-1C",
+        "CD22"
+      ],
+      "relations": {
+        "[0, 1]": "PPI",
+        "[1, 2]": "PPI"
+      }
+    },
+    "HPRD50.d36.s2": {
+      "sentence": "The association of PROTEIN0 with PROTEIN1 was mediated by the NH2-terminal Src homology 2 (SH2) domain of PROTEIN2",
+      "orig_sentence": "The association of PTP-1C with CD22 was mediated by the NH2-terminal Src homology 2 (SH2) domain of PTP-1C",
+      "proteins": [
+        "PTP-1C",
+        "CD22",
+        "PTP-1C"
+      ],
+      "relations": {
+        "[0, 1]": "PPI",
+        "[1, 2]": "PPI"
+      }
+    },
+    "HPRD50.d36.s3": {
+      "sentence": "Complexes of either PROTEIN0/PROTEIN1/Syk/PLC-gamma(1) could be isolated from B cells stimulated by BCR engagement or a mixture of hydrogen peroxidase and sodium orthovanadate, respectively",
+      "orig_sentence": "Complexes of either CD22/PTP-1C/Syk/PLC-gamma(1) could be isolated from B cells stimulated by BCR engagement or a mixture of hydrogen peroxidase and sodium orthovanadate, respectively",
+      "proteins": [
+        "CD22",
+        "PTP-1C"
+      ],
+      "relations": {
+        "[0, 1]": "PPI"
+      }
+    },
+    "HPRD50.d36.s4": {
+      "sentence": "Transient expression of PROTEIN0 and a null mutant of PROTEIN1 (PTP-1CM) in COS cells resulted in an increase in tyrosyl phosphorylation of PROTEIN2 and its interaction with PTP-1CM",
+      "orig_sentence": "Transient expression of CD22 and a null mutant of PTP-1C (PTP-1CM) in COS cells resulted in an increase in tyrosyl phosphorylation of CD22 and its interaction with PTP-1CM",
+      "proteins": [
+        "CD22",
+        "PTP-1C",
+        "CD22"
+      ],
+      "relations": {
+        "[1, 2]": "PPI"
+      }
+    },
+    "HPRD50.d36.s5": {
+      "sentence": "By contrast, PROTEIN0 was not tyrosyl phosphorylated or associated with PTP-1CM in the presence of wild-type PROTEIN1",
+      "orig_sentence": "By contrast, CD22 was not tyrosyl phosphorylated or associated with PTP-1CM in the presence of wild-type PTP-1C",
+      "proteins": [
+        "CD22",
+        "PTP-1C"
+      ],
+      "relations": {}
+    },
+    "HPRD50.d37.s0": {
+      "sentence": "PROTEIN0 dimers formed through self-association of the TATA-binding polypeptide (PROTEIN1) subunit and could be immunoprecipitated with antibodies to PROTEIN2, the core subunit of PROTEIN3",
+      "orig_sentence": "TFIID dimers formed through self-association of the TATA-binding polypeptide (TBP) subunit and could be immunoprecipitated with antibodies to TAF(II)250, the core subunit of TFIID",
+      "proteins": [
+        "TFIID",
+        "TBP",
+        "TAF(II)250",
+        "TFIID"
+      ],
+      "relations": {
+        "[0, 2]": "PPI",
+        "[2, 3]": "PPI"
+      }
+    },
+    "HPRD50.d41.s0": {
+      "sentence": "We report here that PLZF, and a structurally similar transcriptional repressor, PROTEIN0, can interact with a variety of corepressor proteins in addition to SMRT, including the mSin3A protein and (for PLZF) PROTEIN1",
+      "orig_sentence": "We report here that PLZF, and a structurally similar transcriptional repressor, BCL-6, can interact with a variety of corepressor proteins in addition to SMRT, including the mSin3A protein and (for PLZF) histone deacetylase-1",
+      "proteins": [
+        "BCL-6",
+        "histone deacetylase-1"
+      ],
+      "relations": {
+        "[0, 1]": "PPI"
+      }
+    },
+    "HPRD50.d42.s0": {
+      "sentence": "Herein, we show that a distinct IkappaB protein PROTEIN0 also interacts with RXR, as shown in the yeast two-hybrid tests and PROTEIN1 pull-down assays",
+      "orig_sentence": "Herein, we show that a distinct IkappaB protein Bcl3 also interacts with RXR, as shown in the yeast two-hybrid tests and glutathione S-transferase pull-down assays",
+      "proteins": [
+        "Bcl3",
+        "glutathione S-transferase"
+      ],
+      "relations": {}
+    },
+    "HPRD50.d42.s1": {
+      "sentence": "In contrast to PROTEIN0, PROTEIN1 did not interact with the AF2 domain of RXR",
+      "orig_sentence": "In contrast to IkappaBbeta, Bcl3 did not interact with the AF2 domain of RXR",
+      "proteins": [
+        "IkappaBbeta",
+        "Bcl3"
+      ],
+      "relations": {}
+    },
+    "HPRD50.d42.s2": {
+      "sentence": "PROTEIN0 specifically interacted with the general transcription factors PROTEIN1, TBP, and PROTEIN2 but not with TFIIEalpha in the PROTEIN3 pull-down assays",
+      "orig_sentence": "Bcl3 specifically interacted with the general transcription factors TFIIB, TBP, and TFIIA but not with TFIIEalpha in the GST pull-down assays",
+      "proteins": [
+        "Bcl3",
+        "TFIIB",
+        "TFIIA",
+        "GST"
+      ],
+      "relations": {
+        "[0, 1]": "PPI",
+        "[0, 2]": "PPI"
+      }
+    },
+    "HPRD50.d42.s3": {
+      "sentence": "TBP and PROTEIN0, however, were not able to interact with PROTEIN1",
+      "orig_sentence": "TBP and TFIIA, however, were not able to interact with IkappaBbeta",
+      "proteins": [
+        "TFIIA",
+        "IkappaBbeta"
+      ],
+      "relations": {}
+    },
+    "HPRD50.d42.s4": {
+      "sentence": "Accordingly, PROTEIN0 coactivated the 9-cis-RA-induced transactivations of RXR, in contrast to the inhibitory actions of PROTEIN1",
+      "orig_sentence": "Accordingly, Bcl3 coactivated the 9-cis-RA-induced transactivations of RXR, in contrast to the inhibitory actions of IkappaBbeta",
+      "proteins": [
+        "Bcl3",
+        "IkappaBbeta"
+      ],
+      "relations": {}
+    },
+    "HPRD50.d42.s5": {
+      "sentence": "In addition, coexpression of PROTEIN0 but not PROTEIN1 further stimulated the Bcl3-mediated enhancement of the 9-cis-RA-induced transactivations of RXR",
+      "orig_sentence": "In addition, coexpression of SRC-1 but not p300 further stimulated the Bcl3-mediated enhancement of the 9-cis-RA-induced transactivations of RXR",
+      "proteins": [
+        "SRC-1",
+        "p300"
+      ],
+      "relations": {}
+    }
+  }
+}

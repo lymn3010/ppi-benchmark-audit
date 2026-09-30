@@ -1,0 +1,7 @@
+aggregate
+complex
+dimer
+heterodimer
+homodimer
+multimer
+oligomer

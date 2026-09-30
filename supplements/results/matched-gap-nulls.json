@@ -1,0 +1,534 @@
+{
+  "predicate_cap_applied": false,
+  "n_other_predicate_rows": 0,
+  "corpus_pair": "aimed,bioinfer",
+  "n_observations": 4184,
+  "positive_rate": 0.4998,
+  "per_corpus_positive_rate": {
+    "aimed": 0.3297,
+    "bioinfer": 0.6082,
+    "hprd50": 0.6215,
+    "iepa": 0.7424,
+    "lll": 0.9121
+  },
+  "min_rows_per_corpus": 5,
+  "iters": 10000,
+  "boot": 2000,
+  "seed": 20260908,
+  "n_common_base_strata": 18,
+  "residual_document_icc": 0.0866,
+  "document_random_intercept_sigma": 0.5584,
+  "levels": {
+    "pattern_only": {
+      "observed_mean_gap": 0.3643,
+      "n_strata": 35,
+      "common_base_restricted": {
+        "observed_mean_gap": 0.324,
+        "n_strata": 18
+      },
+      "null_b_label_permutation": {
+        "null_mean": 0.1583,
+        "null_sd": 0.0204,
+        "null_p95": 0.1927,
+        "excess_over_null": 0.2059,
+        "n_exceedances": 0,
+        "n_draws": 10000,
+        "p_value": 0.0001,
+        "at_monte_carlo_floor": true
+      },
+      "null_a_additive_offset": {
+        "null_mean": 0.2756,
+        "null_sd": 0.0253,
+        "null_p95": 0.3175,
+        "excess_over_null": 0.0887,
+        "n_exceedances": 10,
+        "n_draws": 10000,
+        "p_value": 0.0011,
+        "at_monte_carlo_floor": false,
+        "n_observations_in_model": 2155,
+        "n_strata_in_model": 35,
+        "regularisation_C": 10.0,
+        "note": "corpus intercepts are estimated on data that still contains the interaction, so this null is conservative"
+      },
+      "document_cluster_bootstrap": {
+        "mean": 0.404,
+        "ci_low": 0.3131,
+        "ci_high": 0.4924,
+        "median_n_strata": 32,
+        "n_resamples": 2000
+      },
+      "signed_pair_contrast": {
+        "pair": "bioinfer minus aimed",
+        "n_strata": 30,
+        "mean_contrast": 0.2671,
+        "mean_abs_contrast": 0.3012,
+        "sd_contrast": 0.2769,
+        "mean_vs_null_a_iid": {
+          "null_mean": 0.2389,
+          "null_sd": 0.0324,
+          "null_p95": 0.2913,
+          "excess_over_null": 0.0282,
+          "n_exceedances": 1959,
+          "n_draws": 10000,
+          "p_value": 0.19598,
+          "at_monte_carlo_floor": false
+        },
+        "sd_vs_null_a_iid": {
+          "null_mean": 0.1909,
+          "null_sd": 0.0262,
+          "null_p95": 0.2348,
+          "excess_over_null": 0.086,
+          "n_exceedances": 10,
+          "n_draws": 10000,
+          "p_value": 0.0011,
+          "at_monte_carlo_floor": false
+        },
+        "sd_vs_null_a_document_clustered": {
+          "null_mean": 0.1987,
+          "null_sd": 0.0313,
+          "null_p95": 0.2511,
+          "excess_over_null": 0.0782,
+          "n_exceedances": 35,
+          "n_draws": 4000,
+          "p_value": 0.009,
+          "at_monte_carlo_floor": false,
+          "regularisation_C": 1000000.0,
+          "unpenalized": true,
+          "refit_per_draw": true,
+          "documents_resampled_within_corpus": true,
+          "document_random_intercept_sigma": 0.5583891123450838,
+          "n_usable_resamples": 4000
+        },
+        "mean_vs_null_a_document_clustered": {
+          "null_mean": 0.2314,
+          "null_sd": 0.0523,
+          "null_p95": 0.3175,
+          "excess_over_null": 0.0356,
+          "n_exceedances": 984,
+          "n_draws": 4000,
+          "p_value": 0.24619,
+          "at_monte_carlo_floor": false
+        },
+        "sd_vs_null_b_descriptive": {
+          "null_mean": 0.1889,
+          "null_sd": 0.029,
+          "null_p95": 0.2378,
+          "excess_over_null": 0.0881,
+          "n_exceedances": 25,
+          "n_draws": 10000,
+          "p_value": 0.0026,
+          "at_monte_carlo_floor": false
+        },
+        "null_a_penalty_sensitivity": {
+          "C=1": {
+            "null_sd_mean": 0.1934,
+            "p_value": 0.00499
+          },
+          "C=10": {
+            "null_sd_mean": 0.1915,
+            "p_value": 0.00748
+          },
+          "C=1e+06": {
+            "null_sd_mean": 0.1917,
+            "p_value": 0.00748
+          }
+        },
+        "note": "mean_contrast under an additive model is just the global offset, so it is not evidence of construction-specific treatment; the interaction evidence is sd_contrast exceeding the DOCUMENT-CLUSTERED Null A. The iid Null A is anticonservative under intra-document correlation and is reported only as a sensitivity."
+      }
+    },
+    "plus_carrier_class": {
+      "observed_mean_gap": 0.3623,
+      "n_strata": 28,
+      "common_base_restricted": {
+        "observed_mean_gap": 0.3387,
+        "n_strata": 18
+      },
+      "null_b_label_permutation": {
+        "null_mean": 0.1414,
+        "null_sd": 0.0216,
+        "null_p95": 0.1782,
+        "excess_over_null": 0.2209,
+        "n_exceedances": 0,
+        "n_draws": 10000,
+        "p_value": 0.0001,
+        "at_monte_carlo_floor": true
+      },
+      "null_a_additive_offset": {
+        "null_mean": 0.2459,
+        "null_sd": 0.0277,
+        "null_p95": 0.292,
+        "excess_over_null": 0.1165,
+        "n_exceedances": 0,
+        "n_draws": 10000,
+        "p_value": 0.0001,
+        "at_monte_carlo_floor": true,
+        "n_observations_in_model": 1515,
+        "n_strata_in_model": 28,
+        "regularisation_C": 10.0,
+        "note": "corpus intercepts are estimated on data that still contains the interaction, so this null is conservative"
+      },
+      "document_cluster_bootstrap": {
+        "mean": 0.3325,
+        "ci_low": 0.2429,
+        "ci_high": 0.4221,
+        "median_n_strata": 24,
+        "n_resamples": 2000
+      },
+      "signed_pair_contrast": {
+        "pair": "bioinfer minus aimed",
+        "n_strata": 23,
+        "mean_contrast": 0.2632,
+        "mean_abs_contrast": 0.3395,
+        "sd_contrast": 0.3277,
+        "mean_vs_null_a_iid": {
+          "null_mean": 0.2283,
+          "null_sd": 0.0343,
+          "null_p95": 0.2846,
+          "excess_over_null": 0.0349,
+          "n_exceedances": 1563,
+          "n_draws": 10000,
+          "p_value": 0.15638,
+          "at_monte_carlo_floor": false
+        },
+        "sd_vs_null_a_iid": {
+          "null_mean": 0.1848,
+          "null_sd": 0.0302,
+          "null_p95": 0.2362,
+          "excess_over_null": 0.143,
+          "n_exceedances": 0,
+          "n_draws": 10000,
+          "p_value": 0.0001,
+          "at_monte_carlo_floor": true
+        },
+        "sd_vs_null_a_document_clustered": {
+          "null_mean": 0.1869,
+          "null_sd": 0.0347,
+          "null_p95": 0.2462,
+          "excess_over_null": 0.1408,
+          "n_exceedances": 0,
+          "n_draws": 4000,
+          "p_value": 0.00025,
+          "at_monte_carlo_floor": true,
+          "regularisation_C": 1000000.0,
+          "unpenalized": true,
+          "refit_per_draw": true,
+          "documents_resampled_within_corpus": true,
+          "document_random_intercept_sigma": 0.5583891123450838,
+          "n_usable_resamples": 4000
+        },
+        "mean_vs_null_a_document_clustered": {
+          "null_mean": 0.2071,
+          "null_sd": 0.0517,
+          "null_p95": 0.2923,
+          "excess_over_null": 0.0561,
+          "n_exceedances": 573,
+          "n_draws": 4000,
+          "p_value": 0.14346,
+          "at_monte_carlo_floor": false
+        },
+        "sd_vs_null_b_descriptive": {
+          "null_mean": 0.1738,
+          "null_sd": 0.0317,
+          "null_p95": 0.2297,
+          "excess_over_null": 0.1539,
+          "n_exceedances": 0,
+          "n_draws": 10000,
+          "p_value": 0.0001,
+          "at_monte_carlo_floor": true
+        },
+        "null_a_penalty_sensitivity": {
+          "C=1": {
+            "null_sd_mean": 0.1845,
+            "p_value": 0.00249
+          },
+          "C=10": {
+            "null_sd_mean": 0.1872,
+            "p_value": 0.00249
+          },
+          "C=1e+06": {
+            "null_sd_mean": 0.1887,
+            "p_value": 0.00249
+          }
+        },
+        "note": "mean_contrast under an additive model is just the global offset, so it is not evidence of construction-specific treatment; the interaction evidence is sd_contrast exceeding the DOCUMENT-CLUSTERED Null A. The iid Null A is anticonservative under intra-document correlation and is reported only as a sensitivity."
+      }
+    },
+    "plus_carrier_word": {
+      "observed_mean_gap": 0.3952,
+      "n_strata": 22,
+      "common_base_restricted": {
+        "observed_mean_gap": 0.3571,
+        "n_strata": 18
+      },
+      "null_b_label_permutation": {
+        "null_mean": 0.1423,
+        "null_sd": 0.0239,
+        "null_p95": 0.1831,
+        "excess_over_null": 0.2529,
+        "n_exceedances": 0,
+        "n_draws": 10000,
+        "p_value": 0.0001,
+        "at_monte_carlo_floor": true
+      },
+      "null_a_additive_offset": {
+        "null_mean": 0.2484,
+        "null_sd": 0.0317,
+        "null_p95": 0.3012,
+        "excess_over_null": 0.1468,
+        "n_exceedances": 0,
+        "n_draws": 10000,
+        "p_value": 0.0001,
+        "at_monte_carlo_floor": true,
+        "n_observations_in_model": 1321,
+        "n_strata_in_model": 22,
+        "regularisation_C": 10.0,
+        "note": "corpus intercepts are estimated on data that still contains the interaction, so this null is conservative"
+      },
+      "document_cluster_bootstrap": {
+        "mean": 0.3467,
+        "ci_low": 0.2511,
+        "ci_high": 0.4418,
+        "median_n_strata": 19,
+        "n_resamples": 2000
+      },
+      "signed_pair_contrast": {
+        "pair": "bioinfer minus aimed",
+        "n_strata": 19,
+        "mean_contrast": 0.2948,
+        "mean_abs_contrast": 0.3738,
+        "sd_contrast": 0.3447,
+        "mean_vs_null_a_iid": {
+          "null_mean": 0.2338,
+          "null_sd": 0.0378,
+          "null_p95": 0.2949,
+          "excess_over_null": 0.061,
+          "n_exceedances": 504,
+          "n_draws": 10000,
+          "p_value": 0.05049,
+          "at_monte_carlo_floor": false
+        },
+        "sd_vs_null_a_iid": {
+          "null_mean": 0.1888,
+          "null_sd": 0.0336,
+          "null_p95": 0.2456,
+          "excess_over_null": 0.1559,
+          "n_exceedances": 0,
+          "n_draws": 10000,
+          "p_value": 0.0001,
+          "at_monte_carlo_floor": true
+        },
+        "sd_vs_null_a_document_clustered": {
+          "null_mean": 0.1893,
+          "null_sd": 0.0383,
+          "null_p95": 0.2562,
+          "excess_over_null": 0.1554,
+          "n_exceedances": 1,
+          "n_draws": 4000,
+          "p_value": 0.0005,
+          "at_monte_carlo_floor": false,
+          "regularisation_C": 1000000.0,
+          "unpenalized": true,
+          "refit_per_draw": true,
+          "documents_resampled_within_corpus": true,
+          "document_random_intercept_sigma": 0.5583891123450838,
+          "n_usable_resamples": 4000
+        },
+        "mean_vs_null_a_document_clustered": {
+          "null_mean": 0.2066,
+          "null_sd": 0.056,
+          "null_p95": 0.3008,
+          "excess_over_null": 0.0882,
+          "n_exceedances": 249,
+          "n_draws": 4000,
+          "p_value": 0.06248,
+          "at_monte_carlo_floor": false
+        },
+        "sd_vs_null_b_descriptive": {
+          "null_mean": 0.1766,
+          "null_sd": 0.0362,
+          "null_p95": 0.2396,
+          "excess_over_null": 0.1681,
+          "n_exceedances": 2,
+          "n_draws": 10000,
+          "p_value": 0.0003,
+          "at_monte_carlo_floor": false
+        },
+        "null_a_penalty_sensitivity": {
+          "C=1": {
+            "null_sd_mean": 0.1857,
+            "p_value": 0.00249
+          },
+          "C=10": {
+            "null_sd_mean": 0.1899,
+            "p_value": 0.00249
+          },
+          "C=1e+06": {
+            "null_sd_mean": 0.1908,
+            "p_value": 0.00249
+          }
+        },
+        "note": "mean_contrast under an additive model is just the global offset, so it is not evidence of construction-specific treatment; the interaction evidence is sd_contrast exceeding the DOCUMENT-CLUSTERED Null A. The iid Null A is anticonservative under intra-document correlation and is reported only as a sensitivity."
+      }
+    },
+    "plus_carrier_word_roles": {
+      "observed_mean_gap": 0.3517,
+      "n_strata": 20,
+      "common_base_restricted": {
+        "observed_mean_gap": 0.3571,
+        "n_strata": 18
+      },
+      "null_b_label_permutation": {
+        "null_mean": 0.1384,
+        "null_sd": 0.0239,
+        "null_p95": 0.1796,
+        "excess_over_null": 0.2133,
+        "n_exceedances": 0,
+        "n_draws": 10000,
+        "p_value": 0.0001,
+        "at_monte_carlo_floor": true
+      },
+      "null_a_additive_offset": {
+        "null_mean": 0.2281,
+        "null_sd": 0.0309,
+        "null_p95": 0.2801,
+        "excess_over_null": 0.1236,
+        "n_exceedances": 0,
+        "n_draws": 10000,
+        "p_value": 0.0001,
+        "at_monte_carlo_floor": true,
+        "n_observations_in_model": 1283,
+        "n_strata_in_model": 20,
+        "regularisation_C": 10.0,
+        "note": "corpus intercepts are estimated on data that still contains the interaction, so this null is conservative"
+      },
+      "document_cluster_bootstrap": {
+        "mean": 0.3218,
+        "ci_low": 0.2264,
+        "ci_high": 0.4223,
+        "median_n_strata": 18,
+        "n_resamples": 2000
+      },
+      "signed_pair_contrast": {
+        "pair": "bioinfer minus aimed",
+        "n_strata": 17,
+        "mean_contrast": 0.2318,
+        "mean_abs_contrast": 0.3201,
+        "sd_contrast": 0.3,
+        "mean_vs_null_a_iid": {
+          "null_mean": 0.2077,
+          "null_sd": 0.0368,
+          "null_p95": 0.267,
+          "excess_over_null": 0.0241,
+          "n_exceedances": 2600,
+          "n_draws": 10000,
+          "p_value": 0.26007,
+          "at_monte_carlo_floor": false
+        },
+        "sd_vs_null_a_iid": {
+          "null_mean": 0.1761,
+          "null_sd": 0.0339,
+          "null_p95": 0.2348,
+          "excess_over_null": 0.124,
+          "n_exceedances": 2,
+          "n_draws": 10000,
+          "p_value": 0.0003,
+          "at_monte_carlo_floor": false
+        },
+        "sd_vs_null_a_document_clustered": {
+          "null_mean": 0.182,
+          "null_sd": 0.0391,
+          "null_p95": 0.2497,
+          "excess_over_null": 0.118,
+          "n_exceedances": 10,
+          "n_draws": 4000,
+          "p_value": 0.00275,
+          "at_monte_carlo_floor": false,
+          "regularisation_C": 1000000.0,
+          "unpenalized": true,
+          "refit_per_draw": true,
+          "documents_resampled_within_corpus": true,
+          "document_random_intercept_sigma": 0.5583891123450838,
+          "n_usable_resamples": 4000
+        },
+        "mean_vs_null_a_document_clustered": {
+          "null_mean": 0.1943,
+          "null_sd": 0.0552,
+          "null_p95": 0.2842,
+          "excess_over_null": 0.0376,
+          "n_exceedances": 1005,
+          "n_draws": 4000,
+          "p_value": 0.25144,
+          "at_monte_carlo_floor": false
+        },
+        "sd_vs_null_b_descriptive": {
+          "null_mean": 0.1652,
+          "null_sd": 0.0362,
+          "null_p95": 0.2295,
+          "excess_over_null": 0.1348,
+          "n_exceedances": 4,
+          "n_draws": 10000,
+          "p_value": 0.0005,
+          "at_monte_carlo_floor": false
+        },
+        "null_a_penalty_sensitivity": {
+          "C=1": {
+            "null_sd_mean": 0.1755,
+            "p_value": 0.00249
+          },
+          "C=10": {
+            "null_sd_mean": 0.176,
+            "p_value": 0.00249
+          },
+          "C=1e+06": {
+            "null_sd_mean": 0.1775,
+            "p_value": 0.00249
+          }
+        },
+        "note": "mean_contrast under an additive model is just the global offset, so it is not evidence of construction-specific treatment; the interaction evidence is sd_contrast exceeding the DOCUMENT-CLUSTERED Null A. The iid Null A is anticonservative under intra-document correlation and is reported only as a sensitivity."
+      }
+    }
+  },
+  "paired_ladder_common_base": {
+    "n_base_keys": 18,
+    "note": "each level contributes one value per base key, averaged over that key's carrier sub-strata, so the four levels are compared on identical units; intervals are a bootstrap over base keys",
+    "levels": {
+      "pattern_only": {
+        "mean_gap": 0.324,
+        "ci_low": 0.2129,
+        "ci_high": 0.4519
+      },
+      "plus_carrier_class": {
+        "mean_gap": 0.3387,
+        "ci_low": 0.234,
+        "ci_high": 0.4648
+      },
+      "plus_carrier_word": {
+        "mean_gap": 0.3571,
+        "ci_low": 0.2546,
+        "ci_high": 0.4805
+      },
+      "plus_carrier_word_roles": {
+        "mean_gap": 0.3571,
+        "ci_low": 0.2546,
+        "ci_high": 0.4805
+      }
+    },
+    "deltas_vs_pattern_only": {
+      "plus_carrier_class_minus_pattern_only": {
+        "mean_delta": 0.0147,
+        "ci_low": -0.0261,
+        "ci_high": 0.0547
+      },
+      "plus_carrier_word_minus_pattern_only": {
+        "mean_delta": 0.033,
+        "ci_low": -0.009,
+        "ci_high": 0.0753
+      },
+      "plus_carrier_word_roles_minus_pattern_only": {
+        "mean_delta": 0.033,
+        "ci_low": -0.009,
+        "ci_high": 0.0753
+      }
+    }
+  }
+}

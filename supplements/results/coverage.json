@@ -1,0 +1,579 @@
+{
+  "schema": "ppi_coverage_v2",
+  "path_criterion": "nonempty dep_path in saved sentence artifacts; diagnostic rows alone do not count",
+  "untraced_pairs": [
+    {
+      "corpus": "aimed",
+      "sentence_id": "AIMed.d107.s901",
+      "pair": [
+        0,
+        1
+      ],
+      "reason": "empty_dependency_path"
+    },
+    {
+      "corpus": "aimed",
+      "sentence_id": "AIMed.d60.s527",
+      "pair": [
+        0,
+        2
+      ],
+      "reason": "empty_dependency_path"
+    },
+    {
+      "corpus": "aimed",
+      "sentence_id": "AIMed.d60.s527",
+      "pair": [
+        1,
+        2
+      ],
+      "reason": "empty_dependency_path"
+    },
+    {
+      "corpus": "bioinfer",
+      "sentence_id": "BioInfer.d123.s0",
+      "pair": [
+        4,
+        10
+      ],
+      "reason": "empty_dependency_path"
+    },
+    {
+      "corpus": "bioinfer",
+      "sentence_id": "BioInfer.d13.s0",
+      "pair": [
+        1,
+        2
+      ],
+      "reason": "empty_dependency_path"
+    },
+    {
+      "corpus": "bioinfer",
+      "sentence_id": "BioInfer.d13.s0",
+      "pair": [
+        1,
+        3
+      ],
+      "reason": "empty_dependency_path"
+    },
+    {
+      "corpus": "bioinfer",
+      "sentence_id": "BioInfer.d13.s0",
+      "pair": [
+        1,
+        4
+      ],
+      "reason": "empty_dependency_path"
+    },
+    {
+      "corpus": "bioinfer",
+      "sentence_id": "BioInfer.d13.s0",
+      "pair": [
+        1,
+        5
+      ],
+      "reason": "empty_dependency_path"
+    },
+    {
+      "corpus": "bioinfer",
+      "sentence_id": "BioInfer.d154.s0",
+      "pair": [
+        2,
+        3
+      ],
+      "reason": "empty_dependency_path"
+    },
+    {
+      "corpus": "bioinfer",
+      "sentence_id": "BioInfer.d174.s1",
+      "pair": [
+        1,
+        4
+      ],
+      "reason": "empty_dependency_path"
+    },
+    {
+      "corpus": "bioinfer",
+      "sentence_id": "BioInfer.d174.s1",
+      "pair": [
+        2,
+        4
+      ],
+      "reason": "empty_dependency_path"
+    },
+    {
+      "corpus": "bioinfer",
+      "sentence_id": "BioInfer.d174.s1",
+      "pair": [
+        3,
+        4
+      ],
+      "reason": "empty_dependency_path"
+    },
+    {
+      "corpus": "bioinfer",
+      "sentence_id": "BioInfer.d234.s0",
+      "pair": [
+        2,
+        5
+      ],
+      "reason": "empty_dependency_path"
+    },
+    {
+      "corpus": "bioinfer",
+      "sentence_id": "BioInfer.d234.s0",
+      "pair": [
+        2,
+        6
+      ],
+      "reason": "empty_dependency_path"
+    },
+    {
+      "corpus": "bioinfer",
+      "sentence_id": "BioInfer.d298.s0",
+      "pair": [
+        0,
+        5
+      ],
+      "reason": "empty_dependency_path"
+    },
+    {
+      "corpus": "bioinfer",
+      "sentence_id": "BioInfer.d324.s0",
+      "pair": [
+        2,
+        5
+      ],
+      "reason": "empty_dependency_path"
+    },
+    {
+      "corpus": "bioinfer",
+      "sentence_id": "BioInfer.d324.s0",
+      "pair": [
+        3,
+        5
+      ],
+      "reason": "empty_dependency_path"
+    },
+    {
+      "corpus": "bioinfer",
+      "sentence_id": "BioInfer.d324.s0",
+      "pair": [
+        4,
+        5
+      ],
+      "reason": "empty_dependency_path"
+    },
+    {
+      "corpus": "bioinfer",
+      "sentence_id": "BioInfer.d379.s2",
+      "pair": [
+        0,
+        3
+      ],
+      "reason": "empty_dependency_path"
+    },
+    {
+      "corpus": "bioinfer",
+      "sentence_id": "BioInfer.d379.s2",
+      "pair": [
+        0,
+        4
+      ],
+      "reason": "empty_dependency_path"
+    },
+    {
+      "corpus": "bioinfer",
+      "sentence_id": "BioInfer.d379.s2",
+      "pair": [
+        0,
+        5
+      ],
+      "reason": "empty_dependency_path"
+    },
+    {
+      "corpus": "bioinfer",
+      "sentence_id": "BioInfer.d379.s2",
+      "pair": [
+        0,
+        6
+      ],
+      "reason": "empty_dependency_path"
+    },
+    {
+      "corpus": "bioinfer",
+      "sentence_id": "BioInfer.d388.s1",
+      "pair": [
+        1,
+        4
+      ],
+      "reason": "empty_dependency_path"
+    },
+    {
+      "corpus": "bioinfer",
+      "sentence_id": "BioInfer.d433.s1",
+      "pair": [
+        1,
+        2
+      ],
+      "reason": "empty_dependency_path"
+    },
+    {
+      "corpus": "bioinfer",
+      "sentence_id": "BioInfer.d44.s0",
+      "pair": [
+        12,
+        16
+      ],
+      "reason": "empty_dependency_path"
+    },
+    {
+      "corpus": "bioinfer",
+      "sentence_id": "BioInfer.d44.s0",
+      "pair": [
+        13,
+        16
+      ],
+      "reason": "empty_dependency_path"
+    },
+    {
+      "corpus": "bioinfer",
+      "sentence_id": "BioInfer.d585.s0",
+      "pair": [
+        2,
+        5
+      ],
+      "reason": "empty_dependency_path"
+    },
+    {
+      "corpus": "bioinfer",
+      "sentence_id": "BioInfer.d585.s0",
+      "pair": [
+        3,
+        5
+      ],
+      "reason": "empty_dependency_path"
+    },
+    {
+      "corpus": "bioinfer",
+      "sentence_id": "BioInfer.d609.s0",
+      "pair": [
+        0,
+        1
+      ],
+      "reason": "empty_dependency_path"
+    },
+    {
+      "corpus": "bioinfer",
+      "sentence_id": "BioInfer.d62.s1",
+      "pair": [
+        0,
+        1
+      ],
+      "reason": "empty_dependency_path"
+    },
+    {
+      "corpus": "bioinfer",
+      "sentence_id": "BioInfer.d62.s1",
+      "pair": [
+        0,
+        2
+      ],
+      "reason": "empty_dependency_path"
+    },
+    {
+      "corpus": "bioinfer",
+      "sentence_id": "BioInfer.d664.s0",
+      "pair": [
+        0,
+        2
+      ],
+      "reason": "empty_dependency_path"
+    },
+    {
+      "corpus": "bioinfer",
+      "sentence_id": "BioInfer.d694.s0",
+      "pair": [
+        0,
+        4
+      ],
+      "reason": "empty_dependency_path"
+    },
+    {
+      "corpus": "bioinfer",
+      "sentence_id": "BioInfer.d694.s0",
+      "pair": [
+        1,
+        4
+      ],
+      "reason": "empty_dependency_path"
+    },
+    {
+      "corpus": "bioinfer",
+      "sentence_id": "BioInfer.d727.s0",
+      "pair": [
+        0,
+        6
+      ],
+      "reason": "empty_dependency_path"
+    },
+    {
+      "corpus": "bioinfer",
+      "sentence_id": "BioInfer.d727.s0",
+      "pair": [
+        1,
+        4
+      ],
+      "reason": "empty_dependency_path"
+    },
+    {
+      "corpus": "bioinfer",
+      "sentence_id": "BioInfer.d727.s0",
+      "pair": [
+        1,
+        5
+      ],
+      "reason": "empty_dependency_path"
+    },
+    {
+      "corpus": "bioinfer",
+      "sentence_id": "BioInfer.d727.s0",
+      "pair": [
+        1,
+        6
+      ],
+      "reason": "empty_dependency_path"
+    },
+    {
+      "corpus": "bioinfer",
+      "sentence_id": "BioInfer.d727.s0",
+      "pair": [
+        2,
+        6
+      ],
+      "reason": "empty_dependency_path"
+    },
+    {
+      "corpus": "bioinfer",
+      "sentence_id": "BioInfer.d755.s0",
+      "pair": [
+        0,
+        2
+      ],
+      "reason": "empty_dependency_path"
+    },
+    {
+      "corpus": "bioinfer",
+      "sentence_id": "BioInfer.d755.s0",
+      "pair": [
+        0,
+        3
+      ],
+      "reason": "empty_dependency_path"
+    },
+    {
+      "corpus": "bioinfer",
+      "sentence_id": "BioInfer.d772.s0",
+      "pair": [
+        1,
+        9
+      ],
+      "reason": "empty_dependency_path"
+    },
+    {
+      "corpus": "bioinfer",
+      "sentence_id": "BioInfer.d772.s0",
+      "pair": [
+        2,
+        9
+      ],
+      "reason": "empty_dependency_path"
+    },
+    {
+      "corpus": "bioinfer",
+      "sentence_id": "BioInfer.d772.s0",
+      "pair": [
+        3,
+        9
+      ],
+      "reason": "empty_dependency_path"
+    },
+    {
+      "corpus": "bioinfer",
+      "sentence_id": "BioInfer.d772.s0",
+      "pair": [
+        4,
+        9
+      ],
+      "reason": "empty_dependency_path"
+    },
+    {
+      "corpus": "bioinfer",
+      "sentence_id": "BioInfer.d772.s0",
+      "pair": [
+        5,
+        9
+      ],
+      "reason": "empty_dependency_path"
+    },
+    {
+      "corpus": "bioinfer",
+      "sentence_id": "BioInfer.d772.s0",
+      "pair": [
+        6,
+        9
+      ],
+      "reason": "empty_dependency_path"
+    },
+    {
+      "corpus": "bioinfer",
+      "sentence_id": "BioInfer.d772.s0",
+      "pair": [
+        7,
+        9
+      ],
+      "reason": "empty_dependency_path"
+    },
+    {
+      "corpus": "bioinfer",
+      "sentence_id": "BioInfer.d772.s0",
+      "pair": [
+        8,
+        9
+      ],
+      "reason": "empty_dependency_path"
+    },
+    {
+      "corpus": "bioinfer",
+      "sentence_id": "BioInfer.d786.s0",
+      "pair": [
+        0,
+        1
+      ],
+      "reason": "empty_dependency_path"
+    },
+    {
+      "corpus": "iepa",
+      "sentence_id": "IEPA.d131.s318",
+      "pair": [
+        0,
+        1
+      ],
+      "reason": "empty_dependency_path"
+    },
+    {
+      "corpus": "iepa",
+      "sentence_id": "IEPA.d135.s323",
+      "pair": [
+        0,
+        1
+      ],
+      "reason": "empty_dependency_path"
+    },
+    {
+      "corpus": "iepa",
+      "sentence_id": "IEPA.d168.s405",
+      "pair": [
+        0,
+        1
+      ],
+      "reason": "empty_dependency_path"
+    },
+    {
+      "corpus": "iepa",
+      "sentence_id": "IEPA.d179.s430",
+      "pair": [
+        0,
+        1
+      ],
+      "reason": "empty_dependency_path"
+    },
+    {
+      "corpus": "iepa",
+      "sentence_id": "IEPA.d51.s134",
+      "pair": [
+        0,
+        1
+      ],
+      "reason": "empty_dependency_path"
+    },
+    {
+      "corpus": "lll",
+      "sentence_id": "LLL.d35.s0",
+      "pair": [
+        0,
+        2
+      ],
+      "reason": "empty_dependency_path"
+    }
+  ],
+  "db_source": "frozen",
+  "db_paths": {
+    "aimed": "output/aimed/full/20260710_192415/db/events.db",
+    "bioinfer": "output/bioinfer/full/20260710_192439/db/events.db",
+    "hprd50": "output/hprd50/full/20260710_192500/db/events.db",
+    "iepa": "output/iepa/full/20260710_192502/db/events.db",
+    "lll": "output/lll/full/20260710_192510/db/events.db"
+  },
+  "per_corpus": {
+    "aimed": {
+      "clause_SVO": 416,
+      "event_nominal": 78,
+      "complex_state": 47,
+      "held_evidence": 39,
+      "lexpath": 408,
+      "out_of_scope": 3,
+      "_gold_total": 991,
+      "_held_appositive": 26
+    },
+    "bioinfer": {
+      "clause_SVO": 612,
+      "event_nominal": 132,
+      "complex_state": 80,
+      "held_evidence": 219,
+      "lexpath": 1444,
+      "out_of_scope": 47,
+      "_gold_total": 2534,
+      "_held_appositive": 102
+    },
+    "hprd50": {
+      "clause_SVO": 91,
+      "event_nominal": 12,
+      "complex_state": 0,
+      "held_evidence": 7,
+      "lexpath": 53,
+      "out_of_scope": 0,
+      "_gold_total": 163,
+      "_held_appositive": 1
+    },
+    "iepa": {
+      "clause_SVO": 117,
+      "event_nominal": 25,
+      "complex_state": 0,
+      "held_evidence": 27,
+      "lexpath": 161,
+      "out_of_scope": 5,
+      "_gold_total": 335,
+      "_held_appositive": 1
+    },
+    "lll": {
+      "clause_SVO": 67,
+      "event_nominal": 6,
+      "complex_state": 0,
+      "held_evidence": 10,
+      "lexpath": 80,
+      "out_of_scope": 1,
+      "_gold_total": 164,
+      "_held_appositive": 0
+    }
+  },
+  "total": {
+    "clause_SVO": 1303,
+    "event_nominal": 253,
+    "complex_state": 127,
+    "held_evidence": 302,
+    "lexpath": 2146,
+    "out_of_scope": 56,
+    "_gold_total": 4187
+  }
+}

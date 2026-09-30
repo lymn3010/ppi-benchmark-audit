@@ -1,0 +1,1316 @@
+{
+  "metadata": {
+    "created_at": "2026-06-24T06:37:39.592623+00:00",
+    "source": "HPRD50 train (rebuilt from canonical XML, 2026-06-24)",
+    "total_sentences": 111,
+    "sentences_with_relation": 70,
+    "total_pairs": 363,
+    "pairs_with_relation": 137
+  },
+  "data": {
+    "HPRD50.d0.s0": {
+      "sentence": "Cloning and characterization of two evolutionarily conserved subunits (PROTEIN0 and PROTEIN1) of human PROTEIN2 and their involvement in functional interactions with TFIIIB and RNA polymerase III",
+      "orig_sentence": "Cloning and characterization of two evolutionarily conserved subunits (TFIIIC102 and TFIIIC63) of human TFIIIC and their involvement in functional interactions with TFIIIB and RNA polymerase III",
+      "proteins": [
+        "TFIIIC102",
+        "TFIIIC63",
+        "TFIIIC"
+      ],
+      "relations": {}
+    },
+    "HPRD50.d1.s0": {
+      "sentence": "Identification of residues in the PROTEIN0 that contact the MCP-1 receptor, PROTEIN1",
+      "orig_sentence": "Identification of residues in the monocyte chemotactic protein-1 that contact the MCP-1 receptor, CCR2",
+      "proteins": [
+        "monocyte chemotactic protein-1",
+        "CCR2"
+      ],
+      "relations": {
+        "[0, 1]": "PPI"
+      }
+    },
+    "HPRD50.d1.s1": {
+      "sentence": "The receptor binding site of PROTEIN0 also is significantly different from the binding sites of PROTEIN1 and PROTEIN2, providing insight into the issue of receptor specificity",
+      "orig_sentence": "The receptor binding site of MCP-1 also is significantly different from the binding sites of RANTES and IL-8, providing insight into the issue of receptor specificity",
+      "proteins": [
+        "MCP-1",
+        "RANTES",
+        "IL-8"
+      ],
+      "relations": {}
+    },
+    "HPRD50.d1.s2": {
+      "sentence": "It was previously shown that the N-terminus of PROTEIN0 is critical for binding PROTEIN1",
+      "orig_sentence": "It was previously shown that the N-terminus of CCR2 is critical for binding MCP-1",
+      "proteins": [
+        "CCR2",
+        "MCP-1"
+      ],
+      "relations": {
+        "[0, 1]": "PPI"
+      }
+    },
+    "HPRD50.d1.s3": {
+      "sentence": "To identify the regions of PROTEIN0 that contact its receptor, PROTEIN1, we substituted all surface-exposed residues with alanine",
+      "orig_sentence": "To identify the regions of MCP-1 that contact its receptor, CCR2, we substituted all surface-exposed residues with alanine",
+      "proteins": [
+        "MCP-1",
+        "CCR2"
+      ],
+      "relations": {
+        "[0, 1]": "PPI"
+      }
+    },
+    "HPRD50.d2.s0": {
+      "sentence": "We tested this point by cotransfecting CHO cells with the genes encoding F beta alpha and the PROTEIN0 subunit or the PROTEIN1 and PROTEIN2 monomer",
+      "orig_sentence": "We tested this point by cotransfecting CHO cells with the genes encoding F beta alpha and the CG beta subunit or the CG beta alpha and FSH beta monomer",
+      "proteins": [
+        "CG beta",
+        "CG beta alpha",
+        "FSH beta"
+      ],
+      "relations": {}
+    },
+    "HPRD50.d2.s1": {
+      "sentence": "The formation of a functional single chain/subunit complex was not restricted to the FSH single chain/PROTEIN0 subunit since CG single chain interacts with the monomeric PROTEIN1 subunit and exhibits FSH activity",
+      "orig_sentence": "The formation of a functional single chain/subunit complex was not restricted to the FSH single chain/CG beta subunit since CG single chain interacts with the monomeric FSH beta subunit and exhibits FSH activity",
+      "proteins": [
+        "CG beta",
+        "FSH beta"
+      ],
+      "relations": {}
+    },
+    "HPRD50.d2.s2": {
+      "sentence": "This is relevant for the case of LH and FSH, because both are synthesized in the same cell (i.e., pituitary gonadotrophs) and several of the alpha subunit sequences required for association with either the PROTEIN0 or PROTEIN1 subunits are different",
+      "orig_sentence": "This is relevant for the case of LH and FSH, because both are synthesized in the same cell (i.e., pituitary gonadotrophs) and several of the alpha subunit sequences required for association with either the LH beta or FSH beta subunits are different",
+      "proteins": [
+        "LH beta",
+        "FSH beta"
+      ],
+      "relations": {}
+    },
+    "HPRD50.d2.s3": {
+      "sentence": "Previously, we showed that the PROTEIN0 or PROTEIN1 subunit genes can be genetically fused to the alpha gene to produce biologically active single chains, PROTEIN2 and F beta alpha, respectively",
+      "orig_sentence": "Previously, we showed that the CG beta or FSH beta subunit genes can be genetically fused to the alpha gene to produce biologically active single chains, CG beta alpha and F beta alpha, respectively",
+      "proteins": [
+        "CG beta",
+        "FSH beta",
+        "CG beta alpha"
+      ],
+      "relations": {}
+    },
+    "HPRD50.d3.s0": {
+      "sentence": "PROTEIN0 activates PROTEIN1, which inhibits apoptosis in human prostate cancer cell lines",
+      "orig_sentence": "Interleukin-6 activates phosphatidylinositol-3 kinase, which inhibits apoptosis in human prostate cancer cell lines",
+      "proteins": [
+        "Interleukin-6",
+        "phosphatidylinositol-3 kinase"
+      ],
+      "relations": {
+        "[0, 1]": "PPI"
+      }
+    },
+    "HPRD50.d3.s1": {
+      "sentence": "RESULTS: Tyrosine phosphorylation of p85 is upregulated by PROTEIN0 in both LNCaP and PROTEIN1",
+      "orig_sentence": "RESULTS: Tyrosine phosphorylation of p85 is upregulated by IL-6 in both LNCaP and PC-3",
+      "proteins": [
+        "IL-6",
+        "PC-3"
+      ],
+      "relations": {}
+    },
+    "HPRD50.d3.s2": {
+      "sentence": "PROTEIN0 promotes coprecipitation of p85 with PROTEIN1, the signal-transducing component of the PROTEIN2",
+      "orig_sentence": "IL-6 promotes coprecipitation of p85 with gp130, the signal-transducing component of the IL-6 receptor",
+      "proteins": [
+        "IL-6",
+        "gp130",
+        "IL-6 receptor"
+      ],
+      "relations": {
+        "[0, 1]": "PPI"
+      }
+    },
+    "HPRD50.d4.s0": {
+      "sentence": "In solution, FGFR4ed formed complexes with PROTEIN0 and PROTEIN1, both in the presence and absence of heparin",
+      "orig_sentence": "In solution, FGFR4ed formed complexes with acidic FGF (FGF-1) and basic FGF (FGF-2), both in the presence and absence of heparin",
+      "proteins": [
+        "acidic FGF (FGF-1)",
+        "basic FGF (FGF-2)"
+      ],
+      "relations": {}
+    },
+    "HPRD50.d4.s1": {
+      "sentence": "Immobilized PROTEIN0 also bound PROTEIN1 besides PROTEIN2 and PROTEIN3",
+      "orig_sentence": "Immobilized FGFR4 also bound FGF-8 besides FGF-1 and FGF-2",
+      "proteins": [
+        "FGFR4",
+        "FGF-8",
+        "FGF-1",
+        "FGF-2"
+      ],
+      "relations": {
+        "[0, 1]": "PPI",
+        "[0, 2]": "PPI",
+        "[0, 3]": "PPI"
+      }
+    },
+    "HPRD50.d5.s0": {
+      "sentence": "PROTEIN0 regulates beta-2 integrin-mediated adhesion through both ARF-GEF function and interaction with PROTEIN1",
+      "orig_sentence": "Cytohesin-1 regulates beta-2 integrin-mediated adhesion through both ARF-GEF function and interaction with LFA-1",
+      "proteins": [
+        "Cytohesin-1",
+        "LFA-1"
+      ],
+      "relations": {
+        "[0, 1]": "PPI"
+      }
+    },
+    "HPRD50.d5.s1": {
+      "sentence": "Here we provide evidence of how PROTEIN0, an integrin-binding protein and guanine-nucleotide exchange factor (GEF) for PROTEIN1 GTPases, regulates cell adhesion",
+      "orig_sentence": "Here we provide evidence of how cytohesin-1, an integrin-binding protein and guanine-nucleotide exchange factor (GEF) for ARF GTPases, regulates cell adhesion",
+      "proteins": [
+        "cytohesin-1",
+        "ARF"
+      ],
+      "relations": {
+        "[0, 1]": "PPI"
+      }
+    },
+    "HPRD50.d5.s2": {
+      "sentence": "Mutational analyses of the beta-2 cytoplasmic domain revealed that the adhesive function of PROTEIN0 depends on its interaction with PROTEIN1, unless the integrin is activated by exogenous divalent cations",
+      "orig_sentence": "Mutational analyses of the beta-2 cytoplasmic domain revealed that the adhesive function of LFA-1 depends on its interaction with cytohesin-1, unless the integrin is activated by exogenous divalent cations",
+      "proteins": [
+        "LFA-1",
+        "cytohesin-1"
+      ],
+      "relations": {
+        "[0, 1]": "PPI"
+      }
+    },
+    "HPRD50.d5.s3": {
+      "sentence": "Secondly, PROTEIN0 induces expression of an extracellular activation epitope of PROTEIN1, and the exchange factor function is not essential for this activity",
+      "orig_sentence": "Secondly, cytohesin-1 induces expression of an extracellular activation epitope of LFA-1, and the exchange factor function is not essential for this activity",
+      "proteins": [
+        "cytohesin-1",
+        "LFA-1"
+      ],
+      "relations": {
+        "[0, 1]": "PPI"
+      }
+    },
+    "HPRD50.d5.s4": {
+      "sentence": "In contrast, LFA-1-mediated cell adhesion and spreading on intercellular cell adhesion molecule 1 is strongly inhibited by a PROTEIN0 mutant, which fails to catalyze PROTEIN1 GDP-GTP exchange in vitro",
+      "orig_sentence": "In contrast, LFA-1-mediated cell adhesion and spreading on intercellular cell adhesion molecule 1 is strongly inhibited by a cytohesin-1 mutant, which fails to catalyze ARF GDP-GTP exchange in vitro",
+      "proteins": [
+        "cytohesin-1",
+        "ARF"
+      ],
+      "relations": {
+        "[0, 1]": "PPI"
+      }
+    },
+    "HPRD50.d5.s5": {
+      "sentence": "Thus, PROTEIN0 is involved in the activation of PROTEIN1, most probably through direct interaction with the integrin, and induces cell spreading by its ARF-GEF activity",
+      "orig_sentence": "Thus, cytohesin-1 is involved in the activation of LFA-1, most probably through direct interaction with the integrin, and induces cell spreading by its ARF-GEF activity",
+      "proteins": [
+        "cytohesin-1",
+        "LFA-1"
+      ],
+      "relations": {
+        "[0, 1]": "PPI"
+      }
+    },
+    "HPRD50.d7.s0": {
+      "sentence": "Suppression of rat thromboxane synthase gene transcription by PROTEIN0 in macrophages via an interaction with PROTEIN1",
+      "orig_sentence": "Suppression of rat thromboxane synthase gene transcription by peroxisome proliferator-activated receptor gamma in macrophages via an interaction with NRF2",
+      "proteins": [
+        "peroxisome proliferator-activated receptor gamma",
+        "NRF2"
+      ],
+      "relations": {
+        "[0, 1]": "PPI"
+      }
+    },
+    "HPRD50.d7.s1": {
+      "sentence": "Deletion analysis showed that the element responsible for the PPARgamma effect is located in a region containing the nuclear factor E2 (PROTEIN0)/PROTEIN1 site (-98/-88), which was indicated to be the major promoter of the TXS gene",
+      "orig_sentence": "Deletion analysis showed that the element responsible for the PPARgamma effect is located in a region containing the nuclear factor E2 (NF-E2)/AP-1 site (-98/-88), which was indicated to be the major promoter of the TXS gene",
+      "proteins": [
+        "NF-E2",
+        "AP-1"
+      ],
+      "relations": {}
+    },
+    "HPRD50.d7.s2": {
+      "sentence": "By electrophoretic mobility shift assay using the PROTEIN0/PROTEIN1 site and nuclear extracts from macrophages, we observed a specific protein-DNA complex formation, which was inhibited by a specific antibody against the transcription factor PROTEIN2 (PROTEIN3)",
+      "orig_sentence": "By electrophoretic mobility shift assay using the NF-E2/AP-1 site and nuclear extracts from macrophages, we observed a specific protein-DNA complex formation, which was inhibited by a specific antibody against the transcription factor NRF2 (NF-E2-related factor 2)",
+      "proteins": [
+        "NF-E2",
+        "AP-1",
+        "NRF2",
+        "NF-E2-related factor 2"
+      ],
+      "relations": {}
+    },
+    "HPRD50.d7.s3": {
+      "sentence": "Finally, a direct interaction between PPARgamma and PROTEIN0 was confirmed by PROTEIN1 pull-down assay",
+      "orig_sentence": "Finally, a direct interaction between PPARgamma and NRF2 was confirmed by glutathione S-transferase pull-down assay",
+      "proteins": [
+        "NRF2",
+        "glutathione S-transferase"
+      ],
+      "relations": {}
+    },
+    "HPRD50.d8.s0": {
+      "sentence": "By constructing deletion mutants, we identified that amino acid residues 229-309 of Akt were involved in the binding to PROTEIN0 and amino acid residues 327-340 of PROTEIN1 were involved in the binding to Akt",
+      "orig_sentence": "By constructing deletion mutants, we identified that amino acid residues 229-309 of Akt were involved in the binding to Hsp90 and amino acid residues 327-340 of Hsp90beta were involved in the binding to Akt",
+      "proteins": [
+        "Hsp90",
+        "Hsp90beta"
+      ],
+      "relations": {}
+    },
+    "HPRD50.d9.s0": {
+      "sentence": "Here, we cloned and characterized a mouse orthologue of human PROTEIN0 protein as an atypical PROTEIN1 (named PROTEIN2)",
+      "orig_sentence": "Here, we cloned and characterized a mouse orthologue of human KIAA1427 protein as an atypical Syt (named Syt XIII)",
+      "proteins": [
+        "KIAA1427",
+        "Syt",
+        "Syt XIII"
+      ],
+      "relations": {}
+    },
+    "HPRD50.d9.s1": {
+      "sentence": "Subcellular fractionation and antibody-uptake experiments indicate that PROTEIN0 is indeed a type-I membrane protein, but, unlike other PROTEIN1 isoforms, lacks an N-terminal extracellular domain",
+      "orig_sentence": "Subcellular fractionation and antibody-uptake experiments indicate that Syt XIII is indeed a type-I membrane protein, but, unlike other Syt isoforms, lacks an N-terminal extracellular domain",
+      "proteins": [
+        "Syt XIII",
+        "Syt"
+      ],
+      "relations": {}
+    },
+    "HPRD50.d11.s0": {
+      "sentence": "Direct interaction between the cytoplasmic tail of PROTEIN0 and the Src homology 3 domain of PROTEIN1 activates PROTEIN2 in C2C12 cells",
+      "orig_sentence": "Direct interaction between the cytoplasmic tail of ADAM 12 and the Src homology 3 domain of p85alpha activates phosphatidylinositol 3-kinase in C2C12 cells",
+      "proteins": [
+        "ADAM 12",
+        "p85alpha",
+        "phosphatidylinositol 3-kinase"
+      ],
+      "relations": {
+        "[0, 1]": "PPI",
+        "[0, 2]": "PPI",
+        "[1, 2]": "PPI"
+      }
+    },
+    "HPRD50.d11.s1": {
+      "sentence": "This suggests that transmembrane PROTEIN0, by providing docking sites for the Src homology 3 domain of PROTEIN1, activates PI 3-kinase by mediating its recruitment to the membrane",
+      "orig_sentence": "This suggests that transmembrane ADAM 12, by providing docking sites for the Src homology 3 domain of p85alpha, activates PI 3-kinase by mediating its recruitment to the membrane",
+      "proteins": [
+        "ADAM 12",
+        "p85alpha"
+      ],
+      "relations": {
+        "[0, 1]": "PPI"
+      }
+    },
+    "HPRD50.d12.s0": {
+      "sentence": "PROTEIN0 binds to the C-terminal SH2 domain of PROTEIN1 and inhibits its enzymatic activity",
+      "orig_sentence": "AP180 binds to the C-terminal SH2 domain of phospholipase C-gamma1 and inhibits its enzymatic activity",
+      "proteins": [
+        "AP180",
+        "phospholipase C-gamma1"
+      ],
+      "relations": {
+        "[0, 1]": "PPI"
+      }
+    },
+    "HPRD50.d12.s1": {
+      "sentence": "In this report, we demonstrate the stable association of PROTEIN0 with PROTEIN1 in a clathrin-coated vesicle complex, which not only binds to the carboxyl-terminal SH2 domain of PROTEIN2, but also inhibits its enzymatic activity in a dose-dependent manner",
+      "orig_sentence": "In this report, we demonstrate the stable association of PLCgamma1 with AP180 in a clathrin-coated vesicle complex, which not only binds to the carboxyl-terminal SH2 domain of PLCgamma1, but also inhibits its enzymatic activity in a dose-dependent manner",
+      "proteins": [
+        "PLCgamma1",
+        "AP180",
+        "PLCgamma1"
+      ],
+      "relations": {
+        "[0, 1]": "PPI",
+        "[1, 2]": "PPI"
+      }
+    },
+    "HPRD50.d13.s0": {
+      "sentence": "Here we demonstrate colocalization and direct interaction between PROTEIN0 and PROTEIN1",
+      "orig_sentence": "Here we demonstrate colocalization and direct interaction between CLIP-170 and LIS1",
+      "proteins": [
+        "CLIP-170",
+        "LIS1"
+      ],
+      "relations": {
+        "[0, 1]": "PPI"
+      }
+    },
+    "HPRD50.d13.s1": {
+      "sentence": "Overexpression of PROTEIN0 results in a zinc finger-dependent localization of a PROTEIN1 isoform and dynactin to MT bundles, raising the possibility that PROTEIN2 and PROTEIN3 regulate dynein/dynactin binding to MTs",
+      "orig_sentence": "Overexpression of CLIP-170 results in a zinc finger-dependent localization of a phospho-LIS1 isoform and dynactin to MT bundles, raising the possibility that CLIP-170 and LIS1 regulate dynein/dynactin binding to MTs",
+      "proteins": [
+        "CLIP-170",
+        "phospho-LIS1",
+        "CLIP-170",
+        "LIS1"
+      ],
+      "relations": {
+        "[0, 1]": "PPI"
+      }
+    },
+    "HPRD50.d13.s2": {
+      "sentence": "This work suggests that PROTEIN0 is a regulated adapter between PROTEIN1 and cytoplasmic dynein at sites involved in cargo-MT loading, and/or in the control of MT dynamics",
+      "orig_sentence": "This work suggests that LIS1 is a regulated adapter between CLIP-170 and cytoplasmic dynein at sites involved in cargo-MT loading, and/or in the control of MT dynamics",
+      "proteins": [
+        "LIS1",
+        "CLIP-170"
+      ],
+      "relations": {
+        "[0, 1]": "PPI"
+      }
+    },
+    "HPRD50.d14.s0": {
+      "sentence": "PROTEIN0 and PROTEIN1: multifunctional endocytic receptors",
+      "orig_sentence": "Megalin and cubilin: multifunctional endocytic receptors",
+      "proteins": [
+        "Megalin",
+        "cubilin"
+      ],
+      "relations": {}
+    },
+    "HPRD50.d14.s1": {
+      "sentence": "PROTEIN0 and PROTEIN1 are two structurally different endocytic receptors that interact to serve such functions",
+      "orig_sentence": "Megalin and cubilin are two structurally different endocytic receptors that interact to serve such functions",
+      "proteins": [
+        "Megalin",
+        "cubilin"
+      ],
+      "relations": {
+        "[0, 1]": "PPI"
+      }
+    },
+    "HPRD50.d16.s0": {
+      "sentence": "PROTEIN0 and PROTEIN1 are PROTEIN2/cyclinB1 kinase inhibitors with a role in S and G2/M cell cycle checkpoints induced by genotoxic stress",
+      "orig_sentence": "GADD45b and GADD45g are cdc2/cyclinB1 kinase inhibitors with a role in S and G2/M cell cycle checkpoints induced by genotoxic stress",
+      "proteins": [
+        "GADD45b",
+        "GADD45g",
+        "cdc2"
+      ],
+      "relations": {
+        "[0, 2]": "PPI",
+        "[1, 2]": "PPI"
+      }
+    },
+    "HPRD50.d16.s1": {
+      "sentence": "PROTEIN0 (PROTEIN1), PROTEIN2 (PROTEIN3), and PROTEIN4 (PROTEIN5) constitute a family of evolutionarily conserved, small, acidic, nuclear proteins, which have been implicated in terminal differentiation, growth suppression, and apoptosis",
+      "orig_sentence": "Gadd45a (Gadd45), Gadd45b (MyD118), and Gadd45g (CR6) constitute a family of evolutionarily conserved, small, acidic, nuclear proteins, which have been implicated in terminal differentiation, growth suppression, and apoptosis",
+      "proteins": [
+        "Gadd45a",
+        "Gadd45",
+        "Gadd45b",
+        "MyD118",
+        "Gadd45g",
+        "CR6"
+      ],
+      "relations": {}
+    },
+    "HPRD50.d16.s2": {
+      "sentence": "Recent evidence has implicated PROTEIN0 in inhibition of PROTEIN1/cyclinB1 kinase and in G2/M cell cycle arrest",
+      "orig_sentence": "Recent evidence has implicated Gadd45a in inhibition of cdc2/cyclinB1 kinase and in G2/M cell cycle arrest",
+      "proteins": [
+        "Gadd45a",
+        "cdc2"
+      ],
+      "relations": {
+        "[0, 1]": "PPI"
+      }
+    },
+    "HPRD50.d16.s3": {
+      "sentence": "Yet, whether PROTEIN0 and/or PROTEIN1 function as inhibitors of PROTEIN2/cyclinB1 kinase and/or play a role in G2/M cell cycle arrest has not been fully established",
+      "orig_sentence": "Yet, whether Gadd45b and/or Gadd45g function as inhibitors of cdc2/cyclinB1 kinase and/or play a role in G2/M cell cycle arrest has not been fully established",
+      "proteins": [
+        "Gadd45b",
+        "Gadd45g",
+        "cdc2"
+      ],
+      "relations": {
+        "[0, 2]": "PPI",
+        "[1, 2]": "PPI"
+      }
+    },
+    "HPRD50.d16.s4": {
+      "sentence": "In this work, we show that PROTEIN0 and PROTEIN1 specifically interact with the PROTEIN2/CyclinB1 complex, but not with other Cdk/Cyclin complexes, in vitro and in vivo",
+      "orig_sentence": "In this work, we show that Gadd45b and Gadd45g specifically interact with the Cdk1/CyclinB1 complex, but not with other Cdk/Cyclin complexes, in vitro and in vivo",
+      "proteins": [
+        "Gadd45b",
+        "Gadd45g",
+        "Cdk1"
+      ],
+      "relations": {
+        "[0, 2]": "PPI",
+        "[1, 2]": "PPI"
+      }
+    },
+    "HPRD50.d16.s5": {
+      "sentence": "Data also has been obtained that PROTEIN0 and PROTEIN1, as well as PROTEIN2, interact with both PROTEIN3 and cyclinB1, resulting in inhibition of the kinase activity of the PROTEIN4/cyclinB1 complex",
+      "orig_sentence": "Data also has been obtained that Gadd45b and Gadd45g, as well as GADD45a, interact with both Cdk1 and cyclinB1, resulting in inhibition of the kinase activity of the Cdk1/cyclinB1 complex",
+      "proteins": [
+        "Gadd45b",
+        "Gadd45g",
+        "GADD45a",
+        "Cdk1",
+        "Cdk1"
+      ],
+      "relations": {
+        "[0, 3]": "PPI",
+        "[0, 4]": "PPI",
+        "[1, 3]": "PPI",
+        "[1, 4]": "PPI",
+        "[2, 3]": "PPI",
+        "[2, 4]": "PPI"
+      }
+    },
+    "HPRD50.d16.s6": {
+      "sentence": "Inhibition of PROTEIN0/cyclinB1 kinase activity by PROTEIN1 and PROTEIN2 was found to involve disruption of the complex, whereas PROTEIN3 did not disrupt the complex",
+      "orig_sentence": "Inhibition of Cdk1/cyclinB1 kinase activity by Gadd45b and Gadd45a was found to involve disruption of the complex, whereas Gadd45g did not disrupt the complex",
+      "proteins": [
+        "Cdk1",
+        "Gadd45b",
+        "Gadd45a",
+        "Gadd45g"
+      ],
+      "relations": {
+        "[0, 1]": "PPI",
+        "[0, 2]": "PPI"
+      }
+    },
+    "HPRD50.d18.s0": {
+      "sentence": "The transmembrane PROTEIN0 PROTEIN1 interacts with PROTEIN2",
+      "orig_sentence": "The transmembrane receptor protein tyrosine phosphatase DEP1 interacts with p120(ctn)",
+      "proteins": [
+        "receptor protein tyrosine phosphatase",
+        "DEP1",
+        "p120(ctn)"
+      ],
+      "relations": {
+        "[0, 2]": "PPI",
+        "[1, 2]": "PPI"
+      }
+    },
+    "HPRD50.d18.s1": {
+      "sentence": "The PROTEIN0 PROTEIN1, also known as PROTEIN2, is expressed predominantly in epithelial cells, in a variety of tumor cell lines, and in lymphocytes",
+      "orig_sentence": "The receptor-like protein tyrosine phosphatase DEP1, also known as CD148, is expressed predominantly in epithelial cells, in a variety of tumor cell lines, and in lymphocytes",
+      "proteins": [
+        "receptor-like protein tyrosine phosphatase",
+        "DEP1",
+        "CD148"
+      ],
+      "relations": {}
+    },
+    "HPRD50.d18.s2": {
+      "sentence": "PROTEIN0 also interacted with other members of the catenin gene family including PROTEIN1 and gamma-catenin",
+      "orig_sentence": "DEP1 also interacted with other members of the catenin gene family including beta-catenin and gamma-catenin",
+      "proteins": [
+        "DEP1",
+        "beta-catenin"
+      ],
+      "relations": {
+        "[0, 1]": "PPI"
+      }
+    },
+    "HPRD50.d18.s3": {
+      "sentence": "The interaction with PROTEIN0 is likely to be direct, as the interaction occurs in K562 cells lacking functional adherens junctions and PROTEIN1 expression",
+      "orig_sentence": "The interaction with p120(ctn) is likely to be direct, as the interaction occurs in K562 cells lacking functional adherens junctions and E-cadherin expression",
+      "proteins": [
+        "p120(ctn)",
+        "E-cadherin"
+      ],
+      "relations": {}
+    },
+    "HPRD50.d18.s4": {
+      "sentence": "Catalytic domains of the tyrosine phosphatases PROTEIN0, PROTEIN1, and PTPbeta did not interact with proteins of the catenin family to detectable levels, suggesting that the interaction of PROTEIN2 with these proteins is specific",
+      "orig_sentence": "Catalytic domains of the tyrosine phosphatases PTP-PEST, CD45, and PTPbeta did not interact with proteins of the catenin family to detectable levels, suggesting that the interaction of DEP1 with these proteins is specific",
+      "proteins": [
+        "PTP-PEST",
+        "CD45",
+        "DEP1"
+      ],
+      "relations": {}
+    },
+    "HPRD50.d19.s0": {
+      "sentence": "PROTEIN0/PROTEIN1 ('PROTEIN2')-binding protein (CBP) modulates co-operation between myocyte enhancer factor 2A (PROTEIN3) and thyroid hormone receptor-retinoid X receptor",
+      "orig_sentence": "p300/cAMP-response-element-binding-protein ('CREB')-binding protein (CBP) modulates co-operation between myocyte enhancer factor 2A (MEF2A) and thyroid hormone receptor-retinoid X receptor",
+      "proteins": [
+        "p300",
+        "cAMP-response-element-binding-protein",
+        "CREB",
+        "MEF2A"
+      ],
+      "relations": {
+        "[0, 3]": "PPI",
+        "[1, 3]": "PPI",
+        "[2, 3]": "PPI"
+      }
+    },
+    "HPRD50.d19.s1": {
+      "sentence": "PROTEIN0/PROTEIN1 ('PROTEIN2')-binding protein (CBP) interacting with transcription factors is able to increase their activity on target gene promoters",
+      "orig_sentence": "p300/cAMP-response-element-binding-protein ('CREB')-binding protein (CBP) interacting with transcription factors is able to increase their activity on target gene promoters",
+      "proteins": [
+        "p300",
+        "cAMP-response-element-binding-protein",
+        "CREB"
+      ],
+      "relations": {}
+    },
+    "HPRD50.d19.s2": {
+      "sentence": "Our findings showed that the same C-terminal portion of PROTEIN0 binds the N-terminal domains of both TR and PROTEIN1, and our in vivo studies demonstrated that TR, PROTEIN2 and PROTEIN3 form a ternary complex",
+      "orig_sentence": "Our findings showed that the same C-terminal portion of p300 binds the N-terminal domains of both TR and MEF2A, and our in vivo studies demonstrated that TR, MEF2A and p300 form a ternary complex",
+      "proteins": [
+        "p300",
+        "MEF2A",
+        "MEF2A",
+        "p300"
+      ],
+      "relations": {
+        "[0, 1]": "PPI",
+        "[2, 3]": "PPI"
+      }
+    },
+    "HPRD50.d20.s0": {
+      "sentence": "The human PROTEIN0 and PROTEIN1 proteins form a ternary complex with hMpp10, which only interacts with the U3 PROTEIN2 in 60-80S ribonucleoprotein complexes",
+      "orig_sentence": "The human Imp3 and Imp4 proteins form a ternary complex with hMpp10, which only interacts with the U3 snoRNA in 60-80S ribonucleoprotein complexes",
+      "proteins": [
+        "Imp3",
+        "Imp4",
+        "snoRNA"
+      ],
+      "relations": {
+        "[0, 1]": "PPI",
+        "[0, 2]": "PPI",
+        "[1, 2]": "PPI"
+      }
+    },
+    "HPRD50.d20.s1": {
+      "sentence": "We have cloned cDNAs encoding the human and mouse homologs of the yeast U3 snoRNP-associated proteins PROTEIN0 and PROTEIN1",
+      "orig_sentence": "We have cloned cDNAs encoding the human and mouse homologs of the yeast U3 snoRNP-associated proteins Imp3 and Imp4",
+      "proteins": [
+        "Imp3",
+        "Imp4"
+      ],
+      "relations": {}
+    },
+    "HPRD50.d20.s2": {
+      "sentence": "The results of complementation experiments show that, in contrast to mouse PROTEIN0, mouse PROTEIN1 can partially alleviate the growth defect of the corresponding yeast null strain, indicating that the role of PROTEIN2 in pre-rRNA processing is evolutionarily conserved",
+      "orig_sentence": "The results of complementation experiments show that, in contrast to mouse Imp4, mouse Imp3 can partially alleviate the growth defect of the corresponding yeast null strain, indicating that the role of Imp3 in pre-rRNA processing is evolutionarily conserved",
+      "proteins": [
+        "Imp4",
+        "Imp3",
+        "Imp3"
+      ],
+      "relations": {}
+    },
+    "HPRD50.d20.s3": {
+      "sentence": "The results of density gradient centrifugation experiments show that, in contrast to hU3-55K, the human PROTEIN0 and PROTEIN1 proteins predominantly interact with the U3 PROTEIN2 in 60-80S ribonucleoprotein complexes",
+      "orig_sentence": "The results of density gradient centrifugation experiments show that, in contrast to hU3-55K, the human Imp3 and Imp4 proteins predominantly interact with the U3 snoRNA in 60-80S ribonucleoprotein complexes",
+      "proteins": [
+        "Imp3",
+        "Imp4",
+        "snoRNA"
+      ],
+      "relations": {
+        "[0, 2]": "PPI",
+        "[1, 2]": "PPI"
+      }
+    },
+    "HPRD50.d21.s0": {
+      "sentence": "In the present study, we observed evidence of cross-talk between the cannabinoid receptor PROTEIN0 and the PROTEIN1 (PROTEIN2) using a heterologous system",
+      "orig_sentence": "In the present study, we observed evidence of cross-talk between the cannabinoid receptor CB1 and the orexin 1 receptor (OX1R) using a heterologous system",
+      "proteins": [
+        "CB1",
+        "orexin 1 receptor",
+        "OX1R"
+      ],
+      "relations": {
+        "[0, 1]": "PPI",
+        "[0, 2]": "PPI"
+      }
+    },
+    "HPRD50.d21.s1": {
+      "sentence": "In contrast to PROTEIN0, the potency of direct activation of PROTEIN1 was not affected by co-expression with PROTEIN2",
+      "orig_sentence": "In contrast to OX1R, the potency of direct activation of CB1 was not affected by co-expression with OX1R",
+      "proteins": [
+        "OX1R",
+        "CB1",
+        "OX1R"
+      ],
+      "relations": {}
+    },
+    "HPRD50.d21.s2": {
+      "sentence": "In addition, electron microscopy experiments revealed that PROTEIN0 and PROTEIN1 are closely apposed at the plasma membrane level; they are close enough to form hetero-oligomers",
+      "orig_sentence": "In addition, electron microscopy experiments revealed that CB1 and OX1R are closely apposed at the plasma membrane level; they are close enough to form hetero-oligomers",
+      "proteins": [
+        "CB1",
+        "OX1R"
+      ],
+      "relations": {}
+    },
+    "HPRD50.d22.s0": {
+      "sentence": "PROTEIN0, a Rho family PROTEIN1 that interacts with signaling adapters PROTEIN2 and PROTEIN3",
+      "orig_sentence": "GC-GAP, a Rho family GTPase-activating protein that interacts with signaling adapters Gab1 and Gab2",
+      "proteins": [
+        "GC-GAP",
+        "GTPase-activating protein",
+        "Gab1",
+        "Gab2"
+      ],
+      "relations": {
+        "[0, 2]": "PPI",
+        "[0, 3]": "PPI",
+        "[1, 2]": "PPI",
+        "[1, 3]": "PPI"
+      }
+    },
+    "HPRD50.d22.s1": {
+      "sentence": "PROTEIN0 and PROTEIN1 are scaffolding proteins acting downstream of cell surface receptors and interact with a variety of cytoplasmic signaling proteins such as PROTEIN2, PROTEIN3, PROTEIN4, Shc, and Crk",
+      "orig_sentence": "Gab1 and Gab2 are scaffolding proteins acting downstream of cell surface receptors and interact with a variety of cytoplasmic signaling proteins such as Grb2, Shp-2, phosphatidylinositol 3-kinase, Shc, and Crk",
+      "proteins": [
+        "Gab1",
+        "Gab2",
+        "Grb2",
+        "Shp-2",
+        "phosphatidylinositol 3-kinase"
+      ],
+      "relations": {
+        "[0, 2]": "PPI",
+        "[0, 3]": "PPI",
+        "[0, 4]": "PPI",
+        "[1, 2]": "PPI",
+        "[1, 3]": "PPI",
+        "[1, 4]": "PPI"
+      }
+    },
+    "HPRD50.d22.s2": {
+      "sentence": "In addition, PROTEIN0 contains several classic proline-rich motifs, and it interacts with the first SH3 domain of Crk and full-length PROTEIN1 in vitro",
+      "orig_sentence": "In addition, GC-GAP contains several classic proline-rich motifs, and it interacts with the first SH3 domain of Crk and full-length Nck in vitro",
+      "proteins": [
+        "GC-GAP",
+        "Nck"
+      ],
+      "relations": {
+        "[0, 1]": "PPI"
+      }
+    },
+    "HPRD50.d22.s3": {
+      "sentence": "We propose that PROTEIN0 and PROTEIN1 in cooperation with other adapter molecules might regulate the cellular localization of PROTEIN2 under specific stimuli, acting to regulate precisely Rac and PROTEIN3 activities",
+      "orig_sentence": "We propose that Gab1 and Gab2 in cooperation with other adapter molecules might regulate the cellular localization of GC-GAP under specific stimuli, acting to regulate precisely Rac and Cdc42 activities",
+      "proteins": [
+        "Gab1",
+        "Gab2",
+        "GC-GAP",
+        "Cdc42"
+      ],
+      "relations": {
+        "[0, 2]": "PPI",
+        "[0, 3]": "PPI",
+        "[1, 2]": "PPI",
+        "[1, 3]": "PPI"
+      }
+    },
+    "HPRD50.d22.s4": {
+      "sentence": "This work led to identification of a novel PROTEIN0 (PROTEIN1) for Rho family GTPases",
+      "orig_sentence": "This work led to identification of a novel GTPase-activating protein (GAP) for Rho family GTPases",
+      "proteins": [
+        "GTPase-activating protein",
+        "GAP"
+      ],
+      "relations": {}
+    },
+    "HPRD50.d22.s5": {
+      "sentence": "The GAP domain shows high similarity to the recently cloned PROTEIN0 and displays activity toward RhoA, PROTEIN1, and PROTEIN2 in vitro",
+      "orig_sentence": "The GAP domain shows high similarity to the recently cloned CdGAP and displays activity toward RhoA, Rac1, and Cdc42 in vitro",
+      "proteins": [
+        "CdGAP",
+        "Rac1",
+        "Cdc42"
+      ],
+      "relations": {}
+    },
+    "HPRD50.d22.s6": {
+      "sentence": "The protein was named PROTEIN0 for its ability to interact with PROTEIN1 proteins and its activity toward Rac and PROTEIN2",
+      "orig_sentence": "The protein was named GC-GAP for its ability to interact with GAB proteins and its activity toward Rac and Cdc42",
+      "proteins": [
+        "GC-GAP",
+        "GAB",
+        "Cdc42"
+      ],
+      "relations": {
+        "[0, 1]": "PPI",
+        "[0, 2]": "PPI"
+      }
+    },
+    "HPRD50.d22.s7": {
+      "sentence": "Expression of PROTEIN0 in 293T cells led to a reduction in active PROTEIN1 and PROTEIN2 levels but not RhoA",
+      "orig_sentence": "Expression of GC-GAP in 293T cells led to a reduction in active Rac1 and Cdc42 levels but not RhoA",
+      "proteins": [
+        "GC-GAP",
+        "Rac1",
+        "Cdc42"
+      ],
+      "relations": {
+        "[0, 1]": "PPI",
+        "[0, 2]": "PPI"
+      }
+    },
+    "HPRD50.d23.s0": {
+      "sentence": "A role for PROTEIN0 phosphorylation of PROTEIN1 in cytokinesis",
+      "orig_sentence": "A role for Plk1 phosphorylation of NudC in cytokinesis",
+      "proteins": [
+        "Plk1",
+        "NudC"
+      ],
+      "relations": {
+        "[0, 1]": "PPI"
+      }
+    },
+    "HPRD50.d23.s1": {
+      "sentence": "Here, we characterize the interaction between PROTEIN0 and PROTEIN1, show that PROTEIN2 phosphorylates PROTEIN3 at conserved S274 and S326 residues in vitro, and present evidence that PROTEIN4 is also a substrate for PROTEIN5 in vivo",
+      "orig_sentence": "Here, we characterize the interaction between Plk1 and NudC, show that Plk1 phosphorylates NudC at conserved S274 and S326 residues in vitro, and present evidence that NudC is also a substrate for Plk1 in vivo",
+      "proteins": [
+        "Plk1",
+        "NudC",
+        "Plk1",
+        "NudC",
+        "NudC",
+        "Plk1"
+      ],
+      "relations": {
+        "[0, 1]": "PPI",
+        "[2, 3]": "PPI",
+        "[4, 5]": "PPI"
+      }
+    },
+    "HPRD50.d23.s2": {
+      "sentence": "Downregulation of PROTEIN0 by RNA interference results in multiple mitotic defects, including multinucleation and cells arrested at the midbody stage, which are rescued by ectopic expression of wild-type PROTEIN1, but not by PROTEIN2 with mutations in the PROTEIN3 phosphorylation sites",
+      "orig_sentence": "Downregulation of NudC by RNA interference results in multiple mitotic defects, including multinucleation and cells arrested at the midbody stage, which are rescued by ectopic expression of wild-type NudC, but not by NudC with mutations in the Plk1 phosphorylation sites",
+      "proteins": [
+        "NudC",
+        "NudC",
+        "NudC",
+        "Plk1"
+      ],
+      "relations": {}
+    },
+    "HPRD50.d23.s3": {
+      "sentence": "These results suggest that PROTEIN0 phosphorylation of PROTEIN1 may influence cytokinesis",
+      "orig_sentence": "These results suggest that Plk1 phosphorylation of NudC may influence cytokinesis",
+      "proteins": [
+        "Plk1",
+        "NudC"
+      ],
+      "relations": {
+        "[0, 1]": "PPI"
+      }
+    },
+    "HPRD50.d24.s0": {
+      "sentence": "Specific interaction of PROTEIN0 and c/EBPbeta leads to the transcriptional activation of the human PROTEIN1 gene",
+      "orig_sentence": "Specific interaction of Egr1 and c/EBPbeta leads to the transcriptional activation of the human low density lipoprotein receptor gene",
+      "proteins": [
+        "Egr1",
+        "low density lipoprotein receptor"
+      ],
+      "relations": {
+        "[0, 1]": "PPI"
+      }
+    },
+    "HPRD50.d24.s1": {
+      "sentence": "The sterol-independent regulatory element (SIRE) of the PROTEIN0 (PROTEIN1) promoter mediates PROTEIN2 (OM)-induced transcription of the PROTEIN3 gene through a cholesterol-independent pathway",
+      "orig_sentence": "The sterol-independent regulatory element (SIRE) of the LDL receptor (LDLR) promoter mediates oncostatin M (OM)-induced transcription of the LDLR gene through a cholesterol-independent pathway",
+      "proteins": [
+        "LDL receptor",
+        "LDLR",
+        "oncostatin M",
+        "LDLR"
+      ],
+      "relations": {
+        "[0, 2]": "PPI",
+        "[1, 2]": "PPI",
+        "[2, 3]": "PPI"
+      }
+    },
+    "HPRD50.d25.s0": {
+      "sentence": "PROTEIN0 orphan receptor functions as negative modulator for PROTEIN1 in prostate cancer cells PROTEIN2",
+      "orig_sentence": "TR2 orphan receptor functions as negative modulator for androgen receptor in prostate cancer cells PC-3",
+      "proteins": [
+        "TR2",
+        "androgen receptor",
+        "PC-3"
+      ],
+      "relations": {
+        "[0, 1]": "PPI"
+      }
+    },
+    "HPRD50.d25.s1": {
+      "sentence": "BACKGROUND: Both PROTEIN0 (AR) and orphan receptor PROTEIN1 (PROTEIN2) belong to the steroid nuclear receptor superfamily and are expressed in prostate cancer tissue and cell lines",
+      "orig_sentence": "BACKGROUND: Both androgen receptor (AR) and orphan receptor TR2 (TR2) belong to the steroid nuclear receptor superfamily and are expressed in prostate cancer tissue and cell lines",
+      "proteins": [
+        "androgen receptor",
+        "TR2",
+        "TR2"
+      ],
+      "relations": {}
+    },
+    "HPRD50.d25.s2": {
+      "sentence": "The interaction between AR and PROTEIN0 was assessed by PROTEIN1 (PROTEIN2) pull-down assay and mammalian two-hybrid system assay",
+      "orig_sentence": "The interaction between AR and TR2 was assessed by glutathione-S-transferase (GST) pull-down assay and mammalian two-hybrid system assay",
+      "proteins": [
+        "TR2",
+        "glutathione-S-transferase",
+        "GST"
+      ],
+      "relations": {}
+    },
+    "HPRD50.d26.s0": {
+      "sentence": "The protein PROTEIN0 functions in a multi-subunit E3 ubiquitin ligase that targets the hypoxia-inducible transcription factor PROTEIN1 for proteasomal degradation during normoxia",
+      "orig_sentence": "The protein pVHL functions in a multi-subunit E3 ubiquitin ligase that targets the hypoxia-inducible transcription factor Hif1 alpha for proteasomal degradation during normoxia",
+      "proteins": [
+        "pVHL",
+        "Hif1 alpha"
+      ],
+      "relations": {
+        "[0, 1]": "PPI"
+      }
+    },
+    "HPRD50.d26.s1": {
+      "sentence": "We establish that PROTEIN0 binds to PROTEIN1 (PROTEIN2), a component of the 19S regulatory complex of the proteasome",
+      "orig_sentence": "We establish that pVHL binds to Tat-binding protein-1 (TBP-1), a component of the 19S regulatory complex of the proteasome",
+      "proteins": [
+        "pVHL",
+        "Tat-binding protein-1",
+        "TBP-1"
+      ],
+      "relations": {
+        "[0, 1]": "PPI",
+        "[0, 2]": "PPI"
+      }
+    },
+    "HPRD50.d26.s2": {
+      "sentence": "PROTEIN0 associates with the beta-domain of PROTEIN1 and complexes with PROTEIN2 and PROTEIN3 in vivo",
+      "orig_sentence": "TBP-1 associates with the beta-domain of pVHL and complexes with pVHL and Hif1 alpha in vivo",
+      "proteins": [
+        "TBP-1",
+        "pVHL",
+        "pVHL",
+        "Hif1 alpha"
+      ],
+      "relations": {
+        "[0, 1]": "PPI",
+        "[0, 2]": "PPI",
+        "[0, 3]": "PPI"
+      }
+    },
+    "HPRD50.d26.s3": {
+      "sentence": "Overexpression of PROTEIN0 promotes degradation of PROTEIN1 in a pVHL-dependent manner that requires the ATPase domain of PROTEIN2",
+      "orig_sentence": "Overexpression of TBP-1 promotes degradation of Hif1 alpha in a pVHL-dependent manner that requires the ATPase domain of TBP-1",
+      "proteins": [
+        "TBP-1",
+        "Hif1 alpha",
+        "TBP-1"
+      ],
+      "relations": {
+        "[0, 1]": "PPI",
+        "[1, 2]": "PPI"
+      }
+    },
+    "HPRD50.d26.s4": {
+      "sentence": "Blockade of PROTEIN0 expression by small interfering RNA (siRNA) causes prolonged degradation kinetics of PROTEIN1",
+      "orig_sentence": "Blockade of TBP-1 expression by small interfering RNA (siRNA) causes prolonged degradation kinetics of Hif1 alpha",
+      "proteins": [
+        "TBP-1",
+        "Hif1 alpha"
+      ],
+      "relations": {
+        "[0, 1]": "PPI"
+      }
+    },
+    "HPRD50.d26.s5": {
+      "sentence": "Several distinct mutations in exon 2 of PROTEIN0 disrupt binding of PROTEIN1 to PROTEIN2",
+      "orig_sentence": "Several distinct mutations in exon 2 of VHL disrupt binding of pVHL to TBP-1",
+      "proteins": [
+        "VHL",
+        "pVHL",
+        "TBP-1"
+      ],
+      "relations": {
+        "[0, 2]": "PPI",
+        "[1, 2]": "PPI"
+      }
+    },
+    "HPRD50.d26.s6": {
+      "sentence": "A PROTEIN0 mutant containing a P154L substitution coimmunoprecipitates with PROTEIN1, but not PROTEIN2, and does not promote degradation of PROTEIN3",
+      "orig_sentence": "A pVHL mutant containing a P154L substitution coimmunoprecipitates with Hif1 alpha, but not TBP-1, and does not promote degradation of Hif1 alpha",
+      "proteins": [
+        "pVHL",
+        "Hif1 alpha",
+        "TBP-1",
+        "Hif1 alpha"
+      ],
+      "relations": {
+        "[0, 1]": "PPI"
+      }
+    },
+    "HPRD50.d26.s7": {
+      "sentence": "Thus, the ability of PROTEIN0 to degrade PROTEIN1 depends in part on its interaction with PROTEIN2 and suggests a new mechanism for PROTEIN3 stabilization in some PROTEIN4-deficient tumors",
+      "orig_sentence": "Thus, the ability of pVHL to degrade Hif1 alpha depends in part on its interaction with TBP-1 and suggests a new mechanism for Hif1 alpha stabilization in some pVHL-deficient tumors",
+      "proteins": [
+        "pVHL",
+        "Hif1 alpha",
+        "TBP-1",
+        "Hif1 alpha",
+        "pVHL"
+      ],
+      "relations": {
+        "[0, 1]": "PPI",
+        "[0, 2]": "PPI",
+        "[3, 4]": "PPI"
+      }
+    },
+    "HPRD50.d27.s0": {
+      "sentence": "PROTEIN0/PROTEIN1/memA interacts with PROTEIN2, PROTEIN3 and SRrp130 in corneal epithelial cells",
+      "orig_sentence": "Pinin/DRS/memA interacts with SRp75, SRm300 and SRrp130 in corneal epithelial cells",
+      "proteins": [
+        "Pinin",
+        "DRS",
+        "SRp75",
+        "SRm300"
+      ],
+      "relations": {
+        "[0, 2]": "PPI",
+        "[0, 3]": "PPI",
+        "[1, 2]": "PPI",
+        "[1, 3]": "PPI"
+      }
+    },
+    "HPRD50.d27.s1": {
+      "sentence": "Three SR-rich proteins were identified that interact with the C-terminus of Pnn: PROTEIN0 and PROTEIN1, known components of spliceosome machinery, and a novel 130-kDa nuclear protein, SRrp130",
+      "orig_sentence": "Three SR-rich proteins were identified that interact with the C-terminus of Pnn: SRp75 and SRm300, known components of spliceosome machinery, and a novel 130-kDa nuclear protein, SRrp130",
+      "proteins": [
+        "SRp75",
+        "SRm300"
+      ],
+      "relations": {}
+    },
+    "HPRD50.d29.s0": {
+      "sentence": "Modification of de novo DNA methyltransferase 3a (PROTEIN0) by PROTEIN1 modulates its interaction with histone deacetylases (HDACs) and its capacity to repress transcription",
+      "orig_sentence": "Modification of de novo DNA methyltransferase 3a (Dnmt3a) by SUMO-1 modulates its interaction with histone deacetylases (HDACs) and its capacity to repress transcription",
+      "proteins": [
+        "Dnmt3a",
+        "SUMO-1"
+      ],
+      "relations": {
+        "[0, 1]": "PPI"
+      }
+    },
+    "HPRD50.d29.s1": {
+      "sentence": "Here we show that PROTEIN0 interacts with multiple components of the sumoylation machinery, namely the E2 sumo conjugating enzyme PROTEIN1 and the E3 sumo ligases PROTEIN2 and PROTEIN3, all of which are involved in conjugating the small ubiquitin-like modifier polypeptide, PROTEIN4, to its target proteins",
+      "orig_sentence": "Here we show that Dnmt3a interacts with multiple components of the sumoylation machinery, namely the E2 sumo conjugating enzyme Ubc9 and the E3 sumo ligases PIAS1 and PIASxalpha, all of which are involved in conjugating the small ubiquitin-like modifier polypeptide, SUMO-1, to its target proteins",
+      "proteins": [
+        "Dnmt3a",
+        "Ubc9",
+        "PIAS1",
+        "PIASxalpha",
+        "SUMO-1"
+      ],
+      "relations": {
+        "[0, 1]": "PPI",
+        "[0, 2]": "PPI",
+        "[0, 3]": "PPI",
+        "[1, 4]": "PPI",
+        "[2, 4]": "PPI",
+        "[3, 4]": "PPI"
+      }
+    },
+    "HPRD50.d29.s2": {
+      "sentence": "PROTEIN0 is modified by PROTEIN1 in vivo and in vitro and the region of PROTEIN2 responsible for interaction maps to the N-terminal regulatory domain",
+      "orig_sentence": "Dnmt3a is modified by SUMO-1 in vivo and in vitro and the region of Dnmt3a responsible for interaction maps to the N-terminal regulatory domain",
+      "proteins": [
+        "Dnmt3a",
+        "SUMO-1",
+        "Dnmt3a"
+      ],
+      "relations": {
+        "[0, 1]": "PPI"
+      }
+    },
+    "HPRD50.d29.s3": {
+      "sentence": "Functionally, sumoylation of PROTEIN0 disrupts its ability to interact with histone deacetylases (PROTEIN1/2), but not with another interaction partner, PROTEIN2",
+      "orig_sentence": "Functionally, sumoylation of Dnmt3a disrupts its ability to interact with histone deacetylases (HDAC1/2), but not with another interaction partner, Dnmt3b",
+      "proteins": [
+        "Dnmt3a",
+        "HDAC1",
+        "Dnmt3b"
+      ],
+      "relations": {
+        "[0, 1]": "PPI"
+      }
+    },
+    "HPRD50.d30.s0": {
+      "sentence": "The tyrosine kinase PROTEIN0 is physically associated with the Type I interferon (PROTEIN1) receptor complex and is rapidly activated during PROTEIN2 stimulation",
+      "orig_sentence": "The tyrosine kinase Tyk-2 is physically associated with the Type I interferon (IFN) receptor complex and is rapidly activated during IFN alpha stimulation",
+      "proteins": [
+        "Tyk-2",
+        "IFN",
+        "IFN alpha"
+      ],
+      "relations": {
+        "[0, 1]": "PPI",
+        "[0, 2]": "PPI"
+      }
+    },
+    "HPRD50.d31.s0": {
+      "sentence": "PROTEIN0 interaction with PROTEIN1 phosphatase ties mitogenic signal transduction to cell cycle activation",
+      "orig_sentence": "Raf1 interaction with Cdc25 phosphatase ties mitogenic signal transduction to cell cycle activation",
+      "proteins": [
+        "Raf1",
+        "Cdc25"
+      ],
+      "relations": {
+        "[0, 1]": "PPI"
+      }
+    },
+    "HPRD50.d31.s1": {
+      "sentence": "We show here that PROTEIN0 phosphatase associates with PROTEIN1 in somatic mammalian cells and in meiotic frog oocytes",
+      "orig_sentence": "We show here that Cdc25 phosphatase associates with raf1 in somatic mammalian cells and in meiotic frog oocytes",
+      "proteins": [
+        "Cdc25",
+        "raf1"
+      ],
+      "relations": {
+        "[0, 1]": "PPI"
+      }
+    },
+    "HPRD50.d32.s0": {
+      "sentence": "Differential binding of vascular cell-derived proteoglycans (PROTEIN0, PROTEIN1, PROTEIN2, and PROTEIN3) to the beta-amyloid protein of Alzheimer's disease",
+      "orig_sentence": "Differential binding of vascular cell-derived proteoglycans (perlecan, biglycan, decorin, and versican) to the beta-amyloid protein of Alzheimer's disease",
+      "proteins": [
+        "perlecan",
+        "biglycan",
+        "decorin",
+        "versican"
+      ],
+      "relations": {}
+    },
+    "HPRD50.d32.s1": {
+      "sentence": "Previous studies have demonstrated the immunolocalization of PROTEIN0, a specific PROTEIN1, to the PROTEIN2 protein (A beta)-containing PROTEIN3 deposits within the walls of blood vessels (i.e., congophilic angiopathy) in Alzheimer's disease (AD) brain",
+      "orig_sentence": "Previous studies have demonstrated the immunolocalization of perlecan, a specific heparan sulfate proteoglycan, to the beta-amyloid protein (A beta)-containing amyloid deposits within the walls of blood vessels (i.e., congophilic angiopathy) in Alzheimer's disease (AD) brain",
+      "proteins": [
+        "perlecan",
+        "heparan sulfate proteoglycan",
+        "beta-amyloid",
+        "amyloid"
+      ],
+      "relations": {
+        "[0, 2]": "PPI",
+        "[0, 3]": "PPI",
+        "[1, 2]": "PPI",
+        "[1, 3]": "PPI"
+      }
+    },
+    "HPRD50.d32.s2": {
+      "sentence": "Overall, the results indicate that specific vascular cell-derived PROTEIN0 differentially interact with A beta, and that the interactions of highest affinity occur between A beta and binding sites on both the core protein and glycosaminoglycan chains of PROTEIN1",
+      "orig_sentence": "Overall, the results indicate that specific vascular cell-derived PGs differentially interact with A beta, and that the interactions of highest affinity occur between A beta and binding sites on both the core protein and glycosaminoglycan chains of perlecan",
+      "proteins": [
+        "PGs",
+        "perlecan"
+      ],
+      "relations": {}
+    },
+    "HPRD50.d32.s3": {
+      "sentence": "In the present investigation, the differential binding of previously characterized endothelial cell (EC)- and smooth muscle cell (PROTEIN0)-derived PROTEIN1 to A beta was examined to determine whether the accumulation of A beta in cerebrovascular PROTEIN2 deposits may be due to its interactions with PROTEIN3",
+      "orig_sentence": "In the present investigation, the differential binding of previously characterized endothelial cell (EC)- and smooth muscle cell (SMC)-derived PGs to A beta was examined to determine whether the accumulation of A beta in cerebrovascular amyloid deposits may be due to its interactions with perlecan",
+      "proteins": [
+        "SMC",
+        "PGs",
+        "amyloid",
+        "perlecan"
+      ],
+      "relations": {}
+    },
+    "HPRD50.d32.s4": {
+      "sentence": "Pretreatment of AA amyloidotic splenic and liver tissue sections with synthetic A beta (1-28) produced strong immunoreactivity with A beta antibodies at tissue sites enriched in PROTEIN0 which was partially removed by pretreatment with heparitinase, but not by chondroitin PROTEIN1 lyase",
+      "orig_sentence": "Pretreatment of AA amyloidotic splenic and liver tissue sections with synthetic A beta (1-28) produced strong immunoreactivity with A beta antibodies at tissue sites enriched in perlecan which was partially removed by pretreatment with heparitinase, but not by chondroitin ABC lyase",
+      "proteins": [
+        "perlecan",
+        "ABC"
+      ],
+      "relations": {}
+    },
+    "HPRD50.d32.s5": {
+      "sentence": "[35S]-Sulfate labeled proteoglycans (PROTEIN0) derived from cultured ECs and SMCs bound to affinity columns containing A beta (1-28) or (1-40), with virtually no binding to A beta (40-1) (reverse peptide), beta-amyloid precursor protein (410-429), or bovine PROTEIN1",
+      "orig_sentence": "[35S]-Sulfate labeled proteoglycans (PGs) derived from cultured ECs and SMCs bound to affinity columns containing A beta (1-28) or (1-40), with virtually no binding to A beta (40-1) (reverse peptide), beta-amyloid precursor protein (410-429), or bovine serum albumin",
+      "proteins": [
+        "PGs",
+        "serum albumin"
+      ],
+      "relations": {}
+    },
+    "HPRD50.d32.s6": {
+      "sentence": "Characterization of EC and PROTEIN0 PROTEIN1 bound to A beta (1-28) revealed strong binding by PROTEIN2, weak binding by PROTEIN3 and PROTEIN4, two dermatan sulfate proteoglycans, and lack of binding by PROTEIN5/PROTEIN6, a large chondroitin sulfate proteoglycan",
+      "orig_sentence": "Characterization of EC and SMC PGs bound to A beta (1-28) revealed strong binding by perlecan, weak binding by decorin and biglycan, two dermatan sulfate proteoglycans, and lack of binding by versican/PG-M, a large chondroitin sulfate proteoglycan",
+      "proteins": [
+        "SMC",
+        "PGs",
+        "perlecan",
+        "decorin",
+        "biglycan",
+        "versican",
+        "PG-M"
+      ],
+      "relations": {
+        "[1, 2]": "PPI",
+        "[1, 3]": "PPI",
+        "[1, 4]": "PPI"
+      }
+    },
+    "HPRD50.d33.s0": {
+      "sentence": "Cross-linking of PROTEIN0 with the use of the mAb MEM-53 and a polyclonal sheep anti-mouse Ig promoted activation of resting B cells into the G1 phase of the cell cycle as judged by increased expression of the early activation Ag PROTEIN1, increases in cellular volume, RNA synthesis, and PROTEIN2 protein levels, and enhanced binding of 7-aminoactinomycin D",
+      "orig_sentence": "Cross-linking of CD53 with the use of the mAb MEM-53 and a polyclonal sheep anti-mouse Ig promoted activation of resting B cells into the G1 phase of the cell cycle as judged by increased expression of the early activation Ag CD69, increases in cellular volume, RNA synthesis, and c-myc protein levels, and enhanced binding of 7-aminoactinomycin D",
+      "proteins": [
+        "CD53",
+        "CD69",
+        "c-myc"
+      ],
+      "relations": {
+        "[0, 1]": "PPI",
+        "[0, 2]": "PPI"
+      }
+    },
+    "HPRD50.d33.s1": {
+      "sentence": "However, cytokines, in particular PROTEIN0 and PROTEIN1, potentiated the DNA synthesis induced by cross-linking of PROTEIN2",
+      "orig_sentence": "However, cytokines, in particular IL-2 and IL-4, potentiated the DNA synthesis induced by cross-linking of CD53",
+      "proteins": [
+        "IL-2",
+        "IL-4",
+        "CD53"
+      ],
+      "relations": {
+        "[0, 2]": "PPI",
+        "[1, 2]": "PPI"
+      }
+    },
+    "HPRD50.d34.s0": {
+      "sentence": "The human PROTEIN0 mRNA editing protein is a PROTEIN1 showing structural homology to some known mammalian and bacteriophage deoxycytidylate deaminases",
+      "orig_sentence": "The human apoB mRNA editing protein is a cytidine deaminase showing structural homology to some known mammalian and bacteriophage deoxycytidylate deaminases",
+      "proteins": [
+        "apoB",
+        "cytidine deaminase"
+      ],
+      "relations": {}
+    },
+    "HPRD50.d34.s1": {
+      "sentence": "The fact that the PROTEIN0 mRNA editing protein also exists as a PROTEIN1 has important implications for the mechanism of PROTEIN2 mRNA editing in humans",
+      "orig_sentence": "The fact that the apoB mRNA editing protein also exists as a homodimer has important implications for the mechanism of apoB mRNA editing in humans",
+      "proteins": [
+        "apoB",
+        "homodimer",
+        "apoB"
+      ],
+      "relations": {}
+    },
+    "HPRD50.d35.s0": {
+      "sentence": "Assignment of PROTEIN0, PROTEIN1, and Etfa to chromosomes 3, 7, and 13: the mouse homologs of genes responsible for glutaric acidemia type II in human",
+      "orig_sentence": "Assignment of Etfdh, Etfb, and Etfa to chromosomes 3, 7, and 13: the mouse homologs of genes responsible for glutaric acidemia type II in human",
+      "proteins": [
+        "Etfdh",
+        "Etfb"
+      ],
+      "relations": {}
+    },
+    "HPRD50.d35.s1": {
+      "sentence": "We used cDNA probes for the PROTEIN0, PROTEIN1, and Etfa genes to determine localization of these mouse genes to chromosomes 3, 7, and 13",
+      "orig_sentence": "We used cDNA probes for the Etfdh, Etfb, and Etfa genes to determine localization of these mouse genes to chromosomes 3, 7, and 13",
+      "proteins": [
+        "Etfdh",
+        "Etfb"
+      ],
+      "relations": {}
+    },
+    "HPRD50.d38.s0": {
+      "sentence": "Subsequent amino acid sequencing revealed many peptides involving PROTEIN0 cross-linked either to itself or to a variety of other known CE protein components, including PROTEIN1, PROTEIN2, PROTEIN3, keratins, members of the small proline-rich superfamily, PROTEIN4, and unknown proteins related to the PROTEIN5 family",
+      "orig_sentence": "Subsequent amino acid sequencing revealed many peptides involving involucrin cross-linked either to itself or to a variety of other known CE protein components, including cystatin alpha, desmoplakin, elafin, keratins, members of the small proline-rich superfamily, loricrin, and unknown proteins related to the desmoplakin family",
+      "proteins": [
+        "involucrin",
+        "cystatin alpha",
+        "desmoplakin",
+        "elafin",
+        "loricrin",
+        "desmoplakin"
+      ],
+      "relations": {
+        "[0, 1]": "PPI",
+        "[0, 2]": "PPI",
+        "[0, 3]": "PPI",
+        "[0, 4]": "PPI",
+        "[0, 5]": "PPI"
+      }
+    },
+    "HPRD50.d38.s1": {
+      "sentence": "Specific glutamines or lysines of PROTEIN0 were used to cross-link the different proteins, such as glutamines 495 and 496 to PROTEIN1, glutamine 288 to keratins, and lysines 468, 485, and 508 and glutamines 465 and 489 for interchain PROTEIN2 cross-links",
+      "orig_sentence": "Specific glutamines or lysines of involucrin were used to cross-link the different proteins, such as glutamines 495 and 496 to desmoplakin, glutamine 288 to keratins, and lysines 468, 485, and 508 and glutamines 465 and 489 for interchain involucrin cross-links",
+      "proteins": [
+        "involucrin",
+        "desmoplakin",
+        "involucrin"
+      ],
+      "relations": {}
+    },
+    "HPRD50.d39.s0": {
+      "sentence": "A prominent isolate, designated PROTEIN0/PROTEIN1, specifically interacts with the PROTEIN2 not only in vivo but also in vitro",
+      "orig_sentence": "A prominent isolate, designated SRcyp/CASP10, specifically interacts with the CTD not only in vivo but also in vitro",
+      "proteins": [
+        "SRcyp",
+        "CASP10",
+        "CTD"
+      ],
+      "relations": {
+        "[0, 2]": "PPI",
+        "[1, 2]": "PPI"
+      }
+    },
+    "HPRD50.d39.s1": {
+      "sentence": "PROTEIN0 is a nuclear protein with a characteristic distribution in large irregularly shaped nuclear speckles and co-localizes perfectly with the SR domain-containing PROTEIN1",
+      "orig_sentence": "SRcyp is a nuclear protein with a characteristic distribution in large irregularly shaped nuclear speckles and co-localizes perfectly with the SR domain-containing splicing factor SC35",
+      "proteins": [
+        "SRcyp",
+        "splicing factor SC35"
+      ],
+      "relations": {}
+    },
+    "HPRD50.d40.s0": {
+      "sentence": "Transient expression of the full-length PROTEIN0 without RSRS in U1240MG glioblastoma cells resulted in repression of PROTEIN1 promoter activity",
+      "orig_sentence": "Transient expression of the full-length E2-2 without RSRS in U1240MG glioblastoma cells resulted in repression of FGF-1.B promoter activity",
+      "proteins": [
+        "E2-2",
+        "FGF-1.B"
+      ],
+      "relations": {
+        "[0, 1]": "PPI"
+      }
+    },
+    "HPRD50.d40.s1": {
+      "sentence": "These results suggest that the relative abundance of the two splice variants of PROTEIN0 in brain could be an important determinant for the expression of PROTEIN1",
+      "orig_sentence": "These results suggest that the relative abundance of the two splice variants of E2-2 in brain could be an important determinant for the expression of FGF-1",
+      "proteins": [
+        "E2-2",
+        "FGF-1"
+      ],
+      "relations": {
+        "[0, 1]": "PPI"
+      }
+    }
+  }
+}

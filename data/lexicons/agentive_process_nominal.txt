@@ -1,0 +1,15 @@
+# Process heads for "P0-mediated P1 <process>"; fallback gate, licenses no pair.
+acetylation
+activation
+degradation
+expression
+methylation
+phosphorylation
+processing
+production
+release
+secretion
+sumoylation
+synthesis
+translocation
+ubiquitination

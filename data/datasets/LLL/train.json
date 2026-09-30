@@ -1,0 +1,864 @@
+{
+  "metadata": {
+    "created_at": "2026-06-24T06:37:39.609891+00:00",
+    "source": "LLL train (rebuilt from canonical XML, 2026-06-24)",
+    "total_sentences": 65,
+    "sentences_with_relation": 65,
+    "total_pairs": 269,
+    "pairs_with_relation": 134
+  },
+  "data": {
+    "LLL.d0.s0": {
+      "sentence": "In vivo studies of the activity of four of the kinases, KinA, KinC, KinD (ykvD) and KinE (ykrQ), using abrB transcription as an indicator of Spo0A~P level, revealed that PROTEIN0 and PROTEIN1 were responsible for PROTEIN2 production during the exponential phase of growth in the absence of KinA and KinB.",
+      "orig_sentence": "In vivo studies of the activity of four of the kinases, KinA, KinC, KinD (ykvD) and KinE (ykrQ), using abrB transcription as an indicator of Spo0A~P level, revealed that KinC and KinD were responsible for Spo0A~P production during the exponential phase of growth in the absence of KinA and KinB.",
+      "proteins": [
+        "KinC",
+        "KinD",
+        "Spo0A~P"
+      ],
+      "relations": {
+        "[0, 2]": "PPI",
+        "[1, 2]": "PPI"
+      }
+    },
+    "LLL.d1.s0": {
+      "sentence": "In this mutant, expression of the PROTEIN0 gene, whose transcription depends on both PROTEIN1 and the phosphorylated PROTEIN2 protein, Spo0A~P, a major transcription factor during early stages of sporulation, was greatly reduced at 43 degrees C.",
+      "orig_sentence": "In this mutant, expression of the spoIIG gene, whose transcription depends on both sigma(A) and the phosphorylated Spo0A protein, Spo0A~P, a major transcription factor during early stages of sporulation, was greatly reduced at 43 degrees C.",
+      "proteins": [
+        "spoIIG",
+        "sigma(A)",
+        "Spo0A"
+      ],
+      "relations": {
+        "[0, 1]": "PPI",
+        "[0, 2]": "PPI"
+      }
+    },
+    "LLL.d2.s0": {
+      "sentence": "Transcription of PROTEIN0 was dependent on PROTEIN1, and the mRNA was detectable from 2 h after the cessation of logarithmic growth (T2 of sporulation).",
+      "orig_sentence": "Transcription of ydhD was dependent on SigE, and the mRNA was detectable from 2 h after the cessation of logarithmic growth (T2 of sporulation).",
+      "proteins": [
+        "ydhD",
+        "SigE"
+      ],
+      "relations": {
+        "[0, 1]": "PPI"
+      }
+    },
+    "LLL.d2.s1": {
+      "sentence": "PROTEIN0 was transcribed by PROTEIN1 RNA polymerase from T4 of sporulation.",
+      "orig_sentence": "ykuD was transcribed by SigK RNA polymerase from T4 of sporulation.",
+      "proteins": [
+        "ykuD",
+        "SigK"
+      ],
+      "relations": {
+        "[0, 1]": "PPI"
+      }
+    },
+    "LLL.d2.s2": {
+      "sentence": "Both PROTEIN0 and PROTEIN1 were essential for PROTEIN2 expression, and this gene was transcribed from T5 of sporulation.",
+      "orig_sentence": "Both SigK and GerE were essential for ykvP expression, and this gene was transcribed from T5 of sporulation.",
+      "proteins": [
+        "SigK",
+        "GerE",
+        "ykvP"
+      ],
+      "relations": {
+        "[0, 2]": "PPI",
+        "[1, 2]": "PPI"
+      }
+    },
+    "LLL.d3.s0": {
+      "sentence": "Analysis of the expression of a translational ywhE-lacZ fusion showed that PROTEIN0 expression is sporulation-specific, and is controlled predominantly by the forespore-specific sigma factor PROTEIN1, and to a lesser extent by PROTEIN2.",
+      "orig_sentence": "Analysis of the expression of a translational ywhE-lacZ fusion showed that ywhE expression is sporulation-specific, and is controlled predominantly by the forespore-specific sigma factor sigma(F), and to a lesser extent by sigma(G).",
+      "proteins": [
+        "ywhE",
+        "sigma(F)",
+        "sigma(G)"
+      ],
+      "relations": {
+        "[0, 1]": "PPI",
+        "[0, 2]": "PPI"
+      }
+    },
+    "LLL.d4.s0": {
+      "sentence": "Secondly, PROTEIN0 is essential for the activation of the first compartment-specific transcription factor PROTEIN1 in the prespore.",
+      "orig_sentence": "Secondly, SpoIIE is essential for the activation of the first compartment-specific transcription factor sigma(F) in the prespore.",
+      "proteins": [
+        "SpoIIE",
+        "sigma(F)"
+      ],
+      "relations": {
+        "[0, 1]": "PPI"
+      }
+    },
+    "LLL.d4.s1": {
+      "sentence": "Localization of PROTEIN0 was shown to be dependent on the essential cell division protein PROTEIN1.",
+      "orig_sentence": "Localization of SpoIIE was shown to be dependent on the essential cell division protein FtsZ.",
+      "proteins": [
+        "SpoIIE",
+        "FtsZ"
+      ],
+      "relations": {
+        "[0, 1]": "PPI"
+      }
+    },
+    "LLL.d5.s0": {
+      "sentence": "In the shaA mutant, PROTEIN0-dependent expression of PROTEIN1 and PROTEIN2 at an early stage of sporulation was sensitive to external NaCl.",
+      "orig_sentence": "In the shaA mutant, sigma(H)-dependent expression of spo0A and spoVG at an early stage of sporulation was sensitive to external NaCl.",
+      "proteins": [
+        "sigma(H)",
+        "spo0A",
+        "spoVG"
+      ],
+      "relations": {
+        "[0, 1]": "PPI",
+        "[0, 2]": "PPI"
+      }
+    },
+    "LLL.d6.s0": {
+      "sentence": "The expression of PROTEIN0 is under the control of both PROTEIN1 and PROTEIN2.",
+      "orig_sentence": "The expression of rsfA is under the control of both sigma(F) and sigma(G).",
+      "proteins": [
+        "rsfA",
+        "sigma(F)",
+        "sigma(G)"
+      ],
+      "relations": {
+        "[0, 1]": "PPI",
+        "[0, 2]": "PPI"
+      }
+    },
+    "LLL.d7.s0": {
+      "sentence": "Expression of the PROTEIN0-dependent PROTEIN1 gene depended on PROTEIN2.",
+      "orig_sentence": "Expression of the sigma(K)-dependent cwlH gene depended on gerE.",
+      "proteins": [
+        "sigma(K)",
+        "cwlH",
+        "gerE"
+      ],
+      "relations": {
+        "[0, 1]": "PPI",
+        "[1, 2]": "PPI"
+      }
+    },
+    "LLL.d8.s0": {
+      "sentence": "Our results indicate that the level of PROTEIN0 level in outgrowing spores depends mainly on PROTEIN1, because sigB mutants show normal KatX activity in dormant and outgrowing spores.",
+      "orig_sentence": "Our results indicate that the level of KatX level in outgrowing spores depends mainly on EsigmaF, because sigB mutants show normal KatX activity in dormant and outgrowing spores.",
+      "proteins": [
+        "KatX",
+        "EsigmaF"
+      ],
+      "relations": {
+        "[0, 1]": "PPI"
+      }
+    },
+    "LLL.d8.s1": {
+      "sentence": "Therefore, the physiological role of PROTEIN0-dependent PROTEIN1 expression remains obscure.",
+      "orig_sentence": "Therefore, the physiological role of sigmaB-dependent katX expression remains obscure.",
+      "proteins": [
+        "sigmaB",
+        "katX"
+      ],
+      "relations": {
+        "[0, 1]": "PPI"
+      }
+    },
+    "LLL.d8.s2": {
+      "sentence": "The -10 and -35 sequences of the PROTEIN0- and PROTEIN1-dependent promoters of PROTEIN2 overlap, and the transcriptional start points used by EsigmaB and EsigmaF differ by only one nucleotide.",
+      "orig_sentence": "The -10 and -35 sequences of the sigmaB- and sigmaF-dependent promoters of katX overlap, and the transcriptional start points used by EsigmaB and EsigmaF differ by only one nucleotide.",
+      "proteins": [
+        "sigmaB",
+        "sigmaF",
+        "katX"
+      ],
+      "relations": {
+        "[0, 2]": "PPI",
+        "[1, 2]": "PPI"
+      }
+    },
+    "LLL.d8.s3": {
+      "sentence": "We demonstrated that PROTEIN0 is also a PROTEIN1-dependent general stress gene, since it is strongly induced by heat, salt and ethanol stress, as well as by energy depletion.",
+      "orig_sentence": "We demonstrated that katX is also a sigmaB-dependent general stress gene, since it is strongly induced by heat, salt and ethanol stress, as well as by energy depletion.",
+      "proteins": [
+        "katX",
+        "sigmaB"
+      ],
+      "relations": {
+        "[0, 1]": "PPI"
+      }
+    },
+    "LLL.d9.s0": {
+      "sentence": "Taken together, the results support the idea that sequestration of PROTEIN0 protein into the prespore plays an important role in the control of PROTEIN1 activation and in coupling this activation to septation.",
+      "orig_sentence": "Taken together, the results support the idea that sequestration of SpoIIE protein into the prespore plays an important role in the control of sigmaF activation and in coupling this activation to septation.",
+      "proteins": [
+        "SpoIIE",
+        "sigmaF"
+      ],
+      "relations": {
+        "[0, 1]": "PPI"
+      }
+    },
+    "LLL.d9.s1": {
+      "sentence": "PROTEIN0 is controlled by a regulatory cascade involving an anti-sigma factor, PROTEIN1, an anti-anti-sigma factor, PROTEIN2, and a membrane-bound phosphatase, PROTEIN3, which converts the inactive, phosphorylated form of PROTEIN4 back to the active form.",
+      "orig_sentence": "sigmaF is controlled by a regulatory cascade involving an anti-sigma factor, SpoIIAB, an anti-anti-sigma factor, SpoIIAA, and a membrane-bound phosphatase, SpoIIE, which converts the inactive, phosphorylated form of SpoIIAA back to the active form.",
+      "proteins": [
+        "sigmaF",
+        "SpoIIAB",
+        "SpoIIAA",
+        "SpoIIE",
+        "SpoIIAA"
+      ],
+      "relations": {
+        "[0, 1]": "PPI",
+        "[0, 2]": "PPI",
+        "[0, 3]": "PPI",
+        "[3, 4]": "PPI"
+      }
+    },
+    "LLL.d10.s0": {
+      "sentence": "The PROTEIN0 gene of Bacillus subtilis, encoding a catabolic glutamate dehydrogenase, is transcribed by PROTEIN1-containing RNA polymerase and requires for its expression PROTEIN2, a member of the NtrC/NifA family of proteins that bind to enhancer-like elements, called upstream activating sequences (UAS).",
+      "orig_sentence": "The rocG gene of Bacillus subtilis, encoding a catabolic glutamate dehydrogenase, is transcribed by SigL-containing RNA polymerase and requires for its expression RocR, a member of the NtrC/NifA family of proteins that bind to enhancer-like elements, called upstream activating sequences (UAS).",
+      "proteins": [
+        "rocG",
+        "SigL",
+        "RocR"
+      ],
+      "relations": {
+        "[0, 1]": "PPI",
+        "[0, 2]": "PPI"
+      }
+    },
+    "LLL.d10.s1": {
+      "sentence": "Unlike the case for other PROTEIN0-dependent genes, PROTEIN1 has no UAS; instead, its expression depends on a sequence located 1.5 kilobases downstream of the rocG promoter, beyond the end of the rocG coding region.",
+      "orig_sentence": "Unlike the case for other sigma(54)-dependent genes, rocG has no UAS; instead, its expression depends on a sequence located 1.5 kilobases downstream of the rocG promoter, beyond the end of the rocG coding region.",
+      "proteins": [
+        "sigma(54)",
+        "rocG"
+      ],
+      "relations": {
+        "[0, 1]": "PPI"
+      }
+    },
+    "LLL.d12.s0": {
+      "sentence": "Northern blot and primer extension analyses indicated that PROTEIN0 is transcribed by PROTEIN1 during sporulation.",
+      "orig_sentence": "Northern blot and primer extension analyses indicated that yfhS is transcribed by E sigma E during sporulation.",
+      "proteins": [
+        "yfhS",
+        "E sigma E"
+      ],
+      "relations": {
+        "[0, 1]": "PPI"
+      }
+    },
+    "LLL.d12.s1": {
+      "sentence": "These results suggest that PROTEIN0 may act as a negative regulator for the transcription of PROTEIN1, PROTEIN2, PROTEIN3 and PROTEIN4.",
+      "orig_sentence": "These results suggest that YfhP may act as a negative regulator for the transcription of yfhQ, yfhR, sspE and yfhP.",
+      "proteins": [
+        "YfhP",
+        "yfhQ",
+        "yfhR",
+        "sspE",
+        "yfhP"
+      ],
+      "relations": {
+        "[0, 1]": "PPI",
+        "[0, 2]": "PPI",
+        "[0, 3]": "PPI",
+        "[0, 4]": "PPI"
+      }
+    },
+    "LLL.d14.s0": {
+      "sentence": "The first stage, which involves the phosphatase function of PROTEIN0, depends on the cell division protein PROTEIN1 and could correspond to the PROTEIN2-dependent assembly of PROTEIN3 into E-rings.",
+      "orig_sentence": "The first stage, which involves the phosphatase function of SpoIIE, depends on the cell division protein FtsZ and could correspond to the FtsZ-dependent assembly of SpoIIE into E-rings.",
+      "proteins": [
+        "SpoIIE",
+        "FtsZ",
+        "FtsZ",
+        "SpoIIE"
+      ],
+      "relations": {
+        "[0, 1]": "PPI",
+        "[2, 3]": "PPI"
+      }
+    },
+    "LLL.d14.s1": {
+      "sentence": "Evidence based on the use of modified and mutant forms of the phosphatase protein indicates that PROTEIN0 blocks the capacity of unphosphorylated PROTEIN1 to activate PROTEIN2 until formation of the polar septum is completed.",
+      "orig_sentence": "Evidence based on the use of modified and mutant forms of the phosphatase protein indicates that SpoIIE blocks the capacity of unphosphorylated SpoIIAA to activate sigmaF until formation of the polar septum is completed.",
+      "proteins": [
+        "SpoIIE",
+        "SpoIIAA",
+        "sigmaF"
+      ],
+      "relations": {
+        "[0, 1]": "PPI",
+        "[1, 2]": "PPI"
+      }
+    },
+    "LLL.d14.s2": {
+      "sentence": "Cell-specific activation of transcription factor PROTEIN0 during sporulation in Bacillus subtilis requires the formation of the polar septum and the activity of a serine phosphatase (PROTEIN1) located in the septum.",
+      "orig_sentence": "Cell-specific activation of transcription factor sigmaF during sporulation in Bacillus subtilis requires the formation of the polar septum and the activity of a serine phosphatase (SpoIIE) located in the septum.",
+      "proteins": [
+        "sigmaF",
+        "SpoIIE"
+      ],
+      "relations": {
+        "[0, 1]": "PPI"
+      }
+    },
+    "LLL.d14.s3": {
+      "sentence": "The PROTEIN0 phosphatase indirectly activates PROTEIN1 by dephosphorylating a protein (PROTEIN2) in the pathway that controls the activity of the transcription factor.",
+      "orig_sentence": "The SpoIIE phosphatase indirectly activates sigmaF by dephosphorylating a protein (SpoIIAA-P) in the pathway that controls the activity of the transcription factor.",
+      "proteins": [
+        "SpoIIE",
+        "sigmaF",
+        "SpoIIAA-P"
+      ],
+      "relations": {
+        "[0, 1]": "PPI",
+        "[0, 2]": "PPI",
+        "[1, 2]": "PPI"
+      }
+    },
+    "LLL.d15.s0": {
+      "sentence": "Dephosphorylation of PROTEIN0 by PROTEIN1 is strictly dependent on the presence of the bivalent metal ions Mn2+ or Mg2+.",
+      "orig_sentence": "Dephosphorylation of SpoIIAA-P by SpoIIE is strictly dependent on the presence of the bivalent metal ions Mn2+ or Mg2+.",
+      "proteins": [
+        "SpoIIAA-P",
+        "SpoIIE"
+      ],
+      "relations": {
+        "[0, 1]": "PPI"
+      }
+    },
+    "LLL.d16.s0": {
+      "sentence": "(i) The finding that the PROTEIN0 operon is under PROTEIN1 control indicates that the elimination of multidrug compounds might be a new function in multiple stress resistance.",
+      "orig_sentence": "(i) The finding that the bmrUR operon is under sigmaB control indicates that the elimination of multidrug compounds might be a new function in multiple stress resistance.",
+      "proteins": [
+        "bmrUR",
+        "sigmaB"
+      ],
+      "relations": {
+        "[0, 1]": "PPI"
+      }
+    },
+    "LLL.d16.s1": {
+      "sentence": "The PROTEIN0 gene might belong to the increasing number of PROTEIN1-dependent genes whose orthologues are under the control of sigmas in Escherichia coli, indicating that both regulons may fulfil similar functions.",
+      "orig_sentence": "The ydaP gene might belong to the increasing number of sigmaB-dependent genes whose orthologues are under the control of sigmas in Escherichia coli, indicating that both regulons may fulfil similar functions.",
+      "proteins": [
+        "ydaP",
+        "sigmaB"
+      ],
+      "relations": {
+        "[0, 1]": "PPI"
+      }
+    },
+    "LLL.d16.s2": {
+      "sentence": "Three new PROTEIN0-dependent genes (PROTEIN1, PROTEIN2 and PROTEIN3) encoding proteins with still unknown functions were also described.",
+      "orig_sentence": "Three new sigmaB-dependent genes (ydaE, ydaG and yfkM) encoding proteins with still unknown functions were also described.",
+      "proteins": [
+        "sigmaB",
+        "ydaE",
+        "ydaG",
+        "yfkM"
+      ],
+      "relations": {
+        "[0, 1]": "PPI",
+        "[0, 2]": "PPI",
+        "[0, 3]": "PPI"
+      }
+    },
+    "LLL.d17.s0": {
+      "sentence": "Cell specificity is first established in the forespore under the control of the PROTEIN0 factor, which is itself activated through the action of the PROTEIN1 serine phosphatase, an enzyme targeted to the septum between the two cells.",
+      "orig_sentence": "Cell specificity is first established in the forespore under the control of the sigma F factor, which is itself activated through the action of the SpoIIE serine phosphatase, an enzyme targeted to the septum between the two cells.",
+      "proteins": [
+        "sigma F",
+        "SpoIIE"
+      ],
+      "relations": {
+        "[0, 1]": "PPI"
+      }
+    },
+    "LLL.d18.s0": {
+      "sentence": "Most PROTEIN0 genes, and the PROTEIN1 gene, are transcribed by PROTEIN2 RNA polymerase.",
+      "orig_sentence": "Most cot genes, and the gerE gene, are transcribed by sigmaK RNA polymerase.",
+      "proteins": [
+        "cot",
+        "gerE",
+        "sigmaK"
+      ],
+      "relations": {
+        "[0, 2]": "PPI",
+        "[1, 2]": "PPI"
+      }
+    },
+    "LLL.d18.s1": {
+      "sentence": "Previously, it was shown that the PROTEIN0 protein inhibits transcription in vitro of the PROTEIN1 gene encoding sigmaK.",
+      "orig_sentence": "Previously, it was shown that the GerE protein inhibits transcription in vitro of the sigK gene encoding sigmaK.",
+      "proteins": [
+        "GerE",
+        "sigK"
+      ],
+      "relations": {
+        "[0, 1]": "PPI"
+      }
+    },
+    "LLL.d18.s2": {
+      "sentence": "These results demonstrate that PROTEIN0-dependent transcription of PROTEIN1 initiates a negative feedback loop in which PROTEIN2 acts as a repressor to limit production of PROTEIN3.",
+      "orig_sentence": "These results demonstrate that sigmaK-dependent transcription of gerE initiates a negative feedback loop in which GerE acts as a repressor to limit production of sigmaK.",
+      "proteins": [
+        "sigmaK",
+        "gerE",
+        "GerE",
+        "sigmaK"
+      ],
+      "relations": {
+        "[0, 1]": "PPI",
+        "[2, 3]": "PPI"
+      }
+    },
+    "LLL.d18.s3": {
+      "sentence": "A low level of PROTEIN0 activated transcription of PROTEIN1 by PROTEIN2 RNA polymerase in vitro, but a higher level of PROTEIN3 repressed PROTEIN4 transcription.",
+      "orig_sentence": "A low level of GerE activated transcription of cotD by sigmaK RNA polymerase in vitro, but a higher level of GerE repressed cotD transcription.",
+      "proteins": [
+        "GerE",
+        "cotD",
+        "sigmaK",
+        "GerE",
+        "cotD"
+      ],
+      "relations": {
+        "[0, 1]": "PPI",
+        "[0, 2]": "PPI",
+        "[1, 2]": "PPI",
+        "[3, 4]": "PPI"
+      }
+    },
+    "LLL.d18.s4": {
+      "sentence": "Here, we show that PROTEIN0 binds near the PROTEIN1 transcriptional start site, to act as a repressor.",
+      "orig_sentence": "Here, we show that GerE binds near the sigK transcriptional start site, to act as a repressor.",
+      "proteins": [
+        "GerE",
+        "sigK"
+      ],
+      "relations": {
+        "[0, 1]": "PPI"
+      }
+    },
+    "LLL.d18.s5": {
+      "sentence": "We show that PROTEIN0 binds to two sites that span the -35 region of the PROTEIN1 promoter.",
+      "orig_sentence": "We show that GerE binds to two sites that span the -35 region of the cotD promoter.",
+      "proteins": [
+        "GerE",
+        "cotD"
+      ],
+      "relations": {
+        "[0, 1]": "PPI"
+      }
+    },
+    "LLL.d18.s6": {
+      "sentence": "These results suggest that a rising level of PROTEIN0 in sporulating cells may first activate PROTEIN1 transcription from the upstream site then repress transcription as the downstream site becomes occupied.",
+      "orig_sentence": "These results suggest that a rising level of GerE in sporulating cells may first activate cotD transcription from the upstream site then repress transcription as the downstream site becomes occupied.",
+      "proteins": [
+        "GerE",
+        "cotD"
+      ],
+      "relations": {
+        "[0, 1]": "PPI"
+      }
+    },
+    "LLL.d19.s0": {
+      "sentence": "PROTEIN0 transcription also requires the DNA binding protein PROTEIN1.",
+      "orig_sentence": "sspG transcription also requires the DNA binding protein GerE.",
+      "proteins": [
+        "sspG",
+        "GerE"
+      ],
+      "relations": {
+        "[0, 1]": "PPI"
+      }
+    },
+    "LLL.d19.s1": {
+      "sentence": "In contrast, PROTEIN0 is transcribed in the forespore compartment by RNA polymerase with the forespore-specific PROTEIN1 and appears to give a monocistronic transcript.",
+      "orig_sentence": "In contrast, sspJ is transcribed in the forespore compartment by RNA polymerase with the forespore-specific sigmaG and appears to give a monocistronic transcript.",
+      "proteins": [
+        "sspJ",
+        "sigmaG"
+      ],
+      "relations": {
+        "[0, 1]": "PPI"
+      }
+    },
+    "LLL.d20.s0": {
+      "sentence": "PROTEIN0 negatively controls the transcription of PROTEIN1 by stimulating the transcription of PROTEIN2-PROTEIN3, thereby increasing the production of the PROTEIN4 antisigma factor that inhibits PROTEIN5 activity.",
+      "orig_sentence": "ComK negatively controls the transcription of hag by stimulating the transcription of comF-flgM, thereby increasing the production of the FlgM antisigma factor that inhibits sigmaD activity.",
+      "proteins": [
+        "ComK",
+        "hag",
+        "comF",
+        "flgM",
+        "FlgM",
+        "sigmaD"
+      ],
+      "relations": {
+        "[0, 1]": "PPI",
+        "[0, 2]": "PPI",
+        "[0, 3]": "PPI",
+        "[0, 4]": "PPI",
+        "[4, 5]": "PPI"
+      }
+    },
+    "LLL.d21.s0": {
+      "sentence": "This stress-induced increase in PROTEIN0 expression is absolutely dependent on the alternative sigma factor PROTEIN1, which controls a large stationary-phase and stress regulon.",
+      "orig_sentence": "This stress-induced increase in ykzA expression is absolutely dependent on the alternative sigma factor sigmaB, which controls a large stationary-phase and stress regulon.",
+      "proteins": [
+        "ykzA",
+        "sigmaB"
+      ],
+      "relations": {
+        "[0, 1]": "PPI"
+      }
+    },
+    "LLL.d22.s0": {
+      "sentence": "PROTEIN0 also contributes to the expression of PROTEIN1, a putative membrane-bound glucosyl transferase that is partially controlled by the PROTEIN2 stress response sigma factor.",
+      "orig_sentence": "sigma X also contributes to the expression of CsbB, a putative membrane-bound glucosyl transferase that is partially controlled by the sigma B stress response sigma factor.",
+      "proteins": [
+        "sigma X",
+        "CsbB",
+        "sigma B"
+      ],
+      "relations": {
+        "[0, 1]": "PPI",
+        "[1, 2]": "PPI"
+      }
+    },
+    "LLL.d23.s0": {
+      "sentence": "Transcriptional studies showed that PROTEIN0 is strongly induced in response to heat, ethanol and salt stress or after starvation for glucose in a PROTEIN1-dependent manner.",
+      "orig_sentence": "Transcriptional studies showed that nadE is strongly induced in response to heat, ethanol and salt stress or after starvation for glucose in a sigma B-dependent manner.",
+      "proteins": [
+        "nadE",
+        "sigma B"
+      ],
+      "relations": {
+        "[0, 1]": "PPI"
+      }
+    },
+    "LLL.d24.s0": {
+      "sentence": "Furthermore, PROTEIN0 and PROTEIN1 seemed to be induced after phosphate starvation in the wild type in a PROTEIN2-dependent manner and in the sigB mutant probably via PROTEIN3.",
+      "orig_sentence": "Furthermore, YtxH and YvyD seemed to be induced after phosphate starvation in the wild type in a sigma(B)-dependent manner and in the sigB mutant probably via sigma(H).",
+      "proteins": [
+        "YtxH",
+        "YvyD",
+        "sigma(B)",
+        "sigma(H)"
+      ],
+      "relations": {
+        "[0, 2]": "PPI",
+        "[0, 3]": "PPI",
+        "[1, 2]": "PPI",
+        "[1, 3]": "PPI"
+      }
+    },
+    "LLL.d25.s0": {
+      "sentence": "The expression of the PROTEIN0 operon was induced by the presence of isoleucine or valine in the growth medium and depended upon the presence of the sigma factor PROTEIN1, a member of the sigma 54 family.",
+      "orig_sentence": "The expression of the bkd operon was induced by the presence of isoleucine or valine in the growth medium and depended upon the presence of the sigma factor SigL, a member of the sigma 54 family.",
+      "proteins": [
+        "bkd",
+        "SigL"
+      ],
+      "relations": {
+        "[0, 1]": "PPI"
+      }
+    },
+    "LLL.d26.s0": {
+      "sentence": "From these results we conclude that PROTEIN0 negatively regulates PROTEIN1 expression by preventing PROTEIN2-driven transcription of PROTEIN3, possibly through interaction with the control region.",
+      "orig_sentence": "From these results we conclude that ComK negatively regulates degR expression by preventing sigmaD-driven transcription of degR, possibly through interaction with the control region.",
+      "proteins": [
+        "ComK",
+        "degR",
+        "sigmaD",
+        "degR"
+      ],
+      "relations": {
+        "[0, 1]": "PPI",
+        "[0, 2]": "PPI",
+        "[0, 3]": "PPI",
+        "[2, 3]": "PPI"
+      }
+    },
+    "LLL.d26.s1": {
+      "sentence": "We have shown previously that the transcription of PROTEIN0 is driven by an alternative sigma factor, PROTEIN1.",
+      "orig_sentence": "We have shown previously that the transcription of degR is driven by an alternative sigma factor, sigmaD.",
+      "proteins": [
+        "degR",
+        "sigmaD"
+      ],
+      "relations": {
+        "[0, 1]": "PPI"
+      }
+    },
+    "LLL.d27.s0": {
+      "sentence": "DNase I footprinting showed that PROTEIN0 binds strongly to two sites in the PROTEIN1 promoter region, binds weakly to one site in the PROTEIN2 promoter, and does not bind specifically to PROTEIN3.",
+      "orig_sentence": "DNase I footprinting showed that SpoIIID binds strongly to two sites in the cotC promoter region, binds weakly to one site in the cotX promoter, and does not bind specifically to cotB.",
+      "proteins": [
+        "SpoIIID",
+        "cotC",
+        "cotX",
+        "cotB"
+      ],
+      "relations": {
+        "[0, 1]": "PPI",
+        "[0, 2]": "PPI",
+        "[0, 3]": "PPI"
+      }
+    },
+    "LLL.d27.s1": {
+      "sentence": "Transcription of the PROTEIN0, PROTEIN1, and PROTEIN2 genes by final PROTEIN3 RNA polymerase is activated by a small, DNA-binding protein called PROTEIN4.",
+      "orig_sentence": "Transcription of the cotB, cotC, and cotX genes by final sigma(K) RNA polymerase is activated by a small, DNA-binding protein called GerE.",
+      "proteins": [
+        "cotB",
+        "cotC",
+        "cotX",
+        "sigma(K)",
+        "GerE"
+      ],
+      "relations": {
+        "[0, 3]": "PPI",
+        "[0, 4]": "PPI",
+        "[1, 3]": "PPI",
+        "[1, 4]": "PPI",
+        "[2, 3]": "PPI",
+        "[2, 4]": "PPI"
+      }
+    },
+    "LLL.d27.s2": {
+      "sentence": "In vitro transcription experiments suggest that the differential pattern of PROTEIN0 gene expression results from the combined action of PROTEIN1 and another transcription factor, PROTEIN2.",
+      "orig_sentence": "In vitro transcription experiments suggest that the differential pattern of cot gene expression results from the combined action of GerE and another transcription factor, SpoIIID.",
+      "proteins": [
+        "cot",
+        "GerE",
+        "SpoIIID"
+      ],
+      "relations": {
+        "[0, 1]": "PPI",
+        "[0, 2]": "PPI"
+      }
+    },
+    "LLL.d27.s3": {
+      "sentence": "A low concentration of PROTEIN0 activated PROTEIN1 transcription by final PROTEIN2 RNA polymerase, whereas a higher concentration was needed to activate transcription of PROTEIN3 or PROTEIN4.",
+      "orig_sentence": "A low concentration of GerE activated cotB transcription by final sigma(K) RNA polymerase, whereas a higher concentration was needed to activate transcription of cotX or cotC.",
+      "proteins": [
+        "GerE",
+        "cotB",
+        "sigma(K)",
+        "cotX",
+        "cotC"
+      ],
+      "relations": {
+        "[0, 1]": "PPI",
+        "[0, 2]": "PPI",
+        "[0, 3]": "PPI",
+        "[0, 4]": "PPI",
+        "[1, 2]": "PPI"
+      }
+    },
+    "LLL.d27.s4": {
+      "sentence": "PROTEIN0 at low concentration repressed PROTEIN1 transcription, whereas a higher concentration only partially repressed PROTEIN2 transcription and had little effect on PROTEIN3 transcription.",
+      "orig_sentence": "SpoIIID at low concentration repressed cotC transcription, whereas a higher concentration only partially repressed cotX transcription and had little effect on cotB transcription.",
+      "proteins": [
+        "SpoIIID",
+        "cotC",
+        "cotX",
+        "cotB"
+      ],
+      "relations": {
+        "[0, 1]": "PPI",
+        "[0, 2]": "PPI",
+        "[0, 3]": "PPI"
+      }
+    },
+    "LLL.d29.s0": {
+      "sentence": "A PROTEIN0-dependent promoter (PW) precedes PROTEIN1, demonstrating that this transcription factor is positively autoregulated.",
+      "orig_sentence": "A sigmaW-dependent promoter (PW) precedes sigW, demonstrating that this transcription factor is positively autoregulated.",
+      "proteins": [
+        "sigmaW",
+        "sigW"
+      ],
+      "relations": {
+        "[0, 1]": "PPI"
+      }
+    },
+    "LLL.d31.s0": {
+      "sentence": "The results indicate that PROTEIN0 is sufficient to repress the transcription of the PROTEIN1 and PROTEIN2 promoters and also to activate the transcription of the PROTEIN3 promoter.",
+      "orig_sentence": "The results indicate that PhoP~P is sufficient to repress the transcription of the tagA and tagD promoters and also to activate the transcription of the tuaA promoter.",
+      "proteins": [
+        "PhoP~P",
+        "tagA",
+        "tagD",
+        "tuaA"
+      ],
+      "relations": {
+        "[0, 1]": "PPI",
+        "[0, 2]": "PPI",
+        "[0, 3]": "PPI"
+      }
+    },
+    "LLL.d32.s0": {
+      "sentence": "Transcriptional studies demonstrated that the expression from the PROTEIN0 promoter is induced by L-arabinose, repressed by glucose, and negatively regulated by PROTEIN1.",
+      "orig_sentence": "Transcriptional studies demonstrated that the expression from the araE promoter is induced by L-arabinose, repressed by glucose, and negatively regulated by AraR.",
+      "proteins": [
+        "araE",
+        "AraR"
+      ],
+      "relations": {
+        "[0, 1]": "PPI"
+      }
+    },
+    "LLL.d33.s0": {
+      "sentence": "During endospore formation in Bacillus subtilis, the DNA binding protein PROTEIN0 stimulates transcription from several promoters that are used by RNA polymerase containing PROTEIN1",
+      "orig_sentence": "During endospore formation in Bacillus subtilis, the DNA binding protein GerE stimulates transcription from several promoters that are used by RNA polymerase containing sigmaK",
+      "proteins": [
+        "GerE",
+        "sigmaK"
+      ],
+      "relations": {
+        "[0, 1]": "PPI"
+      }
+    },
+    "LLL.d33.s1": {
+      "sentence": "PROTEIN0 binds to a site on one of these promoters, PROTEIN1, that overlaps its -35 region.",
+      "orig_sentence": "GerE binds to a site on one of these promoters, cotX, that overlaps its -35 region.",
+      "proteins": [
+        "GerE",
+        "cotX"
+      ],
+      "relations": {
+        "[0, 1]": "PPI"
+      }
+    },
+    "LLL.d36.s0": {
+      "sentence": "The PROTEIN0-dependent promoter drives expression of PROTEIN1 under stress conditions and after glucose starvation, whereas a PROTEIN2-dependent promoter is responsible for PROTEIN3 transcription following amino acid limitation.",
+      "orig_sentence": "The sigmaB-dependent promoter drives expression of yvyD under stress conditions and after glucose starvation, whereas a sigmaH-dependent promoter is responsible for yvyD transcription following amino acid limitation.",
+      "proteins": [
+        "sigmaB",
+        "yvyD",
+        "sigmaH",
+        "yvyD"
+      ],
+      "relations": {
+        "[0, 1]": "PPI",
+        "[2, 3]": "PPI"
+      }
+    },
+    "LLL.d36.s1": {
+      "sentence": "This indicates that the PROTEIN0 gene product, being a member of both the PROTEIN1 and PROTEIN2 regulons, might negatively regulate the activity of the PROTEIN3 regulon.",
+      "orig_sentence": "This indicates that the yvyD gene product, being a member of both the sigmaB and sigmaH regulons, might negatively regulate the activity of the sigmaL regulon.",
+      "proteins": [
+        "yvyD",
+        "sigmaB",
+        "sigmaH",
+        "sigmaL"
+      ],
+      "relations": {
+        "[0, 1]": "PPI",
+        "[0, 2]": "PPI",
+        "[0, 3]": "PPI"
+      }
+    },
+    "LLL.d36.s2": {
+      "sentence": "In addition to the typical PROTEIN0-dependent, stress- and starvation-inducible pattern, PROTEIN1 is also induced in response to amino acid depletion.",
+      "orig_sentence": "In addition to the typical sigmaB-dependent, stress- and starvation-inducible pattern, yvyD is also induced in response to amino acid depletion.",
+      "proteins": [
+        "sigmaB",
+        "yvyD"
+      ],
+      "relations": {
+        "[0, 1]": "PPI"
+      }
+    },
+    "LLL.d39.s0": {
+      "sentence": "The addition of PROTEIN0 to in vitro transcription reactions resulted in the stimulation of RNAP holoenzyme activity, but PROTEIN1-RNAP was observed to be more sensitive to PROTEIN2-dependent stimulation than PROTEIN3-RNAP.",
+      "orig_sentence": "The addition of ClpX to in vitro transcription reactions resulted in the stimulation of RNAP holoenzyme activity, but sigmaH-RNAP was observed to be more sensitive to ClpX-dependent stimulation than sigmaA-RNAP.",
+      "proteins": [
+        "ClpX",
+        "sigmaH",
+        "ClpX",
+        "sigmaA"
+      ],
+      "relations": {
+        "[0, 1]": "PPI",
+        "[0, 3]": "PPI",
+        "[1, 2]": "PPI",
+        "[2, 3]": "PPI"
+      }
+    },
+    "LLL.d40.s0": {
+      "sentence": "Although PROTEIN0 is transcriptionally regulated by the key regulatory device that controls sporulation initiation, the PROTEIN1 phosphorelay, there is considerable evidence implicating a mechanism of post-translational control that governs the activity and concentration of sigmaH.",
+      "orig_sentence": "Although spo0H is transcriptionally regulated by the key regulatory device that controls sporulation initiation, the Spo0 phosphorelay, there is considerable evidence implicating a mechanism of post-translational control that governs the activity and concentration of sigmaH.",
+      "proteins": [
+        "spo0H",
+        "Spo0"
+      ],
+      "relations": {
+        "[0, 1]": "PPI"
+      }
+    },
+    "LLL.d41.s0": {
+      "sentence": "The class includes AsiA form bacteriophage T4, which inhibits Escherichia coli sigma 70; PROTEIN0, present in both gram-positive and gram-negative bacteria, which inhibits the flagella sigma factor PROTEIN1; PROTEIN2, which inhibits the sporulation-specific sigma factor, PROTEIN3 and PROTEIN4, of Bacillus subtilis; PROTEIN5 of B. subtilis, which inhibits stress response sigma factor PROTEIN6; and PROTEIN7, a general regulator of the heat shock response, which in bacteria inhibits the heat shock sigma factor PROTEIN8.",
+      "orig_sentence": "The class includes AsiA form bacteriophage T4, which inhibits Escherichia coli sigma 70; FlgM, present in both gram-positive and gram-negative bacteria, which inhibits the flagella sigma factor sigma 28; SpoIIAB, which inhibits the sporulation-specific sigma factor, sigma F and sigma G, of Bacillus subtilis; RbsW of B. subtilis, which inhibits stress response sigma factor sigma B; and DnaK, a general regulator of the heat shock response, which in bacteria inhibits the heat shock sigma factor sigma 32.",
+      "proteins": [
+        "FlgM",
+        "sigma 28",
+        "SpoIIAB",
+        "sigma F",
+        "sigma G",
+        "RbsW",
+        "sigma B",
+        "DnaK",
+        "sigma 32"
+      ],
+      "relations": {
+        "[0, 1]": "PPI",
+        "[2, 3]": "PPI",
+        "[2, 4]": "PPI",
+        "[5, 6]": "PPI",
+        "[7, 8]": "PPI"
+      }
+    },
+    "LLL.d42.s0": {
+      "sentence": "Finally, we show that proper localization of SpoIVA required the expression of one or more genes which, like PROTEIN0, are under the control of the mother cell transcription factor PROTEIN1.",
+      "orig_sentence": "Finally, we show that proper localization of SpoIVA required the expression of one or more genes which, like spoIVA, are under the control of the mother cell transcription factor sigmaE.",
+      "proteins": [
+        "spoIVA",
+        "sigmaE"
+      ],
+      "relations": {
+        "[0, 1]": "PPI"
+      }
+    },
+    "LLL.d44.s0": {
+      "sentence": "The PROTEIN0 regulon includes a penicillin binding protein (PROTEIN1) and a co-transcribed amino acid racemase (PROTEIN2), homologues of signal peptide peptidase (PROTEIN3), flotillin (PROTEIN4), ABC transporters (PROTEIN5), non-haem bromoperoxidase (PROTEIN6), epoxide hydrolase (PROTEIN7) and three small peptides with structural similarities to bacteriocin precursor polypeptides.",
+      "orig_sentence": "The sigma W regulon includes a penicillin binding protein (PBP4*) and a co-transcribed amino acid racemase (RacX), homologues of signal peptide peptidase (YteI), flotillin (YuaG), ABC transporters (YknXYZ), non-haem bromoperoxidase (YdjP), epoxide hydrolase (YfhM) and three small peptides with structural similarities to bacteriocin precursor polypeptides.",
+      "proteins": [
+        "sigma W",
+        "PBP4*",
+        "RacX",
+        "YteI",
+        "YuaG",
+        "YknXYZ",
+        "YdjP",
+        "YfhM"
+      ],
+      "relations": {
+        "[0, 1]": "PPI",
+        "[0, 2]": "PPI",
+        "[0, 3]": "PPI",
+        "[0, 4]": "PPI",
+        "[0, 5]": "PPI",
+        "[0, 6]": "PPI",
+        "[0, 7]": "PPI"
+      }
+    }
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "per_dimension": {
+    "pattern": {
+      "tests": 54,
+      "significant": 14,
+      "statistical_unit": "canonical construction: evidence class, shape, trigger lemma, preposition, construction",
+      "construction_shaped": true,
+      "bh_family": "pattern (54 tests, corrected independently)"
+    },
+    "semantic_pattern": {
+      "tests": 59,
+      "significant": 18,
+      "statistical_unit": "collapsed relation: evidence class and predicate for simple pairs; shape and case retained for richer relations",
+      "construction_shaped": true,
+      "bh_family": "semantic_pattern (59 tests, corrected independently)"
+    },
+    "trigger": {
+      "tests": 59,
+      "significant": 19,
+      "statistical_unit": "predicate lemma alone -- not a construction",
+      "construction_shaped": false,
+      "bh_family": "trigger (59 tests, corrected independently)"
+    },
+    "carrier": {
+      "tests": 25,
+      "significant": 5,
+      "statistical_unit": "carrier word alone",
+      "construction_shaped": false,
+      "bh_family": "carrier (25 tests, corrected independently)"
+    },
+    "carrier_pattern": {
+      "tests": 1,
+      "significant": 1,
+      "statistical_unit": "carrier word crossed with construction",
+      "construction_shaped": true,
+      "bh_family": "carrier_pattern (1 tests, corrected independently)"
+    },
+    "pair_stage": {
+      "tests": 68,
+      "significant": 13,
+      "statistical_unit": "stage of this reader's own pipeline -- a property of the extractor, not of the corpus",
+      "construction_shaped": false,
+      "bh_family": "pair_stage (68 tests, corrected independently)"
+    }
+  },
+  "total_tests_all_families": 266,
+  "total_significant_all_families": 70,
+  "primary_family": "pattern",
+  "primary_significant": 14,
+  "primary_tests": 54,
+  "primary_recomputed_from_ledgers": {
+    "significant": 14,
+    "tests": 54
+  },
+  "primary_document_cluster_bootstrap": {
+    "n_resamples": 2000,
+    "significant": {
+      "mean": 17.42,
+      "ci_low": 10,
+      "ci_high": 25
+    },
+    "tests": {
+      "mean": 50.29,
+      "ci_low": 39,
+      "ci_high": 62
+    },
+    "significant_fraction": {
+      "mean": 0.3471,
+      "ci_low": 0.2,
+      "ci_high": 0.4898
+    }
+  },
+  "note": "BH is applied per dimension in src/analysis/statistical_tests.py, so the submitted '70 of 266' is a sum over six independently corrected families, two of which (trigger, pair_stage) are not constructions at all."
+}

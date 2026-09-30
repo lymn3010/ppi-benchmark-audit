@@ -1,0 +1,10 @@
+# Participles for "P0-mediated P1 expression"; typed evidence, licenses no pair.
+activate
+dependent
+drive
+enhance
+induce
+mediate
+regulate
+stimulate
+trigger
